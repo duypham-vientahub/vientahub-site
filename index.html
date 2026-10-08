@@ -1,0 +1,590 @@
+Vienta Hub · index.html
+Copy everything below and paste it as index.html in the GitHub repository.
+
+Copy code
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vienta Hub | eLearning, AI and Vietnam Operations</title>
+<meta name="description" content="Vienta Hub is an expert collective in Ho Chi Minh City delivering instructional design, Storyline and Rise eLearning, AI consulting and automation, and Vietnam market support.">
+<meta property="og:title" content="Vienta Hub | eLearning, AI and Vietnam Operations">
+<meta property="og:description" content="Learning and AI solutions that move the business. Instructional design, eLearning production, AI automation and Vietnam market support.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vientahub.com/">
+<meta name="theme-color" content="#0A1C29">
+<link rel="canonical" href="https://vientahub.com/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800" rel="stylesheet">
+<style>
+:root{
+  --navy:#0A1C29; --navy2:#0E2A3A; --navy3:#123F50; --ink:#0A1C29;
+  --gold:#22A699; --gold2:#8FE3D3; --ivory:#EAF4F2; --paper:#F6FAF9;
+  --muted:#8FA6B2; --line:rgba(34,166,153,.25); --text:#1A2B36;
+  --teal:#3BB3A3;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--text);background:var(--paper);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,.brand{font-family:'Plus Jakarta Sans',sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+/* language */
+body.vi .en, body:not(.vi) .vi{display:none !important}
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(10,28,41,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(34,166,153,.18)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;letter-spacing:.14em;font-size:15px}
+.brand svg{width:30px;height:30px}
+.brand b{color:var(--gold);font-weight:500}
+.links{display:flex;gap:26px;align-items:center}
+.links a{color:#C6D6DE;font-size:14px;font-weight:500;position:relative;padding:6px 0;transition:color .2s}
+.links a:after{content:"";position:absolute;left:0;bottom:0;height:1.5px;width:0;background:var(--gold);transition:width .25s}
+.links a:hover{color:#fff}.links a:hover:after,.links a.active:after{width:100%}
+.links a.active{color:#fff}
+.lang{display:flex;border:1px solid rgba(34,166,153,.5);border-radius:99px;overflow:hidden}
+.lang button{background:none;border:0;color:#C6D6DE;font:600 12px 'Plus Jakarta Sans';padding:7px 12px;cursor:pointer;letter-spacing:.08em}
+.lang button.on{background:var(--gold);color:var(--navy)}
+.burger{display:none;background:none;border:0;color:#fff;font-size:22px;cursor:pointer}
+/* hero */
+.hero{position:relative;background:radial-gradient(1200px 600px at 85% -10%,#155E75 0%,rgba(21,94,117,0) 60%),radial-gradient(700px 500px at -10% 110%,rgba(34,166,153,.22),rgba(34,166,153,0) 70%),linear-gradient(135deg,#061520,#0A2532 55%,#0E3A48);color:#fff;overflow:hidden}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.9}
+.hero .wrap{position:relative;padding-top:96px;padding-bottom:84px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:600 12px 'Plus Jakarta Sans';letter-spacing:.22em;text-transform:uppercase;color:var(--gold2)}
+.eyebrow:before{content:"";width:28px;height:1px;background:var(--gold)}
+.hero h1{font-size:clamp(34px,5.4vw,64px);line-height:1.08;font-weight:700;margin:22px 0 22px;max-width:820px;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,#8FE3D3,#9CCBFF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:clamp(15px,1.6vw,18px);line-height:1.7;color:#BFD0D8;max-width:640px;font-weight:300}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font:600 14px 'Plus Jakarta Sans';letter-spacing:.02em;transition:all .25s;cursor:pointer;border:0}
+.btn.gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:var(--navy);box-shadow:0 10px 30px rgba(34,166,153,.28)}
+.btn.gold:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(34,166,153,.4)}
+.btn.ghost{border:1px solid rgba(255,255,255,.28);color:#fff}
+.btn.ghost:hover{border-color:var(--gold);color:var(--gold2)}
+.btn.dark{background:var(--navy);color:#fff}
+.btn.dark:hover{background:var(--navy3)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:70px;border-top:1px solid rgba(255,255,255,.12)}
+.stat{padding:26px 22px 0 0}
+.stat .n{font:700 clamp(28px,3.4vw,40px) 'Plus Jakarta Sans';color:#fff}
+.stat .n span{color:var(--gold)}
+.stat .l{font-size:13px;color:var(--muted);margin-top:6px;line-height:1.5}
+/* sections */
+section{padding:96px 0}
+.head{max-width:720px;margin-bottom:48px}
+.head .eyebrow{color:#0E7C70}
+.head h2{font-size:clamp(28px,3.6vw,42px);line-height:1.15;color:var(--ink);margin:16px 0 14px;letter-spacing:-.015em}
+.head p{color:#4F6370;line-height:1.75;font-size:16px}
+.dark{background:var(--navy);color:#fff}
+.dark .head h2{color:#fff}.dark .head p{color:#A9BEC8}.dark .head .eyebrow{color:var(--gold2)}
+/* services */
+.tabs{display:grid;grid-template-columns:330px 1fr;gap:28px}
+.tablist{display:flex;flex-direction:column;gap:12px}
+.tab{text-align:left;border:1px solid #DCE8E6;background:#fff;border-radius:18px;padding:20px 22px;cursor:pointer;transition:all .25s;font-family:inherit;color:var(--text)}
+.tab small{display:block;font:600 11px 'Plus Jakarta Sans';letter-spacing:.18em;color:#0E7C70;text-transform:uppercase}
+.tab strong{display:block;font:700 19px 'Plus Jakarta Sans';margin-top:6px;color:var(--ink)}
+.tab span.d{display:block;font-size:13px;color:#62757F;margin-top:6px;line-height:1.5}
+.tab:hover{border-color:var(--gold)}
+.tab.on{background:var(--navy);border-color:var(--navy);box-shadow:0 18px 40px rgba(10,28,41,.22)}
+.tab.on strong{color:#fff}.tab.on span.d{color:#A9BEC8}.tab.on small{color:var(--gold2)}
+.panel{display:none;background:#fff;border:1px solid #DCE8E6;border-radius:24px;padding:38px;position:relative;overflow:hidden;animation:fade .45s ease}
+.panel.on{display:block}
+.panel:before{content:"";position:absolute;right:-80px;top:-80px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(34,166,153,.18),rgba(34,166,153,0) 70%)}
+.panel h3{font-size:26px;color:var(--ink);margin-bottom:10px}
+.panel p.intro{color:#4F6370;line-height:1.75;margin-bottom:26px;max-width:640px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.item{display:flex;gap:14px;padding:16px;border-radius:14px;background:var(--paper);border:1px solid transparent;transition:all .25s}
+.item:hover{border-color:var(--line);transform:translateY(-2px)}
+.item i{flex:0 0 36px;height:36px;border-radius:10px;background:var(--navy);color:var(--gold);display:grid;place-items:center;font-style:normal;font-size:16px}
+.item h4{font-size:15px;color:var(--ink);margin-bottom:4px}
+.item p{font-size:13.5px;color:#576B77;line-height:1.55}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.chip{font-size:12px;padding:6px 12px;border-radius:99px;background:#E2F2EF;color:#0B5E55;font-weight:500}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
+.step{border:1px solid rgba(34,166,153,.25);border-radius:20px;padding:28px 24px;background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,0));transition:all .3s}
+.step:hover{border-color:var(--gold);transform:translateY(-4px);background:rgba(34,166,153,.06)}
+.step .k{font:700 13px 'Plus Jakarta Sans';color:var(--gold);letter-spacing:.2em}
+.step h4{font-size:19px;margin:14px 0 10px;color:#fff}
+.step p{font-size:14px;color:#A9BEC8;line-height:1.65}
+.quote{margin-top:40px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;border-top:1px solid rgba(255,255,255,.1);padding-top:36px}
+.quote .big{font:800 clamp(34px,4.6vw,56px) 'Plus Jakarta Sans';color:var(--gold2);white-space:nowrap}
+.quote p{color:#BFD0D8;line-height:1.7;font-size:15.5px}
+.quote p b{color:#fff;font-weight:600}
+/* portfolio */
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px}
+.f{border:1px solid #CFE1DE;background:#fff;border-radius:99px;padding:9px 18px;font:600 13px 'Plus Jakarta Sans';cursor:pointer;color:var(--ink);transition:all .2s}
+.f:hover{border-color:var(--gold)}
+.f.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{border-radius:20px;overflow:hidden;background:#fff;border:1px solid #DCE8E6;transition:all .3s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(10,28,41,.16);border-color:var(--gold)}
+.thumb{height:150px;position:relative;display:grid;place-items:center;overflow:hidden}
+.thumb svg{width:58px;height:58px;position:relative;z-index:1}
+.thumb:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 2px,transparent 2px 14px)}
+.t-sl{background:linear-gradient(135deg,#0A1C29,#1D5577)}
+.t-rs{background:linear-gradient(135deg,#123B44,#2C8C83)}
+.t-ai{background:linear-gradient(135deg,#15233F,#3E6FA8)}
+.card .body{padding:18px 18px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.tag{font:600 11px 'Plus Jakarta Sans';letter-spacing:.16em;text-transform:uppercase;color:#0E7C70}
+.card h4{font-size:16px;color:var(--ink);line-height:1.35}
+.card p{font-size:13px;color:#576B77;line-height:1.55;flex:1}
+.open{font:600 13px 'Plus Jakarta Sans';color:var(--navy);display:flex;align-items:center;gap:6px;margin-top:6px}
+.card:hover .open{color:#0E7C70}
+.card.hide{display:none}
+/* clients */
+.clients{padding:64px 0;background:var(--ivory);border-top:1px solid #DCE8E6;border-bottom:1px solid #DCE8E6}
+.clients .lbl{text-align:center;font:600 12px 'Plus Jakarta Sans';letter-spacing:.22em;color:#0E7C70;text-transform:uppercase;margin-bottom:26px}
+.marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.track{display:flex;gap:56px;width:max-content;animation:scroll 32s linear infinite}
+.marquee:hover .track{animation-play-state:paused}
+.cl{font:700 19px 'Plus Jakarta Sans';color:#22394A;white-space:nowrap;display:flex;align-items:center;gap:12px;opacity:.82}
+.cl small{font:400 12px 'Be Vietnam Pro';color:#748893}
+.cl:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+/* about */
+.about{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.portrait{border-radius:28px;background:linear-gradient(160deg,var(--navy),var(--navy3));color:#fff;padding:40px;position:relative;overflow:hidden;min-height:420px;display:flex;flex-direction:column;justify-content:flex-end}
+.portrait .mono{position:absolute;right:-30px;top:-40px;font:800 260px 'Plus Jakarta Sans';color:rgba(34,166,153,.1);line-height:1}
+.portrait h3{font-size:26px;position:relative}
+.portrait .role{color:var(--gold2);font-size:14px;margin:6px 0 22px;position:relative}
+.creds{list-style:none;display:grid;gap:12px;position:relative}
+.creds li{display:flex;gap:12px;font-size:14px;color:#C6D6DE;line-height:1.5}
+.creds li:before{content:"";flex:0 0 6px;height:6px;border-radius:50%;background:var(--gold);margin-top:8px}
+.values{display:grid;gap:16px;margin-top:26px}
+.val{display:flex;gap:16px;padding:18px 20px;border-radius:16px;background:#fff;border:1px solid #DCE8E6}
+.val b{font:800 22px 'Plus Jakarta Sans';color:var(--gold);min-width:34px}
+.val h4{font-size:16px;color:var(--ink);margin-bottom:4px}
+.val p{font-size:14px;color:#576B77;line-height:1.6}
+/* faq */
+.faq{max-width:860px}
+.q{border-bottom:1px solid #DCE8E6}
+.q button{width:100%;text-align:left;background:none;border:0;padding:22px 0;font:600 17px 'Plus Jakarta Sans';color:var(--ink);display:flex;justify-content:space-between;gap:20px;cursor:pointer}
+.q button:after{content:"+";font-size:24px;color:var(--gold);transition:transform .3s;line-height:1}
+.q.open button:after{transform:rotate(45deg)}
+.q .a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.q .a p{padding:0 0 22px;color:#4F6370;line-height:1.75;font-size:15px;max-width:760px}
+/* contact */
+.contact{background:linear-gradient(135deg,#061520,#0B2B3A 60%,#0F4552);color:#fff;border-radius:32px;padding:64px;display:grid;grid-template-columns:1.2fr 1fr;gap:48px;position:relative;overflow:hidden}
+.contact:before{content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;border-radius:50%;border:1px solid rgba(34,166,153,.25);box-shadow:0 0 0 60px rgba(34,166,153,.04),0 0 0 120px rgba(34,166,153,.03)}
+.contact h2{font-size:clamp(28px,3.4vw,40px);line-height:1.15;margin:16px 0}
+.contact p{color:#A9BEC8;line-height:1.75}
+.cinfo{display:grid;gap:14px;position:relative;align-content:center}
+.ci{display:flex;gap:14px;align-items:center;padding:16px 18px;border-radius:16px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);transition:all .25s}
+a.ci:hover{border-color:var(--gold);background:rgba(34,166,153,.08)}
+.ci i{width:40px;height:40px;border-radius:12px;background:rgba(34,166,153,.15);color:var(--gold2);display:grid;place-items:center;font-style:normal}
+.ci small{display:block;font-size:12px;color:var(--muted)}
+.ci span{font-weight:500}
+footer{padding:36px 0 44px;color:#748893;font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* manifesto */
+.manifesto{position:relative;background:var(--ivory);padding:88px 0;overflow:hidden;border-bottom:1px solid #DCE8E6}
+.manifesto:before{content:"";position:absolute;left:50%;top:-220px;width:620px;height:620px;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle,rgba(34,166,153,.14),rgba(34,166,153,0) 70%)}
+.manifesto .wrap{position:relative;text-align:center}
+.manifesto .eyebrow{color:#0E7C70;justify-content:center}
+.manifesto .eyebrow:after{content:"";width:28px;height:1px;background:var(--gold)}
+.slogan{font:800 clamp(30px,4.6vw,56px)/1.12 'Plus Jakarta Sans',sans-serif;color:var(--ink);letter-spacing:-.02em;margin:22px auto 14px;max-width:900px;text-wrap:balance;position:relative;isolation:isolate}
+.slogan .k{position:relative;white-space:nowrap;color:#0E7C70}
+.slogan .k:after{content:"";position:absolute;left:0;right:0;bottom:.06em;height:.18em;background:linear-gradient(90deg,rgba(143,227,211,.7),rgba(156,203,255,.6));z-index:-1;border-radius:4px;transform-origin:left;transform:scaleX(0);transition:transform 1.1s cubic-bezier(.2,.8,.2,1) .3s}
+.slogan.lit .k:after{transform:scaleX(1)}
+.slogan-en{font:500 clamp(16px,1.8vw,20px) 'Be Vietnam Pro',sans-serif;color:#4F6370;font-style:italic}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px;text-align:left}
+.pillar{background:#fff;border:1px solid #DCE8E6;border-radius:20px;padding:26px 24px;transition:all .3s;cursor:default}
+.pillar:hover{transform:translateY(-4px);border-color:var(--gold);box-shadow:0 18px 40px rgba(10,28,41,.10)}
+.pillar .ic{width:42px;height:42px;border-radius:12px;background:var(--navy);color:var(--gold2);display:grid;place-items:center;font-size:18px;margin-bottom:16px}
+.pillar h4{font-size:17px;color:var(--ink);margin-bottom:8px}
+.pillar p{font-size:14px;color:#576B77;line-height:1.65}
+.meter{margin:40px auto 0;max-width:620px;text-align:left}
+.meter .row{display:flex;justify-content:space-between;font:600 12px 'Plus Jakarta Sans';letter-spacing:.12em;text-transform:uppercase;color:#62757F;margin-bottom:10px}
+.meter .bar{height:10px;border-radius:99px;background:#DCE8E6;overflow:hidden;position:relative}
+.meter .fill{position:absolute;inset:0 auto 0 0;width:92%;border-radius:99px;background:linear-gradient(90deg,#22A699,#8FE3D3);transition:width 2.4s cubic-bezier(.2,.8,.2,1)}
+.meter.go .fill{width:18%}
+.meter .cap{font-size:13px;color:#62757F;margin-top:10px;line-height:1.6}
+@media (max-width:760px){.pillars{grid-template-columns:1fr}.manifesto{padding:64px 0}.slogan .k{white-space:normal}}
+/* reveal */
+.js .rv{transition:opacity .8s ease,transform .8s ease}
+.js .rv.pre{opacity:0;transform:translateY(22px)}
+@media (prefers-reduced-motion:reduce){.js .rv.pre{opacity:1;transform:none}}
+.toTop{position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;background:var(--gold);color:var(--navy);border:0;font-size:18px;cursor:pointer;box-shadow:0 10px 26px rgba(10,28,41,.3);opacity:0;pointer-events:none;transition:opacity .3s;z-index:60}
+.toTop.show{opacity:1;pointer-events:auto}
+/* responsive */
+@media (max-width:980px){
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .tabs{grid-template-columns:1fr}
+  .tablist{flex-direction:row;overflow-x:auto;padding-bottom:4px}
+  .tab{min-width:240px}
+  .about,.contact{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .links{display:none;position:absolute;top:68px;left:0;right:0;background:var(--navy);flex-direction:column;padding:16px 28px 22px;gap:14px;align-items:flex-start;border-bottom:1px solid var(--line)}
+  .links.show{display:flex}
+  .burger{display:block}
+  .wrap{padding:0 18px}
+  section{padding:68px 0}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .grid2{grid-template-columns:1fr}
+  .panel{padding:26px 20px}
+  .cards{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .quote{grid-template-columns:1fr}
+  .contact{padding:38px 22px;border-radius:24px}
+  .hero .wrap{padding-top:64px;padding-bottom:60px}
+  .thumb{height:96px}
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+<nav>
+  <div class="wrap">
+    <a href="#home" class="brand" data-go="home">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 6h9l7 21 7-21h9L25 35h-10z" fill="#22A699"/><path d="M16.5 6h7L20 16.5z" fill="#fff"/></svg>
+      <span>VIENTA <b>HUB</b></span>
+    </a>
+    <div class="links" id="links">
+      <a href="#philosophy" data-go="philosophy"><span class="en">Philosophy</span><span class="vi">Triết lý</span></a>
+      <a href="#services" data-go="services"><span class="en">Services</span><span class="vi">Dịch vụ</span></a>
+      <a href="#approach" data-go="approach"><span class="en">Approach</span><span class="vi">Cách làm</span></a>
+      <a href="#portfolio" data-go="portfolio"><span class="en">Portfolio</span><span class="vi">Sản phẩm</span></a>
+      <a href="#about" data-go="about"><span class="en">About</span><span class="vi">Giới thiệu</span></a>
+      <a href="#contact" data-go="contact"><span class="en">Contact</span><span class="vi">Liên hệ</span></a>
+      <div class="lang"><button data-l="en" class="on">EN</button><button data-l="vi">VI</button></div>
+    </div>
+    <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <canvas id="net"></canvas>
+  <div class="wrap">
+    <div class="eyebrow rv"><span class="en">Learning · AI · Vietnam operations</span><span class="vi">Đào tạo · AI · Vận hành tại Việt Nam</span></div>
+    <h1 class="rv">
+      <span class="en">Learning and AI solutions that <em>move the business</em>, not just the slides.</span>
+      <span class="vi">Giải pháp đào tạo và AI <em>tạo kết quả kinh doanh</em>, không chỉ là bài giảng đẹp.</span>
+    </h1>
+    <p class="lead rv">
+      <span class="en">Vienta Hub is an expert collective in Ho Chi Minh City. We design eLearning that changes how people work, build AI workflows that save real hours, and help international companies operate smoothly in Vietnam.</span>
+      <span class="vi">Vienta Hub là tập thể chuyên gia tại TP. Hồ Chí Minh. Chúng tôi thiết kế eLearning giúp con người làm việc tốt hơn, xây dựng quy trình AI tiết kiệm thời gian thật và đồng hành cùng doanh nghiệp quốc tế khi vận hành tại Việt Nam.</span>
+    </p>
+    <div class="cta rv">
+      <a class="btn gold" href="#contact" data-go="contact"><span class="en">Start a project</span><span class="vi">Bắt đầu dự án</span> &rarr;</a>
+      <a class="btn ghost" href="#portfolio" data-go="portfolio"><span class="en">View our work</span><span class="vi">Xem sản phẩm</span></a>
+    </div>
+    <div class="stats rv">
+      <div class="stat"><div class="n">3 <small style="font-size:.5em;font-weight:500;color:#A9BEC8">to</small> 4<span>x</span></div><div class="l"><span class="en">faster production with AI assisted workflows</span><span class="vi">tốc độ sản xuất nhanh hơn nhờ quy trình có AI hỗ trợ</span></div></div>
+      <div class="stat"><div class="n">95 <small style="font-size:.5em;font-weight:500;color:#A9BEC8">to</small> 99<span>%</span></div><div class="l"><span class="en">quality maintained on delivered courses</span><span class="vi">chất lượng được giữ vững trên khóa học bàn giao</span></div></div>
+      <div class="stat"><div class="n"><b data-c="3">0</b></div><div class="l"><span class="en">capability lines under one roof</span><span class="vi">mảng năng lực trong một đầu mối</span></div></div>
+      <div class="stat"><div class="n"><b data-c="2">0</b></div><div class="l"><span class="en">working languages, English and Vietnamese</span><span class="vi">ngôn ngữ làm việc, tiếng Anh và tiếng Việt</span></div></div>
+    </div>
+  </div>
+</header>
+
+<section class="manifesto" id="philosophy">
+  <div class="wrap">
+    <div class="eyebrow"><span class="en">Our philosophy</span><span class="vi">Triết lý của chúng tôi</span></div>
+    <h2 class="slogan" id="slogan">Ứng dụng AI để <span class="k">không phụ thuộc</span> vào AI.</h2>
+    <p class="slogan-en"><span class="en">We apply AI so your team never has to depend on it.</span><span class="vi">AI là đòn bẩy cho năng lực của đội ngũ, không phải chiếc nạng.</span></p>
+    <div class="pillars">
+      <div class="pillar rv"><div class="ic">✦</div><h4><span class="en">Thinking before tools</span><span class="vi">Tư duy trước công cụ</span></h4><p><span class="en">We teach the reasoning behind each workflow, so people can judge, correct and improve what AI produces.</span><span class="vi">Chúng tôi dạy tư duy đằng sau mỗi quy trình, để con người biết đánh giá, sửa và nâng cấp kết quả AI tạo ra.</span></p></div>
+      <div class="pillar rv"><div class="ic">⌂</div><h4><span class="en">Systems you own</span><span class="vi">Hệ thống của chính bạn</span></h4><p><span class="en">Knowledge, prompts and automations stay in your hands and your documents, not locked inside one vendor.</span><span class="vi">Tri thức, prompt và luồng tự động nằm trong tay bạn và tài liệu của bạn, không bị khóa vào một nhà cung cấp.</span></p></div>
+      <div class="pillar rv"><div class="ic">↗</div><h4><span class="en">Capability that compounds</span><span class="vi">Năng lực tích lũy</span></h4><p><span class="en">Every project leaves your team more skilled than before, so the next improvement needs less outside help.</span><span class="vi">Sau mỗi dự án, đội ngũ của bạn giỏi hơn trước, nên lần cải tiến tiếp theo cần ít hỗ trợ bên ngoài hơn.</span></p></div>
+    </div>
+    <div class="meter rv" id="meter">
+      <div class="row"><span><span class="en">Dependence on outside help</span><span class="vi">Mức phụ thuộc vào bên ngoài</span></span><span><span class="en">Over time</span><span class="vi">Theo thời gian</span></span></div>
+      <div class="bar"><div class="fill"></div></div>
+      <div class="cap"><span class="en">The goal of every engagement: your reliance on us, and on any single AI tool, goes down while results go up.</span><span class="vi">Mục tiêu của mọi dự án: mức phụ thuộc vào chúng tôi và vào bất kỳ công cụ AI nào giảm xuống, trong khi kết quả tăng lên.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="eyebrow"><span class="en">What we do</span><span class="vi">Chúng tôi làm gì</span></div>
+      <h2><span class="en">Three practices, one accountable partner.</span><span class="vi">Ba mảng năng lực, một đối tác chịu trách nhiệm.</span></h2>
+      <p><span class="en">Pick the practice that fits your need. Most clients start with one and grow into the others.</span><span class="vi">Chọn mảng phù hợp với nhu cầu của bạn. Phần lớn khách hàng bắt đầu từ một mảng rồi mở rộng sang các mảng còn lại.</span></p>
+    </div>
+    <div class="tabs rv">
+      <div class="tablist">
+        <button class="tab on" data-t="p1"><small>01</small><strong>Vienta Learning Lab</strong><span class="d"><span class="en">Instructional design and eLearning production</span><span class="vi">Thiết kế giảng dạy và sản xuất eLearning</span></span></button>
+        <button class="tab" data-t="p2"><small>02</small><strong>Vienta AI Studio</strong><span class="d"><span class="en">AI consulting, automation and knowledge systems</span><span class="vi">Tư vấn AI, tự động hóa và hệ thống tri thức</span></span></button>
+        <button class="tab" data-t="p3"><small>03</small><strong>Vienta Local Ops</strong><span class="d"><span class="en">Vietnam market support for international teams</span><span class="vi">Hỗ trợ thị trường Việt Nam cho doanh nghiệp quốc tế</span></span></button>
+      </div>
+      <div>
+        <div class="panel on" id="p1">
+          <h3>Vienta Learning Lab</h3>
+          <p class="intro"><span class="en">From storyboard to SCORM package. We build courses people actually finish, in English, Vietnamese or both, ready for your LMS.</span><span class="vi">Từ kịch bản đến gói SCORM. Chúng tôi xây dựng khóa học mà người học thật sự hoàn thành, bằng tiếng Anh, tiếng Việt hoặc song ngữ, sẵn sàng cho LMS của bạn.</span></p>
+          <div class="grid2">
+            <div class="item"><i>✦</i><div><h4><span class="en">Instructional design</span><span class="vi">Thiết kế giảng dạy</span></h4><p><span class="en">Needs analysis, learning objectives, scenario based storyboards.</span><span class="vi">Phân tích nhu cầu, mục tiêu học tập, kịch bản tình huống.</span></p></div></div>
+            <div class="item"><i>▣</i><div><h4>Storyline &amp; Rise 360</h4><p><span class="en">Interactive modules, simulations, assessments and custom HTML interactions.</span><span class="vi">Bài học tương tác, mô phỏng, bài kiểm tra và tương tác HTML tùy biến.</span></p></div></div>
+            <div class="item"><i>▶</i><div><h4><span class="en">AI video production</span><span class="vi">Sản xuất video AI</span></h4><p><span class="en">Synthesia, HeyGen and Vyond videos with polished editing.</span><span class="vi">Video Synthesia, HeyGen, Vyond được biên tập chỉn chu.</span></p></div></div>
+            <div class="item"><i>文</i><div><h4><span class="en">Localization &amp; voiceover</span><span class="vi">Bản địa hóa &amp; lồng tiếng</span></h4><p><span class="en">Vietnamese adaptation, subtitles and natural voice tracks.</span><span class="vi">Chuyển ngữ tiếng Việt, phụ đề và giọng đọc tự nhiên.</span></p></div></div>
+          </div>
+          <div class="chips"><span class="chip">SCORM / xAPI</span><span class="chip">WCAG 2.2 AA</span><span class="chip">Articulate 360</span><span class="chip">Learnista LMS</span></div>
+        </div>
+        <div class="panel" id="p2">
+          <h3>Vienta AI Studio</h3>
+          <p class="intro"><span class="en">We start from the business problem, not the technology, and apply AI in a way that makes your team stronger rather than more dependent.</span><span class="vi">Chúng tôi bắt đầu từ bài toán kinh doanh, không phải từ công nghệ, và ứng dụng AI theo cách giúp đội ngũ mạnh hơn chứ không phụ thuộc hơn.</span></p>
+          <div class="grid2">
+            <div class="item"><i>◎</i><div><h4><span class="en">AI strategy &amp; consulting</span><span class="vi">Chiến lược &amp; tư vấn AI</span></h4><p><span class="en">Use case discovery, ROI framing and a practical roadmap.</span><span class="vi">Tìm bài toán phù hợp, đánh giá hiệu quả và lộ trình triển khai thực tế.</span></p></div></div>
+            <div class="item"><i>⟳</i><div><h4><span class="en">Workflow automation</span><span class="vi">Tự động hóa quy trình</span></h4><p><span class="en">n8n pipelines connecting your email, CRM, documents and reports.</span><span class="vi">Luồng n8n kết nối email, CRM, tài liệu và báo cáo.</span></p></div></div>
+            <div class="item"><i>❖</i><div><h4><span class="en">Knowledge assistants (RAG)</span><span class="vi">Trợ lý tri thức (RAG)</span></h4><p><span class="en">Internal knowledge bots on web or Zalo OA, grounded in your own documents.</span><span class="vi">Trợ lý tri thức nội bộ trên web hoặc Zalo OA, trả lời dựa trên tài liệu của chính bạn.</span></p></div></div>
+            <div class="item"><i>✎</i><div><h4><span class="en">Corporate AI training</span><span class="vi">Đào tạo AI doanh nghiệp</span></h4><p><span class="en">Hands on programs that turn AI curiosity into daily habits.</span><span class="vi">Chương trình thực hành biến sự tò mò về AI thành thói quen làm việc hằng ngày.</span></p></div></div>
+          </div>
+          <div class="chips"><span class="chip">n8n</span><span class="chip">Claude</span><span class="chip">Gemini</span><span class="chip">Supabase pgvector</span><span class="chip">Zalo OA</span></div>
+        </div>
+        <div class="panel" id="p3">
+          <h3>Vienta Local Ops</h3>
+          <p class="intro"><span class="en">A trusted local team for international companies entering or operating in Vietnam, backed by specialist partners in finance, law and L&amp;D.</span><span class="vi">Đội ngũ tại chỗ đáng tin cậy cho doanh nghiệp quốc tế đang gia nhập hoặc vận hành tại Việt Nam, cùng mạng lưới chuyên gia tài chính, pháp lý và đào tạo.</span></p>
+          <div class="grid2">
+            <div class="item"><i>⌖</i><div><h4><span class="en">Market entry support</span><span class="vi">Hỗ trợ gia nhập thị trường</span></h4><p><span class="en">Research, partner screening and due diligence on local entities.</span><span class="vi">Nghiên cứu, sàng lọc đối tác và thẩm định pháp nhân trong nước.</span></p></div></div>
+            <div class="item"><i>⚑</i><div><h4><span class="en">Local team enablement</span><span class="vi">Phát triển đội ngũ tại chỗ</span></h4><p><span class="en">Onboarding, SOPs and training for Vietnamese staff.</span><span class="vi">Hội nhập, quy trình chuẩn và đào tạo cho nhân sự Việt Nam.</span></p></div></div>
+            <div class="item"><i>⚖</i><div><h4><span class="en">Specialist network</span><span class="vi">Mạng lưới chuyên gia</span></h4><p><span class="en">Finance, legal and L&amp;D partners coordinated through one contact.</span><span class="vi">Chuyên gia tài chính, pháp lý, đào tạo được điều phối qua một đầu mối.</span></p></div></div>
+            <div class="item"><i>⇄</i><div><h4><span class="en">Bilingual coordination</span><span class="vi">Điều phối song ngữ</span></h4><p><span class="en">Clear communication between headquarters and the Vietnam team.</span><span class="vi">Kết nối thông suốt giữa trụ sở và đội ngũ tại Việt Nam.</span></p></div></div>
+          </div>
+          <div class="chips"><span class="chip">Due diligence</span><span class="chip">PDPL compliance</span><span class="chip">Vendor management</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="approach" class="dark">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="eyebrow"><span class="en">How we work</span><span class="vi">Cách chúng tôi làm việc</span></div>
+      <h2><span class="en">Business problem first. Technology second.</span><span class="vi">Bài toán kinh doanh trước. Công nghệ theo sau.</span></h2>
+      <p><span class="en">A simple four step rhythm that keeps every project tied to a measurable outcome.</span><span class="vi">Nhịp làm việc bốn bước giúp mọi dự án luôn gắn với kết quả đo lường được.</span></p>
+    </div>
+    <div class="steps">
+      <div class="step rv"><div class="k">01</div><h4><span class="en">Diagnose</span><span class="vi">Chẩn đoán</span></h4><p><span class="en">Understand the workflow, the people and the real bottleneck.</span><span class="vi">Hiểu quy trình, con người và điểm nghẽn thật sự.</span></p></div>
+      <div class="step rv"><div class="k">02</div><h4><span class="en">Design</span><span class="vi">Thiết kế</span></h4><p><span class="en">Shape the simplest solution that solves it, with clear success metrics.</span><span class="vi">Thiết kế giải pháp đơn giản nhất giải quyết vấn đề, kèm chỉ số thành công rõ ràng.</span></p></div>
+      <div class="step rv"><div class="k">03</div><h4><span class="en">Build</span><span class="vi">Xây dựng</span></h4><p><span class="en">Produce fast with AI assisted pipelines and strict human QA.</span><span class="vi">Sản xuất nhanh với quy trình có AI hỗ trợ và kiểm định chặt chẽ bởi con người.</span></p></div>
+      <div class="step rv"><div class="k">04</div><h4><span class="en">Scale</span><span class="vi">Nhân rộng</span></h4><p><span class="en">Hand over, train your team and keep improving with real data.</span><span class="vi">Bàn giao, đào tạo đội ngũ và tiếp tục cải tiến dựa trên dữ liệu thật.</span></p></div>
+    </div>
+    <div class="quote rv">
+      <div class="big">90 → 8 min</div>
+      <p><span class="en"><b>Reporting workflow redesign for a leading construction corporation.</b> A monthly reporting process that took 90 minutes now takes 8, freeing managers to focus on decisions instead of spreadsheets.</span><span class="vi"><b>Tái thiết kế quy trình báo cáo cho một tổng công ty xây dựng hàng đầu.</b> Quy trình báo cáo từng mất 90 phút nay chỉ còn 8 phút, giúp cấp quản lý tập trung vào ra quyết định thay vì bảng tính.</span></p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="eyebrow"><span class="en">Selected work</span><span class="vi">Sản phẩm tiêu biểu</span></div>
+      <h2><span class="en">See the craft for yourself.</span><span class="vi">Trải nghiệm trực tiếp sản phẩm.</span></h2>
+      <p><span class="en">Live samples hosted on Articulate Review. Click any card to open it in a new tab.</span><span class="vi">Bản mẫu chạy trực tiếp trên Articulate Review. Bấm vào thẻ bất kỳ để mở trong tab mới.</span></p>
+    </div>
+    <div class="filters rv">
+      <button class="f on" data-f="all"><span class="en">All</span><span class="vi">Tất cả</span></button>
+      <button class="f" data-f="sl">Storyline 360</button>
+      <button class="f" data-f="rs">Rise 360</button>
+      <button class="f" data-f="ai"><span class="en">AI Video</span><span class="vi">Video AI</span></button>
+    </div>
+    <div class="cards" id="cards"></div>
+  </div>
+</section>
+
+<div class="clients">
+  <div class="lbl"><span class="en">Trusted by teams across Vietnam, Australia and Canada</span><span class="vi">Được tin chọn bởi các đội ngũ tại Việt Nam, Úc và Canada</span></div>
+  <div class="marquee"><div class="track" id="track"></div></div>
+</div>
+
+<section id="about">
+  <div class="wrap about">
+    <div class="portrait rv">
+      <div class="mono">V</div>
+      <div class="eyebrow"><span class="en">Founder</span><span class="vi">Nhà sáng lập</span></div>
+      <h3 style="margin-top:14px">Phạm Bình Phương Duy</h3>
+      <div class="role"><span class="en">Founder, Vienta Hub · Learning and AI strategist</span><span class="vi">Sáng lập Vienta Hub · Chuyên gia chiến lược đào tạo và AI</span></div>
+      <ul class="creds">
+        <li><span class="en">MBA, CFVG</span><span class="vi">Thạc sĩ Quản trị Kinh doanh (MBA), CFVG</span></li>
+        <li><span class="en">Master in Public Policy, Fulbright University Vietnam, research on AI and governance</span><span class="vi">Thạc sĩ Chính sách Công, Đại học Fulbright Việt Nam, nghiên cứu về AI và quản trị</span></li>
+        <li><span class="en">Visiting university lecturer</span><span class="vi">Giảng viên thỉnh giảng đại học</span></li>
+        <li><span class="en">Panelist, AAPBS Academic Summit 2026</span><span class="vi">Diễn giả tại AAPBS Academic Summit 2026</span></li>
+      </ul>
+    </div>
+    <div>
+      <div class="head rv" style="margin-bottom:0">
+        <div class="eyebrow"><span class="en">About Vienta Hub</span><span class="vi">Về Vienta Hub</span></div>
+        <h2><span class="en">An expert collective built for outcomes.</span><span class="vi">Tập thể chuyên gia hướng đến kết quả.</span></h2>
+        <p><span class="en">We combine instructional design, AI engineering and local market know how with a network of specialist partners in finance, law and L&amp;D. You get senior thinking and fast execution without agency overhead.</span><span class="vi">Chúng tôi kết hợp thiết kế giảng dạy, kỹ thuật AI và am hiểu thị trường Việt Nam cùng mạng lưới chuyên gia tài chính, pháp lý và đào tạo. Bạn nhận được tư duy chuyên sâu và tốc độ triển khai nhanh, không kèm chi phí cồng kềnh của agency.</span></p>
+      </div>
+      <div class="values">
+        <div class="val rv"><b>01</b><div><h4><span class="en">Problem before technology</span><span class="vi">Bài toán trước công nghệ</span></h4><p><span class="en">Every proposal starts from the business outcome you need.</span><span class="vi">Mọi đề xuất đều bắt đầu từ kết quả kinh doanh bạn cần.</span></p></div></div>
+        <div class="val rv"><b>02</b><div><h4><span class="en">AI that removes dependence on AI</span><span class="vi">Ứng dụng AI để không phụ thuộc vào AI</span></h4><p><span class="en">We design so your team grows stronger and less dependent on tools.</span><span class="vi">Chúng tôi thiết kế để đội ngũ mạnh hơn và ít phụ thuộc vào công cụ hơn.</span></p></div></div>
+        <div class="val rv"><b>03</b><div><h4><span class="en">Honest, careful delivery</span><span class="vi">Làm thật, làm kỹ</span></h4><p><span class="en">When we spot an issue in your content, we flag it rather than quietly work around it.</span><span class="vi">Khi phát hiện vấn đề trong nội dung, chúng tôi báo rõ với bạn thay vì lặng lẽ xử lý cho qua.</span></p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="eyebrow">FAQ</div>
+      <h2><span class="en">Questions clients often ask.</span><span class="vi">Câu hỏi thường gặp.</span></h2>
+    </div>
+    <div class="faq">
+      <div class="q rv"><button><span class="en">Do you work with international teams?</span><span class="vi">Vienta Hub có làm việc với khách hàng quốc tế không?</span></button><div class="a"><p><span class="en">Yes. We deliver for clients in Vietnam, Australia, Canada and beyond, working fully in English and adapting to your time zone for key meetings.</span><span class="vi">Có. Chúng tôi phục vụ khách hàng tại Việt Nam, Úc, Canada và nhiều nơi khác, làm việc hoàn toàn bằng tiếng Anh và linh hoạt múi giờ cho các buổi họp quan trọng.</span></p></div></div>
+      <div class="q rv"><button><span class="en">Can you join an existing eLearning project mid way?</span><span class="vi">Có thể tham gia giữa chừng một dự án eLearning đang chạy không?</span></button><div class="a"><p><span class="en">Absolutely. We regularly pick up storyboards, Storyline files or client feedback rounds and work within your established templates and style guides.</span><span class="vi">Hoàn toàn được. Chúng tôi thường tiếp nhận kịch bản, file Storyline hoặc các vòng phản hồi của khách và làm việc theo template, style guide sẵn có của bạn.</span></p></div></div>
+      <div class="q rv"><button><span class="en">How do you keep quality high when using AI?</span><span class="vi">Làm sao giữ chất lượng cao khi dùng AI?</span></button><div class="a"><p><span class="en">AI speeds up drafting and production, while every deliverable passes structured human QA for accuracy, accessibility and consistency before it reaches you.</span><span class="vi">AI giúp tăng tốc soạn thảo và sản xuất, còn mọi sản phẩm đều qua quy trình kiểm định của con người về độ chính xác, khả năng tiếp cận và tính nhất quán trước khi bàn giao.</span></p></div></div>
+      <div class="q rv"><button><span class="en">How do we get started?</span><span class="vi">Bắt đầu hợp tác như thế nào?</span></button><div class="a"><p><span class="en">Send us a short brief by email. We reply with clarifying questions and a scoped proposal, usually within two business days.</span><span class="vi">Gửi cho chúng tôi một brief ngắn qua email. Chúng tôi sẽ phản hồi với các câu hỏi làm rõ và đề xuất phạm vi công việc, thường trong vòng hai ngày làm việc.</span></p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top:20px">
+  <div class="wrap">
+    <div class="contact rv">
+      <div>
+        <div class="eyebrow"><span class="en">Let's talk</span><span class="vi">Kết nối</span></div>
+        <h2><span class="en">Have a learning or AI challenge in mind?</span><span class="vi">Bạn đang có bài toán đào tạo hoặc AI?</span></h2>
+        <p><span class="en">Tell us what you are trying to achieve. We will come back with a clear, practical plan.</span><span class="vi">Hãy cho chúng tôi biết mục tiêu của bạn. Chúng tôi sẽ phản hồi bằng một kế hoạch rõ ràng, thực tế.</span></p>
+        <div class="cta"><a class="btn gold" href="mailto:duypham@vientahub.com" target="_blank" rel="noopener"><span class="en">Email us</span><span class="vi">Gửi email</span> &rarr;</a></div>
+      </div>
+      <div class="cinfo">
+        <a class="ci" href="mailto:duypham@vientahub.com" target="_blank" rel="noopener"><i>✉</i><div><small>Email</small><span>duypham@vientahub.com</span></div></a>
+        <a class="ci" href="https://vientahub.com" target="_top"><i>◈</i><div><small>Website</small><span>vientahub.com</span></div></a>
+        <div class="ci"><i>⌂</i><div><small><span class="en">Office</span><span class="vi">Văn phòng</span></small><span><span class="en">Ho Chi Minh City, Vietnam</span><span class="vi">TP. Hồ Chí Minh, Việt Nam</span></span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> Vienta Hub. <span class="en">All rights reserved.</span><span class="vi">Bảo lưu mọi quyền.</span></span>
+    <span>Ứng dụng AI để không phụ thuộc vào AI.</span>
+  </div>
+</footer>
+
+</div>
+<button class="toTop" id="toTop" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+  var app=document.scrollingElement||document.documentElement;
+  // portfolio data
+  var R='https://360.articulate.com/review/content/';
+  var items=[
+    {t:'sl',id:'59175f5a-cd68-450e-bb15-3058cfbdae5d',en:['Interactive Storyline module','Scenario driven learning with custom interactions.'],vi:['Bài học Storyline tương tác','Học qua tình huống với tương tác tùy biến.']},
+    {t:'sl',id:'27d9ee7b-9309-42b5-a8fe-2a12611a26fa',en:['Storyline showcase','Branded layouts, rich media and knowledge checks.'],vi:['Mẫu Storyline tiêu biểu','Bố cục theo thương hiệu, đa phương tiện và câu hỏi kiểm tra.']},
+    {t:'sl',id:'aec8656f-ef18-4122-ab8b-1be955f87090',en:['Simulation and practice','Hands on practice that mirrors the real task.'],vi:['Mô phỏng và thực hành','Thực hành sát với công việc thật.']},
+    {t:'sl',id:'da7d0422-2d41-4b8d-9314-ef0f2c7df3b6',en:['Compliance style course','Clear structure, accessible design, tracked completion.'],vi:['Khóa học dạng tuân thủ','Cấu trúc rõ ràng, thiết kế dễ tiếp cận, theo dõi hoàn thành.']},
+    {t:'rs',id:'285f4c87-b0c5-43e8-9ceb-682e6ca573de',en:['Rise 360 microlearning','Responsive lessons that work on any device.'],vi:['Microlearning Rise 360','Bài học tương thích mọi thiết bị.']},
+    {t:'rs',id:'3e8fc8b1-9746-437b-b186-7198cecebe8f',en:['Rise 360 course','Story led content with embedded interactions.'],vi:['Khóa học Rise 360','Nội dung dẫn dắt bằng câu chuyện, có tương tác nhúng.']},
+    {t:'rs',id:'f57443ad-19c4-4108-a93f-c137dd43f970',en:['Rise 360 onboarding','Fast, friendly onboarding for new staff.'],vi:['Hội nhập với Rise 360','Hội nhập nhân viên mới nhanh và thân thiện.']},
+    {t:'ai',id:'6fd99ad8-8cde-4d85-aa6f-d8919dcee606',en:['AI avatar video','Synthesia presenter video integrated into a course.'],vi:['Video AI avatar','Video người dẫn Synthesia tích hợp trong khóa học.']}
+  ];
+  var lbl={sl:'Storyline 360',rs:'Rise 360',ai:'AI Video'};
+  var ico={
+    sl:'<svg viewBox="0 0 48 48" fill="none" stroke="#8FE3D3" stroke-width="2"><rect x="6" y="10" width="36" height="24" rx="3"/><path d="M20 17l9 5-9 5z" fill="#8FE3D3"/><path d="M16 40h16"/></svg>',
+    rs:'<svg viewBox="0 0 48 48" fill="none" stroke="#8FE3D3" stroke-width="2"><rect x="14" y="6" width="20" height="36" rx="4"/><path d="M19 14h10M19 20h10M19 26h6"/></svg>',
+    ai:'<svg viewBox="0 0 48 48" fill="none" stroke="#8FE3D3" stroke-width="2"><circle cx="24" cy="18" r="7"/><path d="M11 40c2-8 7-12 13-12s11 4 13 12"/><path d="M38 8l1.5 3 3 1.5-3 1.5L38 17l-1.5-3-3-1.5 3-1.5z" fill="#8FE3D3"/></svg>'
+  };
+  var cards=document.getElementById('cards');
+  cards.innerHTML=items.map(function(it,i){
+    var n=('0'+(i+1)).slice(-2);
+    return '<a class="card rv" data-t="'+it.t+'" href="'+R+it.id+'/review" target="_blank" rel="noopener">'+
+      '<div class="thumb t-'+it.t+'">'+ico[it.t]+'</div><div class="body">'+
+      '<div class="tag">'+lbl[it.t]+' · '+n+'</div>'+
+      '<h4><span class="en">'+it.en[0]+'</span><span class="vi">'+it.vi[0]+'</span></h4>'+
+      '<p><span class="en">'+it.en[1]+'</span><span class="vi">'+it.vi[1]+'</span></p>'+
+      '<div class="open"><span class="en">Open sample</span><span class="vi">Mở bản mẫu</span> ↗</div></div></a>';
+  }).join('');
+  // clients marquee
+  var cl=[['CC1','Construction Corporation No. 1'],['MB Bank',''],['Logwin Logistics','Vietnam'],['Morpheus Trading Group','Australia'],['Healthcare organizations','Canada'],['Dental clinic chain','Vietnam']];
+  var row=cl.map(function(c){return '<div class="cl">'+c[0]+(c[1]?' <small>'+c[1]+'</small>':'')+'</div>';}).join('');
+  document.getElementById('track').innerHTML=row+row;
+  // filters
+  document.querySelectorAll('.f').forEach(function(b){b.addEventListener('click',function(){
+    document.querySelectorAll('.f').forEach(function(x){x.classList.remove('on');});b.classList.add('on');
+    var f=b.getAttribute('data-f');
+    document.querySelectorAll('.card').forEach(function(c){c.classList.toggle('hide',f!=='all'&&c.getAttribute('data-t')!==f);});
+  });});
+  // tabs
+  document.querySelectorAll('.tab').forEach(function(b){b.addEventListener('click',function(){
+    document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('on');});b.classList.add('on');
+    document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('on');});
+    document.getElementById(b.getAttribute('data-t')).classList.add('on');
+  });});
+  // faq
+  document.querySelectorAll('.q button').forEach(function(b){b.addEventListener('click',function(){
+    var q=b.parentNode,a=q.querySelector('.a'),open=q.classList.toggle('open');
+    a.style.maxHeight=open?a.scrollHeight+'px':'0';
+  });});
+  // language
+  function setLang(l){document.body.classList.toggle('vi',l==='vi');document.documentElement.lang=l;
+    document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-l')===l);});
+    document.querySelectorAll('.q.open .a').forEach(function(a){a.style.maxHeight=a.scrollHeight+'px';});
+    try{localStorage.setItem('vh-lang',l);}catch(e){}}
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-l'));});});
+  var saved=null;try{saved=localStorage.getItem('vh-lang');}catch(e){}
+  if(!saved){saved=(navigator.language||'').toLowerCase().indexOf('vi')===0?'vi':'en';}
+  setLang(saved);
+  // smooth nav inside the scroll container
+  document.querySelectorAll('[data-go]').forEach(function(a){a.addEventListener('click',function(e){
+    e.preventDefault();var el=document.getElementById(a.getAttribute('data-go'));
+    window.scrollTo({top:el.getBoundingClientRect().top+window.pageYOffset-60,behavior:'smooth'});document.getElementById('links').classList.remove('show');
+  });});
+  document.getElementById('burger').addEventListener('click',function(){document.getElementById('links').classList.toggle('show');});
+  var toTop=document.getElementById('toTop');
+  toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+  // active link + to top
+  var secs=['philosophy','services','approach','portfolio','about','contact'].map(function(id){return document.getElementById(id);});
+  window.addEventListener('scroll',function(){
+    var y=window.pageYOffset+120;toTop.classList.toggle('show',window.pageYOffset>500);
+    var cur=null;secs.forEach(function(s){if(s.offsetTop<=y)cur=s.id;});
+    document.querySelectorAll('.links a').forEach(function(a){a.classList.toggle('active',a.getAttribute('data-go')===cur);});
+  },{passive:true});
+  // reveal + counters
+  document.documentElement.classList.add('js');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target);}});},{threshold:.08});
+    var vh=window.innerHeight;
+    document.querySelectorAll('.rv').forEach(function(el){if(el.getBoundingClientRect().top>vh){el.classList.add('pre');io.observe(el);}});
+  }
+  document.querySelectorAll('[data-c]').forEach(function(el){
+    var end=+el.getAttribute('data-c'),t0=null;
+    function step(t){if(!t0)t0=t;var p=Math.min((t-t0)/1600,1);el.textContent=Math.round(end*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step);}
+    setTimeout(function(){requestAnimationFrame(step);},500);
+  });
+
+  var mo=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){document.getElementById('slogan').classList.add('lit');document.getElementById('meter').classList.add('go');mo.disconnect();}});},{threshold:.3});
+  mo.observe(document.getElementById('philosophy'));
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  // hero network canvas
+  var cv=document.getElementById('net'),cx=cv.getContext('2d'),pts=[],W,H,mx=-999,my=-999;
+  function size(){var r=cv.getBoundingClientRect();W=cv.width=r.width*devicePixelRatio;H=cv.height=r.height*devicePixelRatio;}
+  size();window.addEventListener('resize',size);
+  var N=window.innerWidth<700?34:70;
+  for(var i=0;i<N;i++)pts.push({x:Math.random(),y:Math.random(),vx:(Math.random()-.5)*.0006,vy:(Math.random()-.5)*.0006});
+  cv.parentNode.addEventListener('mousemove',function(e){var r=cv.getBoundingClientRect();mx=(e.clientX-r.left)*devicePixelRatio;my=(e.clientY-r.top)*devicePixelRatio;});
+  cv.parentNode.addEventListener('mouseleave',function(){mx=my=-999;});
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function draw(){
+    cx.clearRect(0,0,W,H);var D=150*devicePixelRatio;
+    pts.forEach(function(p){if(!reduce){p.x+=p.vx;p.y+=p.vy;}if(p.x<0||p.x>1)p.vx*=-1;if(p.y<0||p.y>1)p.vy*=-1;});
+    for(var i=0;i<pts.length;i++){var a=pts[i],ax=a.x*W,ay=a.y*H;
+      for(var j=i+1;j<pts.length;j++){var b=pts[j],bx=b.x*W,by=b.y*H,d=Math.hypot(ax-bx,ay-by);
+        if(d<D){cx.strokeStyle='rgba(34,166,153,'+(.22*(1-d/D))+')';cx.lineWidth=devicePixelRatio;cx.beginPath();cx.moveTo(ax,ay);cx.lineTo(bx,by);cx.stroke();}}
+      var dm=Math.hypot(ax-mx,ay-my);
+      if(dm<D*1.4){cx.strokeStyle='rgba(143,227,211,'+(.5*(1-dm/(D*1.4)))+')';cx.beginPath();cx.moveTo(ax,ay);cx.lineTo(mx,my);cx.stroke();}
+      cx.fillStyle='rgba(143,227,211,.7)';cx.beginPath();cx.arc(ax,ay,1.8*devicePixelRatio,0,7);cx.fill();}
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+</script>
+</body>
+</html>
+
