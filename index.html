@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
 <title>Vienta Hub | AI-powered eLearning and AI Studio</title>
 <meta name="description" content="Vienta Hub produces eLearning and video 4 to 5x faster with AI, and helps teams apply AI without depending on it through AI training and AI process optimization.">
 <meta property="og:title" content="Vienta Hub | AI-powered eLearning and AI Studio">
@@ -14,8 +15,7 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
   --navy:#0A1C29; --navy2:#0E2A3A; --navy3:#123F50; --ink:#0A1C29;
@@ -24,8 +24,10 @@
   --teal:#3BB3A3;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--text);background:var(--paper);-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+button{font-family:inherit;-webkit-tap-highlight-color:transparent}
+img,svg,canvas,video{max-width:100%}
+body{overflow-x:hidden;font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--text);background:var(--paper);-webkit-font-smoothing:antialiased}
 h1,h2,h3,h4,.brand{font-family:'Plus Jakarta Sans',sans-serif}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
@@ -48,7 +50,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .burger{display:none;background:none;border:0;color:#fff;font-size:22px;cursor:pointer}
 /* hero */
 .hero{position:relative;background:radial-gradient(1200px 600px at 85% -10%,#155E75 0%,rgba(21,94,117,0) 60%),radial-gradient(700px 500px at -10% 110%,rgba(34,166,153,.22),rgba(34,166,153,0) 70%),linear-gradient(135deg,#061520,#0A2532 55%,#0E3A48);color:#fff;overflow:hidden}
-.hero canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.9}
+.hero canvas{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:.9}
 .hero .wrap{position:relative;padding-top:96px;padding-bottom:84px}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;font:600 12px 'Plus Jakarta Sans';letter-spacing:.22em;text-transform:uppercase;color:var(--gold2)}
 .eyebrow:before{content:"";width:28px;height:1px;background:var(--gold)}
@@ -121,7 +123,7 @@ section{padding:96px 0}
 .card:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(10,28,41,.16);border-color:var(--gold)}
 .thumb{height:150px;position:relative;display:grid;place-items:center;overflow:hidden}
 .thumb svg{width:58px;height:58px;position:relative;z-index:1}
-.thumb:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 2px,transparent 2px 14px)}
+.thumb:after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 2px,transparent 2px 14px)}
 .t-sl{background:linear-gradient(135deg,#0A1C29,#1D5577)}
 .t-rs{background:linear-gradient(135deg,#123B44,#2C8C83)}
 .t-ai{background:linear-gradient(135deg,#15233F,#3E6FA8)}
@@ -157,13 +159,48 @@ section{padding:96px 0}
 .val h4{font-size:16px;color:var(--ink);margin-bottom:4px}
 .val p{font-size:14px;color:#576B77;line-height:1.6}
 /* faq */
-.faq{max-width:860px}
-.q{border-bottom:1px solid #DCE8E6}
-.q button{width:100%;text-align:left;background:none;border:0;padding:22px 0;font:600 17px 'Plus Jakarta Sans';color:var(--ink);display:flex;justify-content:space-between;gap:20px;cursor:pointer}
-.q button:after{content:"+";font-size:24px;color:var(--gold);transition:transform .3s;line-height:1}
-.q.open button:after{transform:rotate(45deg)}
-.q .a{max-height:0;overflow:hidden;transition:max-height .4s ease}
-.q .a p{padding:0 0 22px;color:#4F6370;line-height:1.75;font-size:15px;max-width:760px}
+.faqx{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.5fr);gap:44px;align-items:start}
+.fside{position:-webkit-sticky;position:sticky;top:96px;background:linear-gradient(150deg,#061520,#0B2B3A 58%,#0F4552);color:#fff;border-radius:28px;padding:40px 34px;overflow:hidden;isolation:isolate}
+.fside:before{content:"";position:absolute;right:-110px;top:-120px;width:300px;height:300px;border-radius:50%;border:1px solid rgba(34,166,153,.28);box-shadow:0 0 0 46px rgba(34,166,153,.05),0 0 0 92px rgba(34,166,153,.03);z-index:-1}
+.fside:after{content:"?";position:absolute;right:26px;bottom:-34px;font:800 190px/1 'Plus Jakarta Sans',sans-serif;color:rgba(143,227,211,.06);z-index:-1}
+.fside h2{font-size:clamp(28px,3vw,38px);line-height:1.15;margin:14px 0 12px;color:#fff}
+.fside p{color:#A9BEC8;line-height:1.7;font-size:15px}
+.fcount{display:flex;align-items:baseline;gap:10px;margin:26px 0 20px;padding:16px 0;border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1)}
+.fcount b{font:800 44px/1 'Plus Jakarta Sans',sans-serif;color:var(--gold2)}
+.fcount span{color:#A9BEC8;font-size:14px}
+.fchips{display:flex;flex-wrap:wrap;margin:-4px}
+.fchip{margin:4px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);color:#C6D6DE;font:600 13px/1.2 'Plus Jakarta Sans',sans-serif;padding:9px 14px;border-radius:99px;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.fchip:hover{border-color:var(--gold2);color:#fff}
+.fchip.on{background:var(--gold);border-color:var(--gold);color:#061520}
+.fask{display:inline-flex;align-items:center;margin-top:26px;color:var(--gold2);font:600 14px 'Plus Jakarta Sans',sans-serif;border-bottom:1px solid rgba(143,227,211,.35);padding-bottom:3px;transition:color .2s,border-color .2s}
+.fask:hover{color:#fff;border-color:#fff}
+.flist{display:grid;grid-template-columns:minmax(0,1fr);row-gap:14px}
+.q{position:relative;background:#fff;border:1px solid #DCE8E6;border-radius:20px;overflow:hidden;transition:border-color .3s,box-shadow .3s,background .3s}
+.q:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,#22A699,#8FE3D3);-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:top;transform-origin:top;transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.q:hover{border-color:#B9DCD6;box-shadow:0 14px 30px -20px rgba(10,28,41,.28)}
+.q.is-open{border-color:rgba(34,166,153,.5);background:linear-gradient(180deg,#fff,#F2FAF8);box-shadow:0 26px 50px -30px rgba(10,28,41,.38)}
+.q.is-open:before{-webkit-transform:scaleY(1);transform:scaleY(1)}
+.q.hide{display:none}
+.q button{width:100%;display:flex;align-items:center;text-align:left;background:none;border:0;padding:22px 24px;cursor:pointer;font:600 16.5px/1.45 'Plus Jakarta Sans',sans-serif;color:var(--ink)}
+.q button:focus{outline:none}
+.q button:focus-visible{box-shadow:inset 0 0 0 2px var(--gold);border-radius:20px}
+.qn{flex:none;width:30px;margin-right:14px;font:800 13px 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;color:var(--gold);transition:color .3s}
+.qx{flex:1;min-width:0;margin-right:16px}
+.qi{flex:none;position:relative;width:36px;height:36px;border-radius:50%;border:1.5px solid #CFE3DF;transition:background .35s,border-color .35s,transform .45s}
+.qi:before,.qi:after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;margin:-1px 0 0 -6px;border-radius:2px;background:var(--gold);transition:transform .35s,background .35s}
+.qi:after{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+.q:hover .qi{border-color:var(--gold)}
+.q.is-open .qi{background:var(--gold);border-color:var(--gold);-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.q.is-open .qi:before,.q.is-open .qi:after{background:#fff}
+.q.is-open .qi:after{-webkit-transform:rotate(0);transform:rotate(0)}
+.q .a{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.2,.8,.2,1)}
+.q .ai{padding:0 74px 24px 68px;opacity:0;-webkit-transform:translateY(-6px);transform:translateY(-6px);transition:opacity .35s .08s,transform .35s .08s}
+.q.is-open .ai{opacity:1;-webkit-transform:none;transform:none}
+.q .ai p{color:#4F6370;line-height:1.75;font-size:15px}
+.qtag{display:inline-block;margin-top:14px;font:600 11px 'Plus Jakarta Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#1C8C80;background:#E3F4F1;padding:5px 10px;border-radius:99px}
+@media (max-width:980px){.faqx{grid-template-columns:minmax(0,1fr);gap:24px}.fside{position:relative;top:0}}
+@media (max-width:760px){.fside{padding:30px 22px;border-radius:22px}.fcount{margin:20px 0 16px}.q{border-radius:16px}.q button{padding:18px 16px;font-size:15.5px}.qn{width:24px;margin-right:10px}.qx{margin-right:12px}.qi{width:32px;height:32px}.q .ai{padding:0 18px 20px 50px}.q .ai p{font-size:14.5px}}
+@media (prefers-reduced-motion:reduce){.q .a,.q .ai,.qi,.q:before{transition:none}}
 /* contact */
 .contact{background:linear-gradient(135deg,#061520,#0B2B3A 60%,#0F4552);color:#fff;border-radius:32px;padding:64px;display:grid;grid-template-columns:1.2fr 1fr;gap:48px;position:relative;overflow:hidden}
 .contact:before{content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;border-radius:50%;border:1px solid rgba(34,166,153,.25);box-shadow:0 0 0 60px rgba(34,166,153,.04),0 0 0 120px rgba(34,166,153,.03)}
@@ -198,7 +235,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .meter{margin:40px auto 0;max-width:620px;text-align:left}
 .meter .row{display:flex;justify-content:space-between;font:600 12px 'Plus Jakarta Sans';letter-spacing:.12em;text-transform:uppercase;color:#62757F;margin-bottom:10px}
 .meter .bar{height:10px;border-radius:99px;background:#DCE8E6;overflow:hidden;position:relative}
-.meter .fill{position:absolute;inset:0 auto 0 0;width:92%;border-radius:99px;background:linear-gradient(90deg,#22A699,#8FE3D3);transition:width 2.4s cubic-bezier(.2,.8,.2,1)}
+.meter .fill{position:absolute;top:0;bottom:0;left:0;width:92%;border-radius:99px;background:linear-gradient(90deg,#22A699,#8FE3D3);transition:width 2.4s cubic-bezier(.2,.8,.2,1)}
 .meter.go .fill{width:18%}
 .meter .cap{font-size:13px;color:#62757F;margin-top:10px;line-height:1.6}
 @media (max-width:760px){.pillars{grid-template-columns:1fr}.manifesto{padding:64px 0}.slogan .k{white-space:normal}}
@@ -238,7 +275,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 /* === visuals === */
 .vizrow{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;margin:0 0 18px}
 .vcard{background:var(--navy);color:#fff;border-radius:18px;padding:18px 20px;position:relative;overflow:hidden}
-.vcard:before{content:"";position:absolute;inset:auto -40px -60px auto;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(143,227,211,.18),transparent 70%)}
+.vcard:before{content:"";position:absolute;right:-40px;bottom:-60px;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(143,227,211,.18),transparent 70%)}
 .vh{font:600 12px 'Plus Jakarta Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#A9BEC8;margin-bottom:14px}
 .vh em{font-style:normal;text-transform:none;letter-spacing:0;color:#748893;font-weight:500;margin-left:6px}
 .bars{display:grid;gap:12px}
@@ -321,7 +358,7 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
 .qsave{position:absolute;right:0;top:-34px;font:800 15px 'Plus Jakarta Sans';color:var(--navy);background:var(--gold2);padding:4px 10px;border-radius:99px;opacity:0;transform:translateY(6px);transition:all .5s 1.8s}
 .play .qsave{opacity:1;transform:none}
 .tab{position:relative;overflow:hidden}
-.tab:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 30%,rgba(143,227,211,.18) 50%,transparent 70%);transform:translateX(-100%);transition:transform .8s}
+.tab:after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background:linear-gradient(120deg,transparent 30%,rgba(143,227,211,.18) 50%,transparent 70%);transform:translateX(-100%);transition:transform .8s}
 .tab:hover:after{transform:translateX(100%)}
 .panel{box-shadow:0 30px 60px -30px rgba(10,28,41,.25)}
 #tip{position:fixed;z-index:90;pointer-events:none;background:#0A1C29;color:#fff;font-size:12.5px;line-height:1.45;padding:8px 11px;border-radius:8px;max-width:240px;box-shadow:0 10px 30px rgba(0,0,0,.25);opacity:0;transition:opacity .15s}
@@ -342,7 +379,7 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
 .js .rv{transition:opacity .8s ease,transform .8s ease}
 .js .rv.pre{opacity:0;transform:translateY(22px)}
 @media (prefers-reduced-motion:reduce){.js .rv.pre{opacity:1;transform:none}}
-.toTop{position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;background:var(--gold);color:var(--navy);border:0;font-size:18px;cursor:pointer;box-shadow:0 10px 26px rgba(10,28,41,.3);opacity:0;pointer-events:none;transition:opacity .3s;z-index:60}
+.toTop{position:fixed;right:22px;right:calc(22px + env(safe-area-inset-right, 0px));bottom:22px;bottom:calc(22px + env(safe-area-inset-bottom, 0px));width:46px;height:46px;border-radius:50%;background:var(--gold);color:var(--navy);border:0;font-size:18px;cursor:pointer;box-shadow:0 10px 26px rgba(10,28,41,.3);opacity:0;pointer-events:none;transition:opacity .3s;z-index:60}
 .toTop.show{opacity:1;pointer-events:auto}
 /* responsive */
 @media (max-width:980px){
@@ -370,6 +407,7 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
   .thumb{height:96px}
 }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you produce 4 to 5x faster without losing quality?", "acceptedAnswer": {"@type": "Answer", "text": "AI handles the heavy drafting: scripts, voiceover, visuals and translation. Our team then reviews every screen against your brief and a human QA checklist, so the final output reaches 95 to 99% of the required quality."}}, {"@type": "Question", "name": "Which tools and formats do you deliver in?", "acceptedAnswer": {"@type": "Answer", "text": "We build in Articulate Storyline and Rise, and produce video with Vyond, Camtasia, Synthesia, Runway, CapCut and After Effects. Courses are published as SCORM or xAPI packages that run in your LMS, and videos as MP4."}}, {"@type": "Question", "name": "Can you localize a course into other languages?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We have delivered courses in 9+ languages, including French, Spanish, German, Italian, Japanese, Arabic, Chinese and Korean, adjusting layout, voiceover and on screen text for each market."}}, {"@type": "Question", "name": "Can you join an existing eLearning project mid way?", "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. We regularly pick up storyboards, Storyline files or client feedback rounds and work within your established templates and style guides."}}, {"@type": "Question", "name": "Why do you train thinking before tools?", "acceptedAnswer": {"@type": "Answer", "text": "AI tools change every few months. Your team keeps what lasts: breaking a problem down, writing a clear brief, and checking the output. With that foundation, people can switch tools without starting over, and the company does not depend on any one of them."}}, {"@type": "Question", "name": "What does an AI process optimization project look like?", "acceptedAnswer": {"@type": "Answer", "text": "Five steps: clean the data, design or optimize the process, apply AI where it adds value, build AI tools around that process, then train and hand over. The goal is a team that runs and improves the process on its own."}}, {"@type": "Question", "name": "How do you keep quality high when using AI?", "acceptedAnswer": {"@type": "Answer", "text": "AI speeds up drafting and production, while every deliverable passes structured human QA for accuracy, accessibility and consistency before it reaches you."}}, {"@type": "Question", "name": "Do you work with international teams?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We deliver for clients in Vietnam, the USA, Australia, Canada and beyond, working fully in English and adapting to your time zone for key meetings."}}, {"@type": "Question", "name": "How do we get started?", "acceptedAnswer": {"@type": "Answer", "text": "Send us a short brief by email. We reply with clarifying questions and a scoped proposal, usually within two business days."}}]}</script>
 </head>
 <body>
 <div id="app">
@@ -589,17 +627,33 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
   </div>
 </section>
 
-<section id="faq" style="padding-top:0">
+<section id="faq">
   <div class="wrap">
-    <div class="head rv">
-      <div class="eyebrow">FAQ</div>
-      <h2><span class="en">Questions clients often ask.</span><span class="vi">Câu hỏi thường gặp.</span></h2>
-    </div>
-    <div class="faq">
-      <div class="q rv"><button><span class="en">Do you work with international teams?</span><span class="vi">Vienta Hub có làm việc với khách hàng quốc tế không?</span></button><div class="a"><p><span class="en">Yes. We deliver for clients in Vietnam, Australia, Canada and beyond, working fully in English and adapting to your time zone for key meetings.</span><span class="vi">Có. Chúng tôi phục vụ khách hàng tại Việt Nam, Úc, Canada và nhiều nơi khác, làm việc hoàn toàn bằng tiếng Anh và linh hoạt múi giờ cho các buổi họp quan trọng.</span></p></div></div>
-      <div class="q rv"><button><span class="en">Can you join an existing eLearning project mid way?</span><span class="vi">Có thể tham gia giữa chừng một dự án eLearning đang chạy không?</span></button><div class="a"><p><span class="en">Absolutely. We regularly pick up storyboards, Storyline files or client feedback rounds and work within your established templates and style guides.</span><span class="vi">Hoàn toàn được. Chúng tôi thường tiếp nhận kịch bản, file Storyline hoặc các vòng phản hồi của khách và làm việc theo template, style guide sẵn có của bạn.</span></p></div></div>
-      <div class="q rv"><button><span class="en">How do you keep quality high when using AI?</span><span class="vi">Làm sao giữ chất lượng cao khi dùng AI?</span></button><div class="a"><p><span class="en">AI speeds up drafting and production, while every deliverable passes structured human QA for accuracy, accessibility and consistency before it reaches you.</span><span class="vi">AI giúp tăng tốc soạn thảo và sản xuất, còn mọi sản phẩm đều qua quy trình kiểm định của con người về độ chính xác, khả năng tiếp cận và tính nhất quán trước khi bàn giao.</span></p></div></div>
-      <div class="q rv"><button><span class="en">How do we get started?</span><span class="vi">Bắt đầu hợp tác như thế nào?</span></button><div class="a"><p><span class="en">Send us a short brief by email. We reply with clarifying questions and a scoped proposal, usually within two business days.</span><span class="vi">Gửi cho chúng tôi một brief ngắn qua email. Chúng tôi sẽ phản hồi với các câu hỏi làm rõ và đề xuất phạm vi công việc, thường trong vòng hai ngày làm việc.</span></p></div></div>
+    <div class="faqx">
+      <aside class="fside rv">
+        <div class="eyebrow">FAQ</div>
+        <h2><span class="en">Questions clients often ask.</span><span class="vi">Câu hỏi khách hàng thường gặp.</span></h2>
+        <p><span class="en">Quick answers about how we produce learning content and how we bring AI into your team.</span><span class="vi">Giải đáp nhanh về cách chúng tôi sản xuất nội dung đào tạo và đưa AI vào đội ngũ của bạn.</span></p>
+        <div class="fcount"><b id="fnum">9</b><span><span class="en">questions answered</span><span class="vi">câu hỏi được giải đáp</span></span></div>
+        <div class="fchips" role="group" aria-label="Filter questions">
+          <button type="button" class="fchip on" data-f="all" aria-pressed="true"><span class="en">All</span><span class="vi">Tất cả</span></button>
+          <button type="button" class="fchip" data-f="ll" aria-pressed="false">Learning Lab</button>
+          <button type="button" class="fchip" data-f="ai" aria-pressed="false">AI Studio</button>
+          <button type="button" class="fchip" data-f="wk" aria-pressed="false"><span class="en">Working together</span><span class="vi">Hợp tác</span></button>
+        </div>
+        <a class="fask" href="mailto:duypham@vientahub.com"><span class="en">Still have a question? Email us</span><span class="vi">Còn câu hỏi khác? Gửi email cho chúng tôi</span>&nbsp;&rarr;</a>
+      </aside>
+      <div class="flist">
+      <div class="q rv is-open" data-cat="ll"><button type="button" id="fq01" aria-expanded="true" aria-controls="fa01"><span class="qn">01</span><span class="qx"><span class="en">How do you produce 4 to 5x faster without losing quality?</span><span class="vi">Làm sao sản xuất nhanh hơn 4 đến 5 lần mà không giảm chất lượng?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa01" role="region" aria-labelledby="fq01"><div class="ai"><p><span class="en">AI handles the heavy drafting: scripts, voiceover, visuals and translation. Our team then reviews every screen against your brief and a human QA checklist, so the final output reaches 95 to 99% of the required quality.</span><span class="vi">AI đảm nhận phần soạn thảo nặng: kịch bản, giọng đọc, hình ảnh và bản dịch. Đội ngũ của chúng tôi sau đó rà từng màn hình theo yêu cầu của bạn và checklist kiểm định của con người, để sản phẩm cuối đạt 95 đến 99% chất lượng yêu cầu.</span></p><span class="qtag"><span class="en">Learning Lab</span><span class="vi">Learning Lab</span></span></div></div></div>
+      <div class="q rv" data-cat="ll"><button type="button" id="fq02" aria-expanded="false" aria-controls="fa02"><span class="qn">02</span><span class="qx"><span class="en">Which tools and formats do you deliver in?</span><span class="vi">Vienta Hub làm trên công cụ nào và bàn giao định dạng gì?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa02" role="region" aria-labelledby="fq02"><div class="ai"><p><span class="en">We build in Articulate Storyline and Rise, and produce video with Vyond, Camtasia, Synthesia, Runway, CapCut and After Effects. Courses are published as SCORM or xAPI packages that run in your LMS, and videos as MP4.</span><span class="vi">Chúng tôi dựng bài giảng trên Articulate Storyline và Rise, sản xuất video bằng Vyond, Camtasia, Synthesia, Runway, CapCut và After Effects. Khóa học được xuất dạng gói SCORM hoặc xAPI chạy trên LMS của bạn, video xuất dạng MP4.</span></p><span class="qtag"><span class="en">Learning Lab</span><span class="vi">Learning Lab</span></span></div></div></div>
+      <div class="q rv" data-cat="ll"><button type="button" id="fq03" aria-expanded="false" aria-controls="fa03"><span class="qn">03</span><span class="qx"><span class="en">Can you localize a course into other languages?</span><span class="vi">Có thể bản địa hóa khóa học sang ngôn ngữ khác không?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa03" role="region" aria-labelledby="fq03"><div class="ai"><p><span class="en">Yes. We have delivered courses in 9+ languages, including French, Spanish, German, Italian, Japanese, Arabic, Chinese and Korean, adjusting layout, voiceover and on screen text for each market.</span><span class="vi">Có. Chúng tôi đã bàn giao khóa học bằng hơn 9 ngôn ngữ, gồm tiếng Pháp, Tây Ban Nha, Đức, Ý, Nhật, Ả Rập, Trung và Hàn, có điều chỉnh bố cục, giọng đọc và chữ trên màn hình cho từng thị trường.</span></p><span class="qtag"><span class="en">Learning Lab</span><span class="vi">Learning Lab</span></span></div></div></div>
+      <div class="q rv" data-cat="ll"><button type="button" id="fq04" aria-expanded="false" aria-controls="fa04"><span class="qn">04</span><span class="qx"><span class="en">Can you join an existing eLearning project mid way?</span><span class="vi">Có thể tham gia giữa chừng một dự án eLearning đang chạy không?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa04" role="region" aria-labelledby="fq04"><div class="ai"><p><span class="en">Absolutely. We regularly pick up storyboards, Storyline files or client feedback rounds and work within your established templates and style guides.</span><span class="vi">Hoàn toàn được. Chúng tôi thường tiếp nhận kịch bản, file Storyline hoặc các vòng phản hồi của khách và làm việc theo template, style guide sẵn có của bạn.</span></p><span class="qtag"><span class="en">Learning Lab</span><span class="vi">Learning Lab</span></span></div></div></div>
+      <div class="q rv" data-cat="ai"><button type="button" id="fq05" aria-expanded="false" aria-controls="fa05"><span class="qn">05</span><span class="qx"><span class="en">Why do you train thinking before tools?</span><span class="vi">Vì sao đào tạo tư duy trước công cụ?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa05" role="region" aria-labelledby="fq05"><div class="ai"><p><span class="en">AI tools change every few months. Your team keeps what lasts: breaking a problem down, writing a clear brief, and checking the output. With that foundation, people can switch tools without starting over, and the company does not depend on any one of them.</span><span class="vi">Công cụ AI thay đổi sau vài tháng. Thứ đội ngũ giữ lại được lâu là cách chia nhỏ vấn đề, viết yêu cầu rõ ràng và kiểm tra kết quả. Có nền tảng đó, nhân sự đổi công cụ mà không phải học lại từ đầu, và doanh nghiệp không bị phụ thuộc vào công cụ nào.</span></p><span class="qtag"><span class="en">AI Studio</span><span class="vi">AI Studio</span></span></div></div></div>
+      <div class="q rv" data-cat="ai"><button type="button" id="fq06" aria-expanded="false" aria-controls="fa06"><span class="qn">06</span><span class="qx"><span class="en">What does an AI process optimization project look like?</span><span class="vi">Một dự án tối ưu hóa quy trình bằng AI diễn ra thế nào?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa06" role="region" aria-labelledby="fq06"><div class="ai"><p><span class="en">Five steps: clean the data, design or optimize the process, apply AI where it adds value, build AI tools around that process, then train and hand over. The goal is a team that runs and improves the process on its own.</span><span class="vi">Gồm 5 bước: làm sạch dữ liệu, xây dựng hoặc tối ưu quy trình, ứng dụng AI ở chỗ tạo ra giá trị, xây dựng công cụ AI theo quy trình đó, rồi đào tạo và chuyển giao. Mục tiêu là đội ngũ tự vận hành và cải tiến quy trình mà không cần phụ thuộc vào chúng tôi.</span></p><span class="qtag"><span class="en">AI Studio</span><span class="vi">AI Studio</span></span></div></div></div>
+      <div class="q rv" data-cat="ai"><button type="button" id="fq07" aria-expanded="false" aria-controls="fa07"><span class="qn">07</span><span class="qx"><span class="en">How do you keep quality high when using AI?</span><span class="vi">Làm sao giữ chất lượng cao khi dùng AI?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa07" role="region" aria-labelledby="fq07"><div class="ai"><p><span class="en">AI speeds up drafting and production, while every deliverable passes structured human QA for accuracy, accessibility and consistency before it reaches you.</span><span class="vi">AI giúp tăng tốc soạn thảo và sản xuất, còn mọi sản phẩm đều qua quy trình kiểm định của con người về độ chính xác, khả năng tiếp cận và tính nhất quán trước khi bàn giao.</span></p><span class="qtag"><span class="en">AI Studio</span><span class="vi">AI Studio</span></span></div></div></div>
+      <div class="q rv" data-cat="wk"><button type="button" id="fq08" aria-expanded="false" aria-controls="fa08"><span class="qn">08</span><span class="qx"><span class="en">Do you work with international teams?</span><span class="vi">Vienta Hub có làm việc với khách hàng quốc tế không?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa08" role="region" aria-labelledby="fq08"><div class="ai"><p><span class="en">Yes. We deliver for clients in Vietnam, the USA, Australia, Canada and beyond, working fully in English and adapting to your time zone for key meetings.</span><span class="vi">Có. Chúng tôi phục vụ khách hàng tại Việt Nam, Mỹ, Úc, Canada và nhiều nơi khác, làm việc hoàn toàn bằng tiếng Anh và linh hoạt múi giờ cho các buổi họp quan trọng.</span></p><span class="qtag"><span class="en">Working together</span><span class="vi">Hợp tác</span></span></div></div></div>
+      <div class="q rv" data-cat="wk"><button type="button" id="fq09" aria-expanded="false" aria-controls="fa09"><span class="qn">09</span><span class="qx"><span class="en">How do we get started?</span><span class="vi">Bắt đầu hợp tác như thế nào?</span></span><span class="qi" aria-hidden="true"></span></button><div class="a" id="fa09" role="region" aria-labelledby="fq09"><div class="ai"><p><span class="en">Send us a short brief by email. We reply with clarifying questions and a scoped proposal, usually within two business days.</span><span class="vi">Gửi cho chúng tôi một brief ngắn qua email. Chúng tôi sẽ phản hồi với các câu hỏi làm rõ và đề xuất phạm vi công việc, thường trong vòng hai ngày làm việc.</span></p><span class="qtag"><span class="en">Working together</span><span class="vi">Hợp tác</span></span></div></div></div>
+      </div>
     </div>
   </div>
 </section>
@@ -633,7 +687,12 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
 <button class="toTop" id="toTop" aria-label="Back to top">↑</button>
 
 <script>
+if(window.NodeList&&!NodeList.prototype.forEach)NodeList.prototype.forEach=Array.prototype.forEach;
 (function(){
+  function goTo(y){try{window.scrollTo({top:y,behavior:'smooth'});}catch(e){window.scrollTo(0,y);}}
+  var hasIO='IntersectionObserver' in window;
+  function watch(els,cb,th){els=[].slice.call(els);if(!els.length)return;if(!hasIO){els.forEach(function(el){cb(el);});return;}
+    var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){cb(e.target);o.unobserve(e.target);}});},{threshold:th});els.forEach(function(el){o.observe(el);});}
   var app=document.scrollingElement||document.documentElement;
   // portfolio data
   var items=[
@@ -698,14 +757,26 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
     document.getElementById(b.getAttribute('data-t')).classList.add('on');
   });});
   // faq
+  function fset(q,open){var a=q.querySelector('.a');q.classList[open?'add':'remove']('is-open');q.querySelector('button').setAttribute('aria-expanded',open?'true':'false');a.style.maxHeight=open?a.scrollHeight+'px':'0px';}
   document.querySelectorAll('.q button').forEach(function(b){b.addEventListener('click',function(){
-    var q=b.parentNode,a=q.querySelector('.a'),open=q.classList.toggle('open');
-    a.style.maxHeight=open?a.scrollHeight+'px':'0';
+    var q=b.parentNode,open=!q.classList.contains('is-open');
+    document.querySelectorAll('.q.is-open').forEach(function(o){if(o!==q)fset(o,false);});
+    fset(q,open);
   });});
+  document.querySelectorAll('.fchip').forEach(function(c){c.addEventListener('click',function(){
+    var f=c.getAttribute('data-f'),n=0,first=null;
+    document.querySelectorAll('.fchip').forEach(function(x){x.classList[x===c?'add':'remove']('on');x.setAttribute('aria-pressed',x===c?'true':'false');});
+    document.querySelectorAll('.q').forEach(function(q){var sh=f==='all'||q.getAttribute('data-cat')===f;q.classList[sh?'remove':'add']('hide');if(sh){n++;q.classList.remove('pre');if(!first)first=q;}else if(q.classList.contains('is-open'))fset(q,false);});
+    document.getElementById('fnum').textContent=n;
+    if(first&&!document.querySelector('.q.is-open:not(.hide)'))fset(first,true);
+  });});
+  function fre(){document.querySelectorAll('.q.is-open .a').forEach(function(a){a.style.maxHeight=a.scrollHeight+'px';});}
+  window.addEventListener('resize',fre);window.addEventListener('load',fre);
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fre);
   // language
   function setLang(l){document.body.classList.toggle('vi',l==='vi');document.documentElement.lang=l;
     document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-l')===l);});
-    document.querySelectorAll('.q.open .a').forEach(function(a){a.style.maxHeight=a.scrollHeight+'px';});
+    document.querySelectorAll('.q.is-open .a').forEach(function(a){a.style.maxHeight=a.scrollHeight+'px';});
     try{localStorage.setItem('vh-lang',l);}catch(e){}}
   document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-l'));});});
   var saved=null;try{saved=localStorage.getItem('vh-lang');}catch(e){}
@@ -714,11 +785,11 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
   // smooth nav inside the scroll container
   document.querySelectorAll('[data-go]').forEach(function(a){a.addEventListener('click',function(e){
     e.preventDefault();var el=document.getElementById(a.getAttribute('data-go'));
-    window.scrollTo({top:el.getBoundingClientRect().top+window.pageYOffset-60,behavior:'smooth'});document.getElementById('links').classList.remove('show');
+    goTo(el.getBoundingClientRect().top+window.pageYOffset-60);document.getElementById('links').classList.remove('show');
   });});
-  document.getElementById('burger').addEventListener('click',function(){document.getElementById('links').classList.toggle('show');});
+  var burger=document.getElementById('burger');burger.setAttribute('aria-expanded','false');burger.addEventListener('click',function(){var on=document.getElementById('links').classList.toggle('show');burger.setAttribute('aria-expanded',on?'true':'false');});
   var toTop=document.getElementById('toTop');
-  toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+  toTop.addEventListener('click',function(){goTo(0);});
   // active link + to top
   var secs=['philosophy','services','approach','portfolio','about','contact'].map(function(id){return document.getElementById(id);});
   window.addEventListener('scroll',function(){
@@ -739,8 +810,7 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
     setTimeout(function(){requestAnimationFrame(step);},500);
   });
 
-  var mo=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){document.getElementById('slogan').classList.add('lit');document.getElementById('meter').classList.add('go');mo.disconnect();}});},{threshold:.3});
-  mo.observe(document.getElementById('philosophy'));
+  watch([document.getElementById('philosophy')],function(){document.getElementById('slogan').classList.add('lit');document.getElementById('meter').classList.add('go');},.3);
 
   document.querySelectorAll('.sbtn').forEach(function(bt){bt.addEventListener('click',function(){
     var k=bt.getAttribute('data-s');
@@ -749,47 +819,52 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
   });});
 
   // === visuals: play on view, tooltips, stepper autoplay, counters
-  var pio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('play');
-      e.target.querySelectorAll('.qv[data-n]').forEach(function(el){var end=+el.getAttribute('data-n'),t0=null;function st(t){if(!t0)t0=t;var p=Math.min((t-t0)/1600,1);el.textContent=Math.round(end*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(st);}requestAnimationFrame(st);});
-      pio.unobserve(e.target);}});},{threshold:.25});
-  document.querySelectorAll('.vizrow,.grp,.curve,#steps,#qchart').forEach(function(el){pio.observe(el);});
+  watch(document.querySelectorAll('.vizrow,.grp,.curve,#steps,#qchart'),function(t){t.classList.add('play');
+      t.querySelectorAll('.qv[data-n]').forEach(function(el){var end=+el.getAttribute('data-n'),t0=null;function st(t){if(!t0)t0=t;var p=Math.min((t-t0)/1600,1);el.textContent=Math.round(end*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(st);}requestAnimationFrame(st);});},.25);
   document.querySelectorAll('.tab').forEach(function(t){t.addEventListener('click',function(){setTimeout(function(){document.querySelectorAll('.panel.on .vizrow,.panel.on .grp,.panel.on .curve').forEach(function(el){el.classList.add('play');});},60);});});
   var tipEl=document.createElement('div');tipEl.id='tip';document.body.appendChild(tipEl);
   document.querySelectorAll('[data-tip-en]').forEach(function(el){
     el.addEventListener('mousemove',function(e){tipEl.textContent=el.getAttribute(document.body.classList.contains('vi')?'data-tip-vi':'data-tip-en');tipEl.style.left=Math.min(e.clientX+14,window.innerWidth-260)+'px';tipEl.style.top=(e.clientY+14)+'px';tipEl.classList.add('on');});
     el.addEventListener('mouseleave',function(){tipEl.classList.remove('on');});
+    el.addEventListener('touchstart',function(e){var t=e.touches[0];tipEl.textContent=el.getAttribute(document.body.classList.contains('vi')?'data-tip-vi':'data-tip-en');tipEl.style.left=Math.max(8,Math.min(t.clientX-120,window.innerWidth-248))+'px';tipEl.style.top=Math.max(8,t.clientY-64)+'px';tipEl.classList.add('on');clearTimeout(tipEl._t);tipEl._t=setTimeout(function(){tipEl.classList.remove('on');},2600);},{passive:true});
   });
+  window.addEventListener('scroll',function(){tipEl.classList.remove('on');},{passive:true});
   (function(){var btns=[].slice.call(document.querySelectorAll('.sbtn')),prog=document.querySelector('.sprog'),idx=0,timer=null,paused=false,box=document.querySelector('.stepper');
     if(!btns.length)return;
     function show(k){idx=k;btns[k].click();prog.classList.remove('run');void prog.offsetWidth;if(!paused)prog.classList.add('run');}
     function loop(){clearInterval(timer);timer=setInterval(function(){if(!paused)show((idx+1)%btns.length);},4000);}
     btns.forEach(function(b,i){b.addEventListener('click',function(e){if(e.isTrusted){idx=i;paused=true;prog.classList.remove('run');}});});
-    box.parentNode.addEventListener('mouseenter',function(){paused=true;prog.classList.remove('run');});
-    box.parentNode.addEventListener('mouseleave',function(){paused=false;show(idx);loop();});
-    var so=new IntersectionObserver(function(es){if(es[0].isIntersecting){show(0);loop();so.disconnect();}},{threshold:.3});so.observe(box);
+    var canHover=!window.matchMedia||window.matchMedia('(hover: hover)').matches;
+    if(canHover)box.parentNode.addEventListener('mouseenter',function(){paused=true;prog.classList.remove('run');});
+    if(canHover)box.parentNode.addEventListener('mouseleave',function(){paused=false;show(idx);loop();});
+    watch([box],function(){show(0);loop();},.3);
   })();
   document.getElementById('yr').textContent=new Date().getFullYear();
   // hero network canvas
-  var cv=document.getElementById('net'),cx=cv.getContext('2d'),pts=[],W,H,mx=-999,my=-999;
-  function size(){var r=cv.getBoundingClientRect();W=cv.width=r.width*devicePixelRatio;H=cv.height=r.height*devicePixelRatio;}
+  var cv=document.getElementById('net'),cx=cv.getContext&&cv.getContext('2d'),pts=[],W,H,mx=-999,my=-999,DPR=Math.min(window.devicePixelRatio||1,2),heroOn=true;
+  if(!cx)return;
+  function size(){var r=cv.getBoundingClientRect();W=cv.width=r.width*DPR;H=cv.height=r.height*DPR;}
   size();window.addEventListener('resize',size);
   var N=window.innerWidth<700?34:70;
   for(var i=0;i<N;i++)pts.push({x:Math.random(),y:Math.random(),vx:(Math.random()-.5)*.0006,vy:(Math.random()-.5)*.0006});
-  cv.parentNode.addEventListener('mousemove',function(e){var r=cv.getBoundingClientRect();mx=(e.clientX-r.left)*devicePixelRatio;my=(e.clientY-r.top)*devicePixelRatio;});
+  cv.parentNode.addEventListener('mousemove',function(e){var r=cv.getBoundingClientRect();mx=(e.clientX-r.left)*DPR;my=(e.clientY-r.top)*DPR;});
   cv.parentNode.addEventListener('mouseleave',function(){mx=my=-999;});
   var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   function draw(){
-    cx.clearRect(0,0,W,H);var D=150*devicePixelRatio;
+    cx.clearRect(0,0,W,H);var D=150*DPR;
     pts.forEach(function(p){if(!reduce){p.x+=p.vx;p.y+=p.vy;}if(p.x<0||p.x>1)p.vx*=-1;if(p.y<0||p.y>1)p.vy*=-1;});
     for(var i=0;i<pts.length;i++){var a=pts[i],ax=a.x*W,ay=a.y*H;
       for(var j=i+1;j<pts.length;j++){var b=pts[j],bx=b.x*W,by=b.y*H,d=Math.hypot(ax-bx,ay-by);
-        if(d<D){cx.strokeStyle='rgba(34,166,153,'+(.22*(1-d/D))+')';cx.lineWidth=devicePixelRatio;cx.beginPath();cx.moveTo(ax,ay);cx.lineTo(bx,by);cx.stroke();}}
+        if(d<D){cx.strokeStyle='rgba(34,166,153,'+(.22*(1-d/D))+')';cx.lineWidth=DPR;cx.beginPath();cx.moveTo(ax,ay);cx.lineTo(bx,by);cx.stroke();}}
       var dm=Math.hypot(ax-mx,ay-my);
       if(dm<D*1.4){cx.strokeStyle='rgba(143,227,211,'+(.5*(1-dm/(D*1.4)))+')';cx.beginPath();cx.moveTo(ax,ay);cx.lineTo(mx,my);cx.stroke();}
-      cx.fillStyle='rgba(143,227,211,.7)';cx.beginPath();cx.arc(ax,ay,1.8*devicePixelRatio,0,7);cx.fill();}
-    requestAnimationFrame(draw);
+      cx.fillStyle='rgba(143,227,211,.7)';cx.beginPath();cx.arc(ax,ay,1.8*DPR,0,7);cx.fill();}
+    if(heroOn&&!document.hidden)requestAnimationFrame(draw);else running=false;
   }
-  draw();
+  var running=true;draw();
+  function wake(){if(!running&&heroOn&&!document.hidden){running=true;requestAnimationFrame(draw);}}
+  document.addEventListener('visibilitychange',wake);
+  if(hasIO)new IntersectionObserver(function(es){heroOn=es[0].isIntersecting;wake();}).observe(cv);
 })();
 </script>
 </body>
