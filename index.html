@@ -234,6 +234,110 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .cards:not(.expanded):not(.all-open) .card.more{display:none}
 .morewrap{display:flex;justify-content:center;margin-top:26px}
 .morewrap [hidden]{display:none}
+
+/* === visuals === */
+.vizrow{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;margin:0 0 18px}
+.vcard{background:var(--navy);color:#fff;border-radius:18px;padding:18px 20px;position:relative;overflow:hidden}
+.vcard:before{content:"";position:absolute;inset:auto -40px -60px auto;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(143,227,211,.18),transparent 70%)}
+.vh{font:600 12px 'Plus Jakarta Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#A9BEC8;margin-bottom:14px}
+.vh em{font-style:normal;text-transform:none;letter-spacing:0;color:#748893;font-weight:500;margin-left:6px}
+.bars{display:grid;gap:12px}
+.brow{display:grid;grid-template-columns:92px 1fr 74px;align-items:center;gap:10px;cursor:default}
+.bl{font-size:12.5px;color:#C6D6DE}
+.bt{height:14px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden}
+.bf{height:100%;width:0;border-radius:0 4px 4px 0;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.bf.old{background:#7F96A3}
+.bf.new{background:linear-gradient(90deg,#22A699,#8FE3D3);box-shadow:0 0 18px rgba(143,227,211,.45)}
+.play .bf{width:var(--w)}
+.play .bf.new{transition-delay:.5s}
+.bv{font:700 14px 'Plus Jakarta Sans',sans-serif;text-align:right;font-variant-numeric:tabular-nums}
+.bv small{font-size:.75em;color:#A9BEC8;font-weight:500}
+.vfoot{margin-top:16px;font-size:13px;color:#A9BEC8;display:flex;align-items:baseline;gap:8px}
+.big4{font:800 30px 'Plus Jakarta Sans',sans-serif;color:var(--gold2)}
+.big4 small{font-size:.45em;color:#A9BEC8;font-weight:500}
+.gauge{display:flex;flex-direction:column;align-items:center;text-align:center}
+.gauge .vh{align-self:stretch;text-align:left}
+.ring{width:132px;height:132px;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:10}
+.rtrack{stroke:rgba(255,255,255,.08)}
+.rband{stroke:rgba(143,227,211,.22);stroke-dasharray:314.16;stroke-dashoffset:314.16;transition:stroke-dashoffset 1.6s ease .2s}
+.rval{stroke:#8FE3D3;stroke-linecap:round;stroke-dasharray:314.16;stroke-dashoffset:314.16;transition:stroke-dashoffset 2s cubic-bezier(.2,.8,.2,1) .3s;filter:drop-shadow(0 0 6px rgba(143,227,211,.6))}
+.play .rband{stroke-dashoffset:3.14}
+.play .rval{stroke-dashoffset:15.7}
+.rsub{font-size:12px;color:#A9BEC8;margin-top:8px}
+.rlabel{margin-top:-132px;height:132px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.rlabel b{font:800 20px 'Plus Jakarta Sans',sans-serif;color:#fff}
+.rlabel b small{font-size:.6em;color:#A9BEC8;font-weight:500}
+.rlabel span{font-size:11px;color:#A9BEC8;max-width:110px;line-height:1.3}
+.pipe{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:22px;padding-top:6px}
+.pline{position:absolute;left:10%;right:10%;top:24px;height:2px;background:#DCE8E6;overflow:hidden}
+.pline i{position:absolute;top:0;left:-30%;width:30%;height:100%;background:linear-gradient(90deg,transparent,#22A699,transparent);animation:flowline 2.6s linear infinite}
+@keyframes flowline{to{left:100%}}
+.pn{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px}
+.pd{width:38px;height:38px;border-radius:50%;background:#fff;border:2px solid #CFE1DE;display:grid;place-items:center;font:700 12px 'Plus Jakarta Sans';color:#0E7C70;position:relative;z-index:1;animation:pulse 5s ease-in-out infinite;animation-delay:calc(var(--i)*1s)}
+@keyframes pulse{0%,15%{background:#fff;border-color:#CFE1DE;color:#0E7C70;box-shadow:none}5%,10%{background:var(--navy);border-color:var(--navy);color:var(--gold2);box-shadow:0 0 0 6px rgba(34,166,153,.15)}}
+.pl{font-size:12.5px;font-weight:500;color:var(--ink);line-height:1.4}
+.pyr{display:grid;gap:6px;margin-top:16px;justify-items:center}
+.pyl{width:0;max-width:100%;background:linear-gradient(90deg,var(--navy),#123F50);color:#fff;border-radius:10px;padding:9px 14px;display:flex;justify-content:space-between;gap:10px;align-items:center;overflow:hidden;white-space:nowrap;transition:width 1.2s cubic-bezier(.2,.8,.2,1);cursor:default}
+.pyl.l2{background:linear-gradient(90deg,#155E75,#1D7A8A)}
+.pyl.l3{background:linear-gradient(90deg,#22A699,#56C7B5)}
+.pyl b{font:700 13px 'Plus Jakarta Sans'}
+.pyl span{font-size:12px;opacity:.85;overflow:hidden;text-overflow:ellipsis}
+.play .pyl{width:var(--w)}
+.play .pyl.l2{transition-delay:.2s}.play .pyl.l3{transition-delay:.4s}
+.sprog{height:3px;background:#DCE8E6;border-radius:3px;margin-top:10px;overflow:hidden}
+.sprog i{display:block;height:100%;width:0;background:linear-gradient(90deg,#22A699,#8FE3D3)}
+.sprog.run i{animation:sprog 4s linear forwards}
+@keyframes sprog{to{width:100%}}
+.curve{margin-top:16px;background:var(--navy);border-radius:16px;padding:16px 18px}
+.cv{width:100%;height:auto;max-height:190px;display:block}
+.cv .ax{stroke:rgba(255,255,255,.15);stroke-width:1}
+.cv .ln{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:520;stroke-dashoffset:520;transition:stroke-dashoffset 2s ease}
+.cv .ln.up{stroke:#8FE3D3}.cv .ln.dn{stroke:#7F96A3;transition-delay:.3s}
+.cv .dt{opacity:0;transition:opacity .4s 2s}.cv .dt.up{fill:#8FE3D3}.cv .dt.dn{fill:#7F96A3}
+.cv .tk{fill:#748893;font:500 11px 'Be Vietnam Pro',sans-serif}
+body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
+.play .cv .ln{stroke-dashoffset:0}.play .cv .dt{opacity:1}
+.leg{display:flex;gap:18px;flex-wrap:wrap;margin-top:8px;font-size:12px;color:#C6D6DE}
+.leg span:before{content:"";display:inline-block;width:14px;height:3px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.leg .lu:before{background:#8FE3D3}.leg .ld:before{background:#7F96A3}
+.steps{position:relative}
+.strack{position:absolute;left:24px;right:24px;top:-18px;height:2px;background:rgba(255,255,255,.08);border-radius:2px;overflow:hidden}
+.strack i{display:block;height:100%;width:0;background:linear-gradient(90deg,#22A699,#8FE3D3);transition:width 2.4s cubic-bezier(.2,.8,.2,1)}
+.play .strack i{width:100%}
+.step{position:relative}
+.step .k{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:12px;border:1px solid rgba(143,227,211,.3);transition:all .5s}
+.play .step .k{background:rgba(34,166,153,.15);border-color:var(--gold2);box-shadow:0 0 0 6px rgba(34,166,153,.06)}
+.play .step:nth-child(3) .k{transition-delay:.5s}.play .step:nth-child(4) .k{transition-delay:1s}.play .step:nth-child(5) .k{transition-delay:1.5s}
+.qchart{display:grid;gap:12px;min-width:320px;position:relative}
+.qr{display:grid;grid-template-columns:56px 1fr 30px 28px;align-items:center;gap:10px;cursor:default}
+.ql{font-size:13px;color:#A9BEC8}
+.qt{height:16px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden}
+.qf{height:100%;width:0;border-radius:0 4px 4px 0;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.qf.old{background:#7F96A3}.qf.new{background:linear-gradient(90deg,#22A699,#8FE3D3);transition-delay:.6s}
+.play .qf{width:var(--w)}
+.qv{font:800 22px 'Plus Jakarta Sans';color:#fff;text-align:right;font-variant-numeric:tabular-nums}
+.qu{font-size:12px;color:#A9BEC8}
+.qsave{position:absolute;right:0;top:-34px;font:800 15px 'Plus Jakarta Sans';color:var(--navy);background:var(--gold2);padding:4px 10px;border-radius:99px;opacity:0;transform:translateY(6px);transition:all .5s 1.8s}
+.play .qsave{opacity:1;transform:none}
+.tab{position:relative;overflow:hidden}
+.tab:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 30%,rgba(143,227,211,.18) 50%,transparent 70%);transform:translateX(-100%);transition:transform .8s}
+.tab:hover:after{transform:translateX(100%)}
+.panel{box-shadow:0 30px 60px -30px rgba(10,28,41,.25)}
+#tip{position:fixed;z-index:90;pointer-events:none;background:#0A1C29;color:#fff;font-size:12.5px;line-height:1.45;padding:8px 11px;border-radius:8px;max-width:240px;box-shadow:0 10px 30px rgba(0,0,0,.25);opacity:0;transition:opacity .15s}
+#tip.on{opacity:1}
+@media (max-width:760px){
+  .vizrow{grid-template-columns:1fr}
+  .pipe{grid-template-columns:1fr;gap:10px}
+  .pline{left:18px;right:auto;top:10px;bottom:10px;width:2px;height:auto}
+  .pline i{width:100%;height:30%;left:0;top:-30%;background:linear-gradient(180deg,transparent,#22A699,transparent);animation:flowv 2.6s linear infinite}
+  @keyframes flowv{to{top:100%}}
+  .pn{flex-direction:row;text-align:left}
+  .pyl span{display:none}
+  .strack{display:none}
+  .qchart{min-width:0}
+}
+@media (prefers-reduced-motion:reduce){.pline i,.pd{animation:none}.bf,.qf,.pyl,.cv .ln,.rval,.rband,.strack i{transition:none}}
 /* reveal */
 .js .rv{transition:opacity .8s ease,transform .8s ease}
 .js .rv.pre{opacity:0;transform:translateY(22px)}
@@ -348,8 +452,22 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         <div class="panel on" id="p1">
           <h3>Vienta Learning Lab</h3>
           <p class="intro"><span class="en">An AI-powered production line for eLearning and video. We cut production time by 4 to 5 times while delivering 95 to 99% of the required quality, and every deliverable passes human review before it reaches you.</span><span class="vi">Dây chuyền sản xuất eLearning và video ứng dụng AI. Thời gian sản xuất giảm 4 đến 5 lần, chất lượng đạt 95 đến 99% yêu cầu, và mọi sản phẩm đều được con người kiểm định trước khi bàn giao.</span></p>
-          <div class="kpis"><div class="kpi"><b>4<small><span class="en"> to </span><span class="vi"> đến </span></small>5x</b><span><span class="en">faster production</span><span class="vi">nhanh hơn</span></span></div><div class="kpi"><b>95<small><span class="en"> to </span><span class="vi"> đến </span></small>99%</b><span><span class="en">of required quality</span><span class="vi">chất lượng yêu cầu</span></span></div></div>
-          <div class="flow"><div class="fl"><span>01</span><span class="en">Brief and script</span><span class="vi">Brief và kịch bản</span></div><div class="fl"><span>02</span><span class="en">AI first draft</span><span class="vi">AI dựng bản nháp</span></div><div class="fl"><span>03</span><span class="en">Build in Storyline, Rise or video</span><span class="vi">Dựng Storyline, Rise hoặc video</span></div><div class="fl"><span>04</span><span class="en">Human QA</span><span class="vi">Kiểm định bởi con người</span></div><div class="fl"><span>05</span><span class="en">SCORM and delivery</span><span class="vi">Đóng gói SCORM và bàn giao</span></div></div>
+          <div class="vizrow">
+            <div class="vcard">
+              <div class="vh"><span class="en">Production time for the same course</span><span class="vi">Thời gian sản xuất cùng một khóa học</span></div>
+              <div class="bars">
+                <div class="brow" data-tip-en="Traditional team: 100% of the timeline" data-tip-vi="Quy trình truyền thống: 100% thời gian"><span class="bl"><span class="en">Traditional</span><span class="vi">Truyền thống</span></span><div class="bt"><div class="bf old" style="--w:100%"></div></div><span class="bv">100%</span></div>
+                <div class="brow" data-tip-en="Vienta AI pipeline: about 20 to 25% of the timeline" data-tip-vi="Quy trình AI của Vienta: khoảng 20 đến 25% thời gian"><span class="bl">Vienta + AI</span><div class="bt"><div class="bf new" style="--w:22%"></div></div><span class="bv">20<small><span class="en"> to </span><span class="vi"> đến </span></small>25%</span></div>
+              </div>
+              <div class="vfoot"><b class="big4">4<small><span class="en"> to </span><span class="vi"> đến </span></small>5x</b> <span class="en">faster delivery</span><span class="vi">giao nhanh hơn</span></div>
+            </div>
+            <div class="vcard gauge" data-tip-en="Quality measured against the brief and human QA checklist" data-tip-vi="Chất lượng đối chiếu với yêu cầu và checklist kiểm định của con người">
+              <div class="vh"><span class="en">Quality against requirements</span><span class="vi">Chất lượng so với yêu cầu</span></div>
+              <svg viewBox="0 0 120 120" class="ring" aria-hidden="true"><circle cx="60" cy="60" r="50" class="rtrack"/><circle cx="60" cy="60" r="50" class="rband"/><circle cx="60" cy="60" r="50" class="rval"/></svg>
+              <div class="rlabel"><b>95<small><span class="en"> to </span><span class="vi"> đến </span></small>99%</b></div><div class="rsub"><span class="en">verified by human QA</span><span class="vi">kiểm định bởi con người</span></div>
+            </div>
+          </div>
+          <div class="pipe"><div class="pline"><i></i></div><div class="pn" style="--i:0"><span class="pd">01</span><span class="pl"><span class="en">Brief and script</span><span class="vi">Brief và kịch bản</span></span></div><div class="pn" style="--i:1"><span class="pd">02</span><span class="pl"><span class="en">AI first draft</span><span class="vi">AI dựng bản nháp</span></span></div><div class="pn" style="--i:2"><span class="pd">03</span><span class="pl"><span class="en">Build in Storyline, Rise or video</span><span class="vi">Dựng Storyline, Rise hoặc video</span></span></div><div class="pn" style="--i:3"><span class="pd">04</span><span class="pl"><span class="en">Human QA</span><span class="vi">Kiểm định bởi con người</span></span></div><div class="pn" style="--i:4"><span class="pd">05</span><span class="pl"><span class="en">SCORM and delivery</span><span class="vi">Đóng gói SCORM và bàn giao</span></span></div></div>
           <div class="grid2">
             <div class="item"><i>✦</i><div><h4><span class="en">AI-assisted design</span><span class="vi">Thiết kế có AI hỗ trợ</span></h4><p><span class="en">Needs analysis, scripts and scenario storyboards drafted with AI, refined by instructional designers.</span><span class="vi">Phân tích nhu cầu, kịch bản và storyboard tình huống do AI soạn nháp, chuyên gia thiết kế giảng dạy hoàn thiện.</span></p></div></div>
             <div class="item"><i>▣</i><div><h4>Storyline &amp; Rise 360</h4><p><span class="en">Interactive modules, simulations, assessments and custom HTML interactions.</span><span class="vi">Bài học tương tác, mô phỏng, bài kiểm tra và tương tác HTML tùy biến.</span></p></div></div>
@@ -364,11 +482,28 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <div class="grp">
             <div class="gh"><span class="gn">A</span><div><h4><span class="en">AI at work training</span><span class="vi">Đào tạo ứng dụng AI vào công việc</span></h4><p class="gs"><span class="en">Thinking before tools</span><span class="vi">Đào tạo tư duy trước công cụ</span></p></div></div>
             <p><span class="en">Programs that teach people how to frame a problem, brief AI well, and judge and verify its output. Practice uses your real tasks, so the skills carry over to whatever tool comes next.</span><span class="vi">Chương trình dạy cách đặt vấn đề, giao việc cho AI và đánh giá, kiểm chứng kết quả AI tạo ra. Thực hành trên chính công việc thật, nên kỹ năng dùng được với bất kỳ công cụ nào sau này.</span></p>
+            <div class="pyr">
+              <div class="pyl l1" style="--w:100%" data-tip-en="Most of the training time goes here" data-tip-vi="Phần lớn thời lượng đào tạo dành cho tầng này"><b><span class="en">Thinking</span><span class="vi">Tư duy</span></b><span><span class="en">Frame the problem, judge and verify output</span><span class="vi">Đặt vấn đề, đánh giá và kiểm chứng kết quả</span></span></div>
+              <div class="pyl l2" style="--w:74%"><b><span class="en">Workflow</span><span class="vi">Quy trình</span></b><span><span class="en">Fit AI into real daily tasks</span><span class="vi">Đưa AI vào công việc thật hằng ngày</span></span></div>
+              <div class="pyl l3" style="--w:48%"><b><span class="en">Tools</span><span class="vi">Công cụ</span></b><span><span class="en">Interchangeable</span><span class="vi">Có thể thay thế</span></span></div>
+            </div>
           </div>
           <div class="grp">
             <div class="gh"><span class="gn">B</span><div><h4><span class="en">AI process optimization</span><span class="vi">Tối ưu hóa quy trình ứng dụng AI</span></h4><p class="gs"><span class="en">Five steps, from raw data to a team that runs it alone</span><span class="vi">Năm bước, từ dữ liệu thô đến đội ngũ tự vận hành</span></p></div></div>
             <div class="stepper"><button class="sbtn on" data-s="0"><b>01</b><span class="en">Data cleaning</span><span class="vi">Làm sạch dữ liệu</span></button><button class="sbtn" data-s="1"><b>02</b><span class="en">Process design</span><span class="vi">Xây dựng và tối ưu quy trình</span></button><button class="sbtn" data-s="2"><b>03</b><span class="en">AI application</span><span class="vi">Ứng dụng AI</span></button><button class="sbtn" data-s="3"><b>04</b><span class="en">AI tools</span><span class="vi">Xây dựng công cụ từ AI</span></button><button class="sbtn" data-s="4"><b>05</b><span class="en">Training and handover</span><span class="vi">Đào tạo và chuyển giao</span></button></div>
             <div class="sdets"><p class="sdet on" data-s="0"><span class="en">Audit and clean the data your team relies on, so AI works from accurate and structured inputs.</span><span class="vi">Rà soát và làm sạch dữ liệu đội ngũ đang dùng, để AI làm việc trên đầu vào chính xác và có cấu trúc.</span></p><p class="sdet" data-s="1"><span class="en">Map the current workflow, remove waste and redesign it before automating anything.</span><span class="vi">Vẽ lại quy trình hiện tại, bỏ bước thừa và thiết kế lại trước khi tự động hóa bất cứ điều gì.</span></p><p class="sdet" data-s="2"><span class="en">Bring AI into the steps where it adds real value, with clear checks for accuracy.</span><span class="vi">Đưa AI vào đúng những bước tạo ra giá trị thật, kèm cơ chế kiểm tra độ chính xác.</span></p><p class="sdet" data-s="3"><span class="en">Build practical tools on top: assistants, automations and templates your team runs every day.</span><span class="vi">Xây dựng công cụ thực dụng: trợ lý, luồng tự động và biểu mẫu đội ngũ dùng hằng ngày.</span></p><p class="sdet" data-s="4"><span class="en">Train your people and hand over documentation, so the system keeps running without us.</span><span class="vi">Đào tạo đội ngũ và bàn giao tài liệu, để hệ thống tiếp tục vận hành mà không cần chúng tôi.</span></p></div>
+            <div class="sprog"><i></i></div>
+            <div class="curve">
+              <div class="vh"><span class="en">What changes over an engagement</span><span class="vi">Điều thay đổi qua mỗi dự án</span> <em><span class="en">illustrative</span><span class="vi">minh họa</span></em></div>
+              <svg viewBox="0 0 400 150" class="cv" aria-hidden="true">
+                <line x1="30" y1="125" x2="390" y2="125" class="ax"/>
+                <path d="M30 112 C 110 108, 170 70, 230 50 S 340 22, 390 18" class="ln up"/>
+                <path d="M30 22 C 110 26, 170 60, 230 82 S 340 108, 390 112" class="ln dn"/>
+                <circle cx="390" cy="18" r="5" class="dt up"/><circle cx="390" cy="112" r="5" class="dt dn"/>
+                <text x="30" y="142" class="tk"><tspan class="en">Start</tspan><tspan class="vi">Bắt đầu</tspan></text><text x="390" y="142" text-anchor="end" class="tk"><tspan class="en">Handover</tspan><tspan class="vi">Bàn giao</tspan></text>
+              </svg>
+              <div class="leg"><span class="lu"><span class="en">Team AI capability</span><span class="vi">Năng lực AI của đội ngũ</span></span><span class="ld"><span class="en">Dependence on outside help</span><span class="vi">Mức phụ thuộc bên ngoài</span></span></div>
+            </div>
           </div>
           <div class="chips"><span class="chip">Claude</span><span class="chip">Gemini</span><span class="chip">n8n</span><span class="chip">RAG</span><span class="chip">Zalo OA</span></div>
         </div>
@@ -384,14 +519,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <h2><span class="en">Business problem first. Technology second.</span><span class="vi">Bài toán kinh doanh trước. Công nghệ theo sau.</span></h2>
       <p><span class="en">A simple four step rhythm that keeps every project tied to a measurable outcome.</span><span class="vi">Nhịp làm việc bốn bước giúp mọi dự án luôn gắn với kết quả đo lường được.</span></p>
     </div>
-    <div class="steps">
+    <div class="steps" id="steps"><div class="strack"><i></i></div>
       <div class="step rv"><div class="k">01</div><h4><span class="en">Diagnose</span><span class="vi">Chẩn đoán</span></h4><p><span class="en">Understand the workflow, the people and the real bottleneck.</span><span class="vi">Hiểu quy trình, con người và điểm nghẽn thật sự.</span></p></div>
       <div class="step rv"><div class="k">02</div><h4><span class="en">Design</span><span class="vi">Thiết kế</span></h4><p><span class="en">Shape the simplest solution that solves it, with clear success metrics.</span><span class="vi">Thiết kế giải pháp đơn giản nhất giải quyết vấn đề, kèm chỉ số thành công rõ ràng.</span></p></div>
       <div class="step rv"><div class="k">03</div><h4><span class="en">Build</span><span class="vi">Xây dựng</span></h4><p><span class="en">Produce fast with AI assisted pipelines and strict human QA.</span><span class="vi">Sản xuất nhanh với quy trình có AI hỗ trợ và kiểm định chặt chẽ bởi con người.</span></p></div>
       <div class="step rv"><div class="k">04</div><h4><span class="en">Scale</span><span class="vi">Nhân rộng</span></h4><p><span class="en">Hand over, train your team and keep improving with real data.</span><span class="vi">Bàn giao, đào tạo đội ngũ và tiếp tục cải tiến dựa trên dữ liệu thật.</span></p></div>
     </div>
     <div class="quote rv">
-      <div class="big">90 → 8 min</div>
+      <div class="qchart" id="qchart">
+        <div class="qr" data-tip-en="Before: 90 minutes per report" data-tip-vi="Trước: 90 phút mỗi báo cáo"><span class="ql"><span class="en">Before</span><span class="vi">Trước</span></span><div class="qt"><div class="qf old" style="--w:100%"></div></div><b class="qv" data-n="90">0</b><span class="qu">min</span></div>
+        <div class="qr" data-tip-en="After: 8 minutes per report" data-tip-vi="Sau: 8 phút mỗi báo cáo"><span class="ql"><span class="en">After</span><span class="vi">Sau</span></span><div class="qt"><div class="qf new" style="--w:8.9%"></div></div><b class="qv" data-n="8">0</b><span class="qu">min</span></div>
+        <div class="qsave"><span class="en">11x faster</span><span class="vi">nhanh hơn 11 lần</span></div>
+      </div>
       <p><span class="en"><b>Reporting workflow redesign for a leading construction corporation.</b> A monthly reporting process that took 90 minutes now takes 8, freeing managers to focus on decisions instead of spreadsheets.</span><span class="vi"><b>Tái thiết kế quy trình báo cáo cho một tổng công ty xây dựng hàng đầu.</b> Quy trình báo cáo từng mất 90 phút nay chỉ còn 8 phút, giúp cấp quản lý tập trung vào ra quyết định thay vì bảng tính.</span></p>
     </div>
   </div>
@@ -608,6 +747,27 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     document.querySelectorAll('.sbtn').forEach(function(x){x.classList.toggle('on',x===bt);});
     document.querySelectorAll('.sdet').forEach(function(x){x.classList.toggle('on',x.getAttribute('data-s')===k);});
   });});
+
+  // === visuals: play on view, tooltips, stepper autoplay, counters
+  var pio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('play');
+      e.target.querySelectorAll('.qv[data-n]').forEach(function(el){var end=+el.getAttribute('data-n'),t0=null;function st(t){if(!t0)t0=t;var p=Math.min((t-t0)/1600,1);el.textContent=Math.round(end*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(st);}requestAnimationFrame(st);});
+      pio.unobserve(e.target);}});},{threshold:.25});
+  document.querySelectorAll('.vizrow,.grp,.curve,#steps,#qchart').forEach(function(el){pio.observe(el);});
+  document.querySelectorAll('.tab').forEach(function(t){t.addEventListener('click',function(){setTimeout(function(){document.querySelectorAll('.panel.on .vizrow,.panel.on .grp,.panel.on .curve').forEach(function(el){el.classList.add('play');});},60);});});
+  var tipEl=document.createElement('div');tipEl.id='tip';document.body.appendChild(tipEl);
+  document.querySelectorAll('[data-tip-en]').forEach(function(el){
+    el.addEventListener('mousemove',function(e){tipEl.textContent=el.getAttribute(document.body.classList.contains('vi')?'data-tip-vi':'data-tip-en');tipEl.style.left=Math.min(e.clientX+14,window.innerWidth-260)+'px';tipEl.style.top=(e.clientY+14)+'px';tipEl.classList.add('on');});
+    el.addEventListener('mouseleave',function(){tipEl.classList.remove('on');});
+  });
+  (function(){var btns=[].slice.call(document.querySelectorAll('.sbtn')),prog=document.querySelector('.sprog'),idx=0,timer=null,paused=false,box=document.querySelector('.stepper');
+    if(!btns.length)return;
+    function show(k){idx=k;btns[k].click();prog.classList.remove('run');void prog.offsetWidth;if(!paused)prog.classList.add('run');}
+    function loop(){clearInterval(timer);timer=setInterval(function(){if(!paused)show((idx+1)%btns.length);},4000);}
+    btns.forEach(function(b,i){b.addEventListener('click',function(e){if(e.isTrusted){idx=i;paused=true;prog.classList.remove('run');}});});
+    box.parentNode.addEventListener('mouseenter',function(){paused=true;prog.classList.remove('run');});
+    box.parentNode.addEventListener('mouseleave',function(){paused=false;show(idx);loop();});
+    var so=new IntersectionObserver(function(es){if(es[0].isIntersecting){show(0);loop();so.disconnect();}},{threshold:.3});so.observe(box);
+  })();
   document.getElementById('yr').textContent=new Date().getFullYear();
   // hero network canvas
   var cv=document.getElementById('net'),cx=cv.getContext('2d'),pts=[],W,H,mx=-999,my=-999;
