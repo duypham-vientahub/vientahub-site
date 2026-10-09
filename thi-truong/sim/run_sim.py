@@ -92,20 +92,21 @@ def fetch_yahoo(ticker, years):
     return s.dropna().astype(float)
 
 
-def load_prices(cfg, synthetic=False):
+def load_prices(cfg, synthetic=False, assets=None):
+    assets = cfg["assets"] if assets is None else assets
     prices, sources, errors = {}, {}, {}
     years = cfg["history_years"]
     if synthetic:
         rng = np.random.default_rng(1)
         idx = pd.bdate_range(end=pd.Timestamp.today().normalize(), periods=int(years * 252))
         common = rng.standard_t(5, size=len(idx)) * 0.006
-        for i, a in enumerate(cfg["assets"]):
+        for i, a in enumerate(assets):
             vol = 0.008 + 0.002 * i
             r = 0.5 * common + rng.standard_t(4, size=len(idx)) * vol * 0.7
             prices[a["id"]] = pd.Series(100 * np.exp(np.cumsum(r)), index=idx)
             sources[a["id"]] = "synthetic"
         return prices, sources, errors
-    for a in cfg["assets"]:
+    for a in assets:
         tries = []
         if a.get("vndirect"):
             tries.append(("VN", lambda a=a: fetch_vn_index(a["vndirect"], years)))
@@ -245,6 +246,60 @@ def backtest(series_pct, cfg, rng):
 
 
 # ---------------------------------------------------------------- chạy
+def market_stats(s, kind="price"):
+    """Chỉ báo tự tính từ giá đóng cửa thật."""
+    s = s.dropna()
+    s = s[~s.index.duplicated(keep="last")]
+    if kind == "yield" and s.iloc[-1] > 20:
+        s = s / 10.0
+    last = float(s.iloc[-1])
+    def back(n):
+        return float(s.iloc[-1 - n]) if len(s) > n else None
+    def chg(n):
+        b = back(n)
+        if b is None or b == 0:
+            return None
+        return round(last - b, 4) if kind == "yield" else round(last / b - 1, 4)
+    prev_year = s[s.index.year < s.index[-1].year]
+    ytd = None
+    if len(prev_year):
+        b = float(prev_year.iloc[-1])
+        ytd = round(last - b, 4) if kind == "yield" else round(last / b - 1, 4)
+    w = s.tail(252)
+    hi, lo = float(w.max()), float(w.min())
+    ma50 = float(s.tail(50).mean()); ma200 = float(s.tail(200).mean())
+    d = s.diff().tail(14)
+    up, dn = d.clip(lower=0).mean(), (-d.clip(upper=0)).mean()
+    rsi = 100.0 if dn == 0 else 100 - 100 / (1 + up / dn)
+    lr = np.log(s).diff().dropna()
+    vol20 = float(lr.tail(20).std() * math.sqrt(252)) if kind != "yield" else None
+    if last > ma50 > ma200:
+        trend = "up"
+    elif last < ma50 < ma200:
+        trend = "down"
+    else:
+        trend = "side"
+    spark = s.tail(60).values
+    return {
+        "kind": kind, "last": round(last, 4), "lastDate": s.index[-1].strftime("%Y-%m-%d"),
+        "d1": chg(1), "w1": chg(5), "m1": chg(21), "m3": chg(63), "ytd": ytd,
+        "hi52": round(hi, 4), "lo52": round(lo, 4),
+        "fromHi": None if kind == "yield" else round(last / hi - 1, 4),
+        "ma50": round(ma50, 4), "ma200": round(ma200, 4),
+        "aboveMa200": bool(last > ma200), "rsi14": round(float(rsi), 1),
+        "vol20": None if vol20 is None else round(vol20, 4), "trend": trend,
+        "spark": [round(float(x), 4) for x in spark],
+    }
+
+
+def scenario_fan(logr_j, mask, last, steps):
+    cum = np.cumsum(logr_j[mask], axis=1)
+    paths = np.exp(np.concatenate([np.zeros((cum.shape[0], 1)), cum], axis=1))
+    q = np.percentile(paths[:, steps], [10, 50, 90], axis=0) * last
+    return {"p10": [round(float(v), 4) for v in q[0]], "p50": [round(float(v), 4) for v in q[1]],
+            "p90": [round(float(v), 4) for v in q[2]]}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--synthetic", action="store_true")
@@ -294,7 +349,9 @@ def main():
                 t = np.expm1(mixed[j][m].sum(axis=1))
                 a["byScenario"][s["id"]] = {"p50": round(float(np.median(t)), 4),
                                             "p5": round(float(np.percentile(t, 5)), 4),
-                                            "p95": round(float(np.percentile(t, 95)), 4)}
+                                            "p95": round(float(np.percentile(t, 95)), 4),
+                                            "pUp": round(float((t > 0).mean()), 4),
+                                            "fan": scenario_fan(mixed[j], m, last, a["scen"]["fan"]["steps"])}
         assets_out.append(a)
 
     # tương quan 60 phiên gần nhất và 5 năm
@@ -333,6 +390,25 @@ def main():
         "dataErrors": errors,
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf8")
+
+    # ---- bảng thị trường tự tính từ dữ liệu thật
+    extra = cfg.get("stats_only", [])
+    p2, src2, err2 = load_prices(cfg, args.synthetic, extra) if extra else ({}, {}, {})
+    allp, allsrc = {**prices, **p2}, {**sources, **src2}
+    rows = []
+    for a in cfg["assets"] + extra:
+        if a["id"] not in allp:
+            continue
+        try:
+            st = market_stats(allp[a["id"]], a.get("kind", "price"))
+        except Exception as e:
+            err2.setdefault(a["id"], []).append(f"stats: {e}")
+            continue
+        rows.append({"id": a["id"], "name": a["name"], "group": a["group"], "source": allsrc[a["id"]], **st})
+    (HERE / "market.json").write_text(json.dumps({
+        "generated": out["generated"], "synthetic": bool(args.synthetic),
+        "rows": rows, "dataErrors": {**errors, **err2}}, ensure_ascii=False, separators=(",", ":")), encoding="utf8")
+    print(f"Đã ghi market.json · {len(rows)} dòng")
     print(f"Đã ghi {OUT} · {len(ids)} tài sản · {N} đường · H={H}")
     if bt:
         print("Backtest dải 90%:", bt["_total"])
