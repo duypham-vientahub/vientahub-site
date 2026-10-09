@@ -34,3 +34,10 @@ Trang `/thi-truong/` chỉ đọc `data.json`. Mỗi lần cập nhật chỉ s�
 - `sim/run_sim.py` chạy bằng GitHub Actions (`.github/workflows/market-sim.yml`) lúc 06:40 mỗi ngày và mỗi khi `sim/config.json` đổi trên `main`; kết quả ghi vào `sim/sim.json`.
 - Mô hình: GJR-GARCH(1,1) phần dư skew-t cho từng tài sản, liên kết bằng Filtered Historical Simulation, cộng lớp kịch bản vĩ mô; kiểm định ngoài mẫu độ phủ dải 5–95%.
 - Phân tích hằng ngày chỉ sửa phần `scenarios` trong `sim/config.json` (xác suất, cú sốc, nguồn giả định) và trường `simNote` trong `data.json` (2–3 câu đọc kết quả). Không sửa `sim.json` bằng tay.
+
+## Bảng thị trường và kịch bản theo thị trường
+
+- `sim/market.json` (Actions tạo): giá thật và chỉ báo tự tính cho ~30 tài sản (1 phiên, 1 tuần, 1 tháng, 3 tháng, YTD, cách đỉnh 52 tuần, MA50/MA200, xu hướng, RSI14, biến động 20 phiên, 60 phiên gần nhất). Danh sách tài sản: `assets` + `stats_only` trong `sim/config.json`.
+- `data.json > marketNotes`: nhận định ngắn theo `id` tài sản cho cột "Nhận định".
+- `data.json > scenarioGuide`: `intro`, `beginnerGeneral[]`, `disclaimer`, `markets[{id, summary, scen:{base|deal|shock:{what, signs}}, beginner[]}]`. Id kịch bản phải trùng `sim/config.json > scenarios.list[].id`. Biểu đồ và con số mỗi kịch bản lấy tự động từ `sim.json > assets[].byScenario`.
+- Gợi ý cho người mới là nguyên tắc chung, viết dễ hiểu, không nêu mã cụ thể để mua, không phải tư vấn cá nhân.

@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "market-sim-bot"
           git config user.email "market-sim-bot@users.noreply.github.com"
-          git add thi-truong/sim/sim.json
+          git add thi-truong/sim/sim.json thi-truong/sim/market.json
           if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
           git commit -m "Market Pulse simulation $(TZ=Asia/Ho_Chi_Minh date +%d/%m/%Y)"
           git pull --rebase origin main

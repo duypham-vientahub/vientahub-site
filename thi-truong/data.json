@@ -122,173 +122,6 @@
   "Hàng hoá",
   "Crypto"
  ],
- "markets": [
-  {
-   "name": "S&P 500",
-   "sub": "Mỹ",
-   "g": "Mỹ",
-   "last": "7.765",
-   "m1": 1.2,
-   "ytd": 13.4,
-   "sig": "Cách đỉnh 0,7%. Lực đỡ hẹp từ mega-cap.",
-   "lv": "up"
-  },
-  {
-   "name": "Nasdaq",
-   "sub": "Mỹ",
-   "g": "Mỹ",
-   "last": "27.193",
-   "m1": 2.9,
-   "ytd": 17,
-   "sig": "Dẫn dắt nhờ AI; rung lắc 8/10.",
-   "lv": "up"
-  },
-  {
-   "name": "Russell 2000",
-   "sub": "Mỹ, vốn hoá nhỏ",
-   "g": "Mỹ",
-   "last": "2.792",
-   "m1": -5.7,
-   "ytd": 12.5,
-   "sig": "Nhạy lãi suất, bị bán khi 10Y vượt 5%.",
-   "lv": "down"
-  },
-  {
-   "name": "STOXX 600",
-   "sub": "Châu Âu",
-   "g": "Châu Âu",
-   "last": "630",
-   "m1": -1.6,
-   "ytd": null,
-   "sig": "Ngân hàng dẫn đầu phiên bán 7/10.",
-   "lv": "warn"
-  },
-  {
-   "name": "CAC 40",
-   "sub": "Pháp",
-   "g": "Châu Âu",
-   "last": "~7.758",
-   "m1": -4.9,
-   "ytd": null,
-   "sig": "Yếu nhất khu vực; −3,5% trong 12 tháng.",
-   "lv": "down"
-  },
-  {
-   "name": "DAX",
-   "sub": "Đức",
-   "g": "Châu Âu",
-   "last": "~25.009",
-   "m1": -1.4,
-   "ytd": null,
-   "sig": "Gói chi tiêu công đỡ nội địa.",
-   "lv": "warn"
-  },
-  {
-   "name": "Nikkei 225",
-   "sub": "Nhật",
-   "g": "Châu Á",
-   "last": "69.042",
-   "m1": 4.7,
-   "ytd": 37.2,
-   "sig": "Khối ngoại mua mạnh; BOJ tăng lãi.",
-   "lv": "up"
-  },
-  {
-   "name": "KOSPI",
-   "sub": "Hàn Quốc",
-   "g": "Châu Á",
-   "last": "6.626",
-   "m1": -6,
-   "ytd": 57.2,
-   "sig": "Chốt lời chip sau năm tăng nóng.",
-   "lv": "down"
-  },
-  {
-   "name": "Hang Seng",
-   "sub": "Hồng Kông",
-   "g": "Châu Á",
-   "last": "23.786",
-   "m1": -5.9,
-   "ytd": -7.2,
-   "est": true,
-   "sig": "Rút vốn; PMI HK 49,2.",
-   "lv": "down"
-  },
-  {
-   "name": "Shanghai Comp.",
-   "sub": "Trung Quốc",
-   "g": "Châu Á",
-   "last": "3.812",
-   "m1": -3.5,
-   "ytd": -3.8,
-   "est": true,
-   "sig": "Đáy hơn 2 tháng.",
-   "lv": "down"
-  },
-  {
-   "name": "VN-Index",
-   "sub": "Việt Nam",
-   "g": "Việt Nam",
-   "last": "1.738,97",
-   "m1": -5,
-   "ytd": -2.6,
-   "est": true,
-   "sig": "12 phiên khối ngoại bán ròng.",
-   "lv": "down"
-  },
-  {
-   "name": "Vàng",
-   "sub": "USD/oz",
-   "g": "Hàng hoá",
-   "last": "~4.140",
-   "m1": -6.6,
-   "ytd": -5,
-   "est": true,
-   "sig": "ETF vào kỷ lục, giá bị lợi suất đè.",
-   "lv": "warn"
-  },
-  {
-   "name": "Dầu Brent",
-   "sub": "USD/thùng",
-   "g": "Hàng hoá",
-   "last": "~104",
-   "m1": -3.7,
-   "ytd": 62,
-   "est": true,
-   "sig": "Trên 100 USD từ đầu tháng 10.",
-   "lv": "up"
-  },
-  {
-   "name": "Dầu WTI",
-   "sub": "USD/thùng",
-   "g": "Hàng hoá",
-   "last": "~91",
-   "m1": -11.4,
-   "ytd": null,
-   "sig": "Bão Isaias làm gián đoạn Vịnh Mexico.",
-   "lv": "warn"
-  },
-  {
-   "name": "Bitcoin",
-   "sub": "USD",
-   "g": "Crypto",
-   "last": "~82.300",
-   "m1": 5.3,
-   "ytd": -5.1,
-   "sig": "ETF rút ròng; cách đỉnh 35%.",
-   "lv": "warn"
-  },
-  {
-   "name": "Ethereum",
-   "sub": "USD",
-   "g": "Crypto",
-   "last": "~2.529",
-   "m1": 3.3,
-   "ytd": null,
-   "sig": "Cách đỉnh 49%.",
-   "lv": "down"
-  }
- ],
  "feature": {
   "eyebrow": "Kiểm chứng",
   "title": "“Phúc lợi châu Âu là ngòi nổ, Pháp là cục nhọt, vòng xoáy không đáy”",
@@ -416,39 +249,33 @@
   }
  ],
  "vnNote": "Nâng hạng FTSE có hiệu lực 21/9 nhưng diễn ra kiểu “bán khi tin ra”: tuần 21–25/9 khối ngoại bán ròng 4.341 tỷ đ. Tiền ngoại đang rời ngân hàng và nhóm Vingroup; nhóm dầu khí (GAS, PLX, PVT) dẫn dắt nhờ giá dầu. Lạm phát 5,08% và lãi suất huy động đi lên làm biên an toàn của tài sản rủi ro mỏng đi.",
- "scenTitle": "Ba nhánh, một biến quyết định: eo Hormuz",
+ "scenTitle": "Kịch bản 3 tháng theo từng thị trường",
  "scen": [
   {
    "t": "Cơ sở: thắt chặt kéo dài",
    "lv": "warn",
-   "p": "Hormuz vẫn hạn chế, dầu 95–110 USD.",
+   "p": "60% · Hormuz vẫn hạn chế, dầu 95–110 USD, Fed có thể tăng lãi tháng 12.",
    "b": [
-    "Fed giữ 28/10, có thể tăng tháng 12.",
     "Đô la, tiền mặt, năng lượng tiếp tục hút tiền.",
-    "Mới nổi (VN, Hàn, HK) tiếp tục bị rút; nhóm dầu khí VN tương đối mạnh.",
-    "Pháp lắc theo các phiên bỏ phiếu ngân sách."
+    "Thị trường mới nổi, kể cả Việt Nam, đi ngang hoặc yếu."
    ]
   },
   {
    "t": "Tích cực: thoả thuận Hormuz",
    "lv": "up",
-   "p": "Mỹ–Iran đạt thoả thuận, dầu về dưới 85 USD.",
+   "p": "25% · Mỹ–Iran đạt thoả thuận, dầu về dưới 85 USD.",
    "b": [
-    "Lạm phát hạ, kỳ vọng tăng lãi rút lại.",
-    "Lợi suất dài giảm, đô la suy yếu.",
-    "Dòng tiền quay lại mới nổi, crypto, vàng.",
-    "Chênh lệch OAT–Bund thu hẹp."
+    "Lạm phát hạ, lợi suất giảm, đô la yếu đi.",
+    "Dòng tiền quay lại cổ phiếu mới nổi và crypto."
    ]
   },
   {
-   "t": "Tiêu cực: ba cú cùng lúc",
+   "t": "Tiêu cực: leo thang + Fed tăng lãi",
    "lv": "down",
-   "p": "Dầu vượt 120 USD + Fed tăng + chính phủ Pháp đổ.",
+   "p": "15% · Dầu vượt 120 USD, Fed tăng lãi, Pháp bất ổn chính trị.",
    "b": [
-    "10Y Mỹ vượt 5,5%; định giá AI bị xét lại.",
     "Bán tháo diện rộng, kể cả Mỹ và Nhật.",
-    "Chênh lệch Pháp vượt 160bp, thử thách TPI của ECB.",
-    "VN có thể kiểm định vùng hỗ trợ 1.715–1.750."
+    "Vàng và đô la là nơi trú ẩn."
    ]
   }
  ],
@@ -582,6 +409,82 @@
   [
    "Tạp chí Kinh tế Tài chính — CPI 9 tháng",
    "https://tapchikinhtetaichinh.vn/cpi-9-thang-tang-4-52-lam-phat-co-ban-duy-tri-muc-thap-hon-168572.html"
+  ],
+  [
+   "EIA — Dự báo năng lượng ngắn hạn (qua Rigzone), 8/10",
+   "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/"
+  ],
+  [
+   "Al-Monitor — đàm phán Mỹ–Iran, 8/10",
+   "https://www.al-monitor.com/originals/2026/10/trump-says-no-iran-strikes-midterms-amid-productive-talks"
+  ],
+  [
+   "EnergyNow (Reuters) — dự báo dầu của các ngân hàng",
+   "https://energynow.com/2026/09/banks-hike-oil-price-forecasts-on-prolonged-gulf-disruptions/"
+  ],
+  [
+   "FXStreet — khảo sát Reuters về ECB, 8/10",
+   "https://www.fxstreet.com/news/ecb-expected-to-pause-in-october-before-hiking-rates-in-december-reuters-poll-202610081239"
+  ],
+  [
+   "FXStreet — BOJ và đồng yên, 6/10",
+   "https://www.fxstreet.com/analysis/the-market-is-pricing-a-boj-pause-heres-why-uedas-keep-raising-rates-could-force-a-sharp-yen-repricing-202610061823"
+  ],
+  [
+   "Investing.com — mục tiêu S&P 500 của các ngân hàng",
+   "https://www.investing.com/news/economy-news/factboxmajor-brokerages-forecasts-for-sp-500-index-in-2026-4933746"
+  ],
+  [
+   "Euronews — khủng hoảng nợ Pháp, 6/10",
+   "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+  ],
+  [
+   "MUFG — triển vọng tỷ giá tháng 10/2026",
+   "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-october-2026/"
+  ],
+  [
+   "The Block — dự báo Bitcoin quý 4, 8/10",
+   "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052"
+  ],
+  [
+   "investingLive — Goldman dự báo vàng",
+   "https://investinglive.com/commodities/icymi-goldman-trims-end-2026-gold-forecast-to-4-650-but-holds-5-400-target-for-2027/"
+  ],
+  [
+   "Investing VN — VNDirect: kịch bản VN-Index tháng 10",
+   "https://vn.investing.com/news/stock-market-news/chuyen-gia-vnindex-co-the-cham-1860-diem-3-co-phieu-dang-chu-y-trong-thang-10-2729902"
+  ],
+  [
+   "Báo Mới — KBSV hạ mục tiêu VN-Index về 1.800",
+   "https://baomoi.com/kbsv-ha-muc-tieu-vn-index-cuoi-nam-xuong-1-800-diem-dau-la-diem-tua-cho-dong-tien-c56223779.epi"
+  ],
+  [
+   "VnEconomy — các CTCK nhận định VN-Index",
+   "https://vneconomy.vn/vn-index-thung-nguong-1750-diem-cac-cong-ty-chung-khoan-noi-gi.htm"
+  ],
+  [
+   "Mekong ASEAN — MBS, Mirae: kịch bản tháng 10",
+   "https://mekongasean.vn/kich-ban-nao-cho-thi-truong-chung-khoan-thang-10-60306-60306.html"
+  ],
+  [
+   "Vietstock — 4 đợt vốn FTSE và chuẩn MSCI",
+   "https://vietstock.vn/2026/10/4-dot-von-ftse-va-quang-duong-con-lai-toi-chuan-msci-143-1498041.htm"
+  ],
+  [
+   "Thị trường Tài chính Tiền tệ — lãi suất đầu tháng 10",
+   "https://thitruongtaichinhtiente.vn/lai-suat-dau-thang-10-2026-tiet-kiem-giu-nhip-on-dinh-chung-chi-tien-gui-hut-khach-85944.html"
+  ],
+  [
+   "VnExpress — giá xăng dầu kỳ 8/10",
+   "https://vnexpress.net/gia-xang-dau-moi-nhat-hom-nay-8-10-5129901.html"
+  ],
+  [
+   "CafeF — giá vàng SJC, vàng nhẫn 8/10",
+   "https://cafef.vn/gia-vang-mieng-vang-nhan-tron-ngay-8-10-18826100807163251.chn"
+  ],
+  [
+   "Dữ liệu giá ngày: Yahoo Finance, VNDirect (tự tính chỉ báo và mô phỏng)",
+   "https://finance.yahoo.com/"
   ]
  ],
  "disclaimer": "Tài liệu chỉ nhằm mục đích thông tin và phân tích, không phải khuyến nghị đầu tư. Số liệu tổng hợp từ các nguồn công khai tại thời điểm ghi; một số chỉ số châu Âu và châu Á theo giá CFD của Trading Economics. Số có dấu ~ là ước tính. Kịch bản là ý kiến phân tích.",
@@ -640,5 +543,336 @@
    }
   ]
  },
- "simNote": "Kết quả 09/10 (20.000 đường, có kịch bản vĩ mô): VN-Index có 54% khả năng cao hơn hiện tại sau 3 tháng, trung vị +1%, nhưng 15% khả năng mất hơn 10% và dải 90% trải từ −18% đến +15%. Dầu Brent có biên rộng nhất (−37% đến +43%) và gần như phụ thuộc hoàn toàn vào eo Hormuz: nhánh thoả thuận kéo trung vị về −26%, nhánh leo thang đẩy lên +24%. Biến động hiện tại của cổ phiếu Mỹ (10%/năm) thấp hơn mức dài hạn (16%), tức thị trường đang định giá ít rủi ro hơn bức tranh vĩ mô; phần đuôi xấu chủ yếu đến từ kịch bản leo thang."
+ "simNote": "Kết quả 09/10 (20.000 đường, có kịch bản vĩ mô): VN-Index có 54% khả năng cao hơn hiện tại sau 3 tháng, trung vị +1%, nhưng 15% khả năng mất hơn 10% và dải 90% trải từ −18% đến +15%. Dầu Brent có biên rộng nhất (−37% đến +43%) và gần như phụ thuộc hoàn toàn vào eo Hormuz: nhánh thoả thuận kéo trung vị về −26%, nhánh leo thang đẩy lên +24%. Biến động hiện tại của cổ phiếu Mỹ (10%/năm) thấp hơn mức dài hạn (16%), tức thị trường đang định giá ít rủi ro hơn bức tranh vĩ mô; phần đuôi xấu chủ yếu đến từ kịch bản leo thang.",
+ "marketNotes": {
+  "spx": {
+   "sig": "Cách đỉnh 0,7%. Lực đỡ hẹp từ mega-cap.",
+   "lv": "up"
+  },
+  "ndx": {
+   "sig": "Dẫn dắt nhờ AI; rung lắc 8/10.",
+   "lv": "up"
+  },
+  "rut": {
+   "sig": "Nhạy lãi suất, bị bán khi 10Y vượt 5%.",
+   "lv": "down"
+  },
+  "stoxx": {
+   "sig": "Ngân hàng dẫn đầu phiên bán 7/10.",
+   "lv": "warn"
+  },
+  "cac": {
+   "sig": "Yếu nhất khu vực; −3,5% trong 12 tháng.",
+   "lv": "down"
+  },
+  "dax": {
+   "sig": "Gói chi tiêu công đỡ nội địa.",
+   "lv": "warn"
+  },
+  "n225": {
+   "sig": "Khối ngoại mua mạnh; BOJ tăng lãi.",
+   "lv": "up"
+  },
+  "kospi": {
+   "sig": "Chốt lời chip sau năm tăng nóng.",
+   "lv": "down"
+  },
+  "hsi": {
+   "sig": "Rút vốn; PMI HK 49,2.",
+   "lv": "down"
+  },
+  "sse": {
+   "sig": "Đáy hơn 2 tháng.",
+   "lv": "down"
+  },
+  "vni": {
+   "sig": "12 phiên khối ngoại bán ròng.",
+   "lv": "down"
+  },
+  "gold": {
+   "sig": "ETF vào kỷ lục, giá bị lợi suất đè.",
+   "lv": "warn"
+  },
+  "brent": {
+   "sig": "Trên 100 USD từ đầu tháng 10.",
+   "lv": "up"
+  },
+  "wti": {
+   "sig": "Bão Isaias làm gián đoạn Vịnh Mexico.",
+   "lv": "warn"
+  },
+  "btc": {
+   "sig": "ETF rút ròng; cách đỉnh 35%.",
+   "lv": "warn"
+  },
+  "eth": {
+   "sig": "Cách đỉnh 49%.",
+   "lv": "down"
+  },
+  "dji": {
+   "sig": "Kém Nasdaq; nhóm tài chính giảm 6,3% trong tháng 9.",
+   "lv": "warn"
+  },
+  "vix": {
+   "sig": "Mức thấp: thị trường Mỹ chưa phòng thủ dù rủi ro vĩ mô cao.",
+   "lv": "warn"
+  },
+  "us10y": {
+   "sig": "Cao nhất từ 2002 (đỉnh 5,36% ngày 7/10); kéo định giá cổ phiếu và tài sản mới nổi.",
+   "lv": "down"
+  },
+  "us30y": {
+   "sig": "Phiên đấu thầu 30 năm tốt giúp lợi suất hạ nhiệt ngắn hạn.",
+   "lv": "warn"
+  },
+  "vn30": {
+   "sig": "Nhóm vốn hoá lớn bị khối ngoại bán; Vingroup và ngân hàng chịu áp lực.",
+   "lv": "down"
+  },
+  "hnx": {
+   "sig": "Thanh khoản thấp, theo sát xu hướng HOSE.",
+   "lv": "warn"
+  },
+  "usdvnd": {
+   "sig": "Tỷ giá trung tâm 25.629 (9/10); MBS dự báo 26.800–27.000 cuối năm.",
+   "lv": "warn"
+  },
+  "usdjpy": {
+   "sig": "Yên yếu quanh 158 dù BOJ tăng lãi; rủi ro can thiệp.",
+   "lv": "warn"
+  },
+  "eurusd": {
+   "sig": "Đáy 16 tháng 1,116; Intesa thấy khả năng về 1,10 nếu Pháp căng thẳng thêm.",
+   "lv": "down"
+  },
+  "silver": {
+   "sig": "Theo vàng, nhạy hơn với chu kỳ công nghiệp.",
+   "lv": "warn"
+  },
+  "copper": {
+   "sig": "Chỉ báo sức khoẻ công nghiệp toàn cầu.",
+   "lv": "warn"
+  },
+  "kosdaq": {
+   "sig": "Tăng khoảng 10% một tháng, ngược chiều KOSPI.",
+   "lv": "up"
+  },
+  "csi300": {
+   "sig": "Đáy hơn 2 tháng; chờ gói chính sách bổ sung.",
+   "lv": "down"
+  }
+ },
+ "scenarioGuide": {
+  "intro": "Chọn một thị trường để xem điều gì có thể xảy ra trong 3 tháng tới theo từng kịch bản. Biểu đồ lấy từ mô phỏng 20.000 đường đi trên dữ liệu giá thật; đường đậm là kết quả ở giữa, vùng mờ là khoảng 80% khả năng.",
+  "beginnerGeneral": [
+   "Giữ quỹ dự phòng 6 tháng chi tiêu bằng tiền gửi trước khi đầu tư bất kỳ đồng nào vào cổ phiếu, vàng hay crypto.",
+   "Không vay ký quỹ (margin) khi thị trường đang biến động mạnh: lãi vay 13–14%/năm và nguy cơ bị bán giải chấp khi giá giảm sâu.",
+   "Chia nhỏ tiền và mua dần theo tháng thay vì dồn một lần; như vậy không cần đoán đúng đáy.",
+   "Đa dạng hoá: không để một tài sản chiếm quá phần lớn số tiền đầu tư.",
+   "Đặt trước mức lỗ tối đa chấp nhận được cho mỗi khoản và tuân thủ; đọc dải p5 trên biểu đồ để biết mức xấu có thể xảy ra."
+  ],
+  "disclaimer": "Các gợi ý là nguyên tắc chung cho người mới, không phải khuyến nghị mua bán hay tư vấn cá nhân. Hãy cân nhắc mục tiêu, thời gian và khả năng chịu rủi ro của chính mình.",
+  "markets": [
+   {
+    "id": "vni",
+    "summary": "VN-Index đang ở 1.738 điểm, thấp hơn đỉnh tháng 5 gần 10%, khối ngoại bán ròng liên tục. Các công ty chứng khoán đa số dự báo đi ngang 1.720–1.800 trong ngắn hạn; KBSV hạ mục tiêu cuối năm xuống 1.800.",
+    "scen": {
+     "base": {
+      "what": "Chỉ số đi ngang trong vùng 1.700–1.800. Dòng tiền xoay vòng giữa dầu khí, bảo hiểm, cảng biển; ngân hàng và nhóm Vingroup còn bị bán.",
+      "signs": "Thanh khoản dưới 16.000 tỷ đồng/phiên; khối ngoại bán ròng nhưng quy mô nhỏ dần."
+     },
+     "deal": {
+      "what": "Giá dầu hạ giúp lạm phát và tỷ giá dịu đi, khối ngoại quay lại sau nâng hạng FTSE. VN-Index có thể vượt 1.800 và hướng tới 1.850–1.860 (VNDirect).",
+      "signs": "Tuần đóng cửa trên 1.800; khối ngoại mua ròng nhiều phiên liền; giá xăng trong nước giảm."
+     },
+     "shock": {
+      "what": "Dầu tăng mạnh và Fed tăng lãi khiến tỷ giá căng, khối ngoại bán mạnh. Thủng 1.700 có thể kích hoạt bán giải chấp margin, chỉ số về 1.650–1.660 (VNDirect) hoặc thấp hơn.",
+      "signs": "Thủng vùng 1.715–1.730 với thanh khoản tăng; tỷ giá vượt 26.500; Fed tăng lãi 28/10."
+     }
+    },
+    "beginner": [
+     "Nếu chưa có cổ phiếu: chưa cần vội; có thể mua dần từng phần nhỏ khi chỉ số ở vùng 1.700–1.730, ưu tiên quỹ chỉ số (ETF) thay vì chọn từng mã.",
+     "Nếu đang cầm: không bán tháo hoảng loạn, nhưng giảm bớt các mã đang dùng margin.",
+     "Tiền gửi 12 tháng đang trả 5,9–7,5%: là lựa chọn an toàn cho phần tiền chưa chắc chắn."
+    ]
+   },
+   {
+    "id": "spx",
+    "summary": "S&P 500 sát đỉnh mọi thời đại (7.765), được kéo bởi một nhóm nhỏ cổ phiếu công nghệ lớn. Đa số ngân hàng đặt mục tiêu cuối năm 7.950–8.100; BofA thấp nhất 7.400.",
+    "scen": {
+     "base": {
+      "what": "Thị trường dao động quanh đỉnh; lợi suất 10 năm trên 5% và tin AI gây rung lắc từng đợt.",
+      "signs": "VIX quanh 15–20; lợi nhuận quý 3 vẫn tăng mạnh."
+     },
+     "deal": {
+      "what": "Dầu hạ, lạm phát giảm, Fed bớt diều hâu: cổ phiếu Mỹ có thể lập đỉnh mới, độ rộng thị trường cải thiện.",
+      "signs": "Lợi suất 10 năm về dưới 5%; nhóm vốn hoá nhỏ tăng mạnh hơn."
+     },
+     "shock": {
+      "what": "Dầu vượt 120 USD cùng Fed tăng lãi tháng 12 và lo ngại định giá AI: điều chỉnh 8–15% là khả năng thực tế.",
+      "signs": "VIX vượt 25; lợi suất 10 năm vượt 5,5%; cổ phiếu chip giảm sâu."
+     }
+    },
+    "beginner": [
+     "Với người ở Việt Nam, cách tiếp cận đơn giản nhất là quỹ chỉ số toàn cầu qua kênh hợp pháp; mua dần, không đuổi giá ở đỉnh.",
+     "Chấp nhận trước rằng giảm 10% trong 3 tháng là chuyện bình thường với cổ phiếu Mỹ."
+    ]
+   },
+   {
+    "id": "stoxx",
+    "summary": "Cổ phiếu châu Âu chịu áp lực từ lợi suất cao và khủng hoảng ngân sách Pháp (chênh lệch OAT–Bund 150–160bp, cao nhất từ 2011). ECB dự kiến giữ lãi suất 29/10 và tăng tiếp tháng 12.",
+    "scen": {
+     "base": {
+      "what": "Đi ngang yếu; Pháp kém Đức; ngân hàng biến động mạnh theo lợi suất trái phiếu.",
+      "signs": "Các phiên bỏ phiếu ngân sách Pháp (20/10, 17/11) trôi qua không đổ chính phủ."
+     },
+     "deal": {
+      "what": "Năng lượng rẻ đi giúp châu Âu (nhập khẩu năng lượng lớn) hưởng lợi rõ; cổ phiếu phục hồi.",
+      "signs": "Giá khí đốt và dầu giảm; EUR/USD hồi lên 1,13–1,14."
+     },
+     "shock": {
+      "what": "Chính phủ Pháp đổ cộng với dầu tăng: chênh lệch trái phiếu Pháp vượt 160bp, ngân hàng châu Âu bị bán mạnh.",
+      "signs": "Bất tín nhiệm thành công; tổ chức xếp hạng hạ bậc Pháp."
+     }
+    },
+    "beginner": [
+     "Không cần có tỷ trọng riêng cho châu Âu nếu đã có quỹ toàn cầu.",
+     "Theo dõi tin Pháp như một chỉ báo rủi ro chung, không phải tín hiệu mua bán."
+    ]
+   },
+   {
+    "id": "n225",
+    "summary": "Nikkei tăng khoảng 37% từ đầu năm nhờ đồng yên yếu và khối ngoại mua mạnh. BOJ đang tăng lãi (1,25%) và nói sẽ tiếp tục.",
+    "scen": {
+     "base": {
+      "what": "Xu hướng tăng chậm lại, rung lắc theo kỳ vọng tăng lãi của BOJ.",
+      "signs": "USD/JPY quanh 155–160."
+     },
+     "deal": {
+      "what": "Nhật nhập khẩu năng lượng nên hưởng lợi khi dầu giảm; nhưng yên mạnh lên có thể làm giảm lợi nhuận nhà xuất khẩu.",
+      "signs": "Yên tăng giá nhanh về 150."
+     },
+     "shock": {
+      "what": "Bán tháo toàn cầu và yên tăng mạnh (dòng tiền trú ẩn) khiến cổ phiếu Nhật điều chỉnh sâu sau năm tăng nóng.",
+      "signs": "BOJ tăng lãi bất ngờ 30/10; USD/JPY giảm dưới 150."
+     }
+    },
+    "beginner": [
+     "Sau mức tăng 37%, tránh dồn tiền một lần; nếu muốn có, chia nhỏ nhiều tháng.",
+     "Nhớ rủi ro tỷ giá yên khi đầu tư qua quỹ."
+    ]
+   },
+   {
+    "id": "kospi",
+    "summary": "KOSPI tăng hơn 50% từ đầu năm nhờ chip (Samsung, SK Hynix) nhưng đã thấp hơn đỉnh tháng 6 khoảng 25%; khối ngoại bán ròng hơn 21.000 tỷ won từ tháng 9.",
+    "scen": {
+     "base": {
+      "what": "Chỉ số tích luỹ, chờ khối ngoại quay lại; biến động lớn quanh tin AI và chip.",
+      "signs": "Khối ngoại giảm bán; lợi nhuận quý 3 của Samsung vượt dự báo."
+     },
+     "deal": {
+      "what": "Rủi ro chung giảm, dòng tiền quay lại nhóm chip đã giảm sâu.",
+      "signs": "Khối ngoại mua ròng nhiều phiên; tin AI tích cực trở lại."
+     },
+     "shock": {
+      "what": "Nếu đầu tư AI bị nghi ngờ thêm (như tin doanh thu OpenAI), nhóm chip có thể giảm tiếp mạnh.",
+      "signs": "Cổ phiếu chip Mỹ giảm sâu; BOK tăng lãi 22/10."
+     }
+    },
+    "beginner": [
+     "Thị trường biến động rất mạnh và phụ thuộc một ngành: không phù hợp để người mới đặt nhiều tiền.",
+     "Nếu quan tâm chủ đề chip, cân nhắc quỹ đa dạng thay vì một mã."
+    ]
+   },
+   {
+    "id": "hsi",
+    "summary": "Hang Seng giảm khoảng 7% từ đầu năm, tiêu dùng Trung Quốc yếu (Tuần lễ Vàng kém), PMI Hồng Kông 49,2. Bắc Kinh hứa thêm chính sách hỗ trợ.",
+    "scen": {
+     "base": {
+      "what": "Đi ngang quanh hỗ trợ 24.000; phụ thuộc gói kích thích.",
+      "signs": "Lãi suất cho vay LPR 20/10 giữ nguyên."
+     },
+     "deal": {
+      "what": "Rủi ro toàn cầu giảm cộng gói kích thích mới: cổ phiếu Hồng Kông, vốn đang rẻ, hồi mạnh.",
+      "signs": "Bắc Kinh công bố gói hỗ trợ cụ thể; dòng tiền phương Nam tăng."
+     },
+     "shock": {
+      "what": "Đô la mạnh và bán tháo toàn cầu đẩy chỉ số thủng 24.000.",
+      "signs": "Nhân dân tệ yếu đi; cổ phiếu công nghệ (Alibaba, Tencent) giảm mạnh."
+     }
+    },
+    "beginner": [
+     "Rẻ không có nghĩa là sắp tăng; chỉ nên chiếm phần nhỏ trong danh mục.",
+     "Theo dõi chính sách Bắc Kinh: đó là biến số chi phối thị trường này."
+    ]
+   },
+   {
+    "id": "gold",
+    "summary": "Vàng thế giới khoảng 4.140–4.200 USD, thấp hơn đỉnh tháng 1 khoảng 25%, bị đè bởi lợi suất Mỹ và đô la mạnh, nhưng ngân hàng trung ương vẫn mua đều. Goldman dự báo 4.650 cuối 2026; JPMorgan 4.500 quý 4. Vàng SJC đắt hơn thế giới khoảng 13 triệu đồng/lượng.",
+    "scen": {
+     "base": {
+      "what": "Dao động quanh 4.100–4.400 USD; lực mua của ngân hàng trung ương đỡ giá.",
+      "signs": "Fed giữ lãi 28/10; dòng tiền ETF vàng tiếp tục dương."
+     },
+     "deal": {
+      "what": "Căng thẳng giảm làm mất phần bù trú ẩn ngắn hạn, nhưng lạm phát và lợi suất hạ có thể đỡ vàng sau đó.",
+      "signs": "Dầu giảm mạnh; lợi suất thực giảm."
+     },
+     "shock": {
+      "what": "Leo thang quân sự làm tăng nhu cầu trú ẩn; vàng có thể bật lên dù Fed tăng lãi.",
+      "signs": "Tàu chở dầu bị tấn công thêm; cổ phiếu toàn cầu giảm."
+     }
+    },
+    "beginner": [
+     "Vàng là tài sản giữ giá dài hạn, không phải công cụ lướt sóng ngắn hạn.",
+     "Mua vàng miếng SJC lúc này phải trả chênh lệch khoảng 13 triệu đồng/lượng so với thế giới: nếu chênh lệch thu hẹp, người mua sẽ lỗ dù giá thế giới đứng yên. Chênh lệch mua–bán của cửa hàng cũng khoảng 3 triệu đồng/lượng.",
+     "Tỷ trọng vàng hợp lý cho người mới thường chỉ là một phần nhỏ của tài sản."
+    ]
+   },
+   {
+    "id": "brent",
+    "summary": "Brent khoảng 103–104 USD vì eo Hormuz bị hạn chế từ tháng 2. EIA dự báo 105 USD quý 4/2026; các ngân hàng phần lớn dự báo 90–100 USD. Kết quả 3 tháng gần như phụ thuộc hoàn toàn vào đàm phán Mỹ–Iran.",
+    "scen": {
+     "base": {
+      "what": "Dầu giữ 95–110 USD do Hormuz vẫn hạn chế; giá xăng trong nước neo cao.",
+      "signs": "Đàm phán qua Qatar kéo dài; OPEC+ giữ sản lượng (họp 1/11)."
+     },
+     "deal": {
+      "what": "Thoả thuận mở lại Hormuz: dầu có thể giảm 20–30% nhanh chóng.",
+      "signs": "Mỹ dỡ phong toả hải quân; Iran rút bớt điều kiện."
+     },
+     "shock": {
+      "what": "Mỹ tấn công Iran hoặc hạ tầng dầu bị phá huỷ: BofA thấy 120–150 USD, Goldman trên 120 USD.",
+      "signs": "Tấn công tàu chở dầu leo thang; tin Mỹ chuẩn bị không kích sau bầu cử giữa kỳ 3/11."
+     }
+    },
+    "beginner": [
+     "Giá dầu biến động hai chiều rất mạnh: người mới không nên đầu cơ dầu.",
+     "Tác động thực tế với người Việt là giá xăng và lạm phát: nên tính trước chi phí sinh hoạt tăng trong kịch bản xấu."
+    ]
+   },
+   {
+    "id": "btc",
+    "summary": "Bitcoin khoảng 82.000 USD, thấp hơn đỉnh 10/2025 khoảng 35%. Quỹ ETF Bitcoin vừa rút ròng sau chuỗi 9 ngày vào. QCP dự báo quý 4: cơ sở 80–90 nghìn, tích cực trên 100 nghìn, tiêu cực 68–70 nghìn USD.",
+    "scen": {
+     "base": {
+      "what": "Đi ngang 75–90 nghìn USD, theo sát khẩu vị rủi ro chung.",
+      "signs": "Dòng tiền ETF dao động quanh 0."
+     },
+     "deal": {
+      "what": "Rủi ro giảm, thanh khoản đô la dễ hơn: Bitcoin có thể vượt 100 nghìn USD.",
+      "signs": "ETF vào ròng nhiều tuần liền; chỉ số USD giảm."
+     },
+     "shock": {
+      "what": "Fed tăng lãi và leo thang quân sự: Bitcoin có thể về 68–70 nghìn USD hoặc thấp hơn.",
+      "signs": "ETF rút ròng lớn; cổ phiếu công nghệ giảm sâu."
+     }
+    },
+    "beginner": [
+     "Chỉ dùng số tiền có thể mất hết mà không ảnh hưởng cuộc sống; biến động 30–40% trong 3 tháng là bình thường.",
+     "Không dùng đòn bẩy và không giữ tiền trên sàn không rõ pháp lý."
+    ]
+   }
+  ]
+ }
 }
