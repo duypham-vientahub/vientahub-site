@@ -584,5 +584,60 @@
    "https://tapchikinhtetaichinh.vn/cpi-9-thang-tang-4-52-lam-phat-co-ban-duy-tri-muc-thap-hon-168572.html"
   ]
  ],
- "disclaimer": "Tài liệu chỉ nhằm mục đích thông tin và phân tích, không phải khuyến nghị đầu tư. Số liệu tổng hợp từ các nguồn công khai tại thời điểm ghi; một số chỉ số châu Âu và châu Á theo giá CFD của Trading Economics. Số có dấu ~ là ước tính. Kịch bản là ý kiến phân tích."
+ "disclaimer": "Tài liệu chỉ nhằm mục đích thông tin và phân tích, không phải khuyến nghị đầu tư. Số liệu tổng hợp từ các nguồn công khai tại thời điểm ghi; một số chỉ số châu Âu và châu Á theo giá CFD của Trading Economics. Số có dấu ~ là ước tính. Kịch bản là ý kiến phân tích.",
+ "strategy": {
+  "title": "Khung phân bổ theo chế độ hiện tại",
+  "note": "Khung tham khảo theo chế độ “thắt chặt + sốc năng lượng”. Đây là ý kiến phân tích, không phải khuyến nghị đầu tư; tỷ trọng cụ thể tuỳ khẩu vị rủi ro của từng người.",
+  "items": [
+   {
+    "a": "Tiền mặt, tiền gửi",
+    "s": "Tăng tỷ trọng",
+    "lv": "up",
+    "why": "Lãi huy động 6–12 tháng tại VN 5,9–7,4%, chứng chỉ tiền gửi tới 7,5%. Lợi suất không rủi ro cao trong khi tài sản rủi ro đang bị rút vốn.",
+    "flip": "Chuyển sang giảm khi NHTW bắt đầu hạ lãi hoặc VN-Index xác nhận xu hướng tăng mới."
+   },
+   {
+    "a": "Cổ phiếu Việt Nam",
+    "s": "Thận trọng, tỷ trọng thấp",
+    "lv": "warn",
+    "why": "VN-Index thấp hơn đỉnh 9,8%, khối ngoại bán ròng 12 phiên, thanh khoản thấp. Nhóm dầu khí có sức mạnh tương đối; ngân hàng, Vingroup bị bán.",
+    "flip": "Tăng tỷ trọng khi VN-Index lấy lại 1.800 với thanh khoản trên 20.000 tỷ đ/phiên và khối ngoại ngừng bán."
+   },
+   {
+    "a": "Vàng",
+    "s": "Giữ",
+    "lv": "info",
+    "why": "NHTW và ETF vẫn mua, nhưng lợi suất Mỹ 5,2% đè giá. Vàng miếng SJC đắt hơn thế giới khoảng 13 triệu đ/lượng: rủi ro chênh lệch nếu mua lúc này.",
+    "flip": "Tăng khi lợi suất thực và đồng đô la quay đầu giảm."
+   },
+   {
+    "a": "Dầu, cổ phiếu năng lượng",
+    "s": "Giữ, không đuổi",
+    "lv": "info",
+    "why": "Brent trên 100 USD vì Hormuz; đã tăng khoảng 60% từ đầu năm. Lợi thế giữ được khi xung đột kéo dài.",
+    "flip": "Giảm ngay khi có thoả thuận Mỹ–Iran mở lại Hormuz."
+   },
+   {
+    "a": "Cổ phiếu Mỹ, Nhật (qua quỹ)",
+    "s": "Giữ",
+    "lv": "info",
+    "why": "Xu hướng còn, lợi nhuận quý 3 Mỹ mạnh, khối ngoại mua Nhật. Nhưng độ rộng hẹp và định giá AI nhạy với lợi suất 10 năm trên 5%.",
+    "flip": "Giảm nếu lợi suất Mỹ 10 năm vượt 5,5% hoặc Fed tăng lãi tháng 12."
+   },
+   {
+    "a": "Crypto",
+    "s": "Giảm tỷ trọng",
+    "lv": "down",
+    "why": "ETF Bitcoin rút ròng 453 tr USD từ 28/9, BTC thấp hơn đỉnh 35%. Tài sản nhạy nhất với thanh khoản đô la.",
+    "flip": "Quay lại khi dòng vào ETF dương nhiều tuần liền và DXY giảm."
+   },
+   {
+    "a": "Trái phiếu dài hạn",
+    "s": "Chờ, mua dần",
+    "lv": "warn",
+    "why": "Lợi suất cao nhất nhiều thập kỷ là điểm vào hấp dẫn về dài hạn, nhưng xu hướng tăng lợi suất chưa dừng.",
+    "flip": "Mua mạnh hơn khi dầu hạ nhiệt và lạm phát quay đầu."
+   }
+  ]
+ }
 }
