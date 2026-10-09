@@ -33,18 +33,50 @@ QS = [5, 25, 50, 75, 95]
 
 
 # ---------------------------------------------------------------- dữ liệu
-def fetch_vndirect(symbol, years):
+UDF_SOURCES = [
+    ("VNDirect", "https://dchart-api.vndirect.com.vn/dchart/history?resolution=D&symbol={s}&from={f}&to={t}",
+     {"Referer": "https://dchart.vndirect.com.vn/", "Origin": "https://dchart.vndirect.com.vn"}),
+    ("VPS", "https://histdatafeed.vps.com.vn/tradingview/history?symbol={s}&resolution=D&from={f}&to={t}",
+     {"Referer": "https://banggia.vps.com.vn/", "Origin": "https://banggia.vps.com.vn"}),
+    ("SSI", "https://iboard-api.ssi.com.vn/statistics/charts/history?resolution=1D&symbol={s}&from={f}&to={t}",
+     {"Referer": "https://iboard.ssi.com.vn/", "Origin": "https://iboard.ssi.com.vn"}),
+]
+
+
+def _get_json(url, extra):
+    h = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+         "Accept": "*/*", "Accept-Language": "vi-VN,vi;q=0.9,en;q=0.8", **extra}
+    req = urllib.request.Request(url, headers=h)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
+def fetch_vn_index(symbol, years):
+    """Thử lần lượt các API dạng TradingView của công ty chứng khoán VN, rồi TCBS."""
     to = int(time.time())
     frm = to - int(years * 365.25 * 86400)
-    url = (f"https://dchart-api.vndirect.com.vn/dchart/history?resolution=D"
-           f"&symbol={symbol}&from={frm}&to={to}")
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        d = json.load(r)
-    if not d.get("t"):
-        raise RuntimeError("VNDirect trả về rỗng")
-    idx = pd.to_datetime(d["t"], unit="s").normalize()
-    return pd.Series(d["c"], index=idx, dtype=float)
+    errs = []
+    for name, tpl, extra in UDF_SOURCES:
+        try:
+            d = _get_json(tpl.format(s=symbol, f=frm, t=to), extra)
+            d = d.get("data", d) if isinstance(d, dict) else d
+            if not d.get("t"):
+                raise RuntimeError("rỗng")
+            idx = pd.to_datetime(pd.Series(d["t"]).astype(int), unit="s").dt.normalize()
+            s = pd.Series([float(x) for x in d["c"]], index=idx.values)
+            return s, name
+        except Exception as e:
+            errs.append(f"{name}: {e}")
+    try:
+        url = (f"https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker={symbol}"
+               f"&type=index&resolution=D&countBack={int(years * 252)}&to={to}")
+        d = _get_json(url, {"Referer": "https://tcinvest.tcbs.com.vn/"})
+        rows = d["data"]
+        idx = pd.to_datetime([r["tradingDate"][:10] for r in rows])
+        return pd.Series([float(r["close"]) for r in rows], index=idx), "TCBS"
+    except Exception as e:
+        errs.append(f"TCBS: {e}")
+    raise RuntimeError("; ".join(errs))
 
 
 def fetch_yahoo(ticker, years):
@@ -76,12 +108,14 @@ def load_prices(cfg, synthetic=False):
     for a in cfg["assets"]:
         tries = []
         if a.get("vndirect"):
-            tries.append(("VNDirect " + a["vndirect"], lambda a=a: fetch_vndirect(a["vndirect"], years)))
+            tries.append(("VN", lambda a=a: fetch_vn_index(a["vndirect"], years)))
         if a.get("yahoo"):
             tries.append(("Yahoo " + a["yahoo"], lambda a=a: fetch_yahoo(a["yahoo"], years)))
         for label, fn in tries:
             try:
                 s = fn()
+                if isinstance(s, tuple):
+                    s, label = s[0], f"{s[1]} {a.get('vndirect')}"
                 if len(s) < 500:
                     raise RuntimeError(f"chỉ có {len(s)} phiên")
                 prices[a["id"]], sources[a["id"]] = s, label
