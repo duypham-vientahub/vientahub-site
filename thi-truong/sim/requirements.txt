@@ -1,0 +1,5 @@
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+arch==8.0.0
+yfinance==1.7.0
