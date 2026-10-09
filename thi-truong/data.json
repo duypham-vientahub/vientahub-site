@@ -656,10 +656,6 @@
   "kosdaq": {
    "sig": "Tăng khoảng 10% một tháng, ngược chiều KOSPI.",
    "lv": "up"
-  },
-  "csi300": {
-   "sig": "Đáy hơn 2 tháng; chờ gói chính sách bổ sung.",
-   "lv": "down"
   }
  },
  "scenarioGuide": {
