@@ -1,0 +1,588 @@
+{
+ "updated": "09/10/2026, 09:00 (GMT+7)",
+ "updatedISO": "2026-10-09",
+ "asOf": "Giá đóng cửa 8/10/2026",
+ "week": "Tuần 41/2026",
+ "headline": "Cú sốc dầu đang kéo lãi suất toàn cầu lên. Tiền chảy về đô la, tiền mặt và năng lượng.",
+ "lede": "Chiến sự Mỹ–Iran và eo Hormuz bị hạn chế giữ dầu Brent quanh 100 USD. Lạm phát quay lại, các ngân hàng trung ương **tăng lãi suất** thay vì cắt. Lợi suất trái phiếu dài hạn ở Mỹ, Anh, Đức, Pháp, Nhật cùng lên đỉnh nhiều thập kỷ. Thị trường mới nổi (Việt Nam, Hàn Quốc, Hồng Kông) bị rút vốn. Pháp là điểm yếu nhất châu Âu, nhưng không phải nguyên nhân gốc.",
+ "regimeLabel": "Thắt chặt + sốc năng lượng",
+ "regime": [
+  [
+   "Brent",
+   "~104 USD"
+  ],
+  [
+   "Lợi suất Mỹ 10 năm",
+   "5,24%"
+  ],
+  [
+   "Lãi suất Fed",
+   "3,75–4,00%"
+  ],
+  [
+   "DXY",
+   "102,1 (+3,1%/tháng)"
+  ],
+  [
+   "Quỹ thị trường tiền tệ Mỹ",
+   "7.960 tỷ USD"
+  ],
+  [
+   "Khối ngoại tại VN, từ đầu năm",
+   "−102.200 tỷ đ"
+  ]
+ ],
+ "chain": [
+  {
+   "t": "Sốc năng lượng",
+   "v": "Chiến sự Mỹ–Iran từ 28/2. Hormuz chạy ~30% dưới mức trước chiến sự. Brent ~104 USD."
+  },
+  {
+   "t": "Lạm phát quay lại",
+   "v": "Mỹ CPI 3,4% · Eurozone 3,8% (đỉnh 3 năm) · VN 5,08%."
+  },
+  {
+   "t": "NHTW tăng lãi suất",
+   "v": "Fed +25bp (16/9) · ECB 2 lần, 2,50% · BOJ 1,25% · BOK 3,00%."
+  },
+  {
+   "t": "Lợi suất dài hạn lên đỉnh",
+   "v": "Mỹ 10Y 5,24% · Anh 30Y 6,03% · Đức 3,65% · Pháp ~4,9% · Nhật 3,09%."
+  },
+  {
+   "t": "Đô la mạnh",
+   "v": "DXY 102,1. JPY 158, EUR/USD đáy 16 tháng 1,116."
+  },
+  {
+   "t": "Tài sản rủi ro phân hoá",
+   "v": "Mỹ (AI) và Nhật giữ đỉnh; Hàn, HK, VN, crypto bị rút."
+  }
+ ],
+ "flowsNote": "Chỉ ghi luồng có số đo. Vàng và crypto nằm giữa: dòng vào ETF vàng kỷ lục trong quý 3, nhưng giá một tháng qua vẫn giảm vì lợi suất và đô la tăng.",
+ "flowsIn": [
+  {
+   "k": "Tiền mặt USD",
+   "q": "+72,3 tỷ USD/tuần",
+   "e": "Quỹ thị trường tiền tệ Mỹ đạt kỷ lục 7.960 tỷ USD (tuần tới 7/10). Lãi ngắn hạn ~4% đủ hấp dẫn để đứng ngoài."
+  },
+  {
+   "k": "Cổ phiếu Nhật",
+   "q": "+2.192 tỷ ¥/tuần",
+   "e": "Khối ngoại mua ròng lớn nhất gần 6 tháng (tuần tới 3/10). Nikkei +37% từ đầu năm, đồng yên yếu hỗ trợ xuất khẩu."
+  },
+  {
+   "k": "Năng lượng",
+   "q": "Brent ~+60% YTD",
+   "e": "Nhóm năng lượng S&P +38,8% từ đầu năm. Tại VN, GAS/PLX/PVT dẫn dắt phiên 8/10."
+  },
+  {
+   "k": "Mega-cap Mỹ / AI",
+   "q": "Tech +39,6% YTD",
+   "e": "Lợi nhuận quý 3 S&P ước +29,5%. Nhưng độ rộng hẹp: chỉ 49% cổ phiếu trên MA200; phiên 8/10 SOX có lúc −4% vì tin doanh thu OpenAI."
+  },
+  {
+   "k": "ETF vàng & NHTW",
+   "q": "+31 tỷ USD quý 3",
+   "e": "Dòng vào ETF vàng quý 3 kỷ lục, nắm giữ 4.256 tấn. Trung Quốc mua 21 tấn trong tháng 9. Giá vẫn giảm 6,6%/tháng vì lợi suất."
+  }
+ ],
+ "flowsOut": [
+  {
+   "k": "Chip Hàn Quốc",
+   "q": "−20.300 tỷ ₩",
+   "e": "Khối ngoại bán ròng 1/9–2/10, riêng SK hynix −12.000 tỷ ₩. Sở hữu ngoại ở SK hynix thấp nhất từ 5/2023."
+  },
+  {
+   "k": "Chứng khoán Việt Nam",
+   "q": "−102.200 tỷ đ YTD",
+   "e": "12 phiên bán ròng liên tiếp tới 8/10. Tháng 9 bán ròng >4.700 tỷ đ trên HOSE."
+  },
+  {
+   "k": "Trái phiếu chính phủ",
+   "q": "10Y Mỹ +39bp/tháng",
+   "e": "Bán tháo trái phiếu dài hạn đồng loạt: Mỹ, Anh, Đức, Pháp, Nhật. Pháp chịu nặng nhất trong eurozone."
+  },
+  {
+   "k": "Hồng Kông / Trung Quốc",
+   "q": "HS Tech ~−24% YTD",
+   "e": "Hang Seng −5,9%/tháng. Kích thích nhà ở của Bắc Kinh chưa giữ được dòng tiền."
+  },
+  {
+   "k": "ETF Bitcoin",
+   "q": "−453 tr USD",
+   "e": "Rút ròng 28/9–8/10, trong đó 7/10 −485 tr USD. BTC thấp hơn đỉnh 35%."
+  }
+ ],
+ "groups": [
+  "Tất cả",
+  "Mỹ",
+  "Châu Âu",
+  "Châu Á",
+  "Việt Nam",
+  "Hàng hoá",
+  "Crypto"
+ ],
+ "markets": [
+  {
+   "name": "S&P 500",
+   "sub": "Mỹ",
+   "g": "Mỹ",
+   "last": "7.765",
+   "m1": 1.2,
+   "ytd": 13.4,
+   "sig": "Cách đỉnh 0,7%. Lực đỡ hẹp từ mega-cap.",
+   "lv": "up"
+  },
+  {
+   "name": "Nasdaq",
+   "sub": "Mỹ",
+   "g": "Mỹ",
+   "last": "27.193",
+   "m1": 2.9,
+   "ytd": 17,
+   "sig": "Dẫn dắt nhờ AI; rung lắc 8/10.",
+   "lv": "up"
+  },
+  {
+   "name": "Russell 2000",
+   "sub": "Mỹ, vốn hoá nhỏ",
+   "g": "Mỹ",
+   "last": "2.792",
+   "m1": -5.7,
+   "ytd": 12.5,
+   "sig": "Nhạy lãi suất, bị bán khi 10Y vượt 5%.",
+   "lv": "down"
+  },
+  {
+   "name": "STOXX 600",
+   "sub": "Châu Âu",
+   "g": "Châu Âu",
+   "last": "630",
+   "m1": -1.6,
+   "ytd": null,
+   "sig": "Ngân hàng dẫn đầu phiên bán 7/10.",
+   "lv": "warn"
+  },
+  {
+   "name": "CAC 40",
+   "sub": "Pháp",
+   "g": "Châu Âu",
+   "last": "~7.758",
+   "m1": -4.9,
+   "ytd": null,
+   "sig": "Yếu nhất khu vực; −3,5% trong 12 tháng.",
+   "lv": "down"
+  },
+  {
+   "name": "DAX",
+   "sub": "Đức",
+   "g": "Châu Âu",
+   "last": "~25.009",
+   "m1": -1.4,
+   "ytd": null,
+   "sig": "Gói chi tiêu công đỡ nội địa.",
+   "lv": "warn"
+  },
+  {
+   "name": "Nikkei 225",
+   "sub": "Nhật",
+   "g": "Châu Á",
+   "last": "69.042",
+   "m1": 4.7,
+   "ytd": 37.2,
+   "sig": "Khối ngoại mua mạnh; BOJ tăng lãi.",
+   "lv": "up"
+  },
+  {
+   "name": "KOSPI",
+   "sub": "Hàn Quốc",
+   "g": "Châu Á",
+   "last": "6.626",
+   "m1": -6,
+   "ytd": 57.2,
+   "sig": "Chốt lời chip sau năm tăng nóng.",
+   "lv": "down"
+  },
+  {
+   "name": "Hang Seng",
+   "sub": "Hồng Kông",
+   "g": "Châu Á",
+   "last": "23.786",
+   "m1": -5.9,
+   "ytd": -7.2,
+   "est": true,
+   "sig": "Rút vốn; PMI HK 49,2.",
+   "lv": "down"
+  },
+  {
+   "name": "Shanghai Comp.",
+   "sub": "Trung Quốc",
+   "g": "Châu Á",
+   "last": "3.812",
+   "m1": -3.5,
+   "ytd": -3.8,
+   "est": true,
+   "sig": "Đáy hơn 2 tháng.",
+   "lv": "down"
+  },
+  {
+   "name": "VN-Index",
+   "sub": "Việt Nam",
+   "g": "Việt Nam",
+   "last": "1.738,97",
+   "m1": -5,
+   "ytd": -2.6,
+   "est": true,
+   "sig": "12 phiên khối ngoại bán ròng.",
+   "lv": "down"
+  },
+  {
+   "name": "Vàng",
+   "sub": "USD/oz",
+   "g": "Hàng hoá",
+   "last": "~4.140",
+   "m1": -6.6,
+   "ytd": -5,
+   "est": true,
+   "sig": "ETF vào kỷ lục, giá bị lợi suất đè.",
+   "lv": "warn"
+  },
+  {
+   "name": "Dầu Brent",
+   "sub": "USD/thùng",
+   "g": "Hàng hoá",
+   "last": "~104",
+   "m1": -3.7,
+   "ytd": 62,
+   "est": true,
+   "sig": "Trên 100 USD từ đầu tháng 10.",
+   "lv": "up"
+  },
+  {
+   "name": "Dầu WTI",
+   "sub": "USD/thùng",
+   "g": "Hàng hoá",
+   "last": "~91",
+   "m1": -11.4,
+   "ytd": null,
+   "sig": "Bão Isaias làm gián đoạn Vịnh Mexico.",
+   "lv": "warn"
+  },
+  {
+   "name": "Bitcoin",
+   "sub": "USD",
+   "g": "Crypto",
+   "last": "~82.300",
+   "m1": 5.3,
+   "ytd": -5.1,
+   "sig": "ETF rút ròng; cách đỉnh 35%.",
+   "lv": "warn"
+  },
+  {
+   "name": "Ethereum",
+   "sub": "USD",
+   "g": "Crypto",
+   "last": "~2.529",
+   "m1": 3.3,
+   "ytd": null,
+   "sig": "Cách đỉnh 49%.",
+   "lv": "down"
+  }
+ ],
+ "feature": {
+  "eyebrow": "Kiểm chứng",
+  "title": "“Phúc lợi châu Âu là ngòi nổ, Pháp là cục nhọt, vòng xoáy không đáy”",
+  "tag": "Đúng một phần",
+  "lv": "warn",
+  "text": "**Đúng triệu chứng, sai cơ chế, phóng đại kết cục.** Pháp đang chịu áp lực trái phiếu thật: lợi suất 10 năm cao nhất từ 2002, chênh lệch với Đức rộng nhất từ khủng hoảng 2011–12, Pháp còn đắt hơn Ý. Nhưng ngân sách 2027 chủ yếu đóng băng phúc lợi chứ không cắt, thu thuế dự kiến tăng, đình công chưa làm giảm lực lượng lao động. Lãi suất tăng chủ yếu do cú sốc năng lượng chung toàn cầu, không riêng châu Âu. Kịch bản “vỡ nợ, reset” là ý kiến, dữ liệu hiện tại chưa ủng hộ.",
+  "claims": [
+   {
+    "t": "Lãi suất cao buộc châu Âu cắt phúc lợi",
+    "lv": "warn",
+    "tag": "Đúng một phần",
+    "yes": [
+     "Ngân sách Pháp 2027: tổng nỗ lực 54 tỷ €, trong đó 25 tỷ € tiết kiệm chi.",
+     "Lương hưu trên 1.260 €/tháng bị đóng băng; trợ cấp nhà ở, gia đình, prime d'activité đóng băng; bảo hiểm y tế phải tiết kiệm 4 tỷ €.",
+     "Chi trả lãi vay tăng thêm ~10–12 tỷ € năm 2027."
+    ],
+    "no": [
+     "Đây là đóng băng danh nghĩa, không phải cắt giảm. RSA và lương hưu tối thiểu được miễn.",
+     "18 tỷ € trong gói là tăng thu, không phải cắt chi.",
+     "Chi quốc phòng tăng 6,4 tỷ €: áp lực ngân sách còn đến từ quốc phòng, không chỉ lãi vay."
+    ]
+   },
+   {
+    "t": "Cắt phúc lợi → biểu tình, không đi làm → nguồn thu giảm",
+    "lv": "down",
+    "tag": "Chưa có bằng chứng",
+    "yes": [
+     "Đình công 29/9: khoảng 206.000 người tuần hành, ~10% công chức nhà nước nghỉ việc một ngày, 38–40% giáo viên (theo công đoàn).",
+     "Đầu tháng 10 có hơn 1.200 trường học bị phong toả hoặc gián đoạn."
+    ],
+    "no": [
+     "Đình công một ngày không làm giảm lực lượng lao động lâu dài. Thất nghiệp eurozone ổn định 6,4%.",
+     "Thu thuế nhà nước Pháp dự kiến tăng 18 tỷ € năm 2027 (VAT, thuế thu nhập).",
+     "Chưa có dữ liệu nào cho thấy nguồn thu giảm vì biểu tình."
+    ]
+   },
+   {
+    "t": "Phải vay với lãi cao hơn",
+    "lv": "up",
+    "tag": "Đúng",
+    "yes": [
+     "Lợi suất OAT 10 năm ~4,9%, cao nhất từ 2002.",
+     "Chênh lệch OAT–Bund đạt đỉnh 156bp ngày 5/10, rộng nhất từ 2011–12; giữa tháng 8 chỉ 86bp.",
+     "Lãi suất phát hành bình quân 2026 là 3,55%, so với 3,14% năm 2025."
+    ],
+    "no": [
+     "Kỳ hạn nợ bình quân 8,4 năm nên lãi suất mới ngấm chậm: +100bp chỉ thêm ~3,4 tỷ € chi lãi năm 2027.",
+     "Khoảng một nửa mức tăng lợi suất đến từ yếu tố ngoài Pháp (năng lượng, nhu cầu vốn của data center)."
+    ]
+   },
+   {
+    "t": "Cục nhọt đang tập trung ở Pháp",
+    "lv": "up",
+    "tag": "Đúng",
+    "yes": [
+     "Chênh lệch Pháp ~130bp, rộng hơn Ý (~106bp) — điều hiếm thấy.",
+     "Nợ công ~119% GDP, thâm hụt 5,4%, năm thứ ba trên 5%.",
+     "Chính phủ Lecornu có thể bị bất tín nhiệm khi bỏ phiếu ngân sách (20/10 và 17/11); bầu cử tổng thống 18/4/2027.",
+     "Tăng trưởng gần bằng 0: quý 1 −0,2%, quý 2 0,0%."
+    ],
+    "no": [
+     "Bỉ cũng bị hạ hạng; Anh có lợi suất 30 năm 6,03% cao nhất từ 1998. Căng thẳng tài khoá lan rộng hơn Pháp.",
+     "Lợi suất dài hạn tăng cả ở Mỹ, Đức, Nhật: đây là cú sốc chung, Pháp chỉ là mắt xích yếu."
+    ]
+   },
+   {
+    "t": "Vòng xoáy không đáy, chỉ kết thúc bằng vỡ nợ / reset",
+    "lv": "down",
+    "tag": "Ý kiến, dữ liệu chưa ủng hộ",
+    "yes": [
+     "Hạt nhân có thật: lãi vay (r) cao hơn tăng trưởng danh nghĩa (g) cộng thâm hụt cơ bản lớn thì nợ/GDP tự tăng.",
+     "55,9% nợ Pháp do nước ngoài nắm giữ: dễ bị rút nhanh.",
+     "ECB đang tăng lãi, và công cụ TPI chỉ dùng khi chính sách “lành mạnh”; Pháp đang trong thủ tục thâm hụt quá mức."
+    ],
+    "no": [
+     "Xếp hạng vẫn A+ (Fitch, S&P) và Aa3 (Moody's); chưa có tổ chức nào đưa về mức rủi ro vỡ nợ.",
+     "Hộ gia đình Pháp tiết kiệm 17,2% thu nhập: đệm vốn trong nước lớn.",
+     "Pháp vẫn vay được ở ~4,9%. Ý từng vay ở mức cao hơn nhiều năm 2011–12 mà không vỡ nợ.",
+     "Nếu dầu hạ nhiệt, lạm phát và lợi suất có thể giảm, phá vỡ vòng xoáy từ bên ngoài."
+    ]
+   }
+  ]
+ },
+ "vnTitle": "VN-Index giữa dòng rút vốn mới nổi",
+ "vn": [
+  {
+   "k": "VN-Index 8/10",
+   "v": "1.738,97",
+   "d": "−0,82% phiên · −9,8% từ đỉnh 1.927,94 (18/5)"
+  },
+  {
+   "k": "1 tháng / từ đầu năm",
+   "v": "−5,0% / −2,6%",
+   "d": "Tự tính từ 1.830,44 (8/9) và 1.784,49 (31/12/2025)"
+  },
+  {
+   "k": "Khối ngoại",
+   "v": "−445 tỷ đ",
+   "d": "Phiên 8/10 · 12 phiên bán ròng liên tiếp"
+  },
+  {
+   "k": "Thanh khoản HOSE",
+   "v": "15.883 tỷ đ",
+   "d": "Thấp hơn nhiều mức 26.658 tỷ ngày đỉnh 18/5"
+  },
+  {
+   "k": "GDP quý 3",
+   "v": "9,95%",
+   "d": "9 tháng 9,01% (ước tính)"
+  },
+  {
+   "k": "CPI tháng 9",
+   "v": "5,08%",
+   "d": "So cùng kỳ · lạm phát lõi 4,45%"
+  },
+  {
+   "k": "Tín dụng",
+   "v": "+11,59%",
+   "d": "Từ đầu năm tới 30/9"
+  },
+  {
+   "k": "Tỷ giá trung tâm",
+   "v": "25.645",
+   "d": "6/10 · đồng đô la mạnh lên 3 tuần liền"
+  }
+ ],
+ "vnNote": "Nâng hạng FTSE có hiệu lực 21/9 nhưng diễn ra kiểu “bán khi tin ra”: tuần 21–25/9 khối ngoại bán ròng 4.341 tỷ đ. Tiền ngoại đang rời ngân hàng và nhóm Vingroup; nhóm dầu khí (GAS, PLX, PVT) dẫn dắt nhờ giá dầu. Lạm phát 5,08% và lãi suất huy động đi lên làm biên an toàn của tài sản rủi ro mỏng đi.",
+ "scenTitle": "Ba nhánh, một biến quyết định: eo Hormuz",
+ "scen": [
+  {
+   "t": "Cơ sở: thắt chặt kéo dài",
+   "lv": "warn",
+   "p": "Hormuz vẫn hạn chế, dầu 95–110 USD.",
+   "b": [
+    "Fed giữ 28/10, có thể tăng tháng 12.",
+    "Đô la, tiền mặt, năng lượng tiếp tục hút tiền.",
+    "Mới nổi (VN, Hàn, HK) tiếp tục bị rút; nhóm dầu khí VN tương đối mạnh.",
+    "Pháp lắc theo các phiên bỏ phiếu ngân sách."
+   ]
+  },
+  {
+   "t": "Tích cực: thoả thuận Hormuz",
+   "lv": "up",
+   "p": "Mỹ–Iran đạt thoả thuận, dầu về dưới 85 USD.",
+   "b": [
+    "Lạm phát hạ, kỳ vọng tăng lãi rút lại.",
+    "Lợi suất dài giảm, đô la suy yếu.",
+    "Dòng tiền quay lại mới nổi, crypto, vàng.",
+    "Chênh lệch OAT–Bund thu hẹp."
+   ]
+  },
+  {
+   "t": "Tiêu cực: ba cú cùng lúc",
+   "lv": "down",
+   "p": "Dầu vượt 120 USD + Fed tăng + chính phủ Pháp đổ.",
+   "b": [
+    "10Y Mỹ vượt 5,5%; định giá AI bị xét lại.",
+    "Bán tháo diện rộng, kể cả Mỹ và Nhật.",
+    "Chênh lệch Pháp vượt 160bp, thử thách TPI của ECB.",
+    "VN có thể kiểm định vùng hỗ trợ 1.715–1.750."
+   ]
+  }
+ ],
+ "cal": [
+  [
+   "14/10",
+   "CPI Mỹ tháng 9"
+  ],
+  [
+   "20/10",
+   "Pháp bỏ phiếu phần thu ngân sách · LPR Trung Quốc"
+  ],
+  [
+   "22/10",
+   "Ngân hàng trung ương Hàn Quốc họp"
+  ],
+  [
+   "28/10",
+   "FOMC · Ngân sách Anh"
+  ],
+  [
+   "30/10",
+   "BOJ họp"
+  ],
+  [
+   "Cuối 10",
+   "Moody's xét hạng Pháp"
+  ],
+  [
+   "1/11",
+   "OPEC+ họp"
+  ],
+  [
+   "17/11",
+   "Pháp bỏ phiếu toàn bộ ngân sách"
+  ],
+  [
+   "11/2026",
+   "S&P xét hạng Pháp"
+  ],
+  [
+   "18/4/2027",
+   "Bầu cử tổng thống Pháp vòng 1"
+  ]
+ ],
+ "sources": [
+  [
+   "Option Finance — rủi ro chủ quyền Pháp, 1/10/2026",
+   "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-01-france-le-risque-souverain-retrouve-ses-niveaux-de-la-crise-de-la-dette-europeenne.html"
+  ],
+  [
+   "abcbourse — ngân sách Pháp 2027",
+   "https://www.abcbourse.com/marches/budget-2027-43-milliards-d-euros-a-trouver-voici-qui-va-etre-mis-a-contributi_703554"
+  ],
+  [
+   "Euronews — dự báo tăng trưởng Pháp 2027, 2/10",
+   "https://fr.euronews.com/2026/10/02/le-gouvernement-francais-prevoit-1-de-croissance-en-2027-quen-pensent-les-experts"
+  ],
+  [
+   "Ynetnews — nợ kỷ lục và biểu tình tại Pháp, 4/10",
+   "https://www.ynetnews.com/article/skpx5egizx"
+  ],
+  [
+   "Il Sole 24 Ore — chênh lệch BTP, 6/10",
+   "https://en.ilsole24ore.com/radiocor/nRC_06.10.2026_12.10_32110321"
+  ],
+  [
+   "FXStreet — rủi ro chính phủ Pháp sụp đổ, 6/10",
+   "https://www.fxstreet.com/analysis/frances-government-could-fall-over-the-budget-heres-what-that-would-actually-mean-for-the-euro-202610061801"
+  ],
+  [
+   "Journal de l'économie — đình công 29/9",
+   "https://www.journaldeleconomie.fr/des-centaines-de-milliers-de-fonctionnaires-dans-la-rue-mardi-on-nous-demande-de-faire-plus-avec-moins-cest-termine/"
+  ],
+  [
+   "Banque de France — nắm giữ nợ Pháp quý 1/2026",
+   "https://www.banque-france.fr/system/files/webstats/Emission_et_detention_de_titres_francais_2026T1_20260710%20%281%29/FR_Stat_Info_Emission_et_detention_de_titres_francais_2026Q1.pdf"
+  ],
+  [
+   "Il Foglio — ECB tăng lãi 10/9",
+   "https://www.ilfoglio.it/en/economy/2026/09/10/news/the-ecb-raises-interest-rates-this-is-the-second-rise-of-2026--407136"
+  ],
+  [
+   "Federal Reserve — quyết định 16/9/2026",
+   "https://federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+  ],
+  [
+   "Yahoo Finance — thị trường Mỹ 8/10",
+   "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html"
+  ],
+  [
+   "ICI — tài sản quỹ thị trường tiền tệ",
+   "https://www.ici.org/node/57017/printable/pdf"
+  ],
+  [
+   "Trading Economics — lợi suất, tỷ giá, chỉ số Á",
+   "https://tradingeconomics.com/united-states/30-year-bond-yield"
+  ],
+  [
+   "Korea Herald — khối ngoại bán chip",
+   "https://www.koreaherald.com/article/10892894"
+  ],
+  [
+   "Kitco — vàng, dầu 8/10",
+   "https://www.kitco.com/news/article/2026-10-08/gold-rises-silver-falls-strong-bond-auction-tempers-yield-pressure-kitco-pm"
+  ],
+  [
+   "Kitco — NHTW mua vàng tháng 8",
+   "https://www.kitco.com/news/article/2026-10-06/central-banks-add-39-net-tonnes-gold-august-china-uzbekistan-and-poland"
+  ],
+  [
+   "The National — OPEC+ 4/10",
+   "https://www.thenationalnews.com/business/energy/2026/10/04/opec-keeps-oil-output-targets-unchanged-for-november/"
+  ],
+  [
+   "Farside — dòng tiền ETF Bitcoin",
+   "https://farside.co.uk/btc/"
+  ],
+  [
+   "Vietstock Daily 9/10",
+   "https://vietstock.vn/2026/10/vietstock-daily-09102026-chua-het-rung-lac-1636-1500480.htm"
+  ],
+  [
+   "CafeF — khối ngoại bán ròng >100.000 tỷ",
+   "https://cafef.vn/buon-khoi-ngoai-ban-rong-hon-100000-ty-dong-tren-ttck-viet-nam-tu-dau-nam-188261007225424669.chn"
+  ],
+  [
+   "Tạp chí Công Thương — GDP quý 3/2026",
+   "https://tapchicongthuong.vn/tang-truong-gdp-quy-iii-2026-uoc-dat-9-95-554939.htm"
+  ],
+  [
+   "Tạp chí Kinh tế Tài chính — CPI 9 tháng",
+   "https://tapchikinhtetaichinh.vn/cpi-9-thang-tang-4-52-lam-phat-co-ban-duy-tri-muc-thap-hon-168572.html"
+  ]
+ ],
+ "disclaimer": "Tài liệu chỉ nhằm mục đích thông tin và phân tích, không phải khuyến nghị đầu tư. Số liệu tổng hợp từ các nguồn công khai tại thời điểm ghi; một số chỉ số châu Âu và châu Á theo giá CFD của Trading Economics. Số có dấu ~ là ước tính. Kịch bản là ý kiến phân tích."
+}
