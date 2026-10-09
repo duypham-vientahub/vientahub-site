@@ -28,3 +28,9 @@ Trang `/thi-truong/` chỉ đọc `data.json`. Mỗi lần cập nhật chỉ s�
 - Trình bày dữ liệu trước, kết luận sau. Mỗi luận điểm có mặt trái.
 - Chiến lược và kịch bản là ý kiến phân tích, không phải khuyến nghị.
 - Viết tiếng Việt ngắn, rõ, người không chuyên đọc được.
+
+## Mô phỏng 3 tháng (`sim/`)
+
+- `sim/run_sim.py` chạy bằng GitHub Actions (`.github/workflows/market-sim.yml`) lúc 06:40 mỗi ngày và mỗi khi `sim/config.json` đổi trên `main`; kết quả ghi vào `sim/sim.json`.
+- Mô hình: GJR-GARCH(1,1) phần dư skew-t cho từng tài sản, liên kết bằng Filtered Historical Simulation, cộng lớp kịch bản vĩ mô; kiểm định ngoài mẫu độ phủ dải 5–95%.
+- Phân tích hằng ngày chỉ sửa phần `scenarios` trong `sim/config.json` (xác suất, cú sốc, nguồn giả định) và trường `simNote` trong `data.json` (2–3 câu đọc kết quả). Không sửa `sim.json` bằng tay.

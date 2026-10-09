@@ -1,0 +1,38 @@
+{
+ "_ghi_chu": "Cấu hình mô phỏng 3 tháng. Phần 'scenarios' là GIẢ ĐỊNH do phân tích hằng ngày cập nhật (xác suất và cú sốc). Phần còn lại là tham số mô hình, chỉ đổi khi có lý do kỹ thuật.",
+ "horizon_days": 63,
+ "n_paths": 20000,
+ "seed_base": 20261009,
+ "history_years": 10,
+ "fit_window_days": 1260,
+ "drift_shrink": 0.5,
+ "backtest_windows": 12,
+ "backtest_paths": 3000,
+ "assets": [
+  {"id":"spx","name":"S&P 500","group":"Mỹ","yahoo":"^GSPC","cal":"us"},
+  {"id":"ndx","name":"Nasdaq","group":"Mỹ","yahoo":"^IXIC","cal":"us"},
+  {"id":"rut","name":"Russell 2000","group":"Mỹ","yahoo":"^RUT","cal":"us"},
+  {"id":"stoxx","name":"STOXX 600","group":"Châu Âu","yahoo":"^STOXX","cal":"eu"},
+  {"id":"cac","name":"CAC 40","group":"Châu Âu","yahoo":"^FCHI","cal":"eu"},
+  {"id":"dax","name":"DAX","group":"Châu Âu","yahoo":"^GDAXI","cal":"eu"},
+  {"id":"n225","name":"Nikkei 225","group":"Châu Á","yahoo":"^N225","cal":"jp"},
+  {"id":"kospi","name":"KOSPI","group":"Châu Á","yahoo":"^KS11","cal":"kr"},
+  {"id":"hsi","name":"Hang Seng","group":"Châu Á","yahoo":"^HSI","cal":"hk"},
+  {"id":"sse","name":"Shanghai Comp.","group":"Châu Á","yahoo":"000001.SS","cal":"cn"},
+  {"id":"vni","name":"VN-Index","group":"Việt Nam","vndirect":"VNINDEX","yahoo":"^VNINDEX.VN","cal":"vn"},
+  {"id":"gold","name":"Vàng","group":"Hàng hoá","yahoo":"GC=F","cal":"us"},
+  {"id":"brent","name":"Dầu Brent","group":"Hàng hoá","yahoo":"BZ=F","cal":"us"},
+  {"id":"btc","name":"Bitcoin","group":"Crypto","yahoo":"BTC-USD","cal":"crypto"},
+  {"id":"eth","name":"Ethereum","group":"Crypto","yahoo":"ETH-USD","cal":"crypto"},
+  {"id":"dxy","name":"Chỉ số USD (DXY)","group":"Tiền tệ","yahoo":"DX-Y.NYB","cal":"us"}
+ ],
+ "scenarios": {
+  "_nguon": "Giả định ngày 09/10/2026 dựa trên phân tích Market Pulse: chiến sự Mỹ–Iran, eo Hormuz hạn chế, Fed nghiêng tăng lãi. Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "list": [
+   {"id":"base","name":"Cơ sở: thắt chặt kéo dài","p":0.60,"shock":{}},
+   {"id":"deal","name":"Thoả thuận Hormuz","p":0.25,"shock":{"brent":-0.25,"gold":-0.04,"spx":0.04,"ndx":0.05,"rut":0.06,"stoxx":0.05,"cac":0.05,"dax":0.05,"n225":0.03,"kospi":0.05,"hsi":0.04,"sse":0.03,"vni":0.06,"btc":0.08,"eth":0.10,"dxy":-0.02}},
+   {"id":"shock","name":"Leo thang + Fed tăng lãi","p":0.15,"shock":{"brent":0.25,"gold":0.06,"spx":-0.08,"ndx":-0.10,"rut":-0.10,"stoxx":-0.09,"cac":-0.10,"dax":-0.09,"n225":-0.08,"kospi":-0.10,"hsi":-0.08,"sse":-0.06,"vni":-0.10,"btc":-0.15,"eth":-0.18,"dxy":0.02}}
+  ],
+  "shock_scale_range": [0.5, 1.5]
+ }
+}
