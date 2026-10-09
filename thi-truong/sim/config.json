@@ -219,12 +219,6 @@
    "yahoo": "^KQ11"
   },
   {
-   "id": "csi300",
-   "name": "CSI 300",
-   "group": "Châu Á",
-   "yahoo": "000300.SS"
-  },
-  {
    "id": "vn30",
    "name": "VN30",
    "group": "Việt Nam",
