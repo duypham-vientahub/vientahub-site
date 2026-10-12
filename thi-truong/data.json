@@ -124,83 +124,82 @@
  ],
  "feature": {
   "eyebrow": "Kiểm chứng",
-  "title": "“Phúc lợi châu Âu là ngòi nổ, Pháp là cục nhọt, vòng xoáy không đáy”",
+  "since": "2026-10-12",
+  "title": "“Dầu trên 100 USD sẽ buộc Fed tăng lãi, rồi chứng khoán toàn cầu sẽ sập”",
   "tag": "Đúng một phần",
   "lv": "warn",
-  "text": "**Đúng triệu chứng, sai cơ chế, phóng đại kết cục.** Pháp đang chịu áp lực trái phiếu thật: lợi suất 10 năm ~4,86% (9/10), gần mức cao nhất từ 2002, chênh lệch với Đức rộng nhất từ khủng hoảng 2011–12. Ủy ban Tài chính đã bác dự thảo ngân sách 2027 ngày 7/10; Moody's xét hạng ngày 23/10. Nhưng ngân sách chủ yếu đóng băng phúc lợi chứ không cắt, thu thuế dự kiến tăng, đình công chưa làm giảm lực lượng lao động. Lãi suất tăng chủ yếu do cú sốc năng lượng chung toàn cầu. Kịch bản “vỡ nợ, reset” là ý kiến, dữ liệu hiện tại chưa ủng hộ.",
+  "text": "**Đúng ở mắt xích đầu, chưa đúng ở kết cục.** Dầu đắt đang đẩy lạm phát Mỹ lên (CPI tháng 9 dự báo 3,7%, công bố 14/10) và Fed đã tăng lãi tháng 9, thị trường tin ~75–80% sẽ tăng thêm trước cuối năm. Nhưng lạm phát lõi chỉ ~2,5%, kinh tế Mỹ đang chậm (việc làm tháng 9 chỉ +29 nghìn) và lợi nhuận doanh nghiệp vẫn tăng mạnh, nên S&P 500 đang sát đỉnh chứ chưa sập. Nơi chịu trận rõ nhất là thị trường mới nổi, trong đó có Việt Nam, qua kênh đô la mạnh và rút vốn ngoại.",
   "claims": [
    {
-    "t": "Lãi suất cao buộc châu Âu cắt phúc lợi",
+    "t": "Dầu đắt đang đẩy lạm phát Mỹ lên",
+    "lv": "up",
+    "tag": "Đúng",
+    "yes": [
+     "Brent ~104 USD, +71% từ đầu năm (dữ liệu giá 11/10).",
+     "CPI Mỹ 3,4% tháng 8; tháng 9 dự báo ~3,7% (Cleveland Fed nowcast 3,60%).",
+     "Delta báo chi phí nhiên liệu quý 3 +62%, hạ dự báo lợi nhuận 2026 (9/10)."
+    ],
+    "no": [
+     "Lạm phát lõi (bỏ năng lượng, thực phẩm) chỉ ~2,4–2,5%: phần lớn là cú sốc năng lượng, chưa lan rộng.",
+     "EIA dự báo Brent về ~84 USD năm 2027 nếu nguồn cung phục hồi."
+    ]
+   },
+   {
+    "t": "Fed sẽ buộc phải tăng lãi tiếp",
     "lv": "warn",
     "tag": "Đúng một phần",
     "yes": [
-     "Ngân sách Pháp 2027: tổng nỗ lực 54 tỷ €, trong đó 25 tỷ € tiết kiệm chi.",
-     "Lương hưu trên 1.260 €/tháng bị đóng băng; trợ cấp nhà ở, gia đình, prime d'activité đóng băng; bảo hiểm y tế phải tiết kiệm 4 tỷ €.",
-     "Chi trả lãi vay tăng thêm ~10–12 tỷ € năm 2027."
+     "Fed đã tăng 25bp tháng 9, lên 3,75–4,00%.",
+     "Waller (8/10): dự kiến tăng thêm. Biên bản Fed: đa số thấy tăng thêm trước cuối năm là hợp lý.",
+     "Thị trường định giá ~75–80% khả năng tăng lãi tới tháng 12."
     ],
     "no": [
-     "Đây là đóng băng danh nghĩa, không phải cắt giảm. RSA và lương hưu tối thiểu được miễn.",
-     "18 tỷ € trong gói là tăng thu, không phải cắt chi.",
-     "Chi quốc phòng tăng 6,4 tỷ €: áp lực ngân sách còn đến từ quốc phòng, không chỉ lãi vay."
+     "Cho cuộc họp 28/10 chỉ ~16–20% khả năng tăng.",
+     "Williams: một lần tăng nữa 'có thể đủ'; Waller: không cần ở các cuộc họp liên tiếp.",
+     "Việc làm tháng 9 chỉ +29 nghìn (dự báo 90 nghìn), niềm tin tiêu dùng 46,3: kinh tế yếu đi khiến Fed khó thắt mạnh."
     ]
    },
    {
-    "t": "Cắt phúc lợi → biểu tình, không đi làm → nguồn thu giảm",
+    "t": "Chứng khoán Mỹ sẽ sập",
     "lv": "down",
     "tag": "Chưa có bằng chứng",
     "yes": [
-     "Đình công 29/9: khoảng 206.000 người tuần hành, ~10% công chức nhà nước nghỉ việc một ngày, 38–40% giáo viên (theo công đoàn).",
-     "Đầu tháng 10 có hơn 1.200 trường học bị phong toả hoặc gián đoạn."
+     "Lợi suất Mỹ 10 năm 5,24%, +30bp trong một tháng; định giá AI nhạy với lợi suất cao.",
+     "Russell 2000 (doanh nghiệp nhỏ) đã thấp hơn đỉnh 8,5%, dưới MA50.",
+     "Mô phỏng nhánh 'leo thang + Fed tăng lãi': S&P 500 trung vị −6,3% sau 3 tháng, 5% xấu nhất ~−19%."
     ],
     "no": [
-     "Đình công một ngày không làm giảm lực lượng lao động lâu dài. Thất nghiệp eurozone ổn định 6,4%.",
-     "Thu thuế nhà nước Pháp dự kiến tăng 18 tỷ € năm 2027 (VAT, thuế thu nhập).",
-     "Chưa có dữ liệu nào cho thấy nguồn thu giảm vì biểu tình."
+     "S&P 500 7.812 (9/10), chỉ cách đỉnh 0,1%; VIX 14,8, thấp.",
+     "FactSet: lợi nhuận quý 3 dự kiến +29,6%, P/E dự phóng 19,1.",
+     "Mô phỏng tổng hợp: S&P có ~59% khả năng cao hơn hiện tại sau 3 tháng."
     ]
    },
    {
-    "t": "Phải vay với lãi cao hơn",
+    "t": "Thị trường mới nổi chịu trận trước",
     "lv": "up",
     "tag": "Đúng",
     "yes": [
-     "Lợi suất OAT 10 năm 4,90% (8/10), cao nhất từ 2002.",
-     "Chênh lệch OAT–Bund lên đỉnh 147–156bp đầu tháng 10 (tuỳ nguồn), rộng nhất từ 2011–12; giữa tháng 8 chỉ 86bp. Ngày 8/10 còn ~140bp.",
-     "Lãi suất phát hành bình quân 2026 là 3,55%, so với 3,14% năm 2025."
+     "DXY 102,2, đỉnh 52 tuần; EUR/USD thấp nhất 52 tuần.",
+     "Khối ngoại bán ròng cổ phiếu Việt Nam ~13.900 tỷ đ tuần 5–9/10, luỹ kế năm −112.297 tỷ.",
+     "Khối ngoại bán ~20.300 tỷ won cổ phiếu Hàn từ 1/9 tới 2/10; Hang Seng dưới MA200."
     ],
     "no": [
-     "Kỳ hạn nợ bình quân 8,4 năm nên lãi suất mới ngấm chậm: +100bp chỉ thêm ~3,4 tỷ € chi lãi năm 2027.",
-     "Khoảng một nửa mức tăng lợi suất đến từ yếu tố ngoài Pháp (năng lượng, nhu cầu vốn của data center)."
+     "Phần lớn mức bán ròng tuần qua ở Việt Nam là một giao dịch thoả thuận MCH chuyển sang nhà đầu tư nội.",
+     "Nikkei vẫn +37% từ đầu năm, khối ngoại mua ròng cổ phiếu Nhật."
     ]
    },
    {
-    "t": "Cục nhọt đang tập trung ở Pháp",
-    "lv": "up",
-    "tag": "Đúng",
+    "t": "Không có lối thoát trừ khi chiến sự kết thúc",
+    "lv": "warn",
+    "tag": "Đúng một phần",
     "yes": [
-     "Chênh lệch Pháp rộng hơn Ý — điều hiếm thấy.",
-     "Nợ công ~119% GDP, thâm hụt 5,4%, năm thứ ba trên 5%.",
-     "Ủy ban Tài chính bác dự thảo ngân sách 7/10; bỏ phiếu phần thu 20/10, có thể dùng điều 49.3 và đối mặt bất tín nhiệm. Bầu cử tổng thống 18/4/2027.",
-     "Tăng trưởng gần bằng 0: quý 1 −0,2%, quý 2 0,0%."
+     "Hormuz chỉ 7–10 tàu/ngày đầu tháng 10 (trước chiến tranh ~125); Houthi tấn công Riyadh 10/10.",
+     "EIA dự báo Brent quý 4 ~105 USD, Trung Đông mất ~4,5 triệu thùng/ngày."
     ],
     "no": [
-     "Anh có lợi suất 30 năm 6,05% cao nhất từ 1998. Căng thẳng tài khoá lan rộng hơn Pháp.",
-     "Lợi suất dài hạn tăng cả ở Mỹ, Đức, Nhật: đây là cú sốc chung, Pháp chỉ là mắt xích yếu."
-    ]
-   },
-   {
-    "t": "Vòng xoáy không đáy, chỉ kết thúc bằng vỡ nợ / reset",
-    "lv": "down",
-    "tag": "Ý kiến, dữ liệu chưa ủng hộ",
-    "yes": [
-     "Hạt nhân có thật: lãi vay (r) cao hơn tăng trưởng danh nghĩa (g) cộng thâm hụt cơ bản lớn thì nợ/GDP tự tăng.",
-     "55,9% nợ Pháp do nước ngoài nắm giữ: dễ bị rút nhanh.",
-     "ECB đang tăng lãi, và công cụ TPI chỉ dùng khi chính sách “lành mạnh”; Pháp đang trong thủ tục thâm hụt quá mức."
-    ],
-    "no": [
-     "Xếp hạng vẫn A+ (Fitch, S&P) và Aa3 triển vọng tiêu cực (Moody's, xét lại 23/10); chưa tổ chức nào đưa về mức rủi ro vỡ nợ.",
-     "Hộ gia đình Pháp tiết kiệm 17,2% thu nhập: đệm vốn trong nước lớn.",
-     "Pháp vẫn vay được ở ~4,9%. Ý từng vay ở mức cao hơn nhiều năm 2011–12 mà không vỡ nợ.",
-     "Nếu dầu hạ nhiệt, lạm phát và lợi suất có thể giảm, phá vỡ vòng xoáy từ bên ngoài."
+     "Iran đang xem kế hoạch 7 ngày mở lại Hormuz của Mỹ, hẹn trả lời trong khoảng một tuần.",
+     "Mỹ cho vay dầu dự trữ, Nga cam kết cấp thêm diesel: nguồn cung thay thế đang tăng.",
+     "Mô phỏng nhánh 'thoả thuận Hormuz': Brent trung vị −26% sau 3 tháng."
     ]
    }
   ]
@@ -342,6 +341,14 @@
   ]
  ],
  "sources": [
+  [
+   "Cleveland Fed — inflation nowcasting",
+   "https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting"
+  ],
+  [
+   "Admiral Markets — kỳ họp Fed tháng 10/2026",
+   "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026"
+  ],
   [
    "CNBC — Trump, Saudi, Iran và Houthi, 11/10/2026",
    "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html"
