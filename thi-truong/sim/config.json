@@ -124,7 +124,7 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 09/10/2026 dựa trên phân tích Market Pulse: chiến sự Mỹ–Iran, eo Hormuz hạn chế, Fed nghiêng tăng lãi. Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 13/10/2026: Iran gọi phản hồi của Mỹ về kế hoạch mở Hormuz là 'chưa đủ' (Rezaei, 11/10; Haaretz 12/10), IRGC nói đã đánh 3 tàu chở dầu ở Hormuz, Houthi bắn tiếp vào Riyadh 12/10 (CBS, Gulf News). Khả năng tăng lãi Fed tháng 10 lên ~22%, tới tháng 12 ~85% (Investing.com Fed Rate Monitor 12/10). Vì vậy giảm xác suất thoả thuận từ 25% xuống 20%, tăng leo thang từ 15% lên 20%. Độ lớn cú sốc giữ nguyên (Goldman dự báo Brent cuối 2026 ~85–90 USD, BofA 95 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
@@ -135,7 +135,7 @@
    {
     "id": "deal",
     "name": "Thoả thuận Hormuz",
-    "p": 0.25,
+    "p": 0.2,
     "shock": {
      "brent": -0.25,
      "gold": -0.04,
@@ -158,7 +158,7 @@
    {
     "id": "shock",
     "name": "Leo thang + Fed tăng lãi",
-    "p": 0.15,
+    "p": 0.2,
     "shock": {
      "brent": 0.25,
      "gold": 0.06,
