@@ -1,0 +1,1157 @@
+{
+ "_ghi_chu": "Danh sách mã cho bộ lọc tiềm năng. Thêm/bớt mã ở đây; ngưỡng lọc ở khối 'rules'. Script: screener.py, chạy cùng workflow mô phỏng mỗi sáng.",
+ "history_days": 420,
+ "markets": [
+  {
+   "id": "vn",
+   "name": "Việt Nam",
+   "bench": {
+    "code": "VNINDEX",
+    "name": "VN-Index",
+    "src": "VNINDEX"
+   },
+   "feed": "vn",
+   "unit": "nghìn đ",
+   "liqUnit": "tỷ đ",
+   "rules": {
+    "minLiq": 10000000000.0,
+    "ma50Buffer": 0.015,
+    "distDown": 0.0025,
+    "distMax": 5,
+    "downDay": -0.002,
+    "holdMin": 0.6,
+    "baseMax": 0.15,
+    "udMin": 1.0,
+    "udHot": 2.5
+   },
+   "universe": [
+    {
+     "code": "VCB",
+     "sector": "Ngân hàng",
+     "src": "VCB"
+    },
+    {
+     "code": "BID",
+     "sector": "Ngân hàng",
+     "src": "BID"
+    },
+    {
+     "code": "CTG",
+     "sector": "Ngân hàng",
+     "src": "CTG"
+    },
+    {
+     "code": "TCB",
+     "sector": "Ngân hàng",
+     "src": "TCB"
+    },
+    {
+     "code": "MBB",
+     "sector": "Ngân hàng",
+     "src": "MBB"
+    },
+    {
+     "code": "VPB",
+     "sector": "Ngân hàng",
+     "src": "VPB"
+    },
+    {
+     "code": "ACB",
+     "sector": "Ngân hàng",
+     "src": "ACB"
+    },
+    {
+     "code": "HDB",
+     "sector": "Ngân hàng",
+     "src": "HDB"
+    },
+    {
+     "code": "STB",
+     "sector": "Ngân hàng",
+     "src": "STB"
+    },
+    {
+     "code": "SHB",
+     "sector": "Ngân hàng",
+     "src": "SHB"
+    },
+    {
+     "code": "VIB",
+     "sector": "Ngân hàng",
+     "src": "VIB"
+    },
+    {
+     "code": "TPB",
+     "sector": "Ngân hàng",
+     "src": "TPB"
+    },
+    {
+     "code": "MSB",
+     "sector": "Ngân hàng",
+     "src": "MSB"
+    },
+    {
+     "code": "LPB",
+     "sector": "Ngân hàng",
+     "src": "LPB"
+    },
+    {
+     "code": "EIB",
+     "sector": "Ngân hàng",
+     "src": "EIB"
+    },
+    {
+     "code": "OCB",
+     "sector": "Ngân hàng",
+     "src": "OCB"
+    },
+    {
+     "code": "SSB",
+     "sector": "Ngân hàng",
+     "src": "SSB"
+    },
+    {
+     "code": "NAB",
+     "sector": "Ngân hàng",
+     "src": "NAB"
+    },
+    {
+     "code": "SSI",
+     "sector": "Chứng khoán",
+     "src": "SSI"
+    },
+    {
+     "code": "VND",
+     "sector": "Chứng khoán",
+     "src": "VND"
+    },
+    {
+     "code": "HCM",
+     "sector": "Chứng khoán",
+     "src": "HCM"
+    },
+    {
+     "code": "VCI",
+     "sector": "Chứng khoán",
+     "src": "VCI"
+    },
+    {
+     "code": "SHS",
+     "sector": "Chứng khoán",
+     "src": "SHS"
+    },
+    {
+     "code": "MBS",
+     "sector": "Chứng khoán",
+     "src": "MBS"
+    },
+    {
+     "code": "VIX",
+     "sector": "Chứng khoán",
+     "src": "VIX"
+    },
+    {
+     "code": "FTS",
+     "sector": "Chứng khoán",
+     "src": "FTS"
+    },
+    {
+     "code": "CTS",
+     "sector": "Chứng khoán",
+     "src": "CTS"
+    },
+    {
+     "code": "BSI",
+     "sector": "Chứng khoán",
+     "src": "BSI"
+    },
+    {
+     "code": "VIC",
+     "sector": "Bất động sản",
+     "src": "VIC"
+    },
+    {
+     "code": "VHM",
+     "sector": "Bất động sản",
+     "src": "VHM"
+    },
+    {
+     "code": "VRE",
+     "sector": "Bất động sản",
+     "src": "VRE"
+    },
+    {
+     "code": "NVL",
+     "sector": "Bất động sản",
+     "src": "NVL"
+    },
+    {
+     "code": "KDH",
+     "sector": "Bất động sản",
+     "src": "KDH"
+    },
+    {
+     "code": "NLG",
+     "sector": "Bất động sản",
+     "src": "NLG"
+    },
+    {
+     "code": "DXG",
+     "sector": "Bất động sản",
+     "src": "DXG"
+    },
+    {
+     "code": "PDR",
+     "sector": "Bất động sản",
+     "src": "PDR"
+    },
+    {
+     "code": "DIG",
+     "sector": "Bất động sản",
+     "src": "DIG"
+    },
+    {
+     "code": "CEO",
+     "sector": "Bất động sản",
+     "src": "CEO"
+    },
+    {
+     "code": "TCH",
+     "sector": "Bất động sản",
+     "src": "TCH"
+    },
+    {
+     "code": "HDG",
+     "sector": "Bất động sản",
+     "src": "HDG"
+    },
+    {
+     "code": "KBC",
+     "sector": "BĐS khu công nghiệp",
+     "src": "KBC"
+    },
+    {
+     "code": "IDC",
+     "sector": "BĐS khu công nghiệp",
+     "src": "IDC"
+    },
+    {
+     "code": "SZC",
+     "sector": "BĐS khu công nghiệp",
+     "src": "SZC"
+    },
+    {
+     "code": "BCM",
+     "sector": "BĐS khu công nghiệp",
+     "src": "BCM"
+    },
+    {
+     "code": "VGC",
+     "sector": "BĐS khu công nghiệp",
+     "src": "VGC"
+    },
+    {
+     "code": "HPG",
+     "sector": "Thép, vật liệu",
+     "src": "HPG"
+    },
+    {
+     "code": "HSG",
+     "sector": "Thép, vật liệu",
+     "src": "HSG"
+    },
+    {
+     "code": "NKG",
+     "sector": "Thép, vật liệu",
+     "src": "NKG"
+    },
+    {
+     "code": "DGC",
+     "sector": "Hoá chất, phân bón",
+     "src": "DGC"
+    },
+    {
+     "code": "DCM",
+     "sector": "Hoá chất, phân bón",
+     "src": "DCM"
+    },
+    {
+     "code": "DPM",
+     "sector": "Hoá chất, phân bón",
+     "src": "DPM"
+    },
+    {
+     "code": "CSV",
+     "sector": "Hoá chất, phân bón",
+     "src": "CSV"
+    },
+    {
+     "code": "GVR",
+     "sector": "Cao su",
+     "src": "GVR"
+    },
+    {
+     "code": "PHR",
+     "sector": "Cao su",
+     "src": "PHR"
+    },
+    {
+     "code": "DPR",
+     "sector": "Cao su",
+     "src": "DPR"
+    },
+    {
+     "code": "MWG",
+     "sector": "Bán lẻ",
+     "src": "MWG"
+    },
+    {
+     "code": "PNJ",
+     "sector": "Bán lẻ",
+     "src": "PNJ"
+    },
+    {
+     "code": "FRT",
+     "sector": "Bán lẻ",
+     "src": "FRT"
+    },
+    {
+     "code": "DGW",
+     "sector": "Bán lẻ",
+     "src": "DGW"
+    },
+    {
+     "code": "VNM",
+     "sector": "Tiêu dùng",
+     "src": "VNM"
+    },
+    {
+     "code": "MSN",
+     "sector": "Tiêu dùng",
+     "src": "MSN"
+    },
+    {
+     "code": "SAB",
+     "sector": "Tiêu dùng",
+     "src": "SAB"
+    },
+    {
+     "code": "MCH",
+     "sector": "Tiêu dùng",
+     "src": "MCH"
+    },
+    {
+     "code": "QNS",
+     "sector": "Tiêu dùng",
+     "src": "QNS"
+    },
+    {
+     "code": "KDC",
+     "sector": "Tiêu dùng",
+     "src": "KDC"
+    },
+    {
+     "code": "TLG",
+     "sector": "Tiêu dùng",
+     "src": "TLG"
+    },
+    {
+     "code": "GAS",
+     "sector": "Dầu khí",
+     "src": "GAS"
+    },
+    {
+     "code": "PLX",
+     "sector": "Dầu khí",
+     "src": "PLX"
+    },
+    {
+     "code": "PVS",
+     "sector": "Dầu khí",
+     "src": "PVS"
+    },
+    {
+     "code": "PVD",
+     "sector": "Dầu khí",
+     "src": "PVD"
+    },
+    {
+     "code": "PVT",
+     "sector": "Dầu khí",
+     "src": "PVT"
+    },
+    {
+     "code": "BSR",
+     "sector": "Dầu khí",
+     "src": "BSR"
+    },
+    {
+     "code": "PET",
+     "sector": "Dầu khí",
+     "src": "PET"
+    },
+    {
+     "code": "POW",
+     "sector": "Điện, tiện ích",
+     "src": "POW"
+    },
+    {
+     "code": "NT2",
+     "sector": "Điện, tiện ích",
+     "src": "NT2"
+    },
+    {
+     "code": "REE",
+     "sector": "Điện, tiện ích",
+     "src": "REE"
+    },
+    {
+     "code": "PC1",
+     "sector": "Điện, tiện ích",
+     "src": "PC1"
+    },
+    {
+     "code": "GEX",
+     "sector": "Điện, tiện ích",
+     "src": "GEX"
+    },
+    {
+     "code": "FPT",
+     "sector": "Công nghệ, viễn thông",
+     "src": "FPT"
+    },
+    {
+     "code": "CMG",
+     "sector": "Công nghệ, viễn thông",
+     "src": "CMG"
+    },
+    {
+     "code": "CTR",
+     "sector": "Công nghệ, viễn thông",
+     "src": "CTR"
+    },
+    {
+     "code": "VGI",
+     "sector": "Công nghệ, viễn thông",
+     "src": "VGI"
+    },
+    {
+     "code": "GMD",
+     "sector": "Cảng, vận tải",
+     "src": "GMD"
+    },
+    {
+     "code": "HAH",
+     "sector": "Cảng, vận tải",
+     "src": "HAH"
+    },
+    {
+     "code": "VSC",
+     "sector": "Cảng, vận tải",
+     "src": "VSC"
+    },
+    {
+     "code": "ACV",
+     "sector": "Cảng, vận tải",
+     "src": "ACV"
+    },
+    {
+     "code": "HVN",
+     "sector": "Cảng, vận tải",
+     "src": "HVN"
+    },
+    {
+     "code": "VJC",
+     "sector": "Cảng, vận tải",
+     "src": "VJC"
+    },
+    {
+     "code": "CII",
+     "sector": "Xây dựng, đầu tư công",
+     "src": "CII"
+    },
+    {
+     "code": "HHV",
+     "sector": "Xây dựng, đầu tư công",
+     "src": "HHV"
+    },
+    {
+     "code": "VCG",
+     "sector": "Xây dựng, đầu tư công",
+     "src": "VCG"
+    },
+    {
+     "code": "CTD",
+     "sector": "Xây dựng, đầu tư công",
+     "src": "CTD"
+    },
+    {
+     "code": "DPG",
+     "sector": "Xây dựng, đầu tư công",
+     "src": "DPG"
+    },
+    {
+     "code": "BMP",
+     "sector": "Xây dựng, đầu tư công",
+     "src": "BMP"
+    }
+   ]
+  },
+  {
+   "id": "us",
+   "name": "Mỹ",
+   "bench": {
+    "code": "S&P 500",
+    "name": "S&P 500",
+    "src": "^GSPC"
+   },
+   "feed": "yahoo",
+   "unit": "USD",
+   "liqUnit": "triệu USD",
+   "rules": {
+    "minLiq": 100000000.0,
+    "ma50Buffer": 0.0,
+    "distDown": 0.002,
+    "distMax": 5,
+    "downDay": -0.002,
+    "holdMin": 0.6,
+    "baseMax": 0.15,
+    "udMin": 1.0,
+    "udHot": 2.5
+   },
+   "universe": [
+    {
+     "code": "AAPL",
+     "sector": "Công nghệ",
+     "src": "AAPL"
+    },
+    {
+     "code": "MSFT",
+     "sector": "Công nghệ",
+     "src": "MSFT"
+    },
+    {
+     "code": "NVDA",
+     "sector": "Công nghệ",
+     "src": "NVDA"
+    },
+    {
+     "code": "AVGO",
+     "sector": "Công nghệ",
+     "src": "AVGO"
+    },
+    {
+     "code": "ORCL",
+     "sector": "Công nghệ",
+     "src": "ORCL"
+    },
+    {
+     "code": "CRM",
+     "sector": "Công nghệ",
+     "src": "CRM"
+    },
+    {
+     "code": "ADBE",
+     "sector": "Công nghệ",
+     "src": "ADBE"
+    },
+    {
+     "code": "AMD",
+     "sector": "Công nghệ",
+     "src": "AMD"
+    },
+    {
+     "code": "INTC",
+     "sector": "Công nghệ",
+     "src": "INTC"
+    },
+    {
+     "code": "CSCO",
+     "sector": "Công nghệ",
+     "src": "CSCO"
+    },
+    {
+     "code": "IBM",
+     "sector": "Công nghệ",
+     "src": "IBM"
+    },
+    {
+     "code": "NOW",
+     "sector": "Công nghệ",
+     "src": "NOW"
+    },
+    {
+     "code": "PLTR",
+     "sector": "Công nghệ",
+     "src": "PLTR"
+    },
+    {
+     "code": "ANET",
+     "sector": "Công nghệ",
+     "src": "ANET"
+    },
+    {
+     "code": "MU",
+     "sector": "Công nghệ",
+     "src": "MU"
+    },
+    {
+     "code": "QCOM",
+     "sector": "Công nghệ",
+     "src": "QCOM"
+    },
+    {
+     "code": "TXN",
+     "sector": "Công nghệ",
+     "src": "TXN"
+    },
+    {
+     "code": "AMAT",
+     "sector": "Công nghệ",
+     "src": "AMAT"
+    },
+    {
+     "code": "LRCX",
+     "sector": "Công nghệ",
+     "src": "LRCX"
+    },
+    {
+     "code": "KLAC",
+     "sector": "Công nghệ",
+     "src": "KLAC"
+    },
+    {
+     "code": "SNPS",
+     "sector": "Công nghệ",
+     "src": "SNPS"
+    },
+    {
+     "code": "CDNS",
+     "sector": "Công nghệ",
+     "src": "CDNS"
+    },
+    {
+     "code": "PANW",
+     "sector": "Công nghệ",
+     "src": "PANW"
+    },
+    {
+     "code": "CRWD",
+     "sector": "Công nghệ",
+     "src": "CRWD"
+    },
+    {
+     "code": "GOOGL",
+     "sector": "Truyền thông",
+     "src": "GOOGL"
+    },
+    {
+     "code": "META",
+     "sector": "Truyền thông",
+     "src": "META"
+    },
+    {
+     "code": "NFLX",
+     "sector": "Truyền thông",
+     "src": "NFLX"
+    },
+    {
+     "code": "DIS",
+     "sector": "Truyền thông",
+     "src": "DIS"
+    },
+    {
+     "code": "TMUS",
+     "sector": "Truyền thông",
+     "src": "TMUS"
+    },
+    {
+     "code": "AMZN",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "AMZN"
+    },
+    {
+     "code": "TSLA",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "TSLA"
+    },
+    {
+     "code": "HD",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "HD"
+    },
+    {
+     "code": "MCD",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "MCD"
+    },
+    {
+     "code": "NKE",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "NKE"
+    },
+    {
+     "code": "SBUX",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "SBUX"
+    },
+    {
+     "code": "BKNG",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "BKNG"
+    },
+    {
+     "code": "LOW",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "LOW"
+    },
+    {
+     "code": "TJX",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "TJX"
+    },
+    {
+     "code": "CMG",
+     "sector": "Tiêu dùng không thiết yếu",
+     "src": "CMG"
+    },
+    {
+     "code": "JPM",
+     "sector": "Tài chính",
+     "src": "JPM"
+    },
+    {
+     "code": "BAC",
+     "sector": "Tài chính",
+     "src": "BAC"
+    },
+    {
+     "code": "WFC",
+     "sector": "Tài chính",
+     "src": "WFC"
+    },
+    {
+     "code": "GS",
+     "sector": "Tài chính",
+     "src": "GS"
+    },
+    {
+     "code": "MS",
+     "sector": "Tài chính",
+     "src": "MS"
+    },
+    {
+     "code": "C",
+     "sector": "Tài chính",
+     "src": "C"
+    },
+    {
+     "code": "SCHW",
+     "sector": "Tài chính",
+     "src": "SCHW"
+    },
+    {
+     "code": "BLK",
+     "sector": "Tài chính",
+     "src": "BLK"
+    },
+    {
+     "code": "AXP",
+     "sector": "Tài chính",
+     "src": "AXP"
+    },
+    {
+     "code": "V",
+     "sector": "Tài chính",
+     "src": "V"
+    },
+    {
+     "code": "MA",
+     "sector": "Tài chính",
+     "src": "MA"
+    },
+    {
+     "code": "PYPL",
+     "sector": "Tài chính",
+     "src": "PYPL"
+    },
+    {
+     "code": "COIN",
+     "sector": "Tài chính",
+     "src": "COIN"
+    },
+    {
+     "code": "HOOD",
+     "sector": "Tài chính",
+     "src": "HOOD"
+    },
+    {
+     "code": "LLY",
+     "sector": "Y tế",
+     "src": "LLY"
+    },
+    {
+     "code": "UNH",
+     "sector": "Y tế",
+     "src": "UNH"
+    },
+    {
+     "code": "JNJ",
+     "sector": "Y tế",
+     "src": "JNJ"
+    },
+    {
+     "code": "ABBV",
+     "sector": "Y tế",
+     "src": "ABBV"
+    },
+    {
+     "code": "MRK",
+     "sector": "Y tế",
+     "src": "MRK"
+    },
+    {
+     "code": "PFE",
+     "sector": "Y tế",
+     "src": "PFE"
+    },
+    {
+     "code": "TMO",
+     "sector": "Y tế",
+     "src": "TMO"
+    },
+    {
+     "code": "ISRG",
+     "sector": "Y tế",
+     "src": "ISRG"
+    },
+    {
+     "code": "ABT",
+     "sector": "Y tế",
+     "src": "ABT"
+    },
+    {
+     "code": "AMGN",
+     "sector": "Y tế",
+     "src": "AMGN"
+    },
+    {
+     "code": "VRTX",
+     "sector": "Y tế",
+     "src": "VRTX"
+    },
+    {
+     "code": "WMT",
+     "sector": "Tiêu dùng thiết yếu",
+     "src": "WMT"
+    },
+    {
+     "code": "COST",
+     "sector": "Tiêu dùng thiết yếu",
+     "src": "COST"
+    },
+    {
+     "code": "PG",
+     "sector": "Tiêu dùng thiết yếu",
+     "src": "PG"
+    },
+    {
+     "code": "KO",
+     "sector": "Tiêu dùng thiết yếu",
+     "src": "KO"
+    },
+    {
+     "code": "PEP",
+     "sector": "Tiêu dùng thiết yếu",
+     "src": "PEP"
+    },
+    {
+     "code": "PM",
+     "sector": "Tiêu dùng thiết yếu",
+     "src": "PM"
+    },
+    {
+     "code": "MO",
+     "sector": "Tiêu dùng thiết yếu",
+     "src": "MO"
+    },
+    {
+     "code": "XOM",
+     "sector": "Năng lượng",
+     "src": "XOM"
+    },
+    {
+     "code": "CVX",
+     "sector": "Năng lượng",
+     "src": "CVX"
+    },
+    {
+     "code": "COP",
+     "sector": "Năng lượng",
+     "src": "COP"
+    },
+    {
+     "code": "SLB",
+     "sector": "Năng lượng",
+     "src": "SLB"
+    },
+    {
+     "code": "EOG",
+     "sector": "Năng lượng",
+     "src": "EOG"
+    },
+    {
+     "code": "OXY",
+     "sector": "Năng lượng",
+     "src": "OXY"
+    },
+    {
+     "code": "CAT",
+     "sector": "Công nghiệp",
+     "src": "CAT"
+    },
+    {
+     "code": "GE",
+     "sector": "Công nghiệp",
+     "src": "GE"
+    },
+    {
+     "code": "BA",
+     "sector": "Công nghiệp",
+     "src": "BA"
+    },
+    {
+     "code": "RTX",
+     "sector": "Công nghiệp",
+     "src": "RTX"
+    },
+    {
+     "code": "LMT",
+     "sector": "Công nghiệp",
+     "src": "LMT"
+    },
+    {
+     "code": "HON",
+     "sector": "Công nghiệp",
+     "src": "HON"
+    },
+    {
+     "code": "UPS",
+     "sector": "Công nghiệp",
+     "src": "UPS"
+    },
+    {
+     "code": "DE",
+     "sector": "Công nghiệp",
+     "src": "DE"
+    },
+    {
+     "code": "UBER",
+     "sector": "Công nghiệp",
+     "src": "UBER"
+    },
+    {
+     "code": "ETN",
+     "sector": "Công nghiệp",
+     "src": "ETN"
+    },
+    {
+     "code": "GEV",
+     "sector": "Công nghiệp",
+     "src": "GEV"
+    },
+    {
+     "code": "LIN",
+     "sector": "Vật liệu",
+     "src": "LIN"
+    },
+    {
+     "code": "FCX",
+     "sector": "Vật liệu",
+     "src": "FCX"
+    },
+    {
+     "code": "NEM",
+     "sector": "Vật liệu",
+     "src": "NEM"
+    },
+    {
+     "code": "NEE",
+     "sector": "Tiện ích",
+     "src": "NEE"
+    },
+    {
+     "code": "VST",
+     "sector": "Tiện ích",
+     "src": "VST"
+    },
+    {
+     "code": "CEG",
+     "sector": "Tiện ích",
+     "src": "CEG"
+    },
+    {
+     "code": "PLD",
+     "sector": "Bất động sản",
+     "src": "PLD"
+    },
+    {
+     "code": "AMT",
+     "sector": "Bất động sản",
+     "src": "AMT"
+    }
+   ]
+  },
+  {
+   "id": "crypto",
+   "name": "Crypto",
+   "bench": {
+    "code": "BTC",
+    "name": "Bitcoin",
+    "src": "BTC-USD"
+   },
+   "feed": "yahoo",
+   "unit": "USD",
+   "liqUnit": "triệu USD",
+   "volumeIsValue": true,
+   "rules": {
+    "minLiq": 50000000.0,
+    "ma50Buffer": 0.03,
+    "distDown": null,
+    "distMax": null,
+    "downDay": -0.01,
+    "holdMin": 0.6,
+    "baseMax": 0.3,
+    "udMin": 1.0,
+    "udHot": 3.0
+   },
+   "universe": [
+    {
+     "code": "BTC",
+     "sector": "Lớp 1",
+     "src": "BTC-USD"
+    },
+    {
+     "code": "ETH",
+     "sector": "Lớp 1",
+     "src": "ETH-USD"
+    },
+    {
+     "code": "SOL",
+     "sector": "Lớp 1",
+     "src": "SOL-USD"
+    },
+    {
+     "code": "BNB",
+     "sector": "Lớp 1",
+     "src": "BNB-USD"
+    },
+    {
+     "code": "ADA",
+     "sector": "Lớp 1",
+     "src": "ADA-USD"
+    },
+    {
+     "code": "AVAX",
+     "sector": "Lớp 1",
+     "src": "AVAX-USD"
+    },
+    {
+     "code": "TRX",
+     "sector": "Lớp 1",
+     "src": "TRX-USD"
+    },
+    {
+     "code": "DOT",
+     "sector": "Lớp 1",
+     "src": "DOT-USD"
+    },
+    {
+     "code": "NEAR",
+     "sector": "Lớp 1",
+     "src": "NEAR-USD"
+    },
+    {
+     "code": "SUI",
+     "sector": "Lớp 1",
+     "src": "SUI20947-USD"
+    },
+    {
+     "code": "TON",
+     "sector": "Lớp 1",
+     "src": "TON11419-USD"
+    },
+    {
+     "code": "APT",
+     "sector": "Lớp 1",
+     "src": "APT21794-USD"
+    },
+    {
+     "code": "ICP",
+     "sector": "Lớp 1",
+     "src": "ICP-USD"
+    },
+    {
+     "code": "HBAR",
+     "sector": "Lớp 1",
+     "src": "HBAR-USD"
+    },
+    {
+     "code": "ATOM",
+     "sector": "Lớp 1",
+     "src": "ATOM-USD"
+    },
+    {
+     "code": "XRP",
+     "sector": "Thanh toán",
+     "src": "XRP-USD"
+    },
+    {
+     "code": "XLM",
+     "sector": "Thanh toán",
+     "src": "XLM-USD"
+    },
+    {
+     "code": "LTC",
+     "sector": "Thanh toán",
+     "src": "LTC-USD"
+    },
+    {
+     "code": "BCH",
+     "sector": "Thanh toán",
+     "src": "BCH-USD"
+    },
+    {
+     "code": "DOGE",
+     "sector": "Meme",
+     "src": "DOGE-USD"
+    },
+    {
+     "code": "LINK",
+     "sector": "DeFi, hạ tầng",
+     "src": "LINK-USD"
+    },
+    {
+     "code": "UNI",
+     "sector": "DeFi, hạ tầng",
+     "src": "UNI7083-USD"
+    },
+    {
+     "code": "AAVE",
+     "sector": "DeFi, hạ tầng",
+     "src": "AAVE-USD"
+    },
+    {
+     "code": "FIL",
+     "sector": "DeFi, hạ tầng",
+     "src": "FIL-USD"
+    },
+    {
+     "code": "ETC",
+     "sector": "DeFi, hạ tầng",
+     "src": "ETC-USD"
+    }
+   ]
+  }
+ ]
+}
