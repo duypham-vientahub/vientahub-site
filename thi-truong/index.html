@@ -59,6 +59,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .hero .lead{font-size:clamp(15px,1.5vw,17px);line-height:1.75;color:#BFD0D8;font-weight:300;max-width:62ch}
 .hero .lead b{color:#fff;font-weight:600}
 .stamp{margin-top:22px;font:400 12.5px var(--f-mono);color:#8FA6B2}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.jump a{border:1px solid rgba(143,227,211,.45);color:#fff;border-radius:99px;padding:8px 14px;font:600 13px var(--f-head)}.jump a:first-child{background:var(--gold);color:var(--navy);border-color:var(--gold)}
 .en-note{margin-top:14px;font-size:13px;color:var(--gold2)}
 .regime{background:rgba(255,255,255,.05);border:1px solid rgba(143,227,211,.22);border-radius:18px;padding:22px}
 .regime .top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:16px}
@@ -251,6 +252,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 @media (max-width:420px){.chain,.kvs{grid-template-columns:1fr}.link{border-right:0!important}}
 
 /* bộ lọc mã tiềm năng */
+#bo-loc,#mo-phong,#kich-ban{scroll-margin-top:80px}
 #bo-loc [hidden]{display:none!important}
 .sx-gate{background:var(--navy);color:#fff;border-radius:20px;padding:22px 26px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:18px 28px;margin-bottom:16px}
 .sx-gate > *{min-width:0}
@@ -331,6 +333,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <p class="lead" id="lede"></p>
       <p class="en-note en">This analysis is published in Vietnamese.</p>
       <p class="stamp" id="stamp"></p>
+      <div class="jump"><a href="#bo-loc">Bộ lọc mã tiềm năng ↓</a><a href="#mo-phong">Mô phỏng 3 tháng ↓</a><a href="#kich-ban">Kịch bản ↓</a></div>
     </div>
     <aside class="regime" aria-label="Chế độ vĩ mô">
       <div class="top"><span class="eyebrow">Chế độ vĩ mô</span><span class="pill warn" id="regimeLabel"></span></div>
