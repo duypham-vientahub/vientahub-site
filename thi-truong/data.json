@@ -1450,5 +1450,300 @@
     ]
    }
   ]
+ },
+ "screener": {
+  "title": "Mã đang mạnh hơn thị trường",
+  "intro": "Hệ thống tự lọc mỗi sáng trên giá thật (VNDirect cho Việt Nam, Yahoo Finance cho Mỹ và crypto) theo khung swing của phòng đầu tư: cổng thị trường trước, rồi ba tầng thanh khoản, sức mạnh tương đối, dòng tiền. Qua lọc nghĩa là đáng theo dõi, không phải tín hiệu mua.",
+  "notes": {
+   "vn": {
+    "asOf": "Phòng đầu tư chấm tay 14/10/2026 (đóng cửa 13/10, giá trong phiên 14/10 lúc 10:50)",
+    "verdict": "Chưa mở lệnh swing: VN-Index ở Sell Mode, đóng cửa dưới MA50 quá vùng đệm 1,5% và có 9 phiên phân phối trong 25 phiên.",
+    "points": [
+     "Lọc 161 mã bằng bộ tiêu chí mới (RS chấm thang 6, ngưỡng theo hồ sơ VN): **25 mã** qua đủ ba tầng. Chọn ra **6 mã** có nền giá rõ nhất: HDB, VPB, MSB, TLG, FRT, DGW.",
+     "Hai cụm ngành tiếp tục dẫn dắt: **ngân hàng** (HDB, VPB, MSB, TCB) và **bán lẻ** (FRT, DGW, MWG). Mã mới vào danh sách: **TLG**. Cụm dầu khí (PET, BSR, PVS, PVT) cũng qua lọc nhưng đã chạy xa khỏi nền.",
+     "Mặt trái: **GMD vừa vượt nền 55,5 hôm 09/10 rồi rơi về 52,5** chỉ sau 2 phiên. Breakout trong Sell Mode đang thất bại, nên khi thị trường hồi, ưu tiên mua ở rũ bỏ (phương án B), không mua vượt nền.",
+     "Gần điểm mua rủi ro thấp nhất: **FRT** (đang ở EMA20), **DGW** (+1,2% trên EMA20), **MSB** (+3%). HDB và VPB đã cách EMA20 gần 6%: chờ nhịp chỉnh."
+    ],
+    "action": "Không mở lệnh swing mới, kể cả nửa vị thế. Chờ chỉ số đóng cửa lại trên **~1.753** (MA50 trừ vùng đệm) rồi có **FTD**: một phiên tăng ≥ 1,55% với khối lượng cao hơn phiên trước.",
+    "picks": [
+     {
+      "code": "HDB",
+      "name": "Ngân hàng TMCP Phát triển TP.HCM (HDBank)",
+      "sector": "Ngân hàng",
+      "price": 23.1,
+      "verdict": "Theo dõi",
+      "lv": "warn",
+      "summary": "Sát đỉnh 52 tuần (23,25). Đánh bại chỉ số **11/12 phiên giảm** gần nhất. Khối lượng 5 phiên gần nhất gấp 2 lần trung bình: dòng tiền đang vào mạnh.",
+      "levels": [
+       [
+        "Vào A · vượt nền",
+        "23,30",
+        "Vượt 23,25 với KL ≥ 1,53 lần TB50. Chỉ dùng khi đã về Buy Mode"
+       ],
+       [
+        "Cắt lỗ A",
+        "21,90",
+        "Khoảng cắt lỗ 6,0% = 2,48 × ATR (rộng hơn mức điển hình VN 5,1%)"
+       ],
+       [
+        "Vào B · rũ bỏ",
+        "21,70",
+        "Rũ về EMA20, đóng cửa trên đỉnh phiên trước. Được phép cả trong Wait Mode (nửa cỡ lệnh)"
+       ],
+       [
+        "Cắt lỗ B",
+        "21,00",
+        "Khoảng cắt lỗ 3,2% = 1,33 × ATR"
+       ]
+      ],
+      "pros": [
+       "Gần như không còn kháng cự phía trên (cách đỉnh −0,6%).",
+       "Giữ giá tốt nhất danh sách trong phiên chỉ số giảm.",
+       "Cùng cụm ngân hàng mạnh với VPB, MSB, TCB."
+      ],
+      "cons": [
+       "Đã cách EMA20 +6,5%: mua bây giờ là mua đuổi.",
+       "U/D 1,96 gần trần dải lành mạnh VN (2,06).",
+       "Nếu thị trường giảm tiếp, cụm ngân hàng vốn hoá lớn thường bị bán sau cùng nhưng vẫn bị bán."
+      ],
+      "planNote": "Chưa kích hoạt: VN-Index đang Sell Mode. Khi thị trường về Wait Mode chỉ được dùng phương án B với nửa cỡ lệnh; về Buy Mode mới dùng phương án A. Luận điểm sai nếu giá đóng cửa dưới MA50 (21,06)."
+     },
+     {
+      "code": "VPB",
+      "name": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+      "sector": "Ngân hàng",
+      "price": 24.4,
+      "verdict": "Theo dõi",
+      "lv": "warn",
+      "summary": "Đã vượt nền 23,95 hôm 12/10 và giữ được trên mức đó. Thanh khoản lớn nhất danh sách, tỷ lệ gom/xả 7/1.",
+      "levels": [
+       [
+        "Vào A · vượt nền",
+        "25,00",
+        "Vượt 24,95 với KL ≥ 1,53 lần TB50. Chỉ dùng khi đã về Buy Mode"
+       ],
+       [
+        "Cắt lỗ A",
+        "23,40",
+        "Khoảng cắt lỗ 6,4% = 2,41 × ATR (rộng hơn mức điển hình VN 5,1%)"
+       ],
+       [
+        "Vào B · rũ bỏ",
+        "23,10",
+        "Rũ về EMA20, giữ trên đáy 22,2. Được phép cả trong Wait Mode (nửa cỡ lệnh)"
+       ],
+       [
+        "Cắt lỗ B",
+        "22,20",
+        "Khoảng cắt lỗ 3,9% = 1,46 × ATR"
+       ]
+      ],
+      "pros": [
+       "7 phiên gom, chỉ 1 phiên xả (ngưỡng 1,53 lần TB).",
+       "U/D 1,70 nằm giữa dải lành mạnh.",
+       "Thanh khoản ~503 tỷ/phiên."
+      ],
+      "cons": [
+       "Còn cách đỉnh 52 tuần 27,0 tới −9,7%: còn lớp hàng chờ bán.",
+       "Cú vượt nền xảy ra trong Sell Mode, khối lượng chỉ ~1 lần TB: thiếu xác nhận.",
+       "Cách EMA20 +5,8%: không còn điểm mua thấp rủi ro."
+      ],
+      "planNote": "Chưa kích hoạt: VN-Index đang Sell Mode. Khi thị trường về Wait Mode chỉ được dùng phương án B với nửa cỡ lệnh; về Buy Mode mới dùng phương án A. Luận điểm sai nếu giá đóng cửa dưới MA50 (21,64)."
+     },
+     {
+      "code": "MSB",
+      "name": "Ngân hàng TMCP Hàng Hải Việt Nam",
+      "sector": "Ngân hàng",
+      "price": 14.5,
+      "verdict": "Theo dõi",
+      "lv": "warn",
+      "summary": "RS 6 tháng mạnh nhất cụm ngân hàng (+38). Giá đi ngang 6 phiên ngay dưới đỉnh 14,95 và vẫn chưa vượt được.",
+      "levels": [
+       [
+        "Vào A · vượt nền",
+        "15,00",
+        "Vượt 14,95 với KL ≥ 1,53 lần TB50. Chỉ dùng khi đã về Buy Mode"
+       ],
+       [
+        "Cắt lỗ A",
+        "14,10",
+        "Khoảng cắt lỗ 6,0% = 2,46 × ATR (rộng hơn mức điển hình VN 5,1%)"
+       ],
+       [
+        "Vào B · rũ bỏ",
+        "14,10",
+        "Rũ về EMA20, giữ trên MA50. Được phép cả trong Wait Mode (nửa cỡ lệnh)"
+       ],
+       [
+        "Cắt lỗ B",
+        "13,50",
+        "Khoảng cắt lỗ 4,3% = 1,74 × ATR"
+       ]
+      ],
+      "pros": [
+       "Nền ngắn, chặt dưới đỉnh 52 tuần.",
+       "Mạnh hơn chỉ số trung bình +1,44%/phiên giảm.",
+       "Giá cách EMA20 chỉ +3%: gần điểm mua rủi ro thấp nhất trong cụm."
+      ],
+      "cons": [
+       "U/D 2,08 vượt nhẹ trần dải lành mạnh: có thể đã bị đẩy nhanh.",
+       "Ba lần chạm 14,95 chưa qua: kháng cự thật.",
+       "Cách MA200 +24%: dễ bị chốt lời nếu thị trường xấu thêm."
+      ],
+      "planNote": "Chưa kích hoạt: VN-Index đang Sell Mode. Khi thị trường về Wait Mode chỉ được dùng phương án B với nửa cỡ lệnh; về Buy Mode mới dùng phương án A. Luận điểm sai nếu giá đóng cửa dưới MA50 (13,52)."
+     },
+     {
+      "code": "TLG",
+      "name": "CTCP Tập đoàn Thiên Long",
+      "sector": "Tiêu dùng",
+      "price": 55.2,
+      "verdict": "Theo dõi",
+      "lv": "warn",
+      "summary": "Mã mới vào danh sách tuần này. Giữ giá tốt nhất toàn rổ trong phiên chỉ số giảm (+1,95%/phiên, 11/12 phiên). Nền 15 phiên chặt nhất danh sách (9,4%).",
+      "levels": [
+       [
+        "Vào A · vượt nền",
+        "57,10",
+        "Vượt 57,0 với KL ≥ 1,53 lần TB50. Chỉ dùng khi đã về Buy Mode"
+       ],
+       [
+        "Cắt lỗ A",
+        "53,70",
+        "Khoảng cắt lỗ 6,0% = 2,43 × ATR (rộng hơn mức điển hình VN 5,1%)"
+       ],
+       [
+        "Vào B · rũ bỏ",
+        "53,80",
+        "Rũ về EMA20, giữ trên đáy nền 52,1. Được phép cả trong Wait Mode (nửa cỡ lệnh)"
+       ],
+       [
+        "Cắt lỗ B",
+        "52,00",
+        "Khoảng cắt lỗ 3,3% = 1,37 × ATR"
+       ]
+      ],
+      "pros": [
+       "Nền chặt, cách đỉnh 52 tuần −5,3%.",
+       "Ít phụ thuộc chu kỳ thị trường chung (ngành văn phòng phẩm, tiêu dùng).",
+       "U/D 1,29 nằm giữa dải lành mạnh."
+      ],
+      "cons": [
+       "Thanh khoản chỉ ~14 tỷ/phiên: sát ngưỡng 10 tỷ, khó thoát khi cần.",
+       "Đi một mình, không có mã cùng ngành mạnh theo.",
+       "Gom 10 / xả 8: dấu chân tổ chức không rõ chiều."
+      ],
+      "planNote": "Chưa kích hoạt: VN-Index đang Sell Mode. Khi thị trường về Wait Mode chỉ được dùng phương án B với nửa cỡ lệnh; về Buy Mode mới dùng phương án A. Luận điểm sai nếu giá đóng cửa dưới MA50 (52,18)."
+     },
+     {
+      "code": "FRT",
+      "name": "CTCP Bán lẻ Kỹ thuật số FPT (FPT Retail)",
+      "sector": "Bán lẻ",
+      "price": 143.8,
+      "verdict": "Theo dõi",
+      "lv": "warn",
+      "summary": "Đang chỉnh về đúng EMA20 (143,8) và hôm nay thủng nhẹ (141,9). Đây là hình mẫu rũ bỏ đang hình thành: điểm mua ưu tiên khi thị trường hồi.",
+      "levels": [
+       [
+        "Vào A · vượt nền",
+        "153,00",
+        "Vượt 152,8 với KL ≥ 1,53 lần TB50. Chỉ dùng khi đã về Buy Mode"
+       ],
+       [
+        "Cắt lỗ A",
+        "141,00",
+        "Khoảng cắt lỗ 7,8% = 2,10 × ATR (rộng hơn mức điển hình VN 5,1%)"
+       ],
+       [
+        "Vào B · rũ bỏ",
+        "144,00",
+        "Đóng cửa lấy lại EMA20 ~143,8 sau nhịp rũ. Được phép cả trong Wait Mode (nửa cỡ lệnh)"
+       ],
+       [
+        "Cắt lỗ B",
+        "140,00",
+        "Khoảng cắt lỗ 2,8% = 0,74 × ATR"
+       ]
+      ],
+      "pros": [
+       "RS 3 tháng +31: mạnh thứ hai danh sách.",
+       "10 phiên gom so với 4 phiên xả.",
+       "Cùng cụm bán lẻ với DGW, MWG."
+      ],
+      "cons": [
+       "RS 6 tháng chỉ +1: sức mạnh mới, chưa bền.",
+       "Cách đỉnh 52 tuần −16,6%: còn nhiều hàng chờ bán.",
+       "ATR 3,7%/phiên: biến động cao nhất danh sách."
+      ],
+      "planNote": "Chưa kích hoạt: VN-Index đang Sell Mode. Khi thị trường về Wait Mode chỉ được dùng phương án B với nửa cỡ lệnh; về Buy Mode mới dùng phương án A. Luận điểm sai nếu giá đóng cửa dưới MA50 (140,63)."
+     },
+     {
+      "code": "DGW",
+      "name": "CTCP Thế Giới Số (Digiworld)",
+      "sector": "Bán lẻ",
+      "price": 45.95,
+      "verdict": "Theo dõi",
+      "lv": "warn",
+      "summary": "Đi ngang quanh 46–48 sau nhịp hồi từ 42,6. Giá cách EMA20 chỉ +1,2%, khối lượng 5 phiên cạn còn 0,76 lần TB: bên bán đang yếu đi.",
+      "levels": [
+       [
+        "Vào A · vượt nền",
+        "49,00",
+        "Vượt 48,9 với KL ≥ 1,53 lần TB50. Chỉ dùng khi đã về Buy Mode"
+       ],
+       [
+        "Cắt lỗ A",
+        "45,00",
+        "Khoảng cắt lỗ 8,2% = 2,22 × ATR (rộng hơn mức điển hình VN 5,1%)"
+       ],
+       [
+        "Vào B · rũ bỏ",
+        "45,50",
+        "Rũ về EMA20, giữ trên đáy 44,9. Được phép cả trong Wait Mode (nửa cỡ lệnh)"
+       ],
+       [
+        "Cắt lỗ B",
+        "44,40",
+        "Khoảng cắt lỗ 2,4% = 0,66 × ATR"
+       ]
+      ],
+      "pros": [
+       "Khối lượng cạn dần trong nền: dấu hiệu tốt.",
+       "10 phiên gom so với 5 phiên xả.",
+       "Đường trung bình xếp đúng thứ tự."
+      ],
+      "cons": [
+       "Cách đỉnh 52 tuần −16,9%.",
+       "Biên độ ATR 3,7%: cắt lỗ phương án vượt nền rộng tới 8,2%.",
+       "Thanh khoản ~79 tỷ/phiên, thấp hơn cụm ngân hàng."
+      ],
+      "planNote": "Chưa kích hoạt: VN-Index đang Sell Mode. Khi thị trường về Wait Mode chỉ được dùng phương án B với nửa cỡ lệnh; về Buy Mode mới dùng phương án A. Luận điểm sai nếu giá đóng cửa dưới MA50 (42,61)."
+     }
+    ]
+   },
+   "us": {
+    "asOf": "Nhận định 14/10/2026",
+    "verdict": "S&P 500 cách đỉnh 0,17% nhưng cổ phiếu chip đã giảm 5 phiên liền vì tin CXMT. Ưu tiên mã giữ giá tốt trong phiên chỉ số giảm; tránh mua đuổi mã đã cách EMA20 quá 6%.",
+    "points": [
+     "CPI tháng 9 (19:30 tối 14/10 giờ VN) và báo cáo TSMC 15/10 có thể làm danh sách thay đổi mạnh.",
+     "Danh sách là kết quả tự động, phòng đầu tư chưa chấm tay từng mã Mỹ."
+    ]
+   },
+   "crypto": {
+    "asOf": "Nhận định 14/10/2026",
+    "verdict": "Bitcoin 83.100 USD, trên MA200, nhưng ETF Bitcoin và Ether rút ròng nhiều phiên. Crypto biến động gấp 3–4 lần cổ phiếu: vùng đệm MA50 3%, nền giá cho phép rộng tới 30%.",
+    "points": [
+     "Sức mạnh tương đối đo so với Bitcoin: mã qua lọc là mã mạnh hơn Bitcoin 3 và 6 tháng.",
+     "Danh sách là kết quả tự động, phòng đầu tư chưa chấm tay từng đồng."
+    ]
+   }
+  },
+  "method": [
+   "Cổng thị trường: chỉ số chuẩn (VN-Index, S&P 500, Bitcoin) so với MA50 có vùng đệm (VN 1,5%, Mỹ 0%, crypto 3%), EMA20 và số phiên phân phối 25 phiên (tối đa 5). Sell Mode: không mở lệnh mới; Wait Mode: chỉ mua rũ bỏ, nửa cỡ lệnh; Buy Mode: giải ngân theo luật.",
+   "Tầng 1 · Thanh khoản trung bình 20 phiên: VN trên 10 tỷ đ, Mỹ trên 100 triệu USD, crypto trên 50 triệu USD.",
+   "Tầng 2 · Điểm RS thang 6: RS 3 tháng dương (2 điểm), RS 6 tháng dương (1), thắng chỉ số trong ít nhất 60% phiên chỉ số giảm gần đây (2), có mã cùng ngành cũng mạnh (1). Từ 4 điểm là đạt.",
+   "Tầng 3 · U/D volume 50 phiên ≥ 1 (khối lượng phiên tăng lớn hơn phiên giảm) và giá trên MA50.",
+   "Gợi ý vị trí: sát EMA20 (±3%, crypto ±6%) là vùng rũ bỏ rủi ro thấp; cách EMA20 trên 6% (crypto 12%) là đã chạy xa; sát đỉnh với nền 15 phiên chặt là chờ vượt nền."
+  ],
+  "disclaimer": "Bộ lọc là công cụ sàng lọc kỹ thuật, không phải khuyến nghị mua bán. Chưa xét định giá doanh nghiệp. Hãy tự kiểm tra trước khi quyết định và chỉ dùng số tiền chịu được rủi ro."
  }
 }

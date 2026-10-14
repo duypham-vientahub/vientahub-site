@@ -5,7 +5,7 @@ on:
     - cron: "40 23 * * *"   # 06:40 giờ Việt Nam mỗi ngày
   push:
     branches: [main]
-    paths: ["thi-truong/sim/config.json", "thi-truong/sim/run_sim.py"]
+    paths: ["thi-truong/sim/config.json", "thi-truong/sim/run_sim.py", "thi-truong/sim/screener_config.json", "thi-truong/sim/screener.py"]
   workflow_dispatch:
 
 permissions:
@@ -29,11 +29,15 @@ jobs:
       - run: pip install -r thi-truong/sim/requirements.txt
       - name: Run simulation
         run: python thi-truong/sim/run_sim.py
+      - name: Run screener
+        continue-on-error: true
+        run: python thi-truong/sim/screener.py
       - name: Commit result
         run: |
           git config user.name "market-sim-bot"
           git config user.email "market-sim-bot@users.noreply.github.com"
           git add thi-truong/sim/sim.json thi-truong/sim/market.json
+          git add thi-truong/sim/screener.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
           git commit -m "Market Pulse simulation $(TZ=Asia/Ho_Chi_Minh date +%d/%m/%Y)"
           git pull --rebase origin main

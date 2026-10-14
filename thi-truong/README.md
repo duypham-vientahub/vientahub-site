@@ -41,3 +41,10 @@ Trang `/thi-truong/` chỉ đọc `data.json`. Mỗi lần cập nhật chỉ s�
 - `data.json > marketNotes`: nhận định ngắn theo `id` tài sản cho cột "Nhận định".
 - `data.json > scenarioGuide`: `intro`, `beginnerGeneral[]`, `disclaimer`, `markets[{id, summary, scen:{base|deal|shock:{what, signs}}, beginner[]}]`. Id kịch bản phải trùng `sim/config.json > scenarios.list[].id`. Biểu đồ và con số mỗi kịch bản lấy tự động từ `sim.json > assets[].byScenario`.
 - Gợi ý cho người mới là nguyên tắc chung, viết dễ hiểu, không nêu mã cụ thể để mua, không phải tư vấn cá nhân.
+
+## Bộ lọc mã tiềm năng (`sim/screener.py`)
+
+- Chạy cùng workflow mô phỏng (bước "Run screener", lỗi không chặn mô phỏng); ghi `sim/screener.json`. Không sửa tay.
+- Danh sách mã và ngưỡng: `sim/screener_config.json` (Việt Nam qua VNDirect/VPS/SSI, Mỹ và crypto qua Yahoo).
+- Khung lọc: cổng thị trường (MA50 có vùng đệm, EMA20, phiên phân phối) → tầng 1 thanh khoản 20 phiên → tầng 2 điểm RS thang 6 (RS 3T dương 2đ, RS 6T dương 1đ, giữ giá phiên chỉ số giảm 2đ, cùng ngành mạnh 1đ; đạt từ 4) → tầng 3 U/D volume 50 phiên ≥ 1 và giá trên MA50.
+- `data.json > screener`: `title`, `intro`, `method[]`, `disclaimer`, `notes.{vn|us|crypto}` = `{asOf, verdict, points[], action?, picks[]?}`. `picks` là mã phòng đầu tư chấm tay: `{code, name, sector, price, verdict, lv, summary, levels[[nhãn, giá, ghi chú]], pros[], cons[], planNote}`. Phân tích hằng ngày cập nhật `notes` cho khớp với `screener.json` mới nhất.
