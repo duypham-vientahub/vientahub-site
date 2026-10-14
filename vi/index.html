@@ -61,8 +61,15 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .links a:after{content:"";position:absolute;left:0;bottom:0;height:1.5px;width:0;background:var(--gold);transition:width .25s}
 .links a:hover{color:#fff}.links a:hover:after,.links a.active:after{width:100%}
 .links a.active{color:#fff}
-.lang{display:flex;border:1px solid rgba(34,166,153,.5);border-radius:99px;overflow:hidden}
-.lang button{background:none;border:0;color:#C6D6DE;font:600 12px 'Plus Jakarta Sans';padding:7px 12px;cursor:pointer;letter-spacing:.08em}
+.links{margin-left:auto}
+.lang{display:flex;align-items:center;gap:2px;padding:3px;border:1px solid rgba(143,227,211,.55);border-radius:99px;background:rgba(255,255,255,.05);flex:none}
+.lang-ic{display:grid;place-items:center;width:28px;height:28px;color:var(--gold2)}
+.lang-ic svg{width:17px;height:17px;display:block}
+.brand{white-space:nowrap;flex:none}.brand svg{flex:none}
+@media (max-width:374px){.brand{letter-spacing:.08em;font-size:14px;gap:8px}.lang button{padding:6px 7px}.lang-ic{width:24px}.burger{margin-left:0}nav .wrap{gap:8px}}
+.lang button{background:none;border:0;color:#C6D6DE;font:700 12px 'Plus Jakarta Sans',sans-serif;padding:6px 11px;border-radius:99px;cursor:pointer;letter-spacing:.08em;transition:background .2s,color .2s}
+.lang button:hover{color:#fff}
+.lang button:focus-visible{outline:2px solid var(--gold2);outline-offset:1px}
 .lang button.on{background:var(--gold);color:var(--navy)}
 .burger{display:none;background:none;border:0;color:#fff;font-size:22px;cursor:pointer}
 /* hero */
@@ -415,7 +422,8 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
 @media (max-width:760px){
   .links{display:none;position:absolute;top:68px;left:0;right:0;background:var(--navy);flex-direction:column;padding:16px 28px 22px;gap:14px;align-items:flex-start;border-bottom:1px solid var(--line)}
   .links.show{display:flex}
-  .burger{display:block}
+  .burger{display:block;margin-left:10px}
+  .lang{margin-left:auto}
   .wrap{padding:0 18px}
   section{padding:68px 0}
   .stats{grid-template-columns:repeat(2,1fr)}
@@ -449,8 +457,8 @@ body.vi .cv tspan.en, body:not(.vi) .cv tspan.vi{display:none}
       <a href="#about" data-go="about"><span class="en">About</span><span class="vi">Giới thiệu</span></a>
       <a href="/thi-truong/"><span class="en">Markets</span><span class="vi">Thị trường</span></a>
       <a href="#contact" data-go="contact"><span class="en">Contact</span><span class="vi">Liên hệ</span></a>
-      <div class="lang"><button data-l="en" class="on">EN</button><button data-l="vi">VI</button></div>
     </div>
+    <div class="lang" role="group" aria-label="Language / Ngôn ngữ" title="Language / Ngôn ngữ"><span class="lang-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z"/></svg></span><button data-l="en" class="on" lang="en" aria-label="English">EN</button><button data-l="vi" lang="vi" aria-label="Tiếng Việt">VI</button></div>
     <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
   </div>
 </nav>
