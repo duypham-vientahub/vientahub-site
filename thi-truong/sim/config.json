@@ -124,7 +124,7 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 09/10/2026 dựa trên phân tích Market Pulse: chiến sự Mỹ–Iran, eo Hormuz hạn chế, Fed nghiêng tăng lãi. Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 15/10/2026: CPI Mỹ tháng 9 nóng hơn dự báo (3,7%, lõi 2,6%; BLS/CBS 14/10), xác suất Fed tăng lãi 28/10 lên ~44% (CME FedWatch qua Yahoo Finance 14/10); số tàu bị tấn công quanh Hormuz cao nhất cuộc chiến (UKMTO/Windward 5–11/10), Mỹ bác đề xuất 7 ngày của Iran (PBS 26/9), chưa có tiến triển đàm phán. Hạ xác suất thoả thuận 25%→20%, nâng leo thang + Fed tăng lãi 15%→20%. Độ lớn cú sốc giữ nguyên (JPMorgan quý 4 Brent 105 USD, EIA STEO quý 4 105 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
@@ -135,7 +135,7 @@
    {
     "id": "deal",
     "name": "Thoả thuận Hormuz",
-    "p": 0.25,
+    "p": 0.2,
     "shock": {
      "brent": -0.25,
      "gold": -0.04,
@@ -158,7 +158,7 @@
    {
     "id": "shock",
     "name": "Leo thang + Fed tăng lãi",
-    "p": 0.15,
+    "p": 0.2,
     "shock": {
      "brent": 0.25,
      "gold": 0.06,
