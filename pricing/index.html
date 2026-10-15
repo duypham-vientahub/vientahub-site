@@ -211,6 +211,27 @@ section{padding:88px 0}
 .fa{max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.2,.8,.2,1)}
 .fa p{padding:0 22px 22px;color:#4F6370;line-height:1.75;font-size:15px}
 .fa a{color:var(--deep);border-bottom:1px solid rgba(14,124,112,.35)}
+/* samples */
+#samples{padding-top:0}
+.scards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.scard{border-radius:18px;overflow:hidden;background:#fff;border:1px solid #DCE8E6;display:flex;flex-direction:column;transition:all .3s;animation:fade .4s ease}
+.scard:hover{transform:translateY(-5px);box-shadow:0 22px 44px -24px rgba(10,28,41,.35);border-color:var(--gold)}
+.sth{height:118px;display:grid;place-items:center;position:relative;overflow:hidden}
+.sth:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 2px,transparent 2px 14px)}
+.sth svg{width:50px;height:50px;position:relative;z-index:1}
+.sth b{position:absolute;left:12px;top:12px;z-index:1;font:700 10.5px 'Plus Jakarta Sans';letter-spacing:.12em;text-transform:uppercase;color:var(--navy);background:var(--gold2);padding:4px 9px;border-radius:99px}
+.th-sl{background:linear-gradient(135deg,#0A1C29,#1D5577)}
+.th-rs{background:linear-gradient(135deg,#123B44,#2C8C83)}
+.th-vd{background:linear-gradient(135deg,#15233F,#3E6FA8)}
+.scard .bd{padding:16px 16px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.scard .tg{font:600 11px 'Plus Jakarta Sans';letter-spacing:.14em;text-transform:uppercase;color:var(--deep)}
+.scard h3{font-size:15.5px;color:var(--ink);line-height:1.35}
+.scard p{font-size:13px;color:#576B77;line-height:1.55;flex:1}
+.scard .go{font:600 13px 'Plus Jakarta Sans';color:var(--navy);margin-top:6px}
+.scard:hover .go{color:var(--deep)}
+@media (max-width:1080px){.scards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){.scards{grid-template-columns:repeat(2,minmax(0,1fr))}.sth{height:90px}}
+@media (max-width:430px){.scards{grid-template-columns:minmax(0,1fr)}}
 /* contact */
 .contact{background:linear-gradient(135deg,#061520,#0B2B3A 60%,#0F4552);color:#fff;border-radius:32px;padding:56px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;position:relative;overflow:hidden;align-items:center}
 .contact:before{content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;border-radius:50%;border:1px solid rgba(34,166,153,.25);box-shadow:0 0 0 60px rgba(34,166,153,.04),0 0 0 120px rgba(34,166,153,.03)}
@@ -267,20 +288,19 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 }
 @media (max-width:374px){.brand{letter-spacing:.08em;font-size:14px;gap:8px}.dur{grid-template-columns:repeat(2,1fr)}.cat{padding:9px 13px;font-size:13px}.seg button{font-size:12px;padding:9px 4px}}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://vientahub.com/"},{"@type":"ListItem","position":2,"name":"eLearning development pricing","item":"https://vientahub.com/pricing/"}]},{"@type":"Service","@id":"https://vientahub.com/pricing/#service","name":"eLearning development","serviceType":"eLearning development","url":"https://vientahub.com/pricing/","provider":{"@id":"https://vientahub.com/#org"},"areaServed":"Worldwide","description":"Articulate Storyline 360 and Rise 360 course development, AI video and video production, priced by course length. AI-powered builds with Claude cost about 35% less than traditional builds.","hasOfferCatalog":{"@type":"OfferCatalog","name":"eLearning development pricing","itemListElement":[{"@type":"Offer","name":"Storyline 360 course, AI-powered, 15 minutes","priceSpecification":{"@type":"PriceSpecification","minPrice":500,"priceCurrency":"USD"},"itemOffered":{"@type":"Service","name":"AI-powered Storyline 360 development"}},{"@type":"Offer","name":"Storyline 360 course, traditional, 15 minutes","priceSpecification":{"@type":"PriceSpecification","minPrice":750,"priceCurrency":"USD"},"itemOffered":{"@type":"Service","name":"Storyline 360 development"}},{"@type":"Offer","name":"Rise 360 course, AI-powered, 15 minutes","priceSpecification":{"@type":"PriceSpecification","minPrice":300,"priceCurrency":"USD"},"itemOffered":{"@type":"Service","name":"AI-powered Rise 360 development"}},{"@type":"Offer","name":"Rise 360 course, traditional, 15 minutes","priceSpecification":{"@type":"PriceSpecification","minPrice":450,"priceCurrency":"USD"},"itemOffered":{"@type":"Service","name":"Rise 360 development"}},{"@type":"Offer","name":"AI avatar video, per finished minute","priceSpecification":{"@type":"UnitPriceSpecification","price":40,"priceCurrency":"USD","unitText":"minute"},"itemOffered":{"@type":"Service","name":"AI avatar video production"}},{"@type":"Offer","name":"Animated explainer video, per finished minute","priceSpecification":{"@type":"UnitPriceSpecification","price":85,"priceCurrency":"USD","unitText":"minute"},"itemOffered":{"@type":"Service","name":"Animated explainer video production"}}]}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why does an AI-powered build cost less?","acceptedAnswer":{"@type":"Answer","text":"We organize your content first, then use Claude to build the interactive HTML screens that would otherwise be assembled by hand in Storyline or Rise. That removes most of the repetitive build work, so production is 4 to 5x faster and we pass about 35% of the saving on to you. Every screen still goes through human review and QA."}},{"@type":"Question","name":"What does course length mean?","acceptedAnswer":{"@type":"Answer","text":"Course length is the average seat time for one learner to finish the course, including narration, interactions and knowledge checks. A 15 minute course is usually 12 to 20 screens, depending on density."}},{"@type":"Question","name":"What is included in every price?","acceptedAnswer":{"@type":"Answer","text":"Three rounds of revision, AI voiceover with closed captions, SCORM 1.2, SCORM 2004 or xAPI publishing, source files, accessibility-minded design and human QA before delivery."}},{"@type":"Question","name":"Are these final prices?","acceptedAnswer":{"@type":"Answer","text":"They are starting prices in USD for a typical project. We confirm a fixed quote after reading your brief and source materials, usually within two business days."}},{"@type":"Question","name":"Can you work in our template or existing Storyline files?","acceptedAnswer":{"@type":"Answer","text":"Yes. We regularly join projects mid way and work inside your templates, style guides and existing .story or Rise files."}},{"@type":"Question","name":"Can we hire you through Upwork?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can contract us directly or through our Upwork profile, whichever suits your procurement process."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://vientahub.com/"},{"@type":"ListItem","position":2,"name":"eLearning development pricing","item":"https://vientahub.com/pricing/"}]},{"@type":"Service","@id":"https://vientahub.com/pricing/#service","name":"eLearning development","serviceType":"eLearning development","url":"https://vientahub.com/pricing/","provider":{"@id":"https://vientahub.com/#org"},"areaServed":"Worldwide","description":"Articulate Storyline 360 and Rise 360 course development, AI video and video production, priced by course length. AI-powered builds with Claude cost about 35% less than traditional builds.","hasOfferCatalog":{"@type":"OfferCatalog","name":"eLearning development pricing","itemListElement":[{"@type":"Offer","name":"Storyline 360 course, AI-powered, 15 minutes","priceSpecification":{"@type":"PriceSpecification","minPrice":500,"priceCurrency":"USD"},"itemOffered":{"@type":"Service","name":"AI-powered Storyline 360 development"}},{"@type":"Offer","name":"Storyline 360 course, traditional, 15 minutes","priceSpecification":{"@type":"PriceSpecification","minPrice":750,"priceCurrency":"USD"},"itemOffered":{"@type":"Service","name":"Storyline 360 development"}},{"@type":"Offer","name":"Rise 360 course, AI-powered, 15 minutes","priceSpecification":{"@type":"PriceSpecification","minPrice":300,"priceCurrency":"USD"},"itemOffered":{"@type":"Service","name":"AI-powered Rise 360 development"}},{"@type":"Offer","name":"Rise 360 course, traditional, 15 minutes","priceSpecification":{"@type":"PriceSpecification","minPrice":450,"priceCurrency":"USD"},"itemOffered":{"@type":"Service","name":"Rise 360 development"}},{"@type":"Offer","name":"AI avatar video, per finished minute","priceSpecification":{"@type":"UnitPriceSpecification","price":40,"priceCurrency":"USD","unitText":"minute"},"itemOffered":{"@type":"Service","name":"AI avatar video production"}},{"@type":"Offer","name":"Animated explainer video, per finished minute","priceSpecification":{"@type":"UnitPriceSpecification","price":85,"priceCurrency":"USD","unitText":"minute"},"itemOffered":{"@type":"Service","name":"Animated explainer video production"}}]}}]}</script>
 </head>
 <body>
 
 <nav class="topnav" aria-label="Main">
   <div class="wrap">
-    <a href="/" class="brand" aria-label="Vienta Hub home">
+    <a href="#top" class="brand" aria-label="Vienta Hub">
       <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 6h9l7 21 7-21h9L25 35h-10z" fill="#22A699"/><path d="M16.5 6h7L20 16.5z" fill="#fff"/></svg>
       <span>VIENTA <b>HUB</b></span>
     </a>
     <div class="links" id="links">
-      <a href="/#services">Services</a>
-      <a href="/#portfolio">Portfolio</a>
       <a href="#prices">Prices</a>
+      <a href="#samples">Samples</a>
       <a href="#process">AI process</a>
       <a href="#estimate">Estimate</a>
       <a href="#contact">Contact</a>
@@ -289,9 +309,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   </div>
 </nav>
 
-<header class="hero">
+<header class="hero" id="top">
   <div class="wrap">
-    <div class="crumb"><a href="/">Home</a><span>/</span>eLearning pricing</div>
     <div class="eyebrow">Learning Lab · Price list 2026</div>
     <h1>eLearning development pricing, <em>built 4 to 5x faster with AI</em></h1>
     <p class="lead">Clear eLearning development pricing for Articulate Storyline 360, Rise 360, AI video and video production, by course length. Choose a traditional build or our AI-powered build with Claude, which costs about 35% less at the same human-checked quality.</p>
@@ -344,6 +363,25 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <div class="inc"><b>Human QA</b>Every screen checked before delivery.</div>
       <div class="inc"><b>9+ languages</b>Localization available on request.</div>
     </div>
+  </div>
+</section>
+
+<section id="samples">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="eyebrow">Samples</div>
+      <h2>See what each format looks like</h2>
+      <p>Open any sample in a new tab. AI-powered samples are built with our Claude workflow, traditional samples are built by hand in Storyline or Rise.</p>
+    </div>
+    <div class="cats" id="sf" role="group" aria-label="Sample filter">
+      <button class="cat is-on" data-f="all" aria-pressed="true">All</button>
+      <button class="cat" data-f="sl-ai" aria-pressed="false">Storyline · AI-powered</button>
+      <button class="cat" data-f="sl-tr" aria-pressed="false">Storyline · Traditional</button>
+      <button class="cat" data-f="rs-ai" aria-pressed="false">Rise · AI-powered</button>
+      <button class="cat" data-f="rs-tr" aria-pressed="false">Rise · Traditional</button>
+      <button class="cat" data-f="vd" aria-pressed="false">Video</button>
+    </div>
+    <div class="scards" id="scards"></div>
   </div>
 </section>
 
@@ -422,29 +460,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 <div class="proof">
   <div class="wrap">
-    <div class="lbl">15 years in training and eLearning, trusted by</div>
+    <div class="lbl">Trusted by teams in Vietnam, the USA and Australia</div>
     <div class="logos">
       <div class="cl">CC1 <small>Vietnam</small></div><div class="cl">MB Bank <small>Vietnam</small></div><div class="cl">NRWA <small>USA</small></div><div class="cl">RWJBarnabas Health <small>USA</small></div><div class="cl">Baruco</div><div class="cl">Morpheus Trading Group <small>Australia</small></div>
     </div>
   </div>
 </div>
-
-<section id="faq">
-  <div class="wrap">
-    <div class="head rv">
-      <div class="eyebrow">FAQ</div>
-      <h2>Questions about eLearning pricing</h2>
-    </div>
-    <div class="faq" id="faqList">
-      <div class="fq rv"><button aria-expanded="false"><span>Why does an AI-powered build cost less?</span><i></i></button><div class="fa"><p>We organize your content first, then use Claude to build the interactive HTML screens that would otherwise be assembled by hand in Storyline or Rise. That removes most of the repetitive build work, so production is 4 to 5x faster and we pass about 35% of the saving on to you. Every screen still goes through human review and QA.</p></div></div>
-      <div class="fq rv"><button aria-expanded="false"><span>What does course length mean?</span><i></i></button><div class="fa"><p>Course length is the average seat time for one learner to finish the course, including narration, interactions and knowledge checks. A 15 minute course is usually 12 to 20 screens, depending on density.</p></div></div>
-      <div class="fq rv"><button aria-expanded="false"><span>What is included in every price?</span><i></i></button><div class="fa"><p>Three rounds of revision, AI voiceover with closed captions, SCORM 1.2, SCORM 2004 or xAPI publishing, source files, accessibility-minded design and human QA before delivery.</p></div></div>
-      <div class="fq rv"><button aria-expanded="false"><span>Are these final prices?</span><i></i></button><div class="fa"><p>They are starting prices in USD for a typical project. We confirm a fixed quote after reading your brief and source materials, usually within two business days.</p></div></div>
-      <div class="fq rv"><button aria-expanded="false"><span>Can you work in our template or existing Storyline files?</span><i></i></button><div class="fa"><p>Yes. We regularly join projects mid way and work inside your templates, style guides and existing .story or Rise files.</p></div></div>
-      <div class="fq rv"><button aria-expanded="false"><span>Can we hire you through Upwork?</span><i></i></button><div class="fa"><p>Yes. You can contract us directly or through our <a href="https://www.upwork.com/freelancers/~016608bc000898df95" target="_blank" rel="noopener">Upwork profile</a>, whichever suits your procurement process.</p></div></div>
-    </div>
-  </div>
-</section>
 
 <section id="contact" style="padding-top:12px">
   <div class="wrap">
@@ -458,19 +479,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <div class="cinfo">
         <a class="ci" href="mailto:duypham@vientahub.com" target="_blank" rel="noopener"><i>✉</i><div><small>Email</small><span>duypham@vientahub.com</span></div></a>
         <a class="ci" href="https://www.upwork.com/freelancers/~016608bc000898df95" target="_blank" rel="noopener"><i>★</i><div><small>Upwork</small><span>Hire us on Upwork</span></div></a>
-        <a class="ci" href="/#portfolio"><i>◈</i><div><small>Portfolio</small><span>See more samples</span></div></a>
+        <a class="ci" href="https://vientahub.com" target="_blank" rel="noopener"><i>◈</i><div><small>Website</small><span>vientahub.com</span></div></a>
       </div>
     </div>
   </div>
 </section>
 
 <footer>
-  <div class="wrap fsv"><div><b>Services</b>
-    <a href="/#services">AI-powered eLearning development</a>
-    <a href="/#services">AI training for teams</a>
-    <a href="/#services">AI workflow optimization</a>
-    <a href="#prices">eLearning pricing</a>
-  </div><div><a href="/" hreflang="en">English</a><a href="/vi/" hreflang="vi" lang="vi">Tiếng Việt</a></div></div>
   <div class="wrap">
     <span>© <span id="yr">2026</span> Vienta Hub. All rights reserved.</span>
     <span>Apply AI to stop depending on AI.</span>
@@ -575,6 +590,51 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   });});
   render();
 
+  // samples
+  var WS='https://www.workingskills.net/';
+  var S=[
+    ['sl-ai','59175f5a-cd68-450e-bb15-3058cfbdae5d','Interactive scenario module','Scenario driven learning with custom interactions.'],
+    ['sl-ai','27d9ee7b-9309-42b5-a8fe-2a12611a26fa','Storyline showcase','Branded layouts, rich media and knowledge checks.'],
+    ['sl-ai','aec8656f-ef18-4122-ab8b-1be955f87090','Simulation and practice','Hands on practice that mirrors the real task.'],
+    ['sl-ai','da7d0422-2d41-4b8d-9314-ef0f2c7df3b6','Compliance style course','Clear structure, accessible design, tracked completion.'],
+    ['sl-tr','e4bc28d5-0faf-4cb6-888d-8d3e7fa82577','Medical simulation','Clinical simulation for a medical college, USA.'],
+    ['sl-tr','4a2e2a61-e321-40f4-9b90-b0ffe1193d14','FDA inspection readiness','Regulatory compliance training, USA.'],
+    ['sl-tr','653a810d-a801-49c7-870a-56fd602f376e','Dental benefits in a changing economy','Industry education for a health insurance association, USA.'],
+    ['sl-tr','a10b33e5-8072-4627-9e5a-e017c9ce14d5','Global account service delivery','Service excellence training, UK.'],
+    ['rs-ai','285f4c87-b0c5-43e8-9ceb-682e6ca573de','Rise microlearning','Responsive lessons that work on any device.'],
+    ['rs-ai','3e8fc8b1-9746-437b-b186-7198cecebe8f','Rise story led course','Story led content with embedded interactions.'],
+    ['rs-ai','f57443ad-19c4-4108-a93f-c137dd43f970','Rise onboarding','Fast, friendly onboarding for new staff.'],
+    ['rs-tr','27dc3169-4438-441c-a0c8-0c25eaca132c','What is DEI','Diversity, equity and inclusion essentials.'],
+    ['rs-tr','be48144b-c464-4b5f-8edd-fcf6df693950','Why dual enrollment matters','Student orientation for a university, USA.'],
+    ['rs-tr','54c8b709-38ea-44be-9d0e-d2708e8468f5','Women who lead a family business','Leadership course, Australia.'],
+    ['rs-tr','8882a082-3156-41b8-a51e-27ff52e0050d','The parent handbook','School handbook as a course, USA.'],
+    ['rs-tr','08e90c3c-036a-469c-99c6-223763c2c745','Dissociation model','Professional education module, Australia.'],
+    ['vd','88d7d14f-3bf4-41e6-b6bd-4941b2b551a4','AI avatar video','Synthesia and Elai presenters.'],
+    ['vd','9be3c809-9566-4071-a4c4-1ba61b00d418','Runway AI video','Cinematic AI generated footage.'],
+    ['vd','4978b613-3816-4bce-94c0-e7e9f1b947fb','Vyond and whiteboard','Animated explainers that make ideas stick.'],
+    ['vd',WS+'powtoon-videos-demo/','Powtoon video','Light, fast animated explainers.'],
+    ['vd','3d3837af-5630-424d-b8d8-5922f41f2cc5','Camtasia video','Screen tutorials with polished editing.'],
+    ['vd','e607811a-ff6f-49bb-bf53-647ead3ce1f5','Training video','Structured training video for the workplace.'],
+    ['vd','500c19a0-4759-4c68-bafb-568b47edd707','Product demo video','Product walkthroughs that show value fast.'],
+    ['vd','ab43ec44-8b1a-4c14-bb5b-0bb669436a12','After Effects video','Motion graphics for premium storytelling.'],
+    ['vd','bb6550b7-9593-4a4d-8f70-1d24e638b466','CapCut video','Short, social ready edits.'],
+    ['vd',WS+'canva-video/','Canva video','Branded video from Canva templates.'],
+    ['vd',WS+'powerpoint-video/','PowerPoint video','Narrated slide videos.'],
+    ['vd',WS+'marketing-video/','Marketing video','Promotional pieces for campaigns.'],
+    ['vd',WS+'other-languages-video/','Other languages video','Videos produced in multiple languages.']
+  ];
+  var SL={'sl-ai':['Storyline','AI-powered','sl'],'sl-tr':['Storyline','Traditional','sl'],'rs-ai':['Rise','AI-powered','rs'],'rs-tr':['Rise','Traditional','rs'],'vd':['Video','Video','vd']};
+  var SI={sl:'<svg viewBox="0 0 48 48" fill="none" stroke="#8FE3D3" stroke-width="2"><rect x="6" y="10" width="36" height="24" rx="3"/><path d="M20 17l9 5-9 5z" fill="#8FE3D3"/><path d="M16 40h16"/></svg>',
+    rs:'<svg viewBox="0 0 48 48" fill="none" stroke="#8FE3D3" stroke-width="2"><rect x="14" y="6" width="20" height="36" rx="4"/><path d="M19 14h10M19 20h10M19 26h6"/></svg>',
+    vd:'<svg viewBox="0 0 48 48" fill="none" stroke="#8FE3D3" stroke-width="2"><rect x="5" y="12" width="28" height="24" rx="3"/><path d="M33 20l10-6v20l-10-6z"/></svg>'};
+  var sc=document.getElementById('scards');
+  function drawS(f){sc.innerHTML=S.filter(function(x){return f==='all'||x[0]===f;}).map(function(x){var l=SL[x[0]],u=x[1].indexOf('http')===0?x[1]:R+x[1]+'/review';
+    return '<a class="scard" href="'+u+'" target="_blank" rel="noopener"><div class="sth th-'+l[2]+'"><b>'+(x[0]==='vd'?'Video':l[1])+'</b>'+SI[l[2]]+'</div><div class="bd"><div class="tg">'+l[0]+'</div><h3>'+x[2]+'</h3><p>'+x[3]+'</p><div class="go">Open sample ↗</div></div></a>';}).join('');}
+  document.querySelectorAll('#sf .cat').forEach(function(b){b.addEventListener('click',function(){
+    document.querySelectorAll('#sf .cat').forEach(function(x){var on=x===b;x.classList.toggle('is-on',on);x.setAttribute('aria-pressed',on?'true':'false');});
+    drawS(b.getAttribute('data-f'));});});
+  drawS('all');
+
   // estimator
   var eCat=document.getElementById('eCat'),eLvl=document.getElementById('eLvl'),eMeth='ai',eDur=0,nLang=0,nRev=0;
   function fillLvl(){var c=C[eCat.value],hot=0;
@@ -614,19 +674,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   });});
   fillLvl();calc();
 
-  // faq
-  function fset(q,open){var a=q.querySelector('.fa');q.classList.toggle('is-open',open);q.querySelector('button').setAttribute('aria-expanded',open?'true':'false');a.style.maxHeight=open?a.scrollHeight+'px':'0px';}
-  document.querySelectorAll('.fq button').forEach(function(b){b.addEventListener('click',function(){var q=b.parentNode,open=!q.classList.contains('is-open');document.querySelectorAll('.fq.is-open').forEach(function(o){if(o!==q)fset(o,false);});fset(q,open);});});
-  fset(document.querySelector('.fq'),true);
-  window.addEventListener('resize',function(){document.querySelectorAll('.fq.is-open .fa').forEach(function(a){a.style.maxHeight=a.scrollHeight+'px';});});
-
   // nav, to top, reveal
   var links=document.getElementById('links'),burger=document.getElementById('burger');
   burger.addEventListener('click',function(){var on=links.classList.toggle('show');burger.setAttribute('aria-expanded',on?'true':'false');});
   links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('show');burger.setAttribute('aria-expanded','false');});});
   var toTop=document.getElementById('toTop');
   toTop.addEventListener('click',function(){try{window.scrollTo({top:0,behavior:'smooth'});}catch(e){window.scrollTo(0,0);}});
-  var secs=['prices','process','estimate','contact'].map(function(id){return document.getElementById(id);});
+  var secs=['prices','samples','process','estimate','contact'].map(function(id){return document.getElementById(id);});
   window.addEventListener('scroll',function(){
     var y=window.pageYOffset+120,cur=null;toTop.classList.toggle('show',window.pageYOffset>500);
     secs.forEach(function(s){if(s.offsetTop<=y)cur=s.id;});
