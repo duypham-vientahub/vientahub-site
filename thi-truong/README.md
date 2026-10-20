@@ -48,3 +48,9 @@ Trang `/thi-truong/` chỉ đọc `data.json`. Mỗi lần cập nhật chỉ s�
 - Danh sách mã và ngưỡng: `sim/screener_config.json` (Việt Nam qua VNDirect/VPS/SSI, Mỹ và crypto qua Yahoo).
 - Khung lọc: cổng thị trường (MA50 có vùng đệm, EMA20, phiên phân phối) → tầng 1 thanh khoản 20 phiên → tầng 2 điểm RS thang 6 (RS 3T dương 2đ, RS 6T dương 1đ, giữ giá phiên chỉ số giảm 2đ, cùng ngành mạnh 1đ; đạt từ 4) → tầng 3 U/D volume 50 phiên ≥ 1 và giá trên MA50.
 - `data.json > screener`: `title`, `intro`, `method[]`, `disclaimer`, `notes.{vn|us|crypto}` = `{asOf, verdict, points[], action?, picks[]?}`. `picks` là mã phòng đầu tư chấm tay: `{code, name, sector, price, verdict, lv, summary, levels[[nhãn, giá, ghi chú]], pros[], cons[], planNote}`. Phân tích hằng ngày cập nhật `notes` cho khớp với `screener.json` mới nhất.
+
+## Trạng thái Buy/Wait/Sell Mode theo thị trường
+
+- `index.html` tự tính, không cần sửa `data.json`: hiện ở cột "Trạng thái" của bảng thị trường và dòng "Trạng thái" trong khu kịch bản theo thị trường.
+- Luật giống cổng thị trường của bộ lọc mã: giá dưới MA50 trừ vùng đệm (1,5% Việt Nam, 3% crypto, 0% còn lại) = Sell Mode; dưới EMA20 = Wait Mode; trên cả hai = Buy Mode. EMA20 tính từ 60 phiên `spark` trong `market.json`.
+- VN-Index, S&P 500, Bitcoin lấy thẳng `screener.json > bench` (có tính phiên phân phối). Lợi suất, VIX và tỷ giá không có trạng thái.

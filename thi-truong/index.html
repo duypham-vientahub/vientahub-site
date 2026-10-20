@@ -190,7 +190,10 @@ details ul{padding-left:18px;display:flex;flex-direction:column;gap:6px}
 .rsi.hot{color:var(--down)} .rsi.cold{color:var(--up)}
 td.mk{min-width:150px}
 td.nt{font-size:12.5px;color:#4F6370;min-width:220px;max-width:320px}
-#bang table{min-width:1080px}
+#bang table{min-width:1180px}
+.sgmode{margin-top:12px;font-size:14px;color:#3F5360;line-height:1.6;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.sgmode .pill{padding:6px 10px}
+.sghelp{margin-top:4px;font-size:12.5px;color:#5F7380;line-height:1.55}
 /* scenario explorer */
 .sgx{margin-top:22px;display:flex;flex-direction:column;gap:14px}
 .sgmain{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:16px;align-items:start}
@@ -378,6 +381,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         <th class="r"><button data-sort="ytd">Từ đầu năm</button></th>
         <th class="r"><button data-sort="fromHi">Cách đỉnh 52 tuần</button></th>
         <th><button data-sort="rsi14">Xu hướng · RSI</button></th>
+        <th>Trạng thái</th>
         <th>60 phiên</th>
         <th>Nhận định</th>
       </tr></thead>
@@ -482,6 +486,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <div class="fanhead"><div><b id="sgName"></b><span id="sgSub"></span></div>
             <div class="legend" id="sgLegend"></div></div>
           <div class="fanwrap"><svg id="sgSvg" role="img" aria-label="Biểu đồ kịch bản 3 tháng"></svg><div class="tip" id="sgTip" hidden></div></div>
+          <div class="sgmode" id="sgMode"></div><p class="sghelp" id="sgHelp"></p>
           <p class="sgsum" id="sgSum"></p>
         </div>
         <div class="sgcards" id="sgCards"></div>
@@ -626,10 +631,29 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   // ===== bảng thị trường từ sim/market.json (giá thật, chỉ báo tự tính) =====
   var GROUPS=['Tất cả','Mỹ','Châu Âu','Châu Á','Việt Nam','Hàng hoá','Crypto','Tiền tệ','Lãi suất'];
   var TREND={up:['up','Tăng'],down:['down','Giảm'],side:['warn','Giằng co']};
+  // ===== trạng thái Buy/Wait/Sell Mode cho từng thị trường =====
+  // Cùng luật cổng thị trường của bộ lọc mã (sim/screener.py): dưới MA50 trừ vùng đệm = Sell; dưới EMA20 = Wait; còn lại = Buy.
+  // VN-Index, S&P 500, Bitcoin lấy thẳng từ screener.json (có tính phiên phân phối); thị trường khác tính từ giá trong market.json.
+  var GATE_BUF={'Việt Nam':0.015,'Crypto':0.03};
+  var BENCH_OF={vni:'vn',spx:'us',btc:'crypto'};
+  var GATE_TXT={'Buy Mode':['up','Được giải ngân theo kế hoạch'],'Wait Mode':['warn','Chỉ mua thăm dò, nửa cỡ lệnh'],'Sell Mode':['down','Không mở mua mới']};
+  var GATE_HELP='Sell Mode khi giá dưới MA50 (trừ vùng đệm 1,5% với Việt Nam, 3% với crypto); Wait Mode khi dưới EMA20; Buy Mode khi trên cả hai. VN-Index, S&P 500, Bitcoin tính thêm số phiên phân phối như bộ lọc mã. Đây là quy tắc kỹ thuật theo xu hướng, không phải khuyến nghị mua bán.';
+  var SCR=null;
+  function gateOf(r){
+    if(!r||r.kind!=='price'||r.group==='Tiền tệ'||!r.spark||r.spark.length<20||r.ma50==null)return null;
+    var bm=SCR&&BENCH_OF[r.id]?(SCR.markets||[]).filter(function(m){return m.id===BENCH_OF[r.id];})[0]:null;
+    if(bm&&bm.bench&&GATE_TXT[bm.bench.mode]){var b=bm.bench;
+      return {mode:b.mode,lv:GATE_TXT[b.mode][0],last:b.last,line:b.line,buf:b.buffer||0,ema20:b.ema20,dist:b.dist,distMax:b.distMax,date:b.date};}
+    var a=r.spark,e=a[0];for(var i=1;i<a.length;i++)e+=(a[i]-e)*2/21;
+    var buf=GATE_BUF[r.group]||0,line=r.ma50*(1-buf);
+    var mode=r.last<line?'Sell Mode':r.last<e?'Wait Mode':'Buy Mode';
+    return {mode:mode,lv:GATE_TXT[mode][0],last:r.last,line:line,buf:buf,ema20:e,dist:null,distMax:null,date:r.lastDate};
+  }
+  function gatePill(g){return g?'<span class="pill '+g.lv+'">'+g.mode+'</span>':'<span style="color:var(--muted)">—</span>';}
   function renderTable(D,M){
     var notes=D.marketNotes||{},rows=M.rows;
     var gen=new Date(M.generated);
-    $('mktLead').textContent='Giá đóng cửa lấy trực tiếp từ Yahoo Finance và VNDirect, chỉ báo do hệ thống tự tính (cập nhật '+gen.toLocaleString('vi-VN',{timeZone:'Asia/Ho_Chi_Minh',hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'})+'). Bấm tiêu đề cột để sắp xếp.';
+    $('mktLead').textContent='Giá đóng cửa lấy trực tiếp từ Yahoo Finance và VNDirect, chỉ báo do hệ thống tự tính (cập nhật '+gen.toLocaleString('vi-VN',{timeZone:'Asia/Ho_Chi_Minh',hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'})+'). Bấm tiêu đề cột để sắp xếp. Cột Trạng thái: '+GATE_HELP;
     var group=GROUPS[0],sortKey=null,dir=-1;
     var maxOf=function(k){return Math.max.apply(null,rows.filter(function(r){return r.kind!=='yield';}).map(function(m){return Math.abs(m[k]||0);}))||1;};
     function val(r,k){var v=r[k];if(v==null)return '<span style="color:var(--muted)">—</span>';
@@ -651,6 +675,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         '<td class="r">'+lastFmt(r)+'</td><td class="r">'+val(r,'d1')+'</td><td class="r">'+bar(r,'m1')+'</td><td class="r">'+bar(r,'ytd')+'</td>'+
         '<td class="r">'+(r.fromHi==null?'—':fmt(r.fromHi*100))+'</td>'+
         '<td><span class="pill '+t[0]+'">'+t[1]+'</span> <span class="rsi'+(r.rsi14>70?' hot':r.rsi14<30?' cold':'')+'">'+Math.round(r.rsi14)+'</span></td>'+
+        '<td>'+gatePill(gateOf(r))+'</td>'+
         '<td>'+spark(r.spark)+'</td>'+
         '<td class="nt">'+(n.sig?esc(n.sig):'')+'</td></tr>';}).join('');
     }
@@ -664,7 +689,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
   // ===== kịch bản theo từng thị trường (data.json scenarioGuide + sim.json byScenario) =====
   var SC_STYLE={base:{c:'#5F7380',dash:'6 4',band:'rgba(95,115,128,.14)'},deal:{c:'#13795B',dash:'',band:'rgba(19,121,91,.14)'},shock:{c:'#B4361F',dash:'2 3',band:'rgba(180,54,31,.12)'}};
-  function renderGuide(D,S){
+  function renderGuide(D,S,M){
     var G=D.scenarioGuide;if(!G||!S)return;
     var byId={};S.assets.forEach(function(a){byId[a.id]=a;});
     var list=G.markets.filter(function(m){return byId[m.id];});if(!list.length)return;
@@ -679,6 +704,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       $('sgName').textContent=a.name;
       $('sgSub').textContent='Hiện tại '+num(a.last)+' ('+a.lastDate+') · 3 tháng tới';
       $('sgSum').textContent=m.summary;
+      var row=M?(M.rows||[]).filter(function(x){return x.id===sel;})[0]:null,gt=gateOf(row);
+      $('sgMode').hidden=$('sgHelp').hidden=!gt;
+      if(gt){var pos=function(v,ref){return v<ref?'dưới':'trên';};
+        $('sgMode').innerHTML='<b>Trạng thái:</b> '+gatePill(gt)+'<span>'+esc(GATE_TXT[gt.mode][1])+'</span>';
+        $('sgHelp').textContent='Giá '+num(gt.last)+' ('+gt.date.split('-').reverse().join('/')+') '+pos(gt.last,gt.line)+' mốc MA50'+(gt.buf?' trừ vùng đệm '+String(gt.buf*100).replace('.',',')+'%':'')+' ('+num(gt.line)+'), '+pos(gt.last,gt.ema20)+' EMA20 ('+num(gt.ema20)+')'+
+          (gt.dist!=null?'; '+gt.dist+' phiên phân phối trong 25 phiên (tối đa '+gt.distMax+')':'')+'. '+GATE_HELP;}
       var steps=a.scen.fan.steps,n=steps.length,xmax=steps[n-1];
       var all=[];scs.forEach(function(x){var b=a.byScenario[x.id];if(b){all=all.concat(b.fan.p10,b.fan.p90);}});
       var lo=Math.min.apply(null,all),hi=Math.max.apply(null,all),pad=(hi-lo)*.06;lo-=pad;hi+=pad;
@@ -813,8 +844,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     var D=res[0].status==='fulfilled'?res[0].value:null,S=res[1].status==='fulfilled'?res[1].value:null,M=res[2].status==='fulfilled'?res[2].value:null;
     if(!D){var e=document.createElement('p');e.className='err';e.textContent='Không tải được dữ liệu thị trường. Vui lòng tải lại trang sau ít phút.';$('main').prepend(e);return;}
     render(D);
+    SCR=res[3].status==='fulfilled'?res[3].value:null;
     if(M)renderTable(D,M);else $('bang').hidden=true;
-    if(S){renderSim(S,D.simNote);renderGuide(D,S);}
+    if(S){renderSim(S,D.simNote);renderGuide(D,S,M);}
     try{renderScreener(D,res[3].status==='fulfilled'?res[3].value:null);}catch(e){console.error(e);}
   });
 })();
