@@ -194,6 +194,36 @@ td.nt{font-size:12.5px;color:#4F6370;min-width:220px;max-width:320px}
 .sgmode{margin-top:12px;font-size:14px;color:#3F5360;line-height:1.6;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
 .sgmode .pill{padding:6px 10px}
 .sghelp{margin-top:4px;font-size:12.5px;color:#5F7380;line-height:1.55}
+
+/* chu kỳ & phân bổ */
+.cyc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.cyc-c{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:flex;flex-direction:column;gap:9px;font-size:13.5px;color:#3F5360;min-width:0}
+.cyc-h{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+.cyc-h b{font:700 16px var(--f-head);color:var(--navy)}
+.cyc-h small{color:var(--muted)}
+.ring{display:flex;gap:4px;flex-wrap:wrap}
+.ring span{font:600 11px var(--f-head);padding:5px 8px;border-radius:99px;background:#EEF4F3;color:#8195A0}
+.ring span.on{background:var(--navy);color:#fff}
+.cyc-c dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;margin:0}
+.cyc-c dt{font:600 11px var(--f-head);letter-spacing:.1em;text-transform:uppercase;color:var(--deep);padding-top:2px}
+.cyc-c dd{margin:0;line-height:1.55}
+.cyc-c .ag{color:#6B4E16;background:#FBF4E4;border-radius:10px;padding:8px 10px;line-height:1.55}
+.cyc-c .fl{font-size:12.5px;color:var(--muted)}
+.cyc-lead{font-size:13px;color:var(--muted);margin-top:10px}
+.al{margin-top:22px;display:flex;flex-direction:column;gap:12px}
+.al-who{font-size:13.5px;color:#3F5360}
+.al-bar{display:flex;height:16px;border-radius:99px;overflow:hidden;background:#EEF4F3}
+.al-bar i{display:block;height:100%}
+.al-leg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:#3F5360}
+.al-leg span{display:inline-flex;align-items:center;gap:6px}
+.al-leg i{width:10px;height:10px;border-radius:3px;display:inline-block}
+table.al-t{min-width:680px}
+.al-t td.n{font:600 14px var(--f-mono);white-space:nowrap}
+.al-t .dl{font:600 12px var(--f-mono)}
+.al-t .dl.p{color:var(--up)} .al-t .dl.m{color:var(--down)} .al-t .dl.z{color:var(--muted)}
+.al-steps{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 20px 16px 38px;font-size:14px;color:#3F5360;line-height:1.6;display:flex;flex-direction:column;gap:6px}
+.al-basis,.al-disc{font-size:13px;color:var(--muted)}
+@media (max-width:760px){.cyc{grid-template-columns:1fr}}
 /* scenario explorer */
 .sgx{margin-top:22px;display:flex;flex-direction:column;gap:14px}
 .sgmain{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:16px;align-items:start}
@@ -344,7 +374,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <p class="lead" id="lede"></p>
       <p class="en-note en">This analysis is published in Vietnamese.</p>
       <p class="stamp" id="stamp"></p>
-      <div class="jump"><a href="#bo-loc">Bộ lọc mã tiềm năng ↓</a><a href="#mo-phong">Mô phỏng 3 tháng ↓</a><a href="#kich-ban">Kịch bản ↓</a></div>
+      <div class="jump"><a href="#phan-bo">Phân bổ dòng tiền ↓</a><a href="#bo-loc">Bộ lọc mã tiềm năng ↓</a><a href="#mo-phong">Mô phỏng 3 tháng ↓</a><a href="#kich-ban">Kịch bản ↓</a></div>
     </div>
     <aside class="regime" aria-label="Chế độ vĩ mô">
       <div class="top"><span class="eyebrow">Chế độ vĩ mô</span><span class="pill warn" id="regimeLabel"></span></div>
@@ -438,6 +468,27 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <thead><tr><th>Lớp tài sản</th><th>Định hướng</th><th>Lý do</th><th>Điều kiện đổi hướng</th></tr></thead>
       <tbody id="stBody"></tbody>
     </table></div>
+  </section>
+
+
+  <section id="phan-bo" hidden>
+    <div class="head"><span class="eyebrow dk">Chu kỳ &amp; phân bổ</span><h2 id="cyTitle"></h2><p id="cyIntro"></p></div>
+    <div class="cyc" id="cyCards"></div>
+    <p class="cyc-lead" id="cyNote"></p>
+    <div class="al">
+      <div class="head" style="margin:22px 0 4px"><h2 id="alTitle"></h2><p id="alIntro"></p></div>
+      <div class="filters" id="alPick" role="tablist" aria-label="Chọn khẩu vị rủi ro"></div>
+      <p class="al-who" id="alWho"></p>
+      <div class="al-bar" id="alBar" aria-hidden="true"></div>
+      <div class="al-leg" id="alLeg"></div>
+      <div class="tbl"><table class="al-t">
+        <thead><tr><th>Lớp tài sản</th><th class="r">Trung tính</th><th class="r">Hiện tại</th><th class="r">Thay đổi</th><th>Lý do</th></tr></thead>
+        <tbody id="alBody"></tbody>
+      </table></div>
+      <p class="al-basis" id="alBasis"></p>
+      <ol class="al-steps" id="alSteps"></ol>
+      <p class="al-disc" id="alDisc"></p>
+    </div>
   </section>
 
   <section id="mo-phong" hidden>
@@ -559,6 +610,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     $('vnTitle').textContent=D.vnTitle;
     $('vn').innerHTML=D.vn.map(function(k){return '<div class="kv"><span class="k">'+esc(k.k)+'</span><span class="v">'+esc(k.v)+'</span><span class="d">'+esc(k.d)+'</span></div>';}).join('');
     $('vnNote').innerHTML=rich(D.vnNote);
+    try{renderAlloc(D);}catch(e){console.error(e);}
     if(D.strategy){$('chien-luoc').hidden=false;$('stTitle').textContent=D.strategy.title;$('stNote').textContent=D.strategy.note;
       $('stBody').innerHTML=D.strategy.items.map(function(x){return '<tr><td>'+esc(x.a)+'</td><td><span class="pill '+x.lv+'">'+esc(x.s)+'</span></td><td>'+esc(x.why)+'</td><td>'+esc(x.flip)+'</td></tr>';}).join('');}
     $('scenTitle').textContent=D.scenTitle;
@@ -627,6 +679,34 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     $('simModel').innerHTML=['vol','dependence','drift'].map(function(k){return '<li>'+esc(S.model[k])+'.</li>';}).join('')+
       (bt&&bt.windows?'<li><b>Kiểm định ngoài mẫu:</b> dải 5–95% chứa kết quả thật '+bt.hits90+'/'+bt.windows+' lần ('+Math.round(bt.rate*100)+'%, mục tiêu 90%).</li>':'');
     table();fan();
+  }
+
+  // ===== chu kỳ kinh tế & phân bổ dòng tiền (data.json cycle + allocation) =====
+  var AL_COL=['#0E7C70','#5F9FB8','#0A1C29','#7A8FD0','#C99A2E','#B4361F','#8FA6B2'];
+  function renderAlloc(D){
+    var C=D.cycle,A=D.allocation;if(!C&&!A)return;$('phan-bo').hidden=false;
+    if(C){$('cyTitle').textContent=C.title;$('cyIntro').textContent=C.intro;$('cyNote').textContent=(C.asOf?'Cập nhật '+C.asOf+'. ':'')+(C.note||'');
+      $('cyCards').innerHTML=C.markets.map(function(m){var ld=(C.leaders||{})[m.phase];
+        return '<div class="cyc-c"><div class="cyc-h"><b>'+esc(m.name)+'</b><span class="pill '+m.lv+'">'+esc(m.phase)+'</span><small>'+esc(m.lean||'')+'</small></div>'+
+        '<div class="ring">'+C.phases.map(function(p){return '<span'+(p===m.phase?' class="on"':'')+'>'+esc(p)+'</span>';}).join('')+'</div>'+
+        '<dl><dt>Tăng trưởng</dt><dd>'+esc(m.growth)+'</dd><dt>Lạm phát</dt><dd>'+esc(m.inflation)+'</dd><dt>Chính sách</dt><dd>'+esc(m.policy)+'</dd>'+
+        (ld?'<dt>Thường dẫn dắt</dt><dd>'+esc(ld)+'</dd>':'')+'</dl>'+
+        (m.against&&m.against.length?'<div class="ag"><b>Mặt trái:</b> '+m.against.map(esc).join(' ')+'</div>':'')+
+        (m.flip?'<p class="fl"><b>Khi nào đổi pha:</b> '+esc(m.flip)+'</p>':'')+'</div>';}).join('');}
+    if(!A){$('alTitle').parentNode.parentNode.hidden=true;return;}
+    $('alTitle').textContent=A.title;$('alIntro').textContent=A.intro;$('alBasis').textContent=A.basis||'';$('alDisc').textContent=A.disclaimer||'';
+    $('alSteps').innerHTML=(A.steps||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('');
+    var sel=(A.profiles[1]||A.profiles[0]).id;
+    $('alPick').innerHTML=A.profiles.map(function(p){return '<button class="f'+(p.id===sel?' on':'')+'" role="tab" aria-selected="'+(p.id===sel)+'" data-id="'+p.id+'">'+esc(p.name)+'</button>';}).join('');
+    function draw(){var p=A.profiles.filter(function(x){return x.id===sel;})[0];
+      $('alWho').innerHTML='<b>'+esc(p.name)+':</b> '+esc(p.who);
+      $('alBar').innerHTML=A.classes.map(function(c,i){return '<i style="width:'+c.now[sel]+'%;background:'+AL_COL[i%AL_COL.length]+'" title="'+esc(c.a)+' '+c.now[sel]+'%"></i>';}).join('');
+      $('alLeg').innerHTML=A.classes.map(function(c,i){return '<span><i style="background:'+AL_COL[i%AL_COL.length]+'"></i>'+esc(c.a)+' '+c.now[sel]+'%</span>';}).join('');
+      $('alBody').innerHTML=A.classes.map(function(c){var dv=c.now[sel]-c.base[sel];
+        return '<tr><td>'+esc(c.a)+'</td><td class="r n">'+c.base[sel]+'%</td><td class="r n">'+c.now[sel]+'%</td><td class="r"><span class="dl '+(dv>0?'p':dv<0?'m':'z')+'">'+(dv>0?'+':dv<0?'−':'')+(dv?Math.abs(dv):'0')+' điểm</span></td><td>'+esc(c.why)+'</td></tr>';}).join('');}
+    $('alPick').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;sel=b.getAttribute('data-id');
+      document.querySelectorAll('#alPick .f').forEach(function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);});draw();});
+    draw();
   }
   // ===== bảng thị trường từ sim/market.json (giá thật, chỉ báo tự tính) =====
   var GROUPS=['Tất cả','Mỹ','Châu Âu','Châu Á','Việt Nam','Hàng hoá','Crypto','Tiền tệ','Lãi suất'];
