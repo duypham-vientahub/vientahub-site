@@ -54,3 +54,8 @@ Trang `/thi-truong/` chỉ đọc `data.json`. Mỗi lần cập nhật chỉ s�
 - `index.html` tự tính, không cần sửa `data.json`: hiện ở cột "Trạng thái" của bảng thị trường và dòng "Trạng thái" trong khu kịch bản theo thị trường.
 - Luật giống cổng thị trường của bộ lọc mã: giá dưới MA50 trừ vùng đệm (1,5% Việt Nam, 3% crypto, 0% còn lại) = Sell Mode; dưới EMA20 = Wait Mode; trên cả hai = Buy Mode. EMA20 tính từ 60 phiên `spark` trong `market.json`.
 - VN-Index, S&P 500, Bitcoin lấy thẳng `screener.json > bench` (có tính phiên phân phối). Lợi suất, VIX và tỷ giá không có trạng thái.
+
+## Chu kỳ kinh tế và phân bổ dòng tiền (`#phan-bo`)
+
+- `data.json > cycle`: `title`, `intro`, `phases[]` (Phục hồi, Mở rộng, Đỉnh, Suy thoái, Đáy), `leaders{pha: ngành}`, `asOf`, `note`, `markets[{id, name, phase, lean, lv, growth, inflation, policy, against[], flip}]`. Pha theo skill `dt-13-chu-ky-vi-mo` của plugin phòng đầu tư: chỉ đổi khi ít nhất hai nhóm số liệu (tăng trưởng, lạm phát, chính sách) cùng đổi chiều.
+- `data.json > allocation`: `title`, `intro`, `asOf`, `basis`, `profiles[{id, name, who}]`, `classes[{a, base{id:%}, now{id:%}, why}]`, `steps[]`, `disclaimer`. Mỗi khẩu vị cộng đúng 100% ở cả `base` và `now`. `now` lệch khỏi `base` theo pha chu kỳ và trạng thái Buy/Wait/Sell Mode; chỉ đổi khi một trong hai đổi. Không nêu mã cụ thể; luôn ghi là khung tham khảo, không phải tư vấn cá nhân.

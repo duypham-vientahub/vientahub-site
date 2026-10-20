@@ -2635,5 +2635,204 @@
    "Gợi ý vị trí: sát EMA20 (±3%, crypto ±6%) là vùng rũ bỏ rủi ro thấp; cách EMA20 trên 6% (crypto 12%) là đã chạy xa; sát đỉnh với nền 15 phiên chặt là chờ vượt nền."
   ],
   "disclaimer": "Bộ lọc là công cụ sàng lọc kỹ thuật, không phải khuyến nghị mua bán. Chưa xét định giá doanh nghiệp. Hãy tự kiểm tra trước khi quyết định và chỉ dùng số tiền chịu được rủi ro."
+ },
+ "cycle": {
+  "title": "Vòng tròn kinh tế: đang ở pha nào",
+  "intro": "Mỗi nền kinh tế được xếp vào một trong năm pha dựa trên ba câu hỏi: tăng trưởng đang nhanh lên hay chậm lại, lạm phát đang tăng hay giảm, và chính sách tiền tệ đang nới hay thắt. Pha quyết định nhóm tài sản và ngành thường dẫn dắt.",
+  "phases": [
+   "Phục hồi",
+   "Mở rộng",
+   "Đỉnh",
+   "Suy thoái",
+   "Đáy"
+  ],
+  "leaders": {
+   "Phục hồi": "Ngân hàng, bất động sản, đầu tư công",
+   "Mở rộng": "Công nghiệp, vật liệu, dầu khí",
+   "Đỉnh": "Tiêu dùng, công nghệ; hàng hoá tăng nóng",
+   "Suy thoái": "Y tế, điện nước, năng lượng, tiền mặt",
+   "Đáy": "Vàng, trái phiếu"
+  },
+  "asOf": "20/10/2026",
+  "markets": [
+   {
+    "id": "global",
+    "name": "Toàn cầu",
+    "phase": "Đỉnh",
+    "lean": "nghiêng sang đình lạm",
+    "lv": "warn",
+    "growth": "IMF (13/10) nâng dự báo 2026 lên 3,1%, 2027 3,4%.",
+    "inflation": "Brent +79% từ đầu năm; CPI Mỹ 3,7%, Eurozone 3,8% (cao nhất từ 9/2023).",
+    "policy": "Fed, ECB, BOJ đều đã tăng lãi trong năm; Fed tháng 12 ~90%.",
+    "against": [
+     "Tăng trưởng vẫn trên trung bình, lợi nhuận doanh nghiệp Mỹ quý 3 ~+29%: chưa có dấu hiệu suy thoái thật.",
+     "Nếu Hormuz mở lại, dầu giảm nhanh và lạm phát có thể quay đầu, kéo chu kỳ về Mở rộng."
+    ],
+    "flip": "Chuyển sang Suy thoái khi PMI toàn cầu xuống dưới 50 và thất nghiệp Mỹ tăng nhanh; quay lại Mở rộng nếu dầu dưới 85 USD."
+   },
+   {
+    "id": "us",
+    "name": "Mỹ",
+    "phase": "Đỉnh",
+    "lean": "tăng trưởng bắt đầu chậm lại",
+    "lv": "warn",
+    "growth": "ISM sản xuất 54,5, dịch vụ 54,9 (T9); GDPNow quý 3 3,6%; nhưng việc làm T9 chỉ +29 nghìn, thất nghiệp 4,2%.",
+    "inflation": "CPI T9 3,7%, lõi 2,6%; PCE lõi T8 3,0% và đang tăng.",
+    "policy": "Lãi Fed 3,75–4,00% sau lần tăng 16/9; lợi suất 10 năm 5,14%, 2 năm ~4,78% (đường cong dương ~+0,36 điểm %).",
+    "against": [
+     "PMI vẫn trên 54 và GDPNow 3,6%: kinh tế chưa yếu.",
+     "Nhóm dẫn dắt trong bộ lọc là y tế, tiêu dùng thiết yếu, năng lượng: đúng kiểu cuối chu kỳ, nhưng công nghệ vẫn có 5 mã qua lọc."
+    ],
+    "flip": "Sang Suy thoái nếu việc làm âm 2 tháng liền hoặc ISM dưới 50; về Mở rộng nếu lạm phát lõi giảm và Fed dừng tăng."
+   },
+   {
+    "id": "vn",
+    "name": "Việt Nam",
+    "phase": "Mở rộng",
+    "lean": "muộn, có dấu hiệu quá nóng",
+    "lv": "warn",
+    "growth": "GDP quý 3 +9,95% (quý 2 8,81%), 9 tháng 9,01%; PMI T9 51,9 (T8 53,3); tín dụng +11,59% từ đầu năm.",
+    "inflation": "CPI T9 +5,08%, lạm phát cơ bản 4,45%: vượt ngưỡng 5% trong khung RQD.",
+    "policy": "OMO 4,5%; NHNN yêu cầu hạ lãi huy động ≥0,5 điểm %, lãi vay 1,5–2 điểm % (19/10): chính sách đang nới.",
+    "against": [
+     "Chứng khoán đi ngược kinh tế: VN-Index Sell Mode, khối ngoại bán ~24.800 tỷ từ 21/9.",
+     "Nới lãi suất khi CPI trên 5% có thể đẩy lạm phát và tỷ giá; PMI đang chậm lại."
+    ],
+    "flip": "Sang Đỉnh nếu CPI vượt 6% hoặc tỷ giá tăng >1–2% trong 2–3 tuần; giữ Mở rộng nếu lãi vay giảm thật mà CPI dưới 5,5%."
+   },
+   {
+    "id": "cn",
+    "name": "Trung Quốc",
+    "phase": "Phục hồi",
+    "lean": "yếu, phụ thuộc xuất khẩu",
+    "lv": "info",
+    "growth": "GDP quý 3 +4,5% (quý 2 4,3%); PMI NBS T9 50,1 (T8 49,8); xuất khẩu T9 +36,3%.",
+    "inflation": "Lạm phát thấp; bán lẻ T9 chỉ +1,1%.",
+    "policy": "LPR giữ 3,0%/3,5% suốt 17 tháng; nếu nới thì nhiều khả năng giảm dự trữ bắt buộc.",
+    "against": [
+     "Đầu tư bất động sản 9 tháng −20,6%, đầu tư tài sản cố định −7,2%: phục hồi chưa lan vào trong nước.",
+     "Thượng Hải RSI 21, Hang Seng dưới MA200: thị trường chưa xác nhận."
+    ],
+    "flip": "Sang Mở rộng khi tiêu dùng và tín dụng trong nước tăng rõ; về Đáy nếu xuất khẩu chững lại."
+   }
+  ],
+  "note": "Pha là đánh giá phân tích từ dữ liệu công bố, có độ trễ 1–2 tháng; một pha thường kéo dài nhiều quý nên chỉ đổi khi có ít nhất hai nhóm số liệu cùng đổi chiều."
+ },
+ "allocation": {
+  "title": "Khuyến nghị phân bổ dòng tiền",
+  "intro": "Gợi ý chia tiền theo ba khẩu vị rủi ro. Cột “Trung tính” là tỷ trọng gốc khi thị trường bình thường; cột “Hiện tại” đã điều chỉnh theo pha chu kỳ và trạng thái Buy/Wait/Sell Mode. Chỉ dùng cho tiền đầu tư, sau khi đã có quỹ dự phòng 6 tháng chi tiêu.",
+  "asOf": "20/10/2026",
+  "basis": "Căn cứ: toàn cầu và Mỹ ở pha Đỉnh, Việt Nam Mở rộng muộn; VN-Index và S&P 500 Sell Mode, Bitcoin Wait Mode; mô phỏng VN-Index 3 tháng trung vị +0,9%, ~12% khả năng mất hơn 10%; lãi tiết kiệm bắt đầu giảm.",
+  "profiles": [
+   {
+    "id": "tt",
+    "name": "Thận trọng",
+    "who": "Cần giữ vốn, dùng tiền trong 1–3 năm, khó chịu khi lỗ quá 5–10%."
+   },
+   {
+    "id": "cb",
+    "name": "Cân bằng",
+    "who": "Đầu tư 3–5 năm, chấp nhận sụt 15–20% trong năm xấu."
+   },
+   {
+    "id": "tg",
+    "name": "Tăng trưởng",
+    "who": "Đầu tư trên 5 năm, có thu nhập ổn định, chịu được sụt 25–30%."
+   }
+  ],
+  "classes": [
+   {
+    "a": "Tiền gửi, tiền mặt",
+    "base": {
+     "tt": 35,
+     "cb": 15,
+     "tg": 5
+    },
+    "now": {
+     "tt": 45,
+     "cb": 30,
+     "tg": 20
+    },
+    "why": "VN-Index và S&P 500 Sell Mode: giữ tiền chờ cơ hội. Lãi tiết kiệm đang giảm (ACB 12 tháng 5,8%), nên gửi kỳ hạn sớm để khoá lãi."
+   },
+   {
+    "a": "Trái phiếu, quỹ trái phiếu",
+    "base": {
+     "tt": 30,
+     "cb": 20,
+     "tg": 10
+    },
+    "now": {
+     "tt": 25,
+     "cb": 15,
+     "tg": 10
+    },
+    "why": "Lãi suất Việt Nam sắp giảm có lợi cho giá trái phiếu đang nắm, nhưng lạm phát 5,08% làm lợi suất thực thấp. Ưu tiên quỹ trái phiếu, tránh trái phiếu doanh nghiệp đơn lẻ."
+   },
+   {
+    "a": "Cổ phiếu Việt Nam",
+    "base": {
+     "tt": 20,
+     "cb": 40,
+     "tg": 55
+    },
+    "now": {
+     "tt": 15,
+     "cb": 32,
+     "tg": 45
+    },
+    "why": "Kinh tế mạnh (GDP quý 3 +9,95%) nhưng thị trường Sell Mode, khối ngoại bán ròng. Phần này chỉ giải ngân dần qua quỹ chỉ số hoặc vị thế dài hạn; túi lướt sóng (swing) bằng 0 cho tới khi về Wait/Buy Mode."
+   },
+   {
+    "a": "Cổ phiếu quốc tế (qua quỹ)",
+    "base": {
+     "tt": 5,
+     "cb": 10,
+     "tg": 12
+    },
+    "now": {
+     "tt": 5,
+     "cb": 10,
+     "tg": 12
+    },
+    "why": "Mỹ ở pha Đỉnh, S&P 500 Sell Mode nhưng chỉ cách đỉnh 1,6%: giữ nguyên, mua dần theo tháng, không tăng thêm."
+   },
+   {
+    "a": "Vàng",
+    "base": {
+     "tt": 10,
+     "cb": 10,
+     "tg": 8
+    },
+    "now": {
+     "tt": 10,
+     "cb": 11,
+     "tg": 9
+    },
+    "why": "Pha Đỉnh nghiêng đình lạm thường có lợi cho vàng; ngân hàng trung ương vẫn mua. Nhưng vàng đang Sell Mode và SJC đắt hơn thế giới ~12 triệu đ/lượng: mua dần, ưu tiên vàng nhẫn hoặc chứng chỉ quỹ vàng."
+   },
+   {
+    "a": "Crypto",
+    "base": {
+     "tt": 0,
+     "cb": 5,
+     "tg": 10
+    },
+    "now": {
+     "tt": 0,
+     "cb": 2,
+     "tg": 4
+    },
+    "why": "Bitcoin Wait Mode, ETF vẫn rút ròng; biến động 30–40% trong 3 tháng là bình thường. Chỉ dùng tiền có thể mất hết."
+   }
+  ],
+  "steps": [
+   "Trước tiên: quỹ dự phòng 6 tháng chi tiêu bằng tiền gửi, không tính vào bảng trên.",
+   "Tiền mới mỗi tháng: chia theo cột “Hiện tại” của khẩu vị mình; phần cổ phiếu chia làm 3–6 đợt, mỗi đợt cách nhau 2–4 tuần.",
+   "Khi VN-Index về Wait Mode: chuyển dần 5–10 điểm % từ tiền gửi sang cổ phiếu. Khi về Buy Mode và có phiên FTD: đưa cổ phiếu về tỷ trọng Trung tính.",
+   "Cân bằng lại mỗi quý, hoặc khi một lớp tài sản lệch quá 5 điểm % so với mục tiêu.",
+   "Không vay margin để đạt tỷ trọng cổ phiếu; không dồn quá 10% tài sản vào một mã."
+  ],
+  "disclaimer": "Đây là khung phân bổ tham khảo của phòng phân tích, viết cho người đọc chung, không phải tư vấn đầu tư cá nhân. Tỷ trọng phù hợp tuỳ mục tiêu, thời gian và khả năng chịu rủi ro của từng người."
  }
 }
