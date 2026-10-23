@@ -124,12 +124,12 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 15/10/2026: CPI Mỹ tháng 9 nóng hơn dự báo (3,7%, lõi 2,6%; BLS/CBS 14/10), xác suất Fed tăng lãi 28/10 lên ~44% (CME FedWatch qua Yahoo Finance 14/10); số tàu bị tấn công quanh Hormuz cao nhất cuộc chiến (UKMTO/Windward 5–11/10), Mỹ bác đề xuất 7 ngày của Iran (PBS 26/9), chưa có tiến triển đàm phán. Hạ xác suất thoả thuận 25%→20%, nâng leo thang + Fed tăng lãi 15%→20%. Độ lớn cú sốc giữ nguyên (JPMorgan quý 4 Brent 105 USD, EIA STEO quý 4 105 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 23/10/2026: Houthi mở thêm mặt trận tấn công Ả Rập Xê Út (Bộ Quốc phòng ở Riyadh, sân bay Dammam, Aramco Yanbu, mỏ Shaybah; Aramco cho nhân viên rời Dhahran; CBS News 22/10), IRGC nói đã đánh 4 tàu ở bắc vịnh Ba Tư; Brent chốt 113,17 USD (+4%, cao nhất từ tháng 5; Rallies/Nation Thailand 22/10). Đàm phán Mỹ–Iran qua Qatar, Pakistan vẫn bế tắc (Arab News 22/10); PVM cho rằng khó giảm leo thang trước bầu cử giữa kỳ Mỹ (Korea Times 23/10). Hạ kịch bản cơ sở 60%→55%, nâng leo thang + Fed tăng lãi 20%→25%; giữ thoả thuận 20%. Fed tăng lãi 28/10 chỉ ~10–17% nhưng tháng 12 ~76–89% (Kalshi, CME FedWatch, Trading Economics 20–22/10). Độ lớn cú sốc giữ nguyên (EIA STEO 6/10: Brent quý 4 105 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
     "name": "Cơ sở: thắt chặt kéo dài",
-    "p": 0.6,
+    "p": 0.55,
     "shock": {}
    },
    {
@@ -158,7 +158,7 @@
    {
     "id": "shock",
     "name": "Leo thang + Fed tăng lãi",
-    "p": 0.2,
+    "p": 0.25,
     "shock": {
      "brent": 0.25,
      "gold": 0.06,
