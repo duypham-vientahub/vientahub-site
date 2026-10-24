@@ -124,7 +124,7 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 23/10/2026: Houthi mở thêm mặt trận tấn công Ả Rập Xê Út (Bộ Quốc phòng ở Riyadh, sân bay Dammam, Aramco Yanbu, mỏ Shaybah; Aramco cho nhân viên rời Dhahran; CBS News 22/10), IRGC nói đã đánh 4 tàu ở bắc vịnh Ba Tư; Brent chốt 113,17 USD (+4%, cao nhất từ tháng 5; Rallies/Nation Thailand 22/10). Đàm phán Mỹ–Iran qua Qatar, Pakistan vẫn bế tắc (Arab News 22/10); PVM cho rằng khó giảm leo thang trước bầu cử giữa kỳ Mỹ (Korea Times 23/10). Hạ kịch bản cơ sở 60%→55%, nâng leo thang + Fed tăng lãi 20%→25%; giữ thoả thuận 20%. Fed tăng lãi 28/10 chỉ ~10–17% nhưng tháng 12 ~76–89% (Kalshi, CME FedWatch, Trading Economics 20–22/10). Độ lớn cú sốc giữ nguyên (EIA STEO 6/10: Brent quý 4 105 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 24/10/2026: Brent hợp đồng gần chốt 116,72 USD ngày 23/10 (+3,1%, cao nhất từ 29/4; tuần +6%; GV Wire, Business Recorder 23/10). Houthi tiếp tục bắn tên lửa vào Riyadh, Aramco sơ tán trụ sở Dhahran; ông Trump nói Mỹ 'không đàm phán' với Iran (21/10); có tin Mỹ, Israel cân nhắc tấn công Iran sau bầu cử 3/11 (CBS, TheStreet 23/10). Họp Istanbul 23/10 về Yemen, Hormuz không ra tuyên bố chung hay đề xuất ngừng bắn (Gulf News 23/10). Hạ thoả thuận Hormuz 20%→15%, nâng leo thang + Fed tăng lãi 25%→30%; giữ cơ sở 55%. Fed tăng lãi 28/10 chỉ ~5–7% nhưng tháng 12 ~72–86% (CME FedWatch 22/10, Kalshi, Polymarket 23/10). Độ lớn cú sốc giữ nguyên (EIA STEO 6/10, Morgan Stanley 14/10: Brent quý 4 105 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
@@ -135,7 +135,7 @@
    {
     "id": "deal",
     "name": "Thoả thuận Hormuz",
-    "p": 0.2,
+    "p": 0.15,
     "shock": {
      "brent": -0.25,
      "gold": -0.04,
@@ -158,7 +158,7 @@
    {
     "id": "shock",
     "name": "Leo thang + Fed tăng lãi",
-    "p": 0.25,
+    "p": 0.3,
     "shock": {
      "brent": 0.25,
      "gold": 0.06,
