@@ -1,0 +1,5 @@
+Contact: mailto:duypham@vientahub.com
+Expires: 2027-10-25T00:00:00.000Z
+Preferred-Languages: en, vi
+Canonical: https://vientahub.com/.well-known/security.txt
+Policy: https://vientahub.com/#contact
