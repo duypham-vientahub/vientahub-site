@@ -2,6 +2,8 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-m/GDDw41CqJuUHoAVRAWBO1k774MmPp9owznoZMO5uc='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
 <title>Market Pulse | Vienta Hub</title>
@@ -26,7 +28,7 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
-body{overflow-x:hidden;font-family:var(--f-body);color:var(--text);background:var(--paper);-webkit-font-smoothing:antialiased;line-height:1.6}
+body{overflow-x:clip;font-family:var(--f-body);color:var(--text);background:var(--paper);-webkit-font-smoothing:antialiased;line-height:1.6}
 a{color:inherit;text-decoration:none}
 h1,h2,h3,h4,.brand{font-family:var(--f-head);text-wrap:balance}
 .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
@@ -616,7 +618,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     $('scenTitle').textContent=D.scenTitle;
     $('scen').innerHTML=D.scen.map(function(x){return '<div class="sc"><span class="pill '+x.lv+'" style="align-self:flex-start">'+esc(x.t)+'</span><h4>'+esc(x.p)+'</h4><ul>'+x.b.map(function(y){return '<li>'+esc(y)+'</li>';}).join('')+'</ul></div>';}).join('');
     $('cal').innerHTML=D.cal.map(function(c){return '<div class="ev"><span class="d">'+esc(c[0])+'</span><span class="w">'+esc(c[1])+'</span></div>';}).join('');
-    $('sources').innerHTML=D.sources.map(function(s){return '<li><a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[0])+'</a></li>';}).join('');
+    $('sources').innerHTML=D.sources.map(function(s){return '<li><a href="'+esc(s[1])+'" target="_blank" rel="noopener noreferrer">'+esc(s[0])+'</a></li>';}).join('');
     $('disc').textContent=D.disclaimer;
   }
 
