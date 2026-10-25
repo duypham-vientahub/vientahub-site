@@ -1,19 +1,19 @@
 {
- "updated": "24/10/2026, 09:40 (GMT+7)",
- "updatedISO": "2026-10-24",
- "asOf": "Giá đóng cửa 23/10/2026 cho Mỹ, Việt Nam, vàng, dầu; Bitcoin, Ether theo giá sáng 24/10. Châu Âu, Nhật, Hàn, Hồng Kông, Thượng Hải trong market.json còn ở 22/10, giá đóng cửa 23/10 của các thị trường này lấy từ báo chí. Brent trong bảng (Yahoo, 111,66 USD) lệch với giá chốt hợp đồng gần 116,72 USD, có thể do khác kỳ hạn hợp đồng. Thứ Bảy: không có phiên mới.",
+ "updated": "25/10/2026, 09:40 (GMT+7)",
+ "updatedISO": "2026-10-25",
+ "asOf": "Giá đóng cửa thứ Sáu 23/10/2026 cho mọi thị trường cổ phiếu, vàng, dầu, lợi suất (market.json đã có đủ phiên 23/10 của châu Âu, châu Á; Brent Yahoo nay khớp giá chốt 116,72 USD); Bitcoin, Ether theo giá ngày 24/10. Chủ nhật: không có phiên mới, chỉ cập nhật tin cuối tuần, lịch và nhận định.",
  "week": "Tuần 43/2026",
- "headline": "Dầu lại là tâm điểm: Brent +3,1% lên 116,72 USD, cao nhất từ tháng 4, đẩy lợi suất Mỹ 10 năm về 5% và vàng thủng 4.000 USD. S&P 500 −0,5%, vẫn Sell Mode. VN-Index tăng tuần đầu tiên sau 4 tuần giảm (+4%) lên 1.774,15, vẫn Wait Mode.",
- "lede": "Phiên 23/10 lo ngại chuyển từ **AI** sang **dầu và lãi suất**. Houthi tiếp tục bắn tên lửa vào Riyadh, Aramco sơ tán trụ sở Dhahran, ông Trump nói Mỹ \"không đàm phán\" với Iran, còn cuộc họp Istanbul về Hormuz không ra kết quả: **Brent chốt 116,72 USD (+3,1%; tuần +6%)**. Dầu kéo lạm phát kỳ vọng: người Mỹ dự kiến giá tăng 4,7% trong 1 năm (Michigan), PMI cho thấy giá bán tăng nhanh nhất từ 8/2022. Lợi suất 10 năm +4,8bp lên 5,00%; thị trường gần như loại khả năng Fed tăng lãi 28/10 (~5–7%) nhưng vẫn đặt ~72–86% cho tháng 12. Dow −1,23% (công nghiệp −2%, AmEx −3,7%), S&P 500 −0,52% còn 7.623,68; vàng tương lai −1,3% về 4.007,9 USD (giao ngay ~3.992), tuần −4%. Châu Á hồi nhẹ (KOSPI +0,3%, Hang Seng +0,7%), châu Âu giảm (STOXX 600 tuần −1,4%). Việt Nam: VN-Index **+13,52 điểm (+0,77%) lên 1.774,15**, tuần +68 điểm, ngân hàng dẫn dắt; nhưng khối ngoại quay lại bán ròng ~443–480 tỷ đ và số mã giảm nhiều hơn tăng.",
+ "headline": "Cuối tuần, Houthi tuyên bố đánh đường ống Đông–Tây và cảng Yanbu, đúng tuyến dầu Ả Rập Xê Út đang dùng để tránh Hormuz (chưa được xác nhận). Brent chốt tuần 116,72 USD (+6%). Tuần tới có Fed (28/10), ECB (29/10), BOJ (30/10). VN-Index 1.774,15, vẫn Wait Mode; S&P 500 vẫn Sell Mode.",
+ "lede": "Không có phiên giao dịch mới; tin cuối tuần nghiêng về rủi ro dầu. Ngày 24/10 Houthi tuyên bố tấn công sân bay Riyadh, Dammam, cơ sở Aramco ở **Yanbu**, nhà máy lọc dầu Rabigh và **đường ống Đông–Tây** (Ả Rập Xê Út chưa xác nhận); IRGC nói hai siêu tàu chở dầu trúng thuỷ lôi ở Hormuz (chưa được xác nhận). Ông Trump nói mọi cuộc tấn công sẽ đợi sau bầu cử 3/11; Iran vẫn nói mở cửa đàm phán, Qatar và Pakistan đã gửi đề xuất mới (20/10). Tuần qua: **Brent +6,2% lên 116,72 USD**, vàng −4,1% về ~3.996 USD, lợi suất 10 năm Mỹ −8bp còn 5,00%, S&P 500 −0,5%, Nasdaq −0,7%, Dow +0,4%. Theo CME FedWatch (23/10) khả năng Fed tăng lãi 28/10 chỉ ~10%, tháng 12 ~76%; 100/100 kinh tế gia Reuters dự báo tăng tháng 12. Việt Nam: VN-Index **+68,24 điểm (+4%) lên 1.774,15**, thanh khoản bình quân HOSE ~13.400 tỷ/phiên (+20%), nhưng khối ngoại bán ròng **1.105,6 tỷ đ** cả tuần (tuần trước 3.136 tỷ).",
  "regimeLabel": "Thắt chặt + sốc năng lượng, tài sản rủi ro bị bán",
  "regime": [
   [
    "Lạm phát Mỹ",
-   "CPI T9 3,7% (lõi 2,6%); kỳ vọng 1 năm 4,7%, 5 năm 3,5% (Michigan 23/10)"
+   "CPI T9 3,7% (lõi 2,6%); kỳ vọng 1 năm 4,7%, 5 năm 3,5% (Michigan 23/10); PCE T9 ra 29/10 (dự báo 3,6%, lõi 3,1%)"
   ],
   [
    "Khả năng Fed tăng lãi",
-   "28/10 ~5–7% (Kalshi, Polymarket 23/10); tháng 12 ~72–86% (CME FedWatch 22/10, Kalshi)"
+   "28/10 ~10% (CME FedWatch 23/10); tháng 12 ~71–80% (CME, các nguồn khác); Reuters: 94/100 dự báo giữ 28/10, 100/100 dự báo tăng tháng 12"
   ],
   [
    "Lãi suất Fed",
@@ -21,81 +21,81 @@
   ],
   [
    "Lợi suất Mỹ 2 / 10 năm",
-   "4,69% / 5,00% (23/10; +5bp / +4,8bp sau khi giảm ~19bp ngày 22/10)"
+   "4,69% / 5,00% (23/10; tuần −3bp / −8bp)"
   ],
   [
    "Brent",
-   "116,72 USD chốt 23/10 (+3,1%, cao nhất từ 29/4; tuần +6%)"
+   "116,72 USD (23/10; tuần +6,2%, cao nhất từ 29/4); RSI ~88, quá mua"
   ],
   [
    "Trạng thái thị trường",
-   "VN-Index Wait Mode · S&P 500 Sell Mode · Bitcoin Wait Mode · vàng Sell Mode (không đổi so với 23/10)"
+   "VN-Index Wait Mode · S&P 500 Sell Mode · Bitcoin Wait Mode · vàng Sell Mode (không đổi)"
   ]
  ],
  "chain": [
   {
-   "t": "Mặt trận Ả Rập Xê Út nóng thêm",
-   "v": "Houthi bắn tên lửa vào Riyadh (bị chặn), Aramco sơ tán trụ sở Dhahran; IRGC nói làm hỏng 7 tàu, UKMTO xác nhận 2. Họp Istanbul 23/10 chỉ kêu gọi kiềm chế; ông Trump nói \"không đàm phán\" với Iran."
+   "t": "Houthi nhắm vào tuyến dầu thay thế Hormuz",
+   "v": "24/10 Houthi tuyên bố đánh Yanbu, Rabigh và đường ống Đông–Tây (Ả Rập Xê Út chưa xác nhận; đã chặn tên lửa nhắm Taif, Yanbu). IRGC nói 2 siêu tàu trúng thuỷ lôi (chưa xác nhận); Hormuz chỉ ~4 lượt tàu ngày 18/10, so với ~85/ngày trước khủng hoảng (IMF PortWatch)."
   },
   {
    "t": "Dầu lên cao nhất từ tháng 4",
-   "v": "Brent 116,72 USD (+3,1%, tuần +6%), WTI 103,27 (+3,8%). Đỡ phần nào: đường ống Đông–Tây của Aramco đã chạy 7 triệu thùng/ngày (CBS 23/10)."
+   "v": "Brent 116,72 USD (tuần +6,2%), WTI 103,27 (tuần +1,8%). Nếu đường ống Đông–Tây (7 triệu thùng/ngày) bị hỏng thật, phần cung đang thay Hormuz cũng mất. Đỡ giá: ông Trump nói chờ sau bầu cử 3/11 mới tấn công; Qatar, Pakistan gửi đề xuất mới."
   },
   {
-   "t": "Lạm phát kỳ vọng, lợi suất tăng lại",
-   "v": "Kỳ vọng lạm phát 1 năm 4,7% (Michigan); PMI tổng hợp sơ bộ 57,6, giá bán tăng nhanh nhất từ 8/2022. Lợi suất 10 năm 5,00% (+4,8bp), 2 năm 4,69%. Fed tháng 12 ~72–86%."
+   "t": "Lạm phát kỳ vọng, lợi suất",
+   "v": "Kỳ vọng lạm phát 1 năm 4,7% (Michigan); lợi suất 10 năm 5,00%, 2 năm 4,69%. CME FedWatch: tháng 12 ~76% tăng lãi. Tuần tới: FOMC 28/10, PCE và GDP quý 3 29/10 (dự báo 3,0%)."
   },
   {
-   "t": "Vàng, cổ phiếu chu kỳ bị bán",
-   "v": "Vàng tương lai 4.007,9 USD (−1,3%), giao ngay ~3.992, tuần −4%, tệ nhất từ tháng 6; bạc thấp nhất từ 11/2025. Dow −652 điểm, công nghiệp −2%; năng lượng +2%."
+   "t": "Vàng, crypto bị bán",
+   "v": "Vàng ~3.996 USD, tuần −4,1%, thấp nhất từ đầu tháng 6; Kitco: 41% chuyên gia Phố Wall dự báo giảm tiếp. Bitcoin ~79.500–80.800 USD (24/10), ETF rút 137,9 triệu USD ngày 23/10."
   },
   {
-   "t": "Việt Nam tăng nhưng khối ngoại bán lại",
-   "v": "VN-Index +0,77% lên 1.774,15 nhờ ngân hàng (STB trần, ACB +3,9%, LPB +3,6%) và VIC (+5,9 điểm); thanh khoản HOSE 16.942 tỷ (+10,7%). Khối ngoại bán ròng ~443–480 tỷ đ, riêng ACB ~469 tỷ."
+   "t": "Việt Nam tăng nhưng khối ngoại bán",
+   "v": "VN-Index tuần +4% lên 1.774,15, VIC góp ~36,7 điểm; ngân hàng dẫn dắt. Khối ngoại bán ròng 1.105,6 tỷ cả tuần (bán FPT 644 tỷ, ACB 542 tỷ; mua TCB ~957 tỷ). Lãi huy động đang giảm theo CV 9736."
   }
  ],
- "flowsNote": "Chỉ ghi luồng có số đo. Tiền rời vàng, ETF Bitcoin và cổ phiếu chu kỳ khi dầu và lợi suất tăng lại; dòng vào rõ nhất là cổ phiếu năng lượng. Việt Nam: khối ngoại quay lại bán ròng sau 2 phiên mua, trong khi tiền trong nước dồn vào ngân hàng.",
+ "flowsNote": "Chỉ ghi luồng có số đo. Tuần 19–23/10 tiền rời vàng và ETF Ether, vào cổ phiếu năng lượng; ETF Bitcoin cả tuần vẫn vào ròng dù rút mạnh hai phiên cuối. Việt Nam: khối ngoại bán ròng tuần thứ hai nhưng ít hơn nhiều (1.105,6 tỷ so với 3.136 tỷ), tiền trong nước dồn vào ngân hàng và nhóm Vingroup.",
  "flowsIn": [
   {
    "k": "Cổ phiếu năng lượng Mỹ",
-   "q": "Ngành năng lượng ~+2% (23/10)",
-   "e": "Brent +3,1% lên 116,72 USD; trong bộ lọc Mỹ có 5 mã năng lượng qua lọc (Kiplinger, tự tính)."
+   "q": "Ngành năng lượng lập đỉnh (23/10)",
+   "e": "Brent tuần +6,2%; bộ lọc Mỹ có 5 mã năng lượng qua lọc, cả 5 đạt 6/6 (GV Wire, tự tính)."
   },
   {
    "k": "Ngân hàng Việt Nam",
    "q": "~35% giá trị khớp HOSE (23/10)",
-   "e": "STB tăng trần, ACB +3,9%, LPB +3,6%; tự doanh CTCK mua ACB 240 tỷ; bộ lọc có 8 mã ngân hàng (DNSE, Vietstock)."
+   "e": "Lợi nhuận quý 3 tăng mạnh, lãi huy động giảm; bộ lọc có 8 mã ngân hàng (DNSE, Vietstock)."
   },
   {
    "k": "Khối ngoại mua chọn lọc",
-   "q": "TCB +152–186 tỷ đ (23/10)",
-   "e": "Mua ròng thêm MSN ~92 tỷ, CTG ~55–61 tỷ, HDB ~55 tỷ dù bán ròng tổng (Vietstock, Báo Mới)."
+   "q": "TCB ~+957 tỷ đ (tuần 19–23/10)",
+   "e": "Mua ròng thêm MSN 391 tỷ, VIC 307 tỷ dù bán ròng tổng (Tin nhanh chứng khoán)."
   },
   {
-   "k": "Cổ phiếu Hàn Quốc (tổ chức trong nước)",
-   "q": "+~869 tỷ ₩ (23/10)",
-   "e": "KOSPI từ −4,1% trong phiên quay về +0,3%; SK hynix +4,4% (FnNews, Korea JoongAng Daily)."
+   "k": "ETF Bitcoin Mỹ (cả tuần)",
+   "q": "+301,2 triệu USD (19–23/10)",
+   "e": "Nhờ 19/10 (+526,7) và 21/10 (+524,8), bù hai phiên rút cuối tuần (Farside)."
   }
  ],
  "flowsOut": [
   {
-   "k": "ETF Bitcoin",
-   "q": "−635,5 triệu USD (22/10)",
-   "e": "Rút ròng lớn nhất từ tháng 6 (IBIT −254, FBTC −217,5); ETF Ether −110,5 triệu (SoSoValue qua Bitcoin.com). Số 23/10 chưa lấy được."
+   "k": "ETF Bitcoin (hai phiên cuối)",
+   "q": "−635,6 (22/10), −137,9 triệu USD (23/10)",
+   "e": "IBIT −110,3 triệu ngày 23/10; ETF Ether cả tuần −220,7 triệu (Farside, Bloomingbit, FinanceFeeds)."
   },
   {
    "k": "Vàng",
-   "q": "Tuần −4% (giao ngay ~3.992 USD)",
-   "e": "Thủng 4.000 USD, tuần tệ nhất từ tháng 6; bạc 53,97 USD, thấp nhất từ 11/2025 (Kitco, Reuters qua Mining.com)."
+   "q": "Tuần −4,1% (~3.996 USD)",
+   "e": "Thấp nhất từ đầu tháng 6; SJC miếng giảm 1,9 triệu, nhẫn SJC giảm 4,1 triệu đ/lượng trong tuần (Kitco, Thanh Niên)."
   },
   {
    "k": "Khối ngoại Việt Nam",
-   "q": "−~443–480 tỷ đ (23/10)",
-   "e": "Bán ACB ~469 tỷ, FPT 146 tỷ, PNJ 110 tỷ; cả tuần bán ròng ~966 tỷ trên HOSE (Vietstock, CafeF, Nhân Dân)."
+   "q": "−1.105,6 tỷ đ (tuần 19–23/10)",
+   "e": "HOSE −968,5 tỷ; bán FPT 644 tỷ, ACB 542 tỷ, VCB ~311 tỷ (Tin nhanh chứng khoán, Dân Việt)."
   },
   {
    "k": "Khối ngoại Hàn Quốc",
-   "q": "−~983 tỷ ₩ (23/10)",
+   "q": "−978,2 tỷ ₩ (23/10)",
    "e": "Tiếp nối chuỗi bán từ đầu tháng 10 (FnNews)."
   }
  ],
@@ -114,7 +114,7 @@
   "title": "“Dầu trên 115 USD sẽ buộc Fed phải tăng lãi suất”",
   "tag": "Đúng một phần",
   "lv": "warn",
-  "text": "**Chủ đề mới hôm nay: dầu và lãi suất, vì phiên 23/10 Brent lên cao nhất từ tháng 4 và kéo lợi suất, vàng, cổ phiếu chu kỳ cùng lúc; chủ đề AI đã giữ một ngày và lắng xuống (Nasdaq chỉ −0,2%).** Dầu đang đẩy lạm phát kỳ vọng lên rõ và thị trường đã đặt cược phần lớn vào một lần tăng tháng 12. Nhưng gần như không ai chờ Fed tăng ngay 28/10, lạm phát lõi vẫn 2,6% và việc làm yếu. Fed nhiều khả năng giữ lãi tuần sau và để ngỏ tháng 12; con số quyết định là PCE 29/10 và giá dầu tháng 11.",
+  "text": "**Giữ chủ đề thêm một ngày (ngày thứ 2, ngày cuối) vì cuối tuần có sự kiện mới: Houthi tuyên bố đánh đường ống Đông–Tây và Yanbu, tuyến dầu đang thay Hormuz.** Dầu đang đẩy lạm phát kỳ vọng lên rõ và thị trường đặt ~76% cho một lần tăng tháng 12. Nhưng gần như không ai chờ Fed tăng ngay 28/10 (~10%), lạm phát lõi CPI vẫn 2,6% và việc làm yếu. Kết luận: dầu buộc Fed giữ giọng cứng chứ chưa buộc tăng ngay; con số quyết định là PCE 29/10 và việc Ả Rập Xê Út có xác nhận thiệt hại hay không.",
   "claims": [
    {
     "t": "Giá dầu đang đẩy lạm phát kỳ vọng lên",
@@ -126,7 +126,7 @@
     ],
     "no": [
      "Lạm phát lõi tháng 9 chỉ 2,6% (+0,3% so với tháng trước; công bố 14/10).",
-     "Đường ống Đông–Tây của Aramco đã nâng lên 7 triệu thùng/ngày, giảm phụ thuộc Hormuz (CBS 23/10)."
+     "Đường ống Đông–Tây đã chạy 7 triệu thùng/ngày (CBS 23/10); tuyên bố của Houthi 24/10 về việc đánh đường ống chưa được Ả Rập Xê Út xác nhận (ABC 25/10)."
     ]
    },
    {
@@ -134,12 +134,12 @@
     "lv": "warn",
     "tag": "Đúng một phần",
     "yes": [
-     "Tăng lãi tháng 12 ~72–86% (CME FedWatch 22/10; Kalshi 23/10).",
-     "Lợi suất 2 năm 4,69% (+5bp), 10 năm 5,00% (+4,8bp) ngày 23/10 (Kiplinger)."
+     "Tăng lãi tháng 12 ~76% (CME FedWatch 23/10); 100/100 kinh tế gia Reuters dự báo tăng tháng 12 (khảo sát 16–20/10).",
+     "Lợi suất 2 năm 4,69%, 10 năm 5,00% ngày 23/10 (Cappnotes, Atrani)."
     ],
     "no": [
-     "Cuộc họp 28/10 chỉ ~5–7% khả năng tăng; 94/100 kinh tế gia Reuters dự báo giữ.",
-     "Tăng lãi 6 ngày trước bầu cử chỉ xảy ra 1 lần từ 1990 (2/11/2022; Yahoo Finance)."
+     "Cuộc họp 28/10 chỉ ~10% khả năng tăng (CME 23/10); 94/100 kinh tế gia Reuters dự báo giữ.",
+     "Xác suất tháng 12 đã hạ từ ~89% xuống ~76% trong tuần (Atrani 23/10); tăng lãi sát bầu cử chỉ có 1 tiền lệ từ 1990 (2/11/2022)."
     ]
    },
    {
@@ -160,12 +160,12 @@
     "lv": "warn",
     "tag": "Đúng một phần",
     "yes": [
-     "Vàng giao ngay ~3.992 USD, tuần −4%, tệ nhất từ tháng 6 (Kitco 23/10).",
-     "Bạc 53,97 USD, thấp nhất từ 11/2025 (Reuters qua Mining.com)."
+     "Vàng ~3.996 USD, tuần −4,1%, thấp nhất từ đầu tháng 6 (Kitco 23/10).",
+     "Khảo sát Kitco 23/10: 41% chuyên gia Phố Wall dự báo giảm tiếp, chỉ 24% dự báo tăng."
     ],
     "no": [
      "ETF vàng quý 3 vào kỷ lục ~31 tỷ USD (WGC, tháng 10).",
-     "CIBC vẫn dự báo 5.200 USD năm 2027 nhờ ngân hàng trung ương mua (Kitco 20/10)."
+     "Nhà đầu tư cá nhân vẫn lạc quan: 42% dự báo tăng (Kitco 23/10); CIBC dự báo 5.200 USD năm 2027."
     ]
    },
    {
@@ -173,22 +173,22 @@
     "lv": "down",
     "tag": "Chưa có bằng chứng",
     "yes": [
-     "ECB được định giá >80% tăng lên 2,75% tháng 12 (FXStreet 23/10); BOK nói chưa kết thúc thắt chặt (22/10).",
-     "Nhật: lạm phát lõi tháng 9 2,1%, lõi-lõi 2,4%, vượt mục tiêu (23/10)."
+     "Thị trường đặt ~80% BOJ tăng lãi tháng 12 (Newsquawk 23/10); Danske thấy ECB tăng lần cuối lên 2,75% tháng 12.",
+     "Nhật: lạm phát lõi tháng 9 2,1%, lõi-lõi 2,4%; eurozone lạm phát tháng 9 3,7%."
     ],
     "no": [
-     "ECB 29/10: >91% khả năng giữ 2,50%; BOJ 30/10 được dự báo giữ 1,25%.",
+     "Tuần này ECB (29/10) được dự báo giữ 2,50%, BOJ (30/10) giữ 1,25%, BOK đã giữ 3,00%.",
      "PMI eurozone sơ bộ 51,9, thấp nhất 4 tháng; Pháp 48,4, quay lại suy giảm (23/10)."
     ]
    }
   ]
  },
- "vnTitle": "Tuần tăng đầu tiên sau 4 tuần giảm: +4% lên 1.774,15, vẫn Wait Mode; ngân hàng dẫn dắt nhưng khối ngoại bán lại",
+ "vnTitle": "Tuần tăng đầu tiên sau 4 tuần giảm: +4% lên 1.774,15, vẫn Wait Mode; khối ngoại bán ròng 1.105,6 tỷ cả tuần",
  "vn": [
   {
-   "k": "VN-Index 23/10",
+   "k": "VN-Index tuần 19–23/10",
    "v": "1.774,15",
-   "d": "+0,77% (+13,52 điểm), phiên tăng thứ 3 · tuần +68,24 điểm (+4,0%), dứt chuỗi 4 tuần giảm · −8,0% từ đỉnh · trên EMA20 (~1.742), MA50 (~1.772) và mốc ~1.746 (MA50 trừ vùng đệm), dưới MA200 (~1.797) · RSI ~56 · 7 phiên phân phối (tự tính)"
+   "d": "Tuần +68,24 điểm (+4,0%), 4 phiên tăng liền, dứt chuỗi 4 tuần giảm; đáy tuần 1.689,84 · VIC góp ~36,7 điểm, VHM 6,1 · −8,0% từ đỉnh · trên EMA20 (~1.742), MA50 (~1.772) và mốc ~1.746 (MA50 trừ vùng đệm), dưới MA200 (~1.797) · RSI ~56 · 7 phiên phân phối (tự tính)"
   },
   {
    "k": "VN30 / HNX",
@@ -196,24 +196,24 @@
    "d": "+0,75% / +0,62% · VN30 20 mã tăng, 10 giảm · VN-Index 1 tháng ~0%, từ đầu năm −0,6% (tự tính từ VNDirect)"
   },
   {
-   "k": "Thanh khoản, độ rộng",
-   "v": "16.942 tỷ đ",
-   "d": "HOSE 23/10 (+10,7%) · tuần +22% · độ rộng nghiêng giảm: 144 tăng / 156 giảm · VIC +1,55% (+5,9 điểm), STB trần, ACB +3,9%, LPB +3,6%; ngân hàng ~35% giá trị khớp · kéo lùi: HPG −1,4%, PNJ −6,2%, FPT −0,7% (DNSE, Công Luận)"
+   "k": "Thanh khoản tuần",
+   "v": "~13.400 tỷ đ/phiên",
+   "d": "HOSE bình quân tuần 19–23/10 (+~20%; tuần trước 11.189 tỷ), khối lượng ~712 triệu cp/phiên (+22%) · phiên 23/10 16.942 tỷ, độ rộng 144 tăng / 156 giảm (1Thegioi, Tin nhanh chứng khoán, CafeF)"
   },
   {
    "k": "Khối ngoại",
-   "v": "−~443–480 tỷ đ",
-   "d": "23/10, bán ròng trở lại sau 2 phiên mua · bán ACB ~469 tỷ, FPT 146 tỷ, PNJ 110 tỷ · mua TCB 152–186 tỷ, MSN 92 tỷ · cả tuần bán ròng ~966 tỷ trên HOSE · tự doanh mua ròng 12 tỷ, mua ACB 240 tỷ (Vietstock, CafeF, Nhân Dân)"
+   "v": "−1.105,6 tỷ đ",
+   "d": "Cả tuần 19–23/10, toàn thị trường (tuần trước −3.136 tỷ) · HOSE −968,5 tỷ, HNX −106,8 tỷ · bán FPT 644 tỷ, ACB 542 tỷ, VCB ~311 tỷ · mua TCB ~957 tỷ, MSN 391 tỷ, VIC 307 tỷ · quỹ VNM ETF đã bán phần lớn danh mục 9–19/10 (Tin nhanh chứng khoán, Vietstock)"
   },
   {
    "k": "Vùng các CTCK theo dõi",
    "v": "1.700–1.800",
-   "d": "SHS: kháng cự mạnh 1.780–1.800, hỗ trợ ~1.700, không mua đuổi · BSC: kháng cự vùng khoảng trống 1.768–1.778 (chỉ số đang đóng cửa trong vùng này) · Aseansc: biên 1.760–1.790, giữ tỷ trọng trung bình · VikkiBankS: hạn chế mua mới · nhận định cả tuần 26–30/10 chưa công bố"
+   "d": "SHS: kháng cự 1.780–1.800, hỗ trợ ~1.700, không mua đuổi · BSC: kháng cự 1.768–1.778, thận trọng · TPS: kháng cự 1.755–1.775, có thể chốt lời · Aseansc: biên 1.760–1.790 · VNDirect: không mua đuổi · Mirae: E/P ~7,5%, xấp xỉ lãi tiết kiệm 12 tháng · nhận định riêng cho tuần 26–30/10 chưa thấy công bố (22–24/10)"
   },
   {
    "k": "Lợi nhuận quý 3",
    "v": "ngân hàng tăng mạnh",
-   "d": "VPBank >11.000 tỷ, TCB 10.375 tỷ (+25,8%), LPB 4.448 tỷ (+29%), ABB 1.285 tỷ (+103%) · MSN quý 3 lãi cổ đông 3.671 tỷ (gấp 3) · BSR ước 6.900 tỷ (gấp 7,7) · dự báo toàn thị trường +20,6% (MSVN) đến ~+25% (MBS) · dư nợ cho vay của CTCK cuối quý 3 ~455.000–457.500 tỷ, kỷ lục"
+   "d": "VPBank >11.000 tỷ, TCB 10.375 tỷ (+25,8%), LPB 4.448 tỷ (+29%) · MSN lãi cổ đông 3.671 tỷ (gấp 3) · kém: KBC 26 tỷ (−91,5%), Saigonbank 17,8 tỷ (−78,7%), ngân hàng đầu tiên báo lãi giảm · dự báo toàn thị trường +20,6% (MSVN) đến ~+25% (MBS) · dư nợ cho vay CTCK cuối quý 3 ~463.000 tỷ, kỷ lục (Vietstock; nguồn khác ~440.000–457.500 tỷ)"
   },
   {
    "k": "Lãi suất",
@@ -223,16 +223,16 @@
   {
    "k": "Tỷ giá, xăng, vàng",
    "v": "25.627",
-   "d": "Trung tâm 23–24/10 (−5 đ) · ngân hàng niêm yết ~25.640–26.020 · xăng E5 RON92 25.360 đ/lít, E10 25.210 đ, diesel 29.550 đ (từ 22/10) · SJC 139–142 triệu đ/lượng (sáng 24/10, −0,3), đắt hơn thế giới ~16,6–17 triệu (VietTimes)"
+   "d": "Trung tâm 25.627 (23/10, tuần −10 đ) · Vietcombank 25.610–26.020, tự do ~26.000–26.080 · xăng E5 RON92 25.360 đ/lít, E10 25.210 đ, diesel 29.550 đ (từ 22/10) · SJC miếng 138,7–141,7 triệu đ/lượng, nhẫn 135–141,2 (sáng 25/10); SJC đắt hơn thế giới ~16 triệu (tự ước tính theo giá bán USD Vietcombank)"
   }
  ],
- "vnNote": "VN-Index giữ **Wait Mode**: đóng cửa trên mốc ~1.746 và EMA20, nhích qua MA50 (~1.772), nhưng còn 7 phiên phân phối (tối đa 5) nên chưa lên Buy. Phiên 23/10 không phải FTD: tăng 0,77%, dưới ngưỡng 1,55%. Mặt tích cực: tuần +4%, thanh khoản tăng lại, đà tăng lan sang ngân hàng (không chỉ Vingroup). Mặt tiêu cực: khối ngoại bán ròng trở lại ~443–480 tỷ đ, độ rộng nghiêng giảm, chỉ số đang nằm trong vùng kháng cự 1.768–1.800 mà nhiều CTCK nhắc; Brent 116,7 USD giữ áp lực lên lạm phát và tỷ giá.",
+ "vnNote": "VN-Index giữ **Wait Mode**: đóng cửa trên mốc ~1.746 và EMA20, nhích qua MA50 (~1.772), nhưng còn 7 phiên phân phối (tối đa 5) nên chưa lên Buy. Tuần qua chưa có phiên FTD (phiên mạnh nhất 23/10 chỉ +0,77%, dưới ngưỡng 1,55%). Mặt tích cực: tuần +4%, thanh khoản bình quân +20%, đà tăng lan sang ngân hàng. Mặt tiêu cực: VIC góp ~36,7/68 điểm, khối ngoại bán ròng 1.105,6 tỷ, chỉ số nằm trong vùng kháng cự 1.768–1.800 mà nhiều CTCK nhắc; tin Houthi đánh đường ống Đông–Tây có thể đẩy dầu tăng thêm khi thị trường mở cửa.",
  "scenTitle": "Kịch bản 3 tháng theo từng thị trường",
  "scen": [
   {
    "t": "Cơ sở: thắt chặt kéo dài",
    "lv": "warn",
-   "p": "55% · Hormuz vẫn hạn chế, Houthi tiếp tục đánh Ả Rập Xê Út nhưng đường ống Đông–Tây chạy 7 triệu thùng/ngày; dầu ~100–120 USD; Fed giữ lãi 28/10 rồi tăng tháng 12 (~72–86%).",
+   "p": "55% · Hormuz vẫn gần như tê liệt, Houthi tiếp tục đánh Ả Rập Xê Út nhưng đường ống Đông–Tây vẫn chạy; dầu ~100–120 USD; Fed giữ lãi 28/10 rồi tăng tháng 12 (~76%).",
    "b": [
     "Đô la, tiền mặt, trái phiếu ngắn hạn tiếp tục hút tiền; lợi suất 10 năm Mỹ quanh 4,8–5,2%.",
     "Cổ phiếu biến động theo dầu và báo cáo quý 3 của Microsoft, Alphabet, Amazon (28–29/10); Việt Nam hồi xen phiên bán."
@@ -241,7 +241,7 @@
   {
    "t": "Thoả thuận Hormuz",
    "lv": "up",
-   "p": "15% (từ 20%) · Họp Istanbul 23/10 không ra đề xuất ngừng bắn; ông Trump nói \"không đàm phán\" với Iran. Kênh Qatar, Pakistan vẫn còn; nếu Hormuz mở lại, dầu về dưới 85 USD.",
+   "p": "15% · Qatar và Pakistan gửi đề xuất mới (Iran cho IAEA thanh tra đột xuất, đổi lại được nhận lãi 6 tỷ USD bị phong toả); Iran nói vẫn mở cửa đàm phán; chưa có ngày, địa điểm. Nếu Hormuz mở lại, dầu về dưới 85 USD.",
    "b": [
     "Lạm phát hạ, lợi suất giảm, đô la yếu đi.",
     "Dòng tiền quay lại cổ phiếu mới nổi và crypto."
@@ -250,7 +250,7 @@
   {
    "t": "Leo thang + Fed tăng lãi",
    "lv": "down",
-   "p": "30% (từ 25%) · Aramco sơ tán trụ sở Dhahran, Brent 116,72 USD; có tin Mỹ, Israel cân nhắc tấn công Iran sau bầu cử 3/11; đại sứ Mỹ tại LHQ nói chiến sự có thể kéo dài thêm 1 năm. Dầu vượt 120–130 USD, Fed tăng lãi tháng 12 và tiếp tục.",
+   "p": "30% · Houthi tuyên bố đánh đường ống Đông–Tây và Yanbu (24/10, chưa xác nhận); ông Trump nói các cuộc tấn công sẽ đợi sau bầu cử 3/11. Dầu vượt 120–130 USD, Fed tăng lãi tháng 12 và tiếp tục.",
    "b": [
     "Bán tháo diện rộng, cổ phiếu chip và châu Á chịu nặng nhất.",
     "Đô la và trái phiếu ngắn hạn là nơi trú ẩn; vàng chỉ đỡ khi lợi suất thực giảm."
@@ -271,8 +271,12 @@
    "Doanh nghiệp Việt Nam công bố KQKD quý 3 (Vingroup, MSB, OCB chưa công bố)"
   ],
   [
+   "26–29/10",
+   "Trung Quốc: Hội nghị Trung ương 5"
+  ],
+  [
    "27/10",
-   "Quốc hội Pháp bỏ phiếu ngân sách an sinh xã hội · bầu cử Israel · SK hynix báo cáo · Visa (sau giờ Mỹ)"
+   "Bầu cử Quốc hội Israel · Quốc hội Pháp bỏ phiếu ngân sách an sinh xã hội · đơn hàng lâu bền Mỹ · SK hynix, Visa báo cáo"
   ],
   [
    "27–28/10",
@@ -280,11 +284,11 @@
   ],
   [
    "29/10",
-   "ECB họp (dự kiến giữ 2,50%) · PCE tháng 9, GDP quý 3 Mỹ · Lilly, Mastercard; Amazon, Intel (sau giờ Mỹ)"
+   "ECB họp (dự kiến giữ 2,50%) · PCE tháng 9 (dự báo 3,6%, lõi 3,1%), GDP quý 3 Mỹ (dự báo 3,0%) · Lilly, Mastercard; Amazon, Intel (sau giờ Mỹ)"
   ],
   [
    "30/10",
-   "BOJ họp (dự kiến giữ 1,25%) · Exxon, Chevron báo cáo"
+   "BOJ họp (dự kiến giữ 1,25%) · chỉ số chi phí lao động ECI Mỹ · Exxon, Chevron báo cáo"
   ],
   [
    "31/10",
@@ -295,8 +299,8 @@
    "OPEC+ họp về sản lượng tháng 12"
   ],
   [
-   "Đầu tháng 11",
-   "PMI, CPI tháng 10 của Việt Nam (chưa có ngày chính thức)"
+   "~2/11",
+   "PMI S&P Global Việt Nam tháng 10 (theo thông lệ ngày làm việc đầu tháng)"
   ],
   [
    "2/11",
@@ -311,12 +315,16 @@
    "BoE họp (lãi 3,75%)"
   ],
   [
+   "~6/11",
+   "CPI tháng 10 Việt Nam (theo thông lệ, chưa có ngày chính thức)"
+  ],
+  [
    "17/11",
    "Pháp bỏ phiếu toàn bộ ngân sách"
   ],
   [
    "19/11",
-   "Nvidia báo cáo quý 3 (giờ VN)"
+   "Nvidia báo cáo quý 3 (giờ VN) · đáo hạn phái sinh VN30 tháng 11 (thứ Năm tuần thứ 3)"
   ],
   [
    "26/11",
@@ -332,7 +340,7 @@
   ],
   [
    "9/12",
-   "Fed họp (thị trường đặt ~72–86% tăng lãi)"
+   "Fed họp (thị trường đặt ~76% tăng lãi)"
   ],
   [
    "18/4/2027",
@@ -340,6 +348,114 @@
   ]
  ],
  "sources": [
+  [
+   "ABC News — Houthi tuyên bố đánh sân bay, đường ống Ả Rập Xê Út 25/10/2026",
+   "https://www.abc.net.au/news/2026-10-25/houthis-claim-attacks-on-saudi-airports-oil-pipelines/107305824"
+  ],
+  [
+   "CBS News — cập nhật chiến sự Iran, Hormuz 24/10/2026",
+   "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
+  ],
+  [
+   "Straits.live — tóm tắt Hormuz 24/10/2026",
+   "https://straits.live/briefs/2026-10-24"
+  ],
+  [
+   "The New Arab — đề xuất hoà bình mới Mỹ–Iran 20/10/2026",
+   "https://www.newarab.com/news/exclusive-mediators-submit-new-peace-proposal-iran-us"
+  ],
+  [
+   "The National — giá dầu 23/10/2026",
+   "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+  ],
+  [
+   "Atrani Capital — tổng kết tuần 43/2026 (FedWatch, lợi suất)",
+   "https://atranicapital.substack.com/p/week-43-market-update-for-october-13c"
+  ],
+  [
+   "Cappnotes — đóng cửa 23/10/2026",
+   "https://cappnotes.substack.com/p/closing-look-friday-october-23-2026"
+  ],
+  [
+   "Newsquawk — lịch tuần 26–30/10/2026",
+   "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce"
+  ],
+  [
+   "Mitrade — khảo sát Reuters về Fed 22/10/2026",
+   "https://www.mitrade.com/insights/more/Central-Banks/fed-october-hold-december-hike-20261022J1428"
+  ],
+  [
+   "Kitco — khảo sát giá vàng tuần 23/10/2026",
+   "https://www.kitco.com/news/article/2026-10-23/wall-street-doubts-golds-near-term-strength-main-street-maintains-bullish"
+  ],
+  [
+   "Farside — dòng tiền ETF Bitcoin",
+   "https://farside.co.uk/btc/"
+  ],
+  [
+   "FinanceFeeds — dòng tiền ETF crypto tuần 19–23/10/2026",
+   "https://financefeeds.com/crypto-etf-flows-this-week-bitcoin-funds-net-301-million-despite-636-million-thursday-exit-where-ether-xrp-and-solana-landed/"
+  ],
+  [
+   "Cryptoticker — Ether dưới 2.300 USD 24/10/2026",
+   "https://cryptoticker.io/en/ether-below-2300-dollars-liquidations/"
+  ],
+  [
+   "FnNews — khối ngoại Hàn Quốc 23/10/2026",
+   "https://en.fnnews.com/news/202610231637254942"
+  ],
+  [
+   "Stocktitan — lịch báo cáo tuần 26/10/2026",
+   "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026"
+  ],
+  [
+   "Tin nhanh chứng khoán — khối ngoại tuần 19–23/10/2026",
+   "https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-khoi-ngoai-tuan-19-2310-mua-rong-gan-1000-ty-dong-mot-co-phieu-post400117.html"
+  ],
+  [
+   "Dân Việt — chứng khoán tuần qua, nhận định CTCK 24/10/2026",
+   "https://danviet.vn/chung-khoan-tuan-qua-vn-index-tang-68-diem-sau-chuoi-giam-dong-tien-tap-trung-o-nhom-tru-d1469561.html"
+  ],
+  [
+   "DNSE — vùng kháng cự VN-Index (SHS, Aseansc, TPS) 23/10/2026",
+   "https://www.dnse.com.vn/senses/tin-tuc/nhan-dien-vung-khang-cu-cua-vn-index-va-chien-luoc-giai-ngan-chon-loc-35288994"
+  ],
+  [
+   "Markettimes — chứng khoán tuần qua (Mirae) 24/10/2026",
+   "https://markettimes.vn/chung-khoan-tuan-qua-co-phieu-ho-vin-va-ngan-hang-dong-loat-dan-song-vn-index-hoi-phuc-gan-70-diem-133386.html"
+  ],
+  [
+   "1Thegioi — VN-Index tuần hồi 68 điểm 24/10/2026",
+   "https://1thegioi.vn/vn-index-mot-tuan-hoi-phuc-68-diem-tang-kho-giu-duoc-neu-thieu-3-yeu-to-260374.html"
+  ],
+  [
+   "Investing.com VN — tỷ giá tuần 19–23/10/2026",
+   "https://vn.investing.com/news/economy-news/tuan-192310-usdindex-giang-co-ty-gia-ngan-hang-va-tu-do-trai-chieu-2743207"
+  ],
+  [
+   "Investing.com VN — dư nợ cho vay CTCK 463.000 tỷ",
+   "https://vn.investing.com/news/stock-market-news/du-no-cho-vay-cong-ty-chung-khoan-lap-dinh-moi-463-ngan-ty-dong-2739606"
+  ],
+  [
+   "CafeF — Saigonbank lãi quý 3 giảm 24/10/2026",
+   "https://cafef.vn/ngan-hang-dau-tien-bao-lai-quy-3-tang-truong-am-188261023203732713.chn"
+  ],
+  [
+   "DNSE — KBC lợi nhuận quý 3/2026",
+   "https://www.dnse.com.vn/senses/tin-tuc/bctc-quy-32026-kbc-loi-nhuan-sau-thue-cong-ty-me-q32026-dat-2598-ty-dong-giam-9154-so-voi-cung-ky-35288242"
+  ],
+  [
+   "CafeF — giá vàng sáng 25/10/2026",
+   "https://cafef.vn/gia-vang-mieng-vang-nhan-sang-25-10-tai-sjc-doji-pnj-bao-tin-minh-chau-va-phu-quy-188261024225039643.chn"
+  ],
+  [
+   "Thanh Niên — giá vàng 25/10/2026",
+   "https://thanhnien.vn/gia-vang-hom-nay-25102026-nguoi-mua-vang-nhan-lo-hon-8-trieu-dong-sau-mot-tuan-185261024173152571.htm"
+  ],
+  [
+   "Vietstock — quỹ VNM ETF bán ròng tháng 10/2026",
+   "https://vietstock.vn/2026/10/quy-etf-hon-460-trieu-usd-noi-dai-da-ban-rong-3358-1504934.htm"
+  ],
   [
    "AP — chỉ số chứng khoán Mỹ 23/10/2026",
    "https://krmg.com/2026/10/23/how-major-us-stock-indexes-fared-friday-10-23-2026/"
@@ -369,14 +485,6 @@
    "https://defirate.com/odds/fed-decision/"
   ],
   [
-   "Newsquawk — lịch tuần 26–30/10/2026",
-   "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce"
-  ],
-  [
-   "Stocktitan — lịch báo cáo tuần 26/10/2026",
-   "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026"
-  ],
-  [
    "Reuters qua Kitco — Wall St week ahead 23/10/2026",
    "https://www.kitco.com/news/off-the-wire/2026-10-23/wall-st-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests"
   ],
@@ -391,10 +499,6 @@
   [
    "Business Recorder — Brent 116 USD 23/10/2026",
    "https://www.brecorder.com/news/40445717/oil-hits-usd116-mark-as-me-conflict-rages-on"
-  ],
-  [
-   "CBS News — Iran, Hormuz, đường ống Đông–Tây 23/10/2026",
-   "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
   ],
   [
    "Gulf News — họp Istanbul về Hormuz, Yemen 23/10/2026",
@@ -597,10 +701,6 @@
    "https://tradingeconomics.com/united-states/government-bond-yield"
   ],
   [
-   "Mitrade — CME FedWatch tháng 10, tháng 12 (22/10/2026)",
-   "https://www.mitrade.com/insights/more/Central-Banks/fed-october-hold-december-hike-20261022J1428"
-  ],
-  [
    "The Motley Fool — Goldman mục tiêu S&P 500, 22/10/2026",
    "https://www.fool.com/investing/2026/10/22/1-wall-street-analyst-sees-the-sp-500-climbing-to/"
   ],
@@ -683,10 +783,6 @@
   [
    "The Block — ETF Bitcoin, Ether 21/10/2026",
    "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904"
-  ],
-  [
-   "Farside — dòng tiền ETF Bitcoin",
-   "https://farside.co.uk/btc/"
   ],
   [
    "Farside — dòng tiền ETF Ether",
@@ -807,10 +903,6 @@
   [
    "Markettimes — lợi nhuận CTCK quý 3/2026",
    "https://markettimes.vn/cap-nhat-so-lieu-ctck-quy-3-2026-loat-ten-tuoi-lon-bao-lai-di-lui-xuat-hien-hai-khoan-lo-hang-tram-ty-cua-nganh-chung-khoan-133311.html"
-  ],
-  [
-   "Investing.com VN — dư nợ cho vay CTCK 463 nghìn tỷ (10/2026)",
-   "https://vn.investing.com/news/stock-market-news/du-no-cho-vay-cong-ty-chung-khoan-lap-dinh-moi-463-ngan-ty-dong-2739606"
   ],
   [
    "Cappnotes — tổng kết phiên 21/10/2026",
@@ -1929,10 +2021,6 @@
    "https://investinglive.com/central-banks/warsh-speaks-in-bangkok-after-hot-cpi-is-a-second-fed-hike-coming-in-october/"
   ],
   [
-   "Oil & Gas 360 — tồn kho dầu EIA tuần tới 9/10",
-   "https://www.oilandgas360.com/crude-inventories-10-9/"
-  ],
-  [
    "Angel One — Mỹ cân nhắc nới trừng phạt tàu chở dầu, 15/10",
    "https://www.angelone.in/news/commodities/crude-oil-prices-fall-as-us-weighs-easing-shipping-sanctions-october-15-2026"
   ],
@@ -2477,10 +2565,6 @@
    "https://www.coindesk.com/markets/2026/10/12/bitcoin-holds-usd83-000-as-dollar-strength-keeps-markets-on-edge"
   ],
   [
-   "CryptoTicker — dòng tiền ETF crypto tuần 5–9/10",
-   "https://cryptoticker.io/en/crypto-etf-outflows-october-2026-bitcoin-ethereum/"
-  ],
-  [
    "FXStreet — chỉ số USD 12/10/2026",
    "https://www.fxstreet.com/news/united-states-dollar-index-drifts-lower-amid-softer-bond-yields-bullish-bias-intact-202610120256"
   ],
@@ -2507,10 +2591,6 @@
   [
    "Người Quan Sát — nhận định 13/10: nguy cơ về 1.670",
    "https://nguoiquansat.vn/nhan-dinh-thi-truong-13-10-da-dieu-chinh-chua-co-dau-hieu-dung-lai-vn-index-co-nguy-co-lui-ve-vung-1-670-diem-321558.html"
-  ],
-  [
-   "Investing VN — NHNN hút ròng tuần 5–9/10",
-   "https://vn.investing.com/news/economy-news/tuan-050910-nhnn-tiep-tuc-rut-rong-gan-37000-ty-lai-suat-qua-dem-giam-ve-duoi-1-2732036"
   ],
   [
    "Tạp chí Kinh tế Tài chính — lãi huy động bình quân 6,46%",
@@ -2569,10 +2649,6 @@
    "https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026"
   ],
   [
-   "Tin nhanh chứng khoán — khối ngoại bán ròng kỷ lục tuần 5–9/10",
-   "https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-khoi-ngoai-tuan-5-910-ban-rong-ky-luc-gan-14000-ty-dong-post399175.html"
-  ],
-  [
    "Znews — hơn 112.000 tỷ tiền ngoại rời chứng khoán VN, 11/10",
    "https://znews.vn/hon-112000-ty-dong-tien-ngoai-roi-chung-khoan-viet-nam-tu-dau-nam-post1689015.html"
   ],
@@ -2629,10 +2705,6 @@
    "https://www.kitco.com/news/article/2026-10-06/central-banks-add-39-net-tonnes-gold-august-china-uzbekistan-and-poland"
   ],
   [
-   "Vietstock Daily 9/10",
-   "https://vietstock.vn/2026/10/vietstock-daily-09102026-chua-het-rung-lac-1636-1500480.htm"
-  ],
-  [
    "CafeF — khối ngoại bán ròng >100.000 tỷ",
    "https://cafef.vn/buon-khoi-ngoai-ban-rong-hon-100000-ty-dong-tren-ttck-viet-nam-tu-dau-nam-188261007225424669.chn"
   ],
@@ -2643,10 +2715,6 @@
   [
    "Tạp chí Kinh tế Tài chính — CPI 9 tháng",
    "https://tapchikinhtetaichinh.vn/cpi-9-thang-tang-4-52-lam-phat-co-ban-duy-tri-muc-thap-hon-168572.html"
-  ],
-  [
-   "EIA — Dự báo năng lượng ngắn hạn (qua Rigzone), 8/10",
-   "https://www.rigzone.com/news/eia_boosts_oil_price_forecast_by_5_in_2026_10_in_2027-08-oct-2026-184805-article/"
   ],
   [
    "Investing.com — mục tiêu S&P 500 của các ngân hàng",
@@ -2681,18 +2749,6 @@
    "https://thitruongtaichinhtiente.vn/lai-suat-dau-thang-10-2026-tiet-kiem-giu-nhip-on-dinh-chung-chi-tien-gui-hut-khach-85944.html"
   ],
   [
-   "AP (KRMG) — chỉ số Mỹ đóng cửa 9/10",
-   "https://krmg.com/2026/10/09/how-major-us-stock-indexes-fared-friday-10-9-2026/"
-  ],
-  [
-   "Yahoo Finance — thị trường Mỹ 9/10",
-   "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"
-  ],
-  [
-   "Market Scholars — độ rộng thị trường, lịch báo cáo 9/10",
-   "https://www.marketscholars.com/market-outlook-october-9-2026/"
-  ],
-  [
    "BLS — việc làm tháng 9",
    "https://www.bls.gov/news.release/empsit.nr0.htm"
   ],
@@ -2701,32 +2757,12 @@
    "https://admiralmarkets.com/analytics/traders-blog/us-cpi-september-2026-scenarios-fed-october"
   ],
   [
-   "Nation Thailand — giá dầu 9/10",
-   "https://nationthailand.com/news/world/40072074"
-  ],
-  [
    "Emirates 247 — lưu lượng qua Hormuz",
    "https://emirates247.com/world/strait-of-hormuz-transits-hit-2-month-low-after-tanker-attacks-shipping-data-shows/6483"
   ],
   [
    "TRT World — Iran xem phản hồi của Mỹ",
    "https://www.trtworld.com/article/8da475129fdf"
-  ],
-  [
-   "investingLive — tồn kho dầu EIA 7/10",
-   "https://investinglive.com/commodities/eia-weekly-us-crude-oil-inventories-3186k-vs-1722k-expected/"
-  ],
-  [
-   "FXStreet — vàng lấy lại 4.200 USD, 9/10",
-   "https://fxstreet.com/news/gold-reclaims-4-200-as-weak-us-sentiment-revives-bullion-demand-202610091804"
-  ],
-  [
-   "VietTimes — giá vàng 10/10",
-   "https://viettimes.vn/gia-vang-hom-nay-1010-vang-the-gioi-tang-manh-post206836.html"
-  ],
-  [
-   "investingLive — chứng khoán châu Âu 9/10",
-   "https://investinglive.com/stocks/european-stocks-finish-higher-friday-but-most-post-weekly-declines/"
   ],
   [
    "MarketScreener — châu Âu tăng nhẹ trong tuần",
@@ -2741,24 +2777,12 @@
    "https://kohenavocats.com/budget-2027-rejet-commission-7-octobre-2026-49-3-loi-speciale-impots-prestations-recours/"
   ],
   [
-   "Vantage — lợi suất trái phiếu Anh 9/10",
-   "https://www.vantagemarkets.com/market-news/uk-10-year-gilt-yield-19-year-high-5-53-percent-after-oil-jump-october-9-2026/"
-  ],
-  [
    "Samsung — dự báo kết quả quý 3/2026",
    "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026"
   ],
   [
-   "Thời báo Tài chính — chứng khoán 9/10",
-   "https://thoibaotaichinhvietnam.vn/chung-khoan-ngay-9-10-vn-index-giam-phien-thu-ba-thanh-khoan-tang-manh-205163.html"
-  ],
-  [
    "CafeF — khối ngoại bán ròng 13.500 tỷ trong tuần",
    "https://cafef.vn/chuyen-gi-day-khoi-ngoai-co-tuan-ban-rong-dot-bien-13500-ty-ngay-dau-thang-10-mot-ma-bat-ngo-bi-xa-hon-9000-ty-188261009233347752.chn"
-  ],
-  [
-   "Vietstock (qua Investing) — chứng khoán tuần 5–9/10",
-   "https://vn.investing.com/news/stock-market-news/chung-khoan-tuan-0509102026-chua-the-khoi-sac-2731278"
   ],
   [
    "CafeF — VNDirect: kịch bản tháng 10",
@@ -2767,14 +2791,6 @@
   [
    "Chứng khoán ASEAN — nhận định tuần 12–16/10",
    "https://www.aseansc.com.vn/bao-cao-co-hoi-dau-tu-tuan-12-10-2026-16-10-2026-tim-kiem-co-hoi-o-nhom-ban-le/"
-  ],
-  [
-   "Thời báo Tài chính — thị trường tiền tệ tuần 5–9/10",
-   "https://thoibaotaichinhvietnam.vn/thi-truong-tien-te-tuan-5-9-10-lai-suat-qua-dem-xuong-duoi-1-vnd-thuoc-nhom-hiem-hoi-tang-gia-truoc-usd-205168.html"
-  ],
-  [
-   "Thị trường Tài chính Tiền tệ — tỷ giá trung tâm 9/10",
-   "https://thitruongtaichinhtiente.vn/ngay-9-10-ty-gia-trung-tam-giam-5-dong-86166.html"
   ],
   [
    "Kinhdoanhnet — lãi suất huy động tháng 10",
@@ -2792,60 +2808,60 @@
  "disclaimer": "Tài liệu chỉ nhằm mục đích thông tin và phân tích, không phải khuyến nghị đầu tư. Số liệu tổng hợp từ các nguồn công khai tại thời điểm ghi; một số chỉ số châu Âu và châu Á theo giá CFD của Trading Economics. Số có dấu ~ là ước tính. Kịch bản là ý kiến phân tích.",
  "strategy": {
   "title": "Khung phân bổ theo chế độ hiện tại",
-  "note": "Khung tham khảo theo chế độ “thắt chặt + sốc năng lượng”. Không đổi định hướng so với 23/10 vì trạng thái Buy/Wait/Sell Mode của các thị trường chính không đổi; rủi ro nghiêng xấu hơn do dầu lên 116,7 USD và mô phỏng nâng xác suất leo thang lên 30%. Đây là ý kiến phân tích, không phải khuyến nghị đầu tư; tỷ trọng cụ thể tuỳ khẩu vị rủi ro của từng người.",
+  "note": "Khung tham khảo theo chế độ “thắt chặt + sốc năng lượng”. Không đổi định hướng so với 24/10 vì không có phiên mới và trạng thái Buy/Wait/Sell Mode của các thị trường chính không đổi; tin cuối tuần (Houthi tuyên bố đánh đường ống Đông–Tây, chưa xác nhận) giữ rủi ro nghiêng xấu. Đây là ý kiến phân tích, không phải khuyến nghị đầu tư; tỷ trọng cụ thể tuỳ khẩu vị rủi ro của từng người.",
   "items": [
    {
     "a": "Tiền mặt, tiền gửi",
     "s": "Giữ cao hơn bình thường",
     "lv": "up",
-    "why": "S&P 500 Sell Mode, Bitcoin Wait Mode, Brent 116,7 USD; mô phỏng VN-Index 3 tháng: trung vị −1,2%, ~21% khả năng mất hơn 10%. Mặt trái: lãi tiết kiệm đang giảm (22 ngân hàng đã hạ theo CV 9736), nên phần tiền chờ có thể gửi kỳ hạn sớm để khoá lãi.",
+    "why": "S&P 500 Sell Mode, Bitcoin Wait Mode, Brent 116,7 USD; mô phỏng VN-Index 3 tháng: trung vị −1,2%, ~21% khả năng mất hơn 10%. Mặt trái: lãi tiết kiệm đang giảm (22 ngân hàng đã hạ theo CV 9736, Vietcombank 12 tháng 5,4%), nên phần tiền chờ có thể gửi kỳ hạn sớm để khoá lãi.",
     "flip": "Giảm tiếp khi VN-Index lên Buy Mode kèm phiên FTD, hoặc lãi tiết kiệm 12 tháng xuống dưới ~5%."
    },
    {
     "a": "Cổ phiếu Việt Nam",
     "s": "Mua dần từng phần nhỏ",
     "lv": "warn",
-    "why": "VN-Index 1.774,15 (tuần +4%), Wait Mode; ngân hàng dẫn dắt với lợi nhuận quý 3 tăng mạnh; bộ lọc 29 mã (hôm qua 28). Mặt trái: còn 7 phiên phân phối, khối ngoại bán lại ~443–480 tỷ đ, chỉ số nằm trong vùng kháng cự 1.768–1.800; mô phỏng nhánh leo thang trung vị −9,2%.",
+    "why": "VN-Index 1.774,15 (tuần +4%), Wait Mode; ngân hàng dẫn dắt với lợi nhuận quý 3 tăng mạnh; bộ lọc 29 mã. Mặt trái: còn 7 phiên phân phối, VIC góp hơn nửa mức tăng tuần, khối ngoại bán ròng 1.105,6 tỷ cả tuần, chỉ số nằm trong vùng kháng cự 1.768–1.800; mô phỏng nhánh leo thang trung vị −9,2%.",
     "flip": "Về Trung tính khi lên Buy Mode và có FTD (tăng ≥1,55%, khối lượng cao hơn phiên trước); quay lại thận trọng nếu đóng cửa dưới ~1.746."
    },
    {
     "a": "Vàng",
     "s": "Giữ",
     "lv": "info",
-    "why": "Vàng tương lai 4.007,9 USD (23/10, −1,3%), giao ngay ~3.992, tuần −4%, tệ nhất từ tháng 6 (Sell Mode): dầu tăng làm thị trường cược Fed tăng lãi tháng 12, lợi suất 10 năm 5,00%. Đỡ giá: ETF vàng quý 3 vào kỷ lục; CIBC vẫn thấy 5.200 USD năm 2027. SJC đắt hơn thế giới ~16,6–17 triệu đ/lượng. Mô phỏng: trung vị +3,1%.",
+    "why": "Vàng ~3.996 USD (23/10), tuần −4,1%, thấp nhất từ đầu tháng 6 (Sell Mode): dầu tăng làm thị trường cược Fed tăng lãi tháng 12, lợi suất 10 năm 5,00%; Kitco: 41% chuyên gia Phố Wall dự báo giảm tiếp. Đỡ giá: ETF vàng quý 3 vào kỷ lục; CIBC vẫn thấy 5.200 USD năm 2027. SJC đắt hơn thế giới ~16 triệu đ/lượng. Mô phỏng: trung vị +3,1%.",
     "flip": "Tăng khi lợi suất thực và đồng đô la quay đầu giảm rõ."
    },
    {
     "a": "Dầu, cổ phiếu năng lượng",
     "s": "Giữ, không đuổi",
     "lv": "info",
-    "why": "Brent 116,72 USD (+3,1%, cao nhất từ 29/4; tuần +6%), RSI ~79 quá mua. Đẩy giá: Aramco sơ tán Dhahran, Houthi bắn tên lửa vào Riyadh, ông Trump nói không đàm phán với Iran. Kéo giá: đường ống Đông–Tây 7 triệu thùng/ngày; Morgan Stanley, EIA dự báo quý 4 ~105 USD. Mô phỏng: dải 90% từ −34% đến +54% (tính từ 111,66).",
+    "why": "Brent 116,72 USD (tuần +6,2%, cao nhất từ 29/4), RSI ~88 quá mua. Đẩy giá: Houthi tuyên bố đánh đường ống Đông–Tây và Yanbu (24/10, chưa xác nhận), Hormuz gần như tê liệt. Kéo giá: ông Trump nói chờ sau bầu cử mới tấn công, Qatar–Pakistan gửi đề xuất mới; Morgan Stanley, EIA dự báo quý 4 ~105 USD. Mô phỏng: dải 90% từ −34% đến +56%.",
     "flip": "Giảm ngay khi có thoả thuận Mỹ–Iran mở lại Hormuz."
    },
    {
     "a": "Cổ phiếu Mỹ, Nhật (qua quỹ)",
     "s": "Giữ, tạm dừng mua thêm",
     "lv": "warn",
-    "why": "S&P 500 7.623,68 (−0,52%), dưới MA50: Sell Mode; Dow −652 điểm vì dầu và lợi suất. Nikkei 62.693 (−0,34%). Mặt trái: lợi nhuận quý 3 ước +32% (LSEG); PMI Mỹ 57,6. Tuần tới có FOMC và báo cáo Microsoft, Alphabet (28/10), Amazon (29/10). Mô phỏng S&P 500: trung vị −0,1%, ~14% khả năng mất hơn 10%.",
+    "why": "S&P 500 7.623,68 (tuần −0,5%), dưới MA50: Sell Mode. Nikkei 62.693 (tuần −4%). Mặt trái: lợi nhuận quý 3 ước +32% (LSEG); PMI Mỹ 57,6. Tuần tới có FOMC, Microsoft, Alphabet (28/10), Amazon (29/10); BofA (Hartnett) thận trọng tới giữa tháng 11. Mô phỏng S&P 500: trung vị −0,1%, ~14% khả năng mất hơn 10%.",
     "flip": "Mua dần lại khi S&P 500 đóng cửa trên MA50 (~7.700) và EMA20 (~7.713); giảm nếu lợi suất 10 năm vượt 5,5% hoặc Fed phát tín hiệu tăng liên tiếp."
    },
    {
     "a": "Crypto",
     "s": "Giữ tỷ trọng nhỏ",
     "lv": "info",
-    "why": "Bitcoin ~81.000 USD, dưới EMA20: Wait Mode; ETF Bitcoin rút 635,5 triệu USD (22/10), lớn nhất từ tháng 6; ETF Ether rút 110,5 triệu. Mô phỏng Bitcoin: dải 90% từ −37% đến +44%.",
-    "flip": "Giảm nếu đóng cửa dưới ~79.320 USD (MA50 trừ vùng đệm); tăng khi lấy lại EMA20 (~82.400) và ETF vào ròng nhiều tuần liền."
+    "why": "Bitcoin ~79.500–80.800 USD (24/10), dưới EMA20: Wait Mode, sát mốc ~79.350. ETF Bitcoin rút 635,6 và 137,9 triệu USD hai phiên cuối tuần, nhưng cả tuần vẫn +301,2 triệu (Farside). Mô phỏng Bitcoin: dải 90% từ −37% đến +44%.",
+    "flip": "Giảm nếu đóng cửa dưới ~79.350 USD (MA50 trừ vùng đệm); tăng khi lấy lại EMA20 (~82.250) và ETF vào ròng nhiều tuần liền."
    },
    {
     "a": "Trái phiếu dài hạn",
     "s": "Chờ, mua dần",
     "lv": "warn",
-    "why": "Lợi suất 10 năm quay lại 5,00% (+4,8bp), 30 năm 5,33% sau cú giảm ngày 22/10. Brent 116,7 USD và kỳ vọng lạm phát 1 năm 4,7% giữ rủi ro lạm phát; thị trường đặt ~72–86% Fed tăng lãi tháng 12; PCE tháng 9 ra 29/10.",
+    "why": "Lợi suất 10 năm 5,00% (tuần −8bp), 30 năm 5,31%. Brent 116,7 USD và kỳ vọng lạm phát 1 năm 4,7% giữ rủi ro lạm phát; thị trường đặt ~76% Fed tăng lãi tháng 12; PCE tháng 9 ra 29/10 (dự báo 3,6%).",
     "flip": "Mua mạnh hơn khi dầu hạ nhiệt và lạm phát lõi quay đầu."
    }
   ]
  },
- "simNote": "Kết quả sáng 24/10 (20.000 đường, có kịch bản vĩ mô với giả định mới: cơ sở 55%, thoả thuận 15%, leo thang 30%; giá Mỹ, Việt Nam, vàng, dầu đóng cửa 23/10, châu Âu và châu Á còn ở 22/10): VN-Index có ~46% khả năng cao hơn hiện tại sau 3 tháng, trung vị −1,2%, ~21% khả năng mất hơn 10%, dải 90% từ −20,0% đến +14,1%. Theo nhánh: thoả thuận Hormuz trung vị +7,2%, leo thang −9,2%. S&P 500 trung vị −0,1%, ~14% khả năng mất hơn 10%; Brent (tính từ 111,66 trong bảng) dải −33,7% đến +53,8%. Đây là phân phối khả năng, không phải dự báo.",
+ "simNote": "Kết quả sáng 25/10 (20.000 đường, có kịch bản vĩ mô: cơ sở 55%, thoả thuận 15%, leo thang 30%, không đổi; mọi thị trường cổ phiếu, vàng, dầu tính từ giá đóng cửa 23/10): VN-Index có ~46% khả năng cao hơn hiện tại sau 3 tháng, trung vị −1,2%, ~21% khả năng mất hơn 10%, dải 90% từ −20,0% đến +14,1%. Theo nhánh: thoả thuận Hormuz trung vị +7,2%, leo thang −9,2%. S&P 500 trung vị −0,1%, ~14% khả năng mất hơn 10%; Brent (từ 116,72 USD) dải −34,5% đến +56,3%. Đây là phân phối khả năng, không phải dự báo.",
  "marketNotes": {
   "spx": {
    "sig": "7.623,68 (−0,52%), tuần −0,5%; dưới MA50 (~7.700) và EMA20 (~7.713): giữ Sell Mode, RSI ~37. Dầu kéo công nghiệp −2%.",
@@ -2872,39 +2888,39 @@
    "lv": "warn"
   },
   "n225": {
-   "sig": "23/10 62.693,16 (−0,34%), có lúc −1.400 yên; RSI ~28. Lạm phát lõi 2,1%, BOJ họp 30/10 dự kiến giữ 1,25%.",
+   "sig": "62.693,16 (23/10, −0,34%), tuần −4%; RSI ~29 quá bán. BOJ 30/10 dự kiến giữ 1,25%, thị trường đặt ~80% tăng tháng 12.",
    "lv": "down"
   },
   "kospi": {
-   "sig": "23/10 5.550,30 (+0,30%) sau khi có lúc −4,1%; SK hynix +4,4%. Khối ngoại vẫn bán ~983 tỷ ₩. 1 tháng −17,6%.",
+   "sig": "5.550,30 (23/10, +0,3%) sau khi có lúc −4,1%; khối ngoại bán 978,2 tỷ ₩. 1 tháng −19,5%, RSI ~19 quá bán; SK hynix báo cáo 27/10.",
    "lv": "down"
   },
   "hsi": {
-   "sig": "23/10 ~23.093 (+0,7%), công nghệ +2,1%; tuần −4,5%. Dưới MA50, MA200, RSI ~27.",
+   "sig": "23.093 (23/10, +0,7%), tuần −4%; dưới MA50, MA200, RSI ~36. Chờ Hội nghị Trung ương 5 (26–29/10).",
    "lv": "down"
   },
   "sse": {
-   "sig": "23/10 ~3.690 (+0,9%) nhờ quỹ nhà nước mua; CSI 300 giảm 11 tuần liền, kỷ lục. RSI ~16 (tính đến 22/10).",
+   "sig": "3.690,48 (23/10, +0,9%) nhờ quỹ nhà nước mua; dưới MA50, MA200, RSI ~28. Hội nghị Trung ương 5 họp 26–29/10.",
    "lv": "down"
   },
   "vni": {
-   "sig": "1.774,15 (+0,77%), tuần +4%; trên EMA20, MA50 nhưng còn 7 phiên phân phối: giữ Wait Mode. Khối ngoại bán lại ~443–480 tỷ đ.",
+   "sig": "1.774,15 (23/10), tuần +4%; trên EMA20, MA50 nhưng còn 7 phiên phân phối: giữ Wait Mode. Khối ngoại bán ròng 1.105,6 tỷ cả tuần.",
    "lv": "warn"
   },
   "gold": {
-   "sig": "Tương lai 4.007,9 USD (−1,3%), giao ngay ~3.992, tuần −4%; dưới MA50, MA200, Sell Mode. SJC đắt hơn thế giới ~16,6–17 triệu.",
+   "sig": "~3.996 USD giao ngay (tương lai 4.007,9), tuần −4,1%; dưới MA50, MA200: Sell Mode. Kitco: 41% chuyên gia dự báo giảm tiếp.",
    "lv": "down"
   },
   "brent": {
-   "sig": "Hợp đồng gần chốt 116,72 USD (+3,1%), cao nhất từ 29/4; tuần +6%. Bảng (Yahoo) 111,66, RSI ~79 quá mua.",
+   "sig": "116,72 USD (23/10), tuần +6,2%, cao nhất từ 29/4; RSI ~88 quá mua. Cuối tuần Houthi tuyên bố đánh đường ống Đông–Tây (chưa xác nhận).",
    "lv": "up"
   },
   "btc": {
-   "sig": "~80.700–81.000 USD, dưới EMA20 (~82.400) nhưng trên ~79.320 (MA50 trừ vùng đệm): Wait Mode. ETF rút 635,5 triệu USD (22/10).",
+   "sig": "~79.500–80.800 USD (24/10), dưới EMA20 (~82.250), sát mốc ~79.350 (MA50 trừ vùng đệm): Wait Mode. ETF tuần vẫn +301 triệu USD.",
    "lv": "warn"
   },
   "eth": {
-   "sig": "~2.375 USD, dưới EMA20, MA50; 1 tháng −10,7%. ETF Ether rút 110,5 triệu USD (22/10).",
+   "sig": "~2.300–2.360 USD (24/10), dưới EMA20, MA50; 1 tháng −12%. ETF Ether tuần rút 220,7 triệu USD.",
    "lv": "down"
   },
   "dxy": {
@@ -2920,11 +2936,11 @@
    "lv": "warn"
   },
   "us10y": {
-   "sig": "5,00% (+4,8bp) sau khi giảm ~19bp ngày 22/10; 2 năm 4,69%. Dầu đẩy kỳ vọng lạm phát.",
+   "sig": "5,00% (23/10, +5bp), tuần −8bp; 2 năm 4,69%. FOMC 28/10, PCE 29/10.",
    "lv": "warn"
   },
   "us30y": {
-   "sig": "5,33% (+4,2bp); dưới MA50 (~5,39), RSI ~19.",
+   "sig": "5,31% (23/10), tuần −12bp; dưới MA50 (~5,39), RSI ~19.",
    "lv": "warn"
   },
   "kosdaq": {
@@ -2977,7 +2993,7 @@
   "markets": [
    {
     "id": "vni",
-    "summary": "VN-Index 1.774,15 (23/10, +0,77%), tuần +4% sau 4 tuần giảm; Wait Mode, còn 7 phiên phân phối. Ngân hàng dẫn dắt (STB trần, ACB +3,9%), thanh khoản HOSE 16.942 tỷ (+10,7%); nhưng khối ngoại bán ròng ~443–480 tỷ đ, độ rộng nghiêng giảm. CTCK: kháng cự 1.768–1.800 (BSC, SHS), hỗ trợ ~1.746 rồi 1.700; SHS không mua đuổi.",
+    "summary": "VN-Index 1.774,15 (23/10), tuần +68,24 điểm (+4%) sau 4 tuần giảm; Wait Mode, còn 7 phiên phân phối. VIC góp ~36,7 điểm, ngân hàng dẫn dắt; thanh khoản bình quân tuần ~13.400 tỷ (+20%); khối ngoại bán ròng 1.105,6 tỷ cả tuần. CTCK: kháng cự 1.768–1.800 (BSC, SHS, TPS), hỗ trợ ~1.746 rồi 1.700; SHS, VNDirect khuyên không mua đuổi.",
     "scen": {
      "base": {
       "what": "Chỉ số dao động 1.700–1.800: dễ rung lắc ở vùng 1.775–1.800, có thể kiểm tra lại ~1.746; tiền xoay vào ngân hàng có lãi quý 3 tốt, dầu khí, cảng.",
@@ -3000,7 +3016,7 @@
    },
    {
     "id": "spx",
-    "summary": "S&P 500 7.623,68 (23/10, −0,52%), tuần −0,5%, tuần giảm thứ 2; dưới MA50: Sell Mode, cách đỉnh 2,5%. Dầu 116,7 USD và lợi suất 10 năm 5,00% kéo công nghiệp −2%, Dow −652 điểm; năng lượng +2%. Fed 28/10 ~5–7%, tháng 12 ~72–86%. Lợi nhuận quý 3 ước +32% (LSEG); Goldman giữ mục tiêu 8.000 (5/2026).",
+    "summary": "S&P 500 7.623,68 (23/10), tuần −0,5%, tuần giảm thứ 2; dưới MA50: Sell Mode, cách đỉnh 2,5%. Dầu 116,7 USD và lợi suất 10 năm 5,00% kéo công nghiệp, năng lượng lập đỉnh. Fed 28/10 ~10%, tháng 12 ~76% (CME 23/10). Lợi nhuận quý 3 ước +32% (LSEG); BofA (Hartnett) thận trọng tới giữa tháng 11, Morgan Stanley cho rằng lãi cao chưa chặn được chi đầu tư AI.",
     "scen": {
      "base": {
       "what": "Chỉ số dao động 7.400–7.900, nhóm dẫn dắt xoay từ AI sang phòng thủ, năng lượng; chip rung lắc mạnh theo báo cáo quý 3.",
@@ -3044,7 +3060,7 @@
    },
    {
     "id": "n225",
-    "summary": "Nikkei 62.693,16 (23/10, −0,34%), giảm phiên thứ 2, có lúc −1.400 yên vì chip; TOPIX −0,79%. Lạm phát lõi tháng 9 2,1%, lõi-lõi 2,4%, lần đầu vượt 2% từ tháng 12. BOJ (1,25%) họp 30/10, dự kiến giữ, chú ý tháng 12; StanChart thấy tháng 1/2027. USD/JPY ~156,8.",
+    "summary": "Nikkei 62.693,16 (23/10), tuần −4%, RSI ~29 quá bán; chip bị bán. Lạm phát lõi tháng 9 2,1%, lõi-lõi 2,4%. BOJ (1,25%) họp 30/10, dự kiến giữ, thị trường đặt ~80% tăng tháng 12 (Newsquawk). USD/JPY ~156,8.",
     "scen": {
      "base": {
       "what": "Rung lắc 58.000–65.000 theo chip và kỳ vọng BOJ tăng lãi tháng 12.",
@@ -3066,7 +3082,7 @@
    },
    {
     "id": "kospi",
-    "summary": "KOSPI 5.550,30 (23/10, +0,30%) sau khi có lúc −4,1%: tổ chức trong nước mua ~869 tỷ ₩, khối ngoại bán ~983 tỷ ₩. SK hynix +4,4% (dừng niêm yết Solidigm ở Mỹ), Samsung +0,5%. 1 tháng −17,6%. BOK giữ 3,00%, nói chưa chắc đã hết thắt chặt. JPMorgan Private Bank ưu tiên Hàn Quốc vì định giá rẻ (22/10).",
+    "summary": "KOSPI 5.550,30 (23/10, +0,3%) sau khi có lúc −4,1%; tổ chức trong nước mua ~869 tỷ ₩, khối ngoại bán 978,2 tỷ ₩. 1 tháng −19,5%, RSI ~19 quá bán. BOK giữ 3,00%, nói chưa chắc đã hết thắt chặt. SK hynix báo cáo 27/10; JPMorgan Private Bank ưu tiên Hàn Quốc vì định giá rẻ (22/10).",
     "scen": {
      "base": {
       "what": "Biến động rất lớn quanh 5.000–5.900; hồi kỹ thuật xen phiên bán mạnh theo tin chi đầu tư AI và giá chip nhớ.",
@@ -3088,7 +3104,7 @@
    },
    {
     "id": "hsi",
-    "summary": "Hang Seng ~23.093 (23/10, +0,7%), công nghệ +2,1%, nhưng tuần −4,5%. Thượng Hải ~3.690 (+0,9%) nhờ quỹ nhà nước mua; CSI 300 giảm 11 tuần liền, kỷ lục, đã vào thị trường giá xuống. GDP quý 3 +4,5%, LPR giữ 3,0%/3,5%; RBC: chỉ có biện pháp nhỏ lẻ. StanChart: 26.600 trong 12 tháng, kịch bản xấu 21.500–22.500.",
+    "summary": "Hang Seng 23.093 (23/10, +0,7%), tuần −4%; Thượng Hải 3.690 (+0,9%) nhờ quỹ nhà nước mua; CSI 300 giảm 11 tuần liền. LPR giữ 3,0%/3,5% tháng thứ 17; Hội nghị Trung ương 5 họp 26–29/10, chú ý định hướng kế hoạch 5 năm. StanChart: 26.600 trong 12 tháng, kịch bản xấu 21.500–22.500.",
     "scen": {
      "base": {
       "what": "Đi ngang quanh 22.000–24.500; phụ thuộc gói hỗ trợ và đàm phán thương mại Mỹ–Trung.",
@@ -3110,7 +3126,7 @@
    },
    {
     "id": "gold",
-    "summary": "Vàng tương lai 4.007,9 USD (23/10, −1,3%), giao ngay ~3.992, thủng 4.000; tuần −4%, tệ nhất từ tháng 6: dầu tăng làm thị trường cược Fed tăng lãi tháng 12, lợi suất 10 năm 5,00%. Bạc 53,97 USD, thấp nhất từ 11/2025. ETF vàng quý 3 vào kỷ lục; CIBC vẫn thấy 5.200 USD năm 2027. SJC 139–142 triệu đ/lượng (24/10), đắt hơn thế giới ~16,6–17 triệu.",
+    "summary": "Vàng ~3.996 USD (23/10), tuần −4,1%, thấp nhất từ đầu tháng 6: dầu tăng làm thị trường cược Fed tăng lãi tháng 12, lợi suất 10 năm 5,00%. Kitco 23/10: Phố Wall 41% dự báo giảm, 24% tăng; nhà đầu tư cá nhân 42% tăng. ETF vàng quý 3 vào kỷ lục; CIBC thấy 5.200 USD năm 2027. SJC 138,7–141,7 triệu đ/lượng (25/10), đắt hơn thế giới ~16 triệu (ước tính).",
     "scen": {
      "base": {
       "what": "Dao động quanh 3.800–4.250 USD; lực mua của ngân hàng trung ương đỡ giá nhưng lợi suất và đô la còn cao.",
@@ -3133,7 +3149,7 @@
    },
    {
     "id": "brent",
-    "summary": "Brent hợp đồng gần chốt 116,72 USD (23/10, +3,1%), cao nhất từ 29/4, tuần +6%; WTI 103,27 (+3,8%). Aramco sơ tán trụ sở Dhahran, Houthi bắn tên lửa vào Riyadh; họp Istanbul không có đề xuất ngừng bắn; ông Trump nói không đàm phán với Iran. Đỡ cung: đường ống Đông–Tây 7 triệu thùng/ngày. Morgan Stanley, EIA: quý 4 ~105 USD. OPEC+ họp 1/11. Bảng dùng giá Yahoo 111,66 (khác kỳ hạn).",
+    "summary": "Brent 116,72 USD (23/10), tuần +6,2%, cao nhất từ 29/4; WTI 103,27. Cuối tuần Houthi tuyên bố đánh Yanbu, Rabigh và đường ống Đông–Tây (Ả Rập Xê Út chưa xác nhận); IRGC nói 2 siêu tàu trúng thuỷ lôi. Ông Trump nói tấn công đợi sau 3/11; Qatar, Pakistan gửi đề xuất mới. Morgan Stanley, EIA: quý 4 ~105 USD; Goldman: 90 USD tháng 12. OPEC+ họp 1/11.",
     "scen": {
      "base": {
       "what": "Dầu giữ ~100–120 USD do Hormuz vẫn hạn chế và rủi ro Ả Rập Xê Út; giá xăng trong nước vừa giảm có thể tăng lại ở kỳ điều hành sau.",
@@ -3145,7 +3161,7 @@
      },
      "shock": {
       "what": "Hạ tầng xuất khẩu của Ả Rập Xê Út bị hỏng thật hoặc Mỹ tấn công Iran: Goldman thấy trên 120 USD nếu Vùng Vịnh thiếu 4 triệu thùng/ngày, BofA 120–150 USD.",
-      "signs": "Aramco báo gián đoạn sản xuất; Mỹ hoặc Israel tấn công Iran (có tin cân nhắc sau bầu cử 3/11); tàu chở dầu bị đánh chìm ở Hormuz."
+      "signs": "Aramco xác nhận đường ống Đông–Tây hoặc Yanbu bị hỏng; Mỹ hoặc Israel tấn công Iran sau bầu cử 3/11; tàu chở dầu bị đánh chìm ở Hormuz."
      }
     },
     "beginner": [
@@ -3155,11 +3171,11 @@
    },
    {
     "id": "btc",
-    "summary": "Bitcoin ~80.700–81.000 USD (sáng 24/10), tuần ~−1%; dưới EMA20 nên giữ Wait Mode, còn cách mốc ~79.320 USD (MA50 trừ vùng đệm) ~2%. ETF Bitcoin rút 635,5 triệu USD ngày 22/10, lớn nhất từ tháng 6; ETF Ether rút 110,5 triệu. Thanh lý 24 giờ ~333 triệu USD, 83% lệnh mua (CoinGlass). Citi mục tiêu 113.000 USD trong 12 tháng.",
+    "summary": "Bitcoin ~79.500–80.800 USD (24/10), tuần ~−1%; dưới EMA20 nên giữ Wait Mode, sát mốc ~79.350 USD (MA50 trừ vùng đệm). ETF Bitcoin rút 635,6 và 137,9 triệu USD ngày 22–23/10 nhưng cả tuần vẫn vào ròng 301,2 triệu (Farside); ETF Ether tuần −220,7 triệu. Thanh lý ~498 triệu USD ngày 24/10. Citi mục tiêu 113.000 USD trong 12 tháng.",
     "scen": {
      "base": {
       "what": "Đi ngang 72–90 nghìn USD, theo sát khẩu vị rủi ro chung và cổ phiếu công nghệ.",
-      "signs": "Dòng tiền ETF quay lại dương; giá giữ trên ~79.320 USD (MA50 trừ vùng đệm) và lấy lại 82.500."
+      "signs": "Dòng tiền ETF quay lại dương; giá giữ trên ~79.350 USD (MA50 trừ vùng đệm) và lấy lại 82.300."
      },
      "deal": {
       "what": "Rủi ro giảm, thanh khoản đô la dễ hơn: Bitcoin có thể vượt 100 nghìn USD.",
@@ -3182,13 +3198,13 @@
   "intro": "Hệ thống tự lọc mỗi sáng trên giá thật (VNDirect cho Việt Nam, Yahoo Finance cho Mỹ và crypto) theo khung swing của phòng đầu tư: cổng thị trường trước, rồi ba tầng thanh khoản, sức mạnh tương đối, dòng tiền. Qua lọc nghĩa là đáng theo dõi, không phải tín hiệu mua.",
   "notes": {
    "vn": {
-    "asOf": "Tự động 24/10/2026 (đóng cửa 23/10) · thẻ “Phòng đầu tư chọn”: phân tích gốc 14/10/2026",
-    "verdict": "VN-Index giữ **Wait Mode**: đóng cửa 1.774,15, trên mốc MA50 trừ vùng đệm (~1.745,6) và EMA20 (~1.741,9), còn 7 phiên phân phối (tối đa 5). Ngân hàng dẫn sóng nhờ lợi nhuận quý 3 tăng mạnh và lãi huy động giảm; dầu khí bớt nóng dù Brent lên 116,7 USD.",
+    "asOf": "Tự động 25/10/2026 (đóng cửa 23/10) · thẻ “Phòng đầu tư chọn”: phân tích gốc 14/10/2026",
+    "verdict": "VN-Index giữ **Wait Mode**: đóng cửa 1.774,15, trên mốc MA50 trừ vùng đệm (~1.745,6) và EMA20 (~1.741,9), còn 7 phiên phân phối (tối đa 5). Ngân hàng dẫn sóng nhờ lợi nhuận quý 3 và lãi huy động giảm; khối ngoại bán ròng 1.105,6 tỷ cả tuần.",
     "points": [
-     "Rổ 94 mã: 89 đủ thanh khoản, 39 đạt điểm RS (hôm qua 38), **29 mã** qua đủ ba tầng (hôm qua 28); 9 mã đạt 6/6, dẫn đầu PET, FRT, VPB.",
-     "Mới vào: **NAB**, **OCB** (ngân hàng), **HSG** (thép), **BCM** (KCN), **NLG**, **VJC**; rơi ra: **PVS** (mất xu hướng), **PVD**, **MSN**, **HAH**, **VGC** (rớt điểm RS).",
-     "Theo ngành: ngân hàng 8 (VPB, TCB, MSB, HDB, TPB, VIB, OCB, NAB), dầu khí 3 (PET, PVT, BSR), tiêu dùng 3, cảng–vận tải 3; 10 mã sát EMA20 (vùng rũ bỏ).",
-     "Mặt trái: OCB, NAB, VJC có điểm RS 3 tháng âm, mới qua lọc sát ngưỡng; PET, CTD, NKG, DPG, TPB, CSV đã chạy xa EMA20; khối ngoại bán ròng ~443–480 tỷ đ ngày 23/10."
+     "Rổ 94 mã: 89 đủ thanh khoản, 39 đạt điểm RS, **29 mã** qua đủ ba tầng, không đổi so với hôm qua (Chủ nhật, không có phiên mới); 9 mã đạt 6/6: PET, FRT, VPB, TLG, TCB, MSB, HDB, QNS, MCH.",
+     "Theo ngành: ngân hàng 8 (VPB, TCB, MSB, HDB, TPB, VIB, OCB, NAB), dầu khí 3 (PET, PVT, BSR), tiêu dùng 3, cảng–vận tải 3; 11 mã sát EMA20 (vùng rũ bỏ), trong đó HDB, VPB, TLG, FRT đạt 6/6.",
+     "Tin ảnh hưởng: nếu dầu tăng tiếp sau tin Houthi đánh đường ống Đông–Tây, nhóm dầu khí (PET, BSR, PVT) có thể được hỗ trợ, còn hàng không (VJC) chịu chi phí nhiên liệu.",
+     "Mặt trái: OCB, NAB, VJC có điểm RS 3 tháng âm, qua lọc sát ngưỡng; PET, NKG, DPG, CSV, TPB, CTD đã chạy xa EMA20; QNS có U/D quá nóng (2,63)."
     ],
     "action": "Wait Mode chỉ cho phép mua ở điểm rũ bỏ về EMA20 với nửa cỡ lệnh. Lên **Buy Mode** khi số phiên phân phối về tối đa 5 và có **FTD** (tăng ≥ 1,55%, khối lượng cao hơn phiên trước); quay lại Sell Mode nếu đóng cửa dưới ~1.746.",
     "picks": [
@@ -3367,25 +3383,25 @@
     ]
    },
    "us": {
-    "asOf": "Tự động 24/10/2026 (đóng cửa 23/10)",
-    "verdict": "S&P 500 giữ **Sell Mode**: đóng cửa 7.623,68 (−0,52%), dưới MA50 (~7.700) và EMA20 (~7.713), 5 phiên phân phối. Dầu 116,7 USD và lợi suất 10 năm 5,00% kéo công nghiệp; năng lượng tăng ~2%.",
+    "asOf": "Tự động 25/10/2026 (đóng cửa 23/10)",
+    "verdict": "S&P 500 giữ **Sell Mode**: đóng cửa 7.623,68, dưới MA50 (~7.700) và EMA20 (~7.713), 5 phiên phân phối. Năng lượng lập đỉnh khi Brent tuần +6,2%; tuần tới FOMC (28/10) và báo cáo Microsoft, Alphabet, Amazon quyết định nhóm công nghệ.",
     "points": [
-     "Rổ 96 mã: 39 đạt điểm RS (hôm qua 36), **30 mã** qua lọc (hôm qua 29); 22 mã đạt 6/6.",
-     "Mới vào: **ADBE**, **CRM**, **IBM** (phần mềm hồi sau cú bán AI); rơi ra: **BLK**, **CRWD** (U/D volume xuống dưới 1).",
-     "Theo ngành: công nghệ 7, y tế 7, tiêu dùng thiết yếu 6, năng lượng 5, tài chính 3; 9 mã sát đỉnh với nền chặt.",
-     "Mặt trái: cổng thị trường đang Sell Mode nên danh sách chỉ để theo dõi; NOW, ADBE, IBM, LLY đã chạy xa EMA20; Microsoft, Alphabet báo cáo 28/10 có thể đảo chiều nhóm công nghệ."
+     "Rổ 96 mã: 41 đạt điểm RS (hôm qua 39), **31 mã** qua lọc (hôm qua 30); 17 mã đạt 6/6. Lần chạy sáng nay dùng dữ liệu đã cập nhật của cùng phiên 23/10.",
+     "Mới vào: **LMT** (quốc phòng), **QCOM**, **CRWD**; rơi ra: **ADBE**, **CRM** (phần mềm mất điểm sau một ngày).",
+     "Theo ngành: công nghệ 7, y tế 7, tiêu dùng thiết yếu 6, năng lượng 5 (cả 5 đạt 6/6), tài chính 3; 9 mã sát đỉnh với nền chặt.",
+     "Mặt trái: cổng thị trường Sell Mode nên danh sách chỉ để theo dõi; LMT, NOW, COP, IBM, EOG đã chạy xa EMA20; MSFT báo cáo 28/10 có thể đảo chiều nhóm công nghệ."
     ],
     "action": "Không mở lệnh mới trong Sell Mode. Về Wait Mode khi đóng cửa lại trên MA50 (~7.700); Buy Mode khi trên cả EMA20 (~7.713) và số phiên phân phối không vượt 5."
    },
    "crypto": {
-    "asOf": "Tự động 24/10/2026",
-    "verdict": "Bitcoin giữ **Wait Mode**: ~80.730 USD, dưới EMA20 (~82.380) nhưng trên ~79.320 USD (MA50 trừ vùng đệm 3%). ETF Bitcoin rút 635,5 triệu USD ngày 22/10, lớn nhất từ tháng 6.",
+    "asOf": "Tự động 25/10/2026",
+    "verdict": "Bitcoin giữ **Wait Mode**: ~80.770 USD (dữ liệu 24/10), dưới EMA20 (~82.250) nhưng trên ~79.350 USD (MA50 trừ vùng đệm 3%). ETF Bitcoin rút 137,9 triệu USD ngày 23/10, cả tuần vẫn vào ròng 301,2 triệu.",
     "points": [
-     "Rổ 24 đồng (23 lấy được dữ liệu): 22 đủ thanh khoản, 7 đạt điểm RS (không đổi), **1 đồng** qua lọc: NEAR (không đổi).",
-     "Không có đồng mới vào hay rơi ra. NEAR dưới EMA20 ~4%, vẫn trong vùng rũ bỏ.",
-     "Mặt trái: NEAR chỉ đạt 4/6 điểm; Bitcoin thấp hơn đỉnh 365 ngày ~29%, 30 ngày −4%; ETF Ether cũng rút 110,5 triệu USD."
+     "Rổ 24 đồng (23 lấy được dữ liệu): 22 đủ thanh khoản, 6 đạt điểm RS (hôm qua 7), **1 đồng** qua lọc: NEAR (không đổi).",
+     "Không có đồng mới vào hay rơi ra. NEAR dưới EMA20 ~7,5% (hôm qua ~4%), vẫn được tính trong vùng theo dõi.",
+     "Mặt trái: NEAR chỉ đạt 4/6 điểm; Bitcoin thấp hơn đỉnh 365 ngày ~29%, 1 tháng −4%; thanh lý ~498 triệu USD ngày 24/10."
     ],
-    "action": "Lấy lại EMA20 (~82.400 USD) là về Buy Mode; đóng cửa dưới ~79.320 USD là Sell Mode."
+    "action": "Lấy lại EMA20 (~82.250 USD) là về Buy Mode; đóng cửa dưới ~79.350 USD là Sell Mode."
    }
   },
   "method": [
@@ -3414,7 +3430,7 @@
    "Suy thoái": "Y tế, điện nước, năng lượng, tiền mặt",
    "Đáy": "Vàng, trái phiếu"
   },
-  "asOf": "24/10/2026",
+  "asOf": "25/10/2026",
   "markets": [
    {
     "id": "global",
@@ -3424,7 +3440,7 @@
     "lv": "warn",
     "growth": "IMF (13/10) dự báo 2026 3,1%, 2027 3,4%; PMI sơ bộ tháng 10: Mỹ 57,6, eurozone 51,9 (thấp nhất 4 tháng; Pháp 48,4, suy giảm), Nhật 52,3.",
     "inflation": "Brent 116,72 USD (23/10), cao nhất từ tháng 4; CPI Mỹ 3,7%, kỳ vọng lạm phát 1 năm 4,7% (Michigan 23/10); Nhật lõi 2,1%, lõi-lõi 2,4% (T9); IMF dự báo lạm phát toàn cầu 2026 4,7%.",
-    "policy": "Fed, ECB, BOJ, BOK đều đã tăng lãi trong năm; tuần tới Fed (28/10), ECB (29/10), BOJ (30/10) đều được dự báo giữ, nhưng thị trường đặt ~72–86% Fed tăng tháng 12 và >80% ECB tăng tháng 12.",
+    "policy": "Fed, ECB, BOJ, BOK đều đã tăng lãi trong năm; tuần tới Fed (28/10), ECB (29/10), BOJ (30/10) đều được dự báo giữ, nhưng thị trường đặt ~76% Fed và ~80% BOJ tăng tháng 12; Danske thấy ECB tăng lên 2,75% tháng 12.",
     "against": [
      "Tăng trưởng vẫn trên trung bình, lợi nhuận quý 3 Mỹ ước +32% (LSEG): chưa có dấu hiệu suy thoái thật.",
      "Châu Âu đang chậm lại nhanh (Pháp PMI 48,4) và lợi suất Mỹ từng giảm ~19bp ngày 22/10: nếu Hormuz mở lại, dầu giảm nhanh và chu kỳ có thể về Mở rộng; ngược lại, dầu trên 120 USD đẩy nhanh sang Suy thoái."
@@ -3439,7 +3455,7 @@
     "lv": "warn",
     "growth": "PMI sơ bộ tháng 10 tổng hợp 57,6 (T9 58,4), sản xuất 56,0 cao nhất 53 tháng; trợ cấp thất nghiệp 194 nghìn; nhưng việc làm T9 chỉ +29 nghìn, niềm tin tiêu dùng Michigan 48,0 (23/10).",
     "inflation": "CPI T9 3,7%, lõi 2,6%; PPI 6,3%; kỳ vọng lạm phát 1 năm 4,7%, 5 năm 3,5% (Michigan 23/10); PMI: giá bán tăng nhanh nhất từ 8/2022. PCE T9 công bố 29/10 (dự báo 3,6%, lõi 3,1%).",
-    "policy": "Lãi Fed 3,75–4,00%; FOMC 28/10 ~5–7% khả năng tăng, tháng 12 ~72–86%; lợi suất 10 năm 5,00%, 2 năm 4,69% (23/10).",
+    "policy": "Lãi Fed 3,75–4,00%; FOMC 28/10 ~10% khả năng tăng, tháng 12 ~76% (CME 23/10); lợi suất 10 năm 5,00%, 2 năm 4,69% (23/10).",
     "against": [
      "PMI vẫn trên 56, thất nghiệp đơn mới thấp và lợi nhuận quý 3 tốt: kinh tế chưa yếu.",
      "Tiền đã chuyển sang nhóm phòng thủ và năng lượng (bộ lọc: y tế 7, tiêu dùng thiết yếu 6, năng lượng 5 mã): đúng kiểu cuối chu kỳ, nhưng công nghệ vẫn có 7 mã qua lọc."
@@ -3456,8 +3472,8 @@
     "inflation": "CPI T9 +5,08%/năm, lạm phát cơ bản 4,45%: vượt ngưỡng 5% trong khung RQD; giá xăng giảm ~1.600–1.800 đ/lít từ 22/10 nhưng dầu thế giới lên 116,7 USD.",
     "policy": "CV 9736 (21/10): 22 ngân hàng đã giảm lãi huy động 0,5–0,9 điểm % (Vietcombank 12 tháng 5,4%); OMO 23/10 hút ròng 932 tỷ, liên ngân hàng qua đêm 4,3%: chính sách đang nới lãi huy động nhưng thanh khoản không dư thừa.",
     "against": [
-     "Chứng khoán chưa xác nhận: VN-Index Wait Mode, còn 7 phiên phân phối; khối ngoại bán ròng ~966 tỷ cả tuần 19–23/10.",
-     "Nới lãi suất khi CPI trên 5% và Brent 116,7 USD có thể đẩy lạm phát và tỷ giá; PMI đang chậm lại; margin kỷ lục ~455.000–457.500 tỷ."
+     "Chứng khoán chưa xác nhận: VN-Index Wait Mode, còn 7 phiên phân phối; khối ngoại bán ròng 1.105,6 tỷ cả tuần 19–23/10.",
+     "Nới lãi suất khi CPI trên 5% và Brent 116,7 USD có thể đẩy lạm phát và tỷ giá; PMI đang chậm lại; dư nợ cho vay CTCK cuối quý 3 ~463.000 tỷ, kỷ lục."
     ],
     "flip": "Sang Đỉnh nếu CPI vượt 6% hoặc tỷ giá tăng >1–2% trong 2–3 tuần; giữ Mở rộng nếu lãi vay giảm thật mà CPI dưới 5,5%."
    },
@@ -3469,7 +3485,7 @@
     "lv": "info",
     "growth": "GDP quý 3 +4,5% (quý 2 4,3%); PMI NBS T9 50,1 (T8 49,8); xuất khẩu T9 +36,3%.",
     "inflation": "Lạm phát thấp; bán lẻ T9 chỉ +1,1%.",
-    "policy": "LPR giữ 3,0%/3,5% tháng thứ 17 (20/10); quỹ nhà nước mua ETF khi chỉ số chạm đáy 15 tháng (23/10); RBC: chỉ có biện pháp nhỏ lẻ, chưa có gói lớn.",
+    "policy": "LPR giữ 3,0%/3,5% tháng thứ 17 (20/10); quỹ nhà nước mua ETF khi chỉ số chạm đáy 15 tháng (23/10); Hội nghị Trung ương 5 họp 26–29/10; RBC: chỉ có biện pháp nhỏ lẻ, chưa có gói lớn.",
     "against": [
      "Đầu tư bất động sản 9 tháng −20,6%, đầu tư tài sản cố định −7,2%: phục hồi chưa lan vào trong nước.",
      "CSI 300 giảm 11 tuần liền, dài nhất lịch sử, và vào thị trường giá xuống (−20% từ đỉnh 22/6) dù GDP quý 3 tăng 4,5%."
@@ -3482,8 +3498,8 @@
  "allocation": {
   "title": "Khuyến nghị phân bổ dòng tiền",
   "intro": "Gợi ý chia tiền theo ba khẩu vị rủi ro. Cột “Trung tính” là tỷ trọng gốc khi thị trường bình thường; cột “Hiện tại” đã điều chỉnh theo pha chu kỳ và trạng thái Buy/Wait/Sell Mode. Chỉ dùng cho tiền đầu tư, sau khi đã có quỹ dự phòng 6 tháng chi tiêu.",
-  "asOf": "24/10/2026",
-  "basis": "Căn cứ: toàn cầu và Mỹ ở pha Đỉnh, Việt Nam Mở rộng muộn, Trung Quốc Phục hồi (giữ nguyên); trạng thái VN-Index Wait Mode, S&P 500 Sell Mode, Bitcoin Wait Mode, vàng Sell Mode không đổi so với 23/10 nên giữ nguyên tỷ trọng Hiện tại; Brent 116,72 USD, lợi suất 10 năm Mỹ 5,00%; xác suất leo thang trong mô phỏng nâng lên 30%.",
+  "asOf": "25/10/2026",
+  "basis": "Căn cứ: toàn cầu và Mỹ ở pha Đỉnh, Việt Nam Mở rộng muộn, Trung Quốc Phục hồi (giữ nguyên); Chủ nhật không có phiên mới, trạng thái VN-Index Wait Mode, S&P 500 Sell Mode, Bitcoin Wait Mode, vàng Sell Mode không đổi nên giữ nguyên tỷ trọng Hiện tại; Brent 116,72 USD, lợi suất 10 năm Mỹ 5,00%; tin Houthi đánh đường ống Đông–Tây (chưa xác nhận) giữ rủi ro nghiêng xấu.",
   "profiles": [
    {
     "id": "tt",
@@ -3542,7 +3558,7 @@
      "cb": 37,
      "tg": 50
     },
-    "why": "Giữ nguyên. VN-Index vẫn Wait Mode (1.774,15, tuần +4%) nên giữ dưới Trung tính: còn 7 phiên phân phối, khối ngoại bán ròng ~966 tỷ cả tuần. Giải ngân dần qua quỹ chỉ số hoặc vị thế dài hạn; túi lướt sóng chỉ dùng nửa cỡ lệnh ở điểm rũ bỏ."
+    "why": "Giữ nguyên. VN-Index vẫn Wait Mode (1.774,15, tuần +4%) nên giữ dưới Trung tính: còn 7 phiên phân phối, khối ngoại bán ròng 1.105,6 tỷ cả tuần. Giải ngân dần qua quỹ chỉ số hoặc vị thế dài hạn; túi lướt sóng chỉ dùng nửa cỡ lệnh ở điểm rũ bỏ."
    },
    {
     "a": "Cổ phiếu quốc tế (qua quỹ)",
@@ -3570,7 +3586,7 @@
      "cb": 11,
      "tg": 9
     },
-    "why": "Giữ nguyên. Pha Đỉnh nghiêng đình lạm thường có lợi cho vàng và ETF vàng quý 3 vào kỷ lục (WGC), nhưng vàng đang Sell Mode, thủng 4.000 USD (tuần −4%) vì cược Fed tăng lãi, và SJC đắt hơn thế giới ~16,6–17 triệu đ/lượng: chỉ mua dần, ưu tiên vàng nhẫn hoặc chứng chỉ quỹ vàng."
+    "why": "Giữ nguyên. Pha Đỉnh nghiêng đình lạm thường có lợi cho vàng và ETF vàng quý 3 vào kỷ lục (WGC), nhưng vàng đang Sell Mode, về ~3.996 USD (tuần −4,1%) vì cược Fed tăng lãi, và SJC đắt hơn thế giới ~16 triệu đ/lượng: chỉ mua dần, ưu tiên vàng nhẫn hoặc chứng chỉ quỹ vàng."
    },
    {
     "a": "Crypto",
@@ -3584,7 +3600,7 @@
      "cb": 2,
      "tg": 4
     },
-    "why": "Giữ nguyên. Bitcoin vẫn Wait Mode (~81.000 USD, dưới EMA20); ETF Bitcoin rút 635,5 triệu USD ngày 22/10, lớn nhất từ tháng 6. Biến động 30–40% trong 3 tháng là bình thường. Chỉ dùng tiền có thể mất hết."
+    "why": "Giữ nguyên. Bitcoin vẫn Wait Mode (~79.500–80.800 USD, dưới EMA20); ETF rút mạnh hai phiên cuối tuần nhưng cả tuần vẫn +301 triệu USD. Biến động 30–40% trong 3 tháng là bình thường. Chỉ dùng tiền có thể mất hết."
    }
   ],
   "steps": [
