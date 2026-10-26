@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-Di7W3RnMa4q6o7Q1OC6wrnHIGR+1AbSSzVYG2p9GJRE='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<title>Mô phỏng phản ứng chính sách | Vienta Hub</title>
+<meta name="description" content="Thử nghiệm của Vienta Hub: dùng mô hình AI đóng vai dân số tổng hợp Việt Nam để thăm dò phản ứng với các dự thảo chính sách. Kết quả mô phỏng, không phải khảo sát dư luận.">
+<meta property="og:title" content="Mô phỏng phản ứng chính sách | Vienta Hub">
+<meta property="og:description" content="Thử nghiệm dùng AI và dân số tổng hợp để thăm dò phản ứng với dự thảo chính sách. Không phải khảo sát dư luận.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://vientahub.com/mo-phong/">
+<meta property="og:image" content="https://vientahub.com/og-image.png">
+<meta name="theme-color" content="#0A1C29">
+<link rel="canonical" href="https://vientahub.com/mo-phong/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Hallmark · v2.0.0 · built: the project · page: mo-phong · theme: brand (Vienta teal on ink) · genre: modern-minimal */
+/* waive 67: mã ngôn ngữ EN/VI và wordmark VIENTA HUB, ngoại lệ đã ghi của site */
+/* waive 24b: thang khoảng cách là của Paven, đồng bộ trang chủ và Market Pulse */
+:root{
+  --f-head:'Plus Jakarta Sans',sans-serif;
+  --f-body:'Be Vietnam Pro',system-ui,sans-serif;
+  --navy:#0A1C29; --navy2:#0E2A3A; --navy3:#123F50; --ink:#0A1C29;
+  --gold:#22A699; --gold2:#8FE3D3; --teal-deep:#0E7C70;
+  --ivory:#EAF4F2; --paper:#F6FAF9; --white:#fff;
+  --text:#1A2B36; --slate:#4F6370; --mist:#A9BEC8; --muted:#8FA6B2;
+  --line:#DCE8E6; --line-teal:rgba(34,166,153,.25);
+  --sup:#0E7C70; --sup-dk:#3CC4B2; --neu:#B9C7CE; --neu-dk:#5C7380; --opp:#B4361F; --opp-dk:#EE8A73;
+  --warn-bg:#F6EDD8; --warn:#7A5200; --hero-text:#BFD0D8; --nav-link:#C6D6DE; --foot:#4F6370;
+  --nav-bg:rgba(10,28,41,.92); --teal-a18:rgba(34,166,153,.18); --mint-a20:rgba(143,227,211,.2); --mint-a45:rgba(143,227,211,.45); --mint-a55:rgba(143,227,211,.55);
+  --white-a04:rgba(255,255,255,.04); --white-a05:rgba(255,255,255,.05); --white-a08:rgba(255,255,255,.08);
+  --hero-glow:#155E75; --hero-a:#061520; --hero-b:#0A2532; --hero-c:#0E3A48; --hero-glow0:rgba(21,94,117,0);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;overflow-x:clip}
+body{overflow-x:clip;font-family:var(--f-body);color:var(--text);background:var(--paper);-webkit-font-smoothing:antialiased;line-height:1.6}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,.brand{font-family:var(--f-head)}
+h1,h2{text-wrap:balance}
+h1,h2,h3,h4{overflow-wrap:break-word;min-width:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+body.vi .en, body:not(.vi) .vi{display:none !important}
+:focus-visible{outline:2px solid var(--teal-deep);outline-offset:2px;box-shadow:0 0 0 5px var(--paper)}
+.hero :focus-visible, nav :focus-visible{outline-color:var(--gold2);box-shadow:0 0 0 5px var(--navy)}
+.num{font-variant-numeric:tabular-nums}
+
+nav{position:sticky;top:0;z-index:50;background:var(--nav-bg);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--teal-a18)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--white);font-weight:800;letter-spacing:.14em;font-size:15px;white-space:nowrap;flex:none}
+.brand svg{width:30px;height:30px;flex:none}
+.brand b{color:var(--gold);font-weight:500}
+.links{display:flex;gap:26px;align-items:center;margin-left:auto}
+.links a{color:var(--nav-link);font-size:14px;font-weight:500;position:relative;padding:6px 0;transition:color .2s}
+.links a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1.5px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+.links a:hover,.links a.active{color:var(--white)}
+.links a:hover::after,.links a.active::after{transform:scaleX(1)}
+.links a:active{opacity:.8}
+.lang{display:flex;align-items:center;gap:2px;padding:3px;border:1px solid var(--mint-a55);border-radius:99px;background:var(--white-a05);flex:none}
+.lang-ic{display:grid;place-items:center;width:28px;height:28px;color:var(--gold2)}
+.lang-ic svg{width:17px;height:17px;display:block}
+.lang button{background:none;border:0;color:var(--nav-link);font:700 12px var(--f-head);padding:6px 11px;border-radius:99px;cursor:pointer;letter-spacing:.08em;transition:background .2s,color .2s}
+.lang button:hover{color:var(--white)}
+.lang button:active{opacity:.8}
+.lang button.on{background:var(--gold);color:var(--navy)}
+.burger{display:none;background:none;border:0;color:var(--white);cursor:pointer;width:40px;height:40px;place-items:center;border-radius:10px}
+.burger svg{width:24px;height:24px}
+.burger:hover{background:var(--white-a08)}
+.burger:active{opacity:.8}
+
+.hero{background:radial-gradient(1000px 520px at 88% -20%,var(--hero-glow) 0%,var(--hero-glow0) 60%),linear-gradient(135deg,var(--hero-a),var(--hero-b) 60%,var(--hero-c));color:var(--white)}
+.hero .wrap{padding-top:56px;padding-bottom:52px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:44px;align-items:center}
+.hero h1{font-size:clamp(28px,4vw,44px);line-height:1.14;font-weight:700;letter-spacing:-.02em;margin:10px 0 16px}
+.hero .lead{font-size:clamp(15px,1.5vw,17px);line-height:1.75;color:var(--hero-text);font-weight:300;max-width:60ch}
+.crumb{font-size:13.5px;color:var(--gold2);display:inline-flex;gap:6px;align-items:center;border-radius:6px}
+.crumb:hover{color:var(--white)}
+.crumb:active{opacity:.8}
+.crumb svg{width:16px;height:16px}
+.meta{margin-top:18px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 18px}
+.chamber{background:var(--white-a04);border:1px solid var(--mint-a20);border-radius:24px;padding:22px 22px 18px}
+.chamber svg{display:block;width:100%;height:auto}
+.chamber .seat{transition:fill .4s}
+.outsw{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.outsw button{border:1px solid var(--mint-a45);background:none;color:var(--white);border-radius:99px;padding:6px 14px;font:600 13px var(--f-head);cursor:pointer;transition:background .2s,color .2s}
+.outsw button:hover{background:var(--white-a08)}
+.outsw button:active{opacity:.8}
+.outsw button[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.outq{font-size:15px;line-height:1.55;color:var(--white);margin-bottom:14px}
+.tally{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:14px}
+.tally b{display:block;font:700 32px/1 var(--f-head);font-variant-numeric:tabular-nums}
+.tally span{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--hero-text);margin-top:4px}
+.tally i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.tally small{display:block;font-size:12px;color:var(--muted)}
+.t-sup b{color:var(--sup-dk)} .t-neu b{color:var(--neu)} .t-opp b{color:var(--opp-dk)}
+.cap{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+main{padding-bottom:40px}
+section{padding-top:64px}
+section > h2{font-size:clamp(22px,2.6vw,30px);color:var(--navy);font-weight:700;letter-spacing:-.01em}
+section > p.sub{color:var(--slate);margin-top:8px;max-width:70ch}
+.note{margin-top:28px;background:var(--warn-bg);color:var(--text);border-radius:16px;padding:16px 20px;display:grid;grid-template-columns:24px minmax(0,1fr);gap:12px;font-size:14.5px}
+.note svg{width:24px;height:24px;color:var(--warn)}
+.card{background:var(--white);border:1px solid var(--line);border-radius:20px;margin-top:22px}
+
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--slate);padding:16px 22px;border-bottom:1px solid var(--line)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
+.grp{padding:16px 22px 4px;font:600 13px var(--f-head);color:var(--slate)}
+.item{padding:0 22px;transition:background .15s}
+.item:hover{background:var(--paper)}
+.item.open{background:var(--ivory)}
+.irow{display:grid;grid-template-columns:62px minmax(0,1fr) minmax(0,42%) 74px;gap:14px;align-items:center;width:100%;text-align:left;border:0;background:none;font:inherit;color:inherit;cursor:pointer;padding:10px 0;border-radius:8px}
+.irow:active{opacity:.85}
+.irow:disabled{cursor:default}
+.code{font:700 13px var(--f-head);color:var(--slate)}
+.code.out{color:var(--teal-deep)}
+.itxt{font-size:14px;color:var(--text);line-height:1.5}
+.dbar{position:relative;height:18px;display:block}
+.dbar .ax{position:absolute;left:50%;top:-4px;bottom:-4px;width:1px;background:var(--mist)}
+.dbar i{position:absolute;top:0;height:100%;border-radius:3px}
+.dbar em{position:absolute;top:0;font:600 11px/18px var(--f-body);color:var(--white);font-style:normal;font-variant-numeric:tabular-nums;pointer-events:none}
+.net{text-align:right;font-weight:600;font-size:14px;font-variant-numeric:tabular-nums;color:var(--slate)}
+.dist{display:none;padding:14px 0 6px 76px}
+.item.open .dist{display:block}
+.drow{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr) 52px;gap:12px;align-items:center;font-size:13px;padding:3px 0}
+.track{height:10px;background:var(--line);border-radius:3px;overflow:hidden}
+.track i{display:block;height:100%;width:var(--w);border-radius:0 3px 3px 0}
+
+.ctrl{display:flex;flex-wrap:wrap;gap:12px 18px;padding:18px 22px;border-bottom:1px solid var(--line)}
+.ctrl label{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--slate);min-width:0;flex:1 1 220px}
+select{font:inherit;font-size:14px;color:var(--text);background:var(--white);border:1px solid var(--line);border-radius:12px;padding:10px 12px;min-height:44px;width:100%;cursor:pointer;transition:border-color .2s}
+select:hover{border-color:var(--mist)}
+select:disabled{opacity:.5;cursor:not-allowed}
+.gl{padding:10px 22px 18px}
+.grow{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr) 120px;gap:14px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
+.grow:last-child{border-bottom:0}
+.grow .lv small{color:var(--muted);margin-left:6px}
+.stack{display:flex;height:14px;border-radius:3px;overflow:hidden;background:var(--line)}
+.stack i{display:block;height:100%;width:var(--w)}
+.grow .pc{text-align:right;font-variant-numeric:tabular-nums;font-size:13px}
+.pc .s{color:var(--sup);font-weight:600}.pc .o{color:var(--opp);font-weight:600}
+
+dl.method{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:0;font-size:14.5px}
+dl.method dt,dl.method dd{padding:12px 22px;border-bottom:1px solid var(--line)}
+dl.method dt{color:var(--slate)}
+details.ctx{padding:6px 22px 18px}
+details.ctx summary{cursor:pointer;font:600 14px var(--f-head);color:var(--teal-deep);padding:10px 0;border-radius:6px}
+details.ctx summary:hover{color:var(--navy)}
+details.ctx pre{white-space:pre-wrap;font:inherit;font-size:14px;line-height:1.7;color:var(--text);background:var(--paper);border-radius:12px;padding:16px}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 20px;border-radius:999px;font:600 14px var(--f-head);border:1px solid var(--line);background:var(--white);color:var(--navy);cursor:pointer;transition:background .2s,border-color .2s}
+.btn:hover{border-color:var(--teal-deep)}
+.btn:active{opacity:.85}
+.btn svg{width:18px;height:18px}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.gold:hover{background:var(--gold2)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;padding:18px 22px}
+
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:18px;margin-top:22px}
+.rep{display:flex;flex-direction:column;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:20px;padding:22px;transition:border-color .2s,transform .2s}
+.rep:hover{border-color:var(--teal-deep);transform:translateY(-2px)}
+.rep:active{transform:none}
+.rep h3{font-size:18px;color:var(--navy);line-height:1.35}
+.rep p{font-size:14px;color:var(--slate)}
+.rep .k{display:flex;gap:18px;font-size:13px;color:var(--slate)}
+.rep .k b{font:700 22px var(--f-head);display:block;font-variant-numeric:tabular-nums}
+.rep .k .s b{color:var(--sup)} .rep .k .o b{color:var(--opp)}
+.empty{padding:28px 22px;color:var(--slate)}
+.status{padding:28px 0;color:var(--slate)}
+
+footer{padding:56px 0 44px;color:var(--foot);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{border-radius:4px}
+footer a:hover{color:var(--teal-deep)}
+
+@media (max-width:980px){.hero .wrap{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){
+  .links{display:none;position:absolute;top:68px;left:0;right:0;background:var(--navy);flex-direction:column;padding:16px 28px 22px;gap:14px;align-items:flex-start;border-bottom:1px solid var(--line-teal)}
+  .links.show{display:flex}
+  .burger{display:grid;margin-left:10px}
+  .lang{margin-left:auto}
+  .wrap{padding:0 18px}
+  section{padding-top:48px}
+  .item{padding:0 16px}
+  .irow{grid-template-columns:minmax(0,1fr) 60px;gap:6px 12px}
+  .irow .code{grid-column:1;grid-row:1}
+  .irow .net{grid-column:2;grid-row:1}
+  .irow .itxt{grid-column:1 / -1;grid-row:2}
+  .irow .dbar{grid-column:1 / -1;grid-row:3;margin-top:4px}
+  .dist{padding-left:0}
+  .drow{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 46px}
+  .grow{grid-template-columns:minmax(0,1fr) 110px}
+  .grow .stack{grid-column:1 / -1;grid-row:2}
+  dl.method{grid-template-columns:minmax(0,1fr)}
+  dl.method dt{border-bottom:0;padding-bottom:0}
+}
+@media (max-width:374px){.brand{letter-spacing:.08em;font-size:14px;gap:8px}.lang button{padding:6px 7px}.lang-ic{width:24px}nav .wrap{gap:8px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body class="vi">
+<nav>
+  <div class="wrap">
+    <a href="/" class="brand">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 6h9l7 21 7-21h9L25 35h-10z" fill="#22A699"/><path d="M16.5 6h7L20 16.5z" fill="#fff"/></svg>
+      <span>VIENTA <b>HUB</b></span>
+    </a>
+    <div class="links" id="links">
+      <a href="/#services"><span class="en">Services</span><span class="vi">Dịch vụ</span></a>
+      <a href="/#portfolio"><span class="en">Portfolio</span><span class="vi">Sản phẩm</span></a>
+      <a href="/thi-truong/"><span class="en">Markets</span><span class="vi">Thị trường</span></a>
+      <a href="/mo-phong/" class="active" aria-current="page"><span class="en">Simulations</span><span class="vi">Mô phỏng</span></a>
+      <a href="/#contact"><span class="en">Contact</span><span class="vi">Liên hệ</span></a>
+    </div>
+    <div class="lang" role="group" aria-label="Language / Ngôn ngữ" title="Language / Ngôn ngữ"><span class="lang-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18z"/></svg></span><button data-l="en" lang="en" aria-label="English">EN</button><button data-l="vi" class="on" lang="vi" aria-label="Tiếng Việt">VI</button></div>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap" id="hero">
+    <div>
+      <h1><span class="vi">Mô phỏng phản ứng chính sách</span><span class="en">Policy reaction simulations</span></h1>
+      <p class="lead"><span class="vi">AI đóng vai dân số tổng hợp người Việt để thăm dò phản ứng với dự thảo chính sách.</span><span class="en">AI role-plays a synthetic Vietnamese population to explore reactions to draft policies.</span></p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <noscript><p class="status">Trang này cần JavaScript để hiển thị báo cáo. This page needs JavaScript to show reports.</p></noscript>
+  <div id="view"><p class="status"><span class="vi">Đang tải báo cáo</span><span class="en">Loading reports</span></p></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Vienta Hub, Ho Chi Minh City</span>
+    <span><span class="en">Apply AI to stop depending on AI.</span><span class="vi">Ứng dụng AI để không phụ thuộc vào AI.</span></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  function setLang(l){document.body.classList.toggle('vi',l==='vi');document.documentElement.lang=l;
+    document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-l')===l);});
+    try{localStorage.setItem('vh-lang',l);}catch(e){}}
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-l'));});});
+  var saved=null;try{saved=localStorage.getItem('vh-lang');}catch(e){}
+  setLang(saved||'vi');
+  var burger=document.getElementById('burger');
+  burger.addEventListener('click',function(){var on=document.getElementById('links').classList.toggle('show');burger.setAttribute('aria-expanded',on?'true':'false');});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  var view=document.getElementById('view'), hero=document.getElementById('hero');
+  var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});};
+  var pc=function(x){return x==null?'–':String(Math.round(x*100));};
+  var bi=function(vi,en){return '<span class="vi">'+vi+'</span><span class="en">'+en+'</span>';};
+  var COL={Support:'var(--sup)',Neutral:'var(--neu)',Oppose:'var(--opp)'};
+  var COLDK={Support:'var(--sup-dk)',Neutral:'var(--neu-dk)',Oppose:'var(--opp-dk)'};
+  var ICON_WARN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4"/><path d="M12 17v.5"/></svg>';
+  var ICON_BACK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>';
+  var ICON_DL='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10l5 5 5-5"/><path d="M5 20h14"/></svg>';
+  function getJSON(u){return fetch(u,{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();});}
+  function fmtDate(s){var m=/^(\d{4})-(\d{2})-(\d{2})/.exec(s||'');return m?m[3]+'/'+m[2]+'/'+m[1]:esc(s);}
+
+  /* biểu đồ nghị trường */
+  function seats(D){
+    var rows=Math.max(3,Math.round(Math.sqrt(D/3.2))),r0=0.36,radii=[],sum=0,i,j;
+    for(i=0;i<rows;i++){radii.push(r0+(1-r0)*i/(rows-1));sum+=radii[i];}
+    var counts=radii.map(function(r){return Math.max(1,Math.round(D*r/sum));});
+    var diff=D-counts.reduce(function(a,b){return a+b;},0);counts[rows-1]+=diff;
+    var out=[];
+    for(i=0;i<rows;i++){var n=counts[i];for(j=0;j<n;j++){var th=n===1?Math.PI/2:Math.PI-j*Math.PI/(n-1);out.push({x:radii[i]*Math.cos(th),y:radii[i]*Math.sin(th),th:th});}}
+    out.sort(function(a,b){return b.th-a.th;});
+    return {s:out,r:(1-r0)/(rows-1)*0.36};
+  }
+  var SEATS=null;
+  function chamberSVG(it){
+    var want=Math.max(12,Math.min(300,R.method.responses||300));
+    if(!SEATS||SEATS.s.length!==want)SEATS=seats(want);
+    var D=SEATS.s.length,nS=Math.round(it.support*D),nO=Math.round(it.oppose*D),nN=Math.max(0,D-nS-nO);
+    var c=SEATS.s.map(function(p,i){var k=i<nS?'Support':(i<nS+nN?'Neutral':'Oppose');
+      return '<circle class="seat" cx="'+(p.x+1.06).toFixed(4)+'" cy="'+(1.04-p.y).toFixed(4)+'" r="'+SEATS.r.toFixed(4)+'" fill="'+COLDK[k]+'"/>';}).join('');
+    var pad=(SEATS.r+0.02).toFixed(4);
+    return '<svg viewBox="-'+pad+' -'+pad+' '+(2.12+2*SEATS.r+0.04).toFixed(4)+' '+(1.12+2*SEATS.r+0.04).toFixed(4)+'" role="img" aria-label="'+pc(it.support)+'% / '+pc(it.neutral)+'% / '+pc(it.oppose)+'%">'+c+'</svg>';
+  }
+
+  /* danh sách báo cáo */
+  function renderList(idx){
+    var reps=(idx.reports||[]).filter(function(r){return r.listed!==false;});
+    document.title='Mô phỏng phản ứng chính sách | Vienta Hub';
+    view.innerHTML='<div class="note">'+ICON_WARN+'<p>'+bi('Mỗi báo cáo là kết quả mô hình AI đóng vai người dân trên dân số tổng hợp Nemotron-Personas-Vietnam. Con số giúp thăm dò giả thuyết và thiết kế khảo sát thật, không đại diện cho ý kiến thực tế của người dân.','Each report is the output of an AI model role-playing residents drawn from the Nemotron-Personas-Vietnam synthetic population. The figures help explore hypotheses and design real surveys; they do not represent actual public opinion.')+'</p></div>'+
+      '<section><h2>'+bi('Các báo cáo','Reports')+'</h2>'+
+      (reps.length?'<div class="list">'+reps.map(function(r){
+        return '<a class="rep" href="?r='+encodeURIComponent(r.slug)+'"><h3>'+esc(r.title)+'</h3><p>'+esc(r.lead||'')+'</p>'+
+          '<div class="k"><div class="s"><b>'+pc(r.support)+'%</b>'+esc(r.cat_support||'Ủng hộ')+'</div><div class="o"><b>'+pc(r.oppose)+'%</b>'+esc(r.cat_oppose||'Phản đối')+'</div>'+
+          '<div><b class="num">'+Number(r.responses||0).toLocaleString('vi-VN')+'</b>'+bi('câu trả lời','responses')+'</div></div>'+
+          '<p>'+bi('Công bố','Published')+' '+fmtDate(r.published)+'</p></a>';}).join('')+'</div>'
+        :'<div class="card empty">'+bi('Chưa có báo cáo nào được công bố.','No reports have been published yet.')+'</div>')+'</section>';
+  }
+
+  /* một báo cáo */
+  var R=null,state={focus:null,group:null,gitem:null,open:null};
+  function itemBy(code){for(var i=0;i<R.items.length;i++)if(R.items[i].code===code)return R.items[i];return null;}
+  function catL(c){return esc((R.scale.cat_labels||{})[c]||({Support:'Ủng hộ',Neutral:'Trung lập',Oppose:'Phản đối'})[c]);}
+  function hasNeutral(){return R.scale.options.some(function(o){return o.category==='Neutral';});}
+
+  function renderHero(){
+    var it=itemBy(state.focus),m=R.method;
+    var cats=hasNeutral()?['Support','Neutral','Oppose']:['Support','Oppose'];
+    var cls={Support:'t-sup',Neutral:'t-neu',Oppose:'t-opp'};
+    hero.innerHTML='<div><a class="crumb" href="./">'+ICON_BACK+bi('Tất cả mô phỏng','All simulations')+'</a>'+
+      '<h1>'+esc(R.title)+'</h1><p class="lead">'+esc(R.lead||R.study)+'</p>'+
+      '<p class="meta"><span>'+bi('Chạy','Run')+' '+fmtDate(m.run_date)+'</span><span>'+Number(m.responses).toLocaleString('vi-VN')+' '+bi('câu trả lời','responses')+'</span><span>'+esc(m.model)+'</span></p></div>'+
+      '<div class="chamber">'+(R.outcomes.length>1?'<div class="outsw" role="group" aria-label="Câu kết quả">'+R.outcomes.map(function(o){return '<button type="button" data-out="'+esc(o)+'" aria-pressed="'+(o===state.focus)+'">'+esc(o)+'</button>';}).join('')+'</div>':'')+
+      '<p class="outq">'+esc(it.text)+'</p>'+chamberSVG(it)+
+      '<div class="tally">'+cats.map(function(c){var ci=it[c.toLowerCase()+'_ci'];return '<div class="'+cls[c]+'"><b>'+pc(it[c.toLowerCase()])+'%</b><span><i style="background:'+COLDK[c]+'"></i>'+catL(c)+'</span>'+(ci?'<small>KTC 95%: '+pc(ci[0])+' đến '+pc(ci[1])+'%</small>':'')+'</div>';}).join('')+'</div>'+
+      (m.responses>300?'<p class="cap">'+bi('Mỗi chấm khoảng ','Each dot is about ')+(m.responses/300).toLocaleString('vi-VN',{maximumFractionDigits:1})+bi(' câu trả lời',' responses')+'</p>':'<p class="cap">'+bi('Mỗi chấm là một câu trả lời','Each dot is one response')+'</p>')+'</div>';
+  }
+
+  function itemRow(it){
+    var half=it.neutral/2,oL=50-(half+it.oppose)*50,nL=50-half*50,sL=50+half*50,net=it.support-it.oppose;
+    var lab=function(v,l){return v>=0.08?'<em style="left:calc('+l.toFixed(2)+'% + 4px)">'+pc(v)+'</em>':'';};
+    var dist=(it.dist||[]).map(function(d,i){var o=R.scale.options[i]||{};var tot=it.n||1;
+      return '<div class="drow"><span>'+esc(o.label)+'</span><div class="track"><i style="--w:'+(d/tot*100).toFixed(1)+'%;background:'+COL[o.category]+'"></i></div><span class="num">'+pc(d/tot)+'%</span></div>';}).join('');
+    var open=state.open===it.code;
+    return '<div class="item'+(open?' open':'')+'" data-code="'+esc(it.code)+'"><button type="button" class="irow" aria-expanded="'+open+'"><span class="code'+(it.outcome?' out':'')+'">'+esc(it.code)+'</span><span class="itxt">'+esc(it.text)+'</span>'+
+      '<span class="dbar" aria-label="'+catL('Oppose')+' '+pc(it.oppose)+'%, '+catL('Support')+' '+pc(it.support)+'%"><span class="ax"></span>'+
+      '<i style="left:'+oL.toFixed(2)+'%;width:'+(it.oppose*50).toFixed(2)+'%;background:var(--opp)"></i>'+
+      '<i style="left:'+nL.toFixed(2)+'%;width:'+(it.neutral*50).toFixed(2)+'%;background:var(--neu)"></i>'+
+      '<i style="left:'+sL.toFixed(2)+'%;width:'+(it.support*50).toFixed(2)+'%;background:var(--sup)"></i>'+lab(it.oppose,oL)+lab(it.support,sL)+'</span>'+
+      '<span class="net">'+(net>=0?'+':'−')+pc(Math.abs(net))+'</span></button>'+(dist?'<div class="dist">'+dist+'</div>':'')+'</div>';
+  }
+
+  function renderItems(){
+    var last=null,html='';
+    R.items.forEach(function(it){if(it.group!==last){html+='<div class="grp">'+esc(it.group||'Khác')+'</div>';last=it.group;}html+=itemRow(it);});
+    document.getElementById('items').innerHTML=html;
+  }
+
+  function renderGroups(){
+    var g=R.groups[state.group],code=state.gitem,box=document.getElementById('glist');
+    if(!g){box.innerHTML='<p class="empty">'+bi('Không có nhóm đủ lớn để hiển thị.','No group is large enough to show.')+'</p>';return;}
+    var rows=g.rows.filter(function(r){return r.items&&r.items[code];}).map(function(r){return {lv:r.level,n:r.n,v:r.items[code]};});
+    rows.sort(function(a,b){return b.v.Support-a.v.Support;});
+    box.innerHTML=rows.map(function(r){return '<div class="grow"><span class="lv">'+esc(r.lv)+'<small class="num">'+Number(r.n).toLocaleString('vi-VN')+'</small></span>'+
+      '<span class="stack"><i style="--w:'+(r.v.Support*100).toFixed(1)+'%;background:var(--sup)"></i><i style="--w:'+(r.v.Neutral*100).toFixed(1)+'%;background:var(--neu)"></i><i style="--w:'+(r.v.Oppose*100).toFixed(1)+'%;background:var(--opp)"></i></span>'+
+      '<span class="pc"><span class="s">'+pc(r.v.Support)+'%</span> / <span class="o">'+pc(r.v.Oppose)+'%</span></span></div>';}).join('');
+  }
+
+  function renderReport(slug){
+    var m=R.method;
+    document.title=R.title+' | Mô phỏng | Vienta Hub';
+    state.focus=R.outcomes[0]||R.items[0].code; state.gitem=state.focus;
+    var gkeys=Object.keys(R.groups||{}); state.group=gkeys[0]||null;
+    renderHero();
+    var legend=['Oppose','Neutral','Support'].filter(function(c){return c!=='Neutral'||hasNeutral();}).map(function(c){return '<span><i style="background:'+COL[c]+'"></i>'+catL(c)+'</span>';}).join('');
+    var flt=Object.keys(m.filters||{}).map(function(k){var v=m.filters[k];return esc(k)+': '+esc(Array.isArray(v)?v.join(', '):v);}).join('; ');
+    view.innerHTML='<div class="note">'+ICON_WARN+'<p>'+esc(R.disclaimer)+'</p></div>'+
+      '<section><h2>'+bi('Từng nhận định','Statement by statement')+'</h2><p class="sub">'+bi('Bấm vào một dòng để xem phân bố từng lựa chọn. Cột phải là chênh lệch ','Select a row to see each answer option. The right column is the gap between ')+catL('Support').toLowerCase()+bi(' trừ ',' and ')+catL('Oppose').toLowerCase()+'.</p>'+
+      '<div class="card"><div class="legend">'+legend+'</div><div id="items"></div></div></section>'+
+      (gkeys.length?'<section><h2>'+bi('Theo nhóm dân cư','By population group')+'</h2><p class="sub">'+bi('Chỉ hiện nhóm có từ 30 câu trả lời trở lên.','Only groups with at least 30 responses are shown.')+'</p>'+
+      '<div class="card"><div class="ctrl"><label>'+bi('Nhóm','Group')+'<select id="gsel">'+gkeys.map(function(k){return '<option value="'+esc(k)+'">'+esc(R.groups[k].label)+'</option>';}).join('')+'</select></label>'+
+      '<label>'+bi('Nhận định','Statement')+'<select id="isel">'+R.items.map(function(it){return '<option value="'+esc(it.code)+'"'+(it.code===state.gitem?' selected':'')+'>'+esc(it.code)+': '+esc(it.text.slice(0,80))+(it.text.length>80?'…':'')+'</option>';}).join('')+'</select></label></div><div class="gl" id="glist"></div></div></section>':'')+
+      '<section><h2>'+bi('Phương pháp','Method')+'</h2><div class="card"><dl class="method">'+
+      '<dt>'+bi('Dân số','Population')+'</dt><dd>'+esc(m.population)+(flt?'; '+flt:'')+'</dd>'+
+      '<dt>'+bi('Quy mô','Size')+'</dt><dd class="num">'+Number(m.personas).toLocaleString('vi-VN')+' persona × '+m.seeds.length+' seed ('+esc(m.seeds.join(', '))+')</dd>'+
+      '<dt>'+bi('Mô hình AI','AI model')+'</dt><dd>'+esc(m.model)+', '+bi('nhiệt độ','temperature')+' '+esc(m.temperature)+'</dd>'+
+      '<dt>'+bi('Thang trả lời','Answer scale')+'</dt><dd>'+esc(R.scale.name)+': '+R.scale.options.map(function(o){return esc(o.value)+' = '+esc(o.label);}).join('; ')+'</dd>'+
+      '<dt>'+bi('Bối cảnh đưa cho persona','Context given to personas')+'</dt><dd>'+esc(R.context.label)+'</dd>'+
+      '<dt>'+bi('Độ ổn định giữa các seed','Stability across seeds')+'</dt><dd>'+(R.stability&&R.stability.length?R.stability.map(function(s){return esc(s.code)+': '+pc(s.spread)+' điểm %';}).join('; '):bi('Một seed','Single seed'))+'</dd>'+
+      '</dl><details class="ctx"><summary>'+bi('Toàn văn bối cảnh chính sách','Full policy context')+'</summary><pre>'+esc(R.context.text)+'</pre></details>'+
+      '<div class="actions"><a class="btn" href="r/'+encodeURIComponent(slug)+'.json" download>'+ICON_DL+bi('Tải số liệu tổng hợp (JSON)','Download aggregate data (JSON)')+'</a><a class="btn gold" href="/#contact">'+bi('Trao đổi với Vienta Hub','Talk to Vienta Hub')+'</a></div></div></section>';
+    renderItems();
+    if(gkeys.length){renderGroups();
+      document.getElementById('gsel').addEventListener('change',function(e){state.group=e.target.value;renderGroups();});
+      document.getElementById('isel').addEventListener('change',function(e){state.gitem=e.target.value;renderGroups();});}
+  }
+
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('[data-out]');
+    if(b&&R){state.focus=b.getAttribute('data-out');renderHero();var f=hero.querySelector('[data-out="'+state.focus+'"]');if(f)f.focus();return;}
+    var btn=e.target.closest('.irow');
+    if(btn&&R){var row=btn.parentNode,c=row.getAttribute('data-code');state.open=state.open===c?null:c;
+      document.querySelectorAll('.item').forEach(function(x){var on=x.getAttribute('data-code')===state.open;x.classList.toggle('open',on);x.querySelector('.irow').setAttribute('aria-expanded',String(on));});}
+  });
+
+  var slug=new URLSearchParams(location.search).get('r');
+  if(slug&&/^[a-z0-9-]{1,80}$/.test(slug)){
+    getJSON('r/'+slug+'.json').then(function(d){R=d;renderReport(slug);}).catch(function(){
+      view.innerHTML='<p class="status">'+bi('Không tìm thấy báo cáo này. Có thể báo cáo đã được gỡ.','This report was not found. It may have been removed.')+' <a class="crumb" style="color:var(--teal-deep)" href="./">'+bi('Xem tất cả','See all')+'</a></p>';});
+  }else{
+    getJSON('reports.json').then(renderList).catch(function(){renderList({reports:[]});});
+  }
+})();
+</script>
+</body>
+</html>

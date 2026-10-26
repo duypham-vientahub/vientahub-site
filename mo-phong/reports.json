@@ -1,0 +1,19 @@
+{
+ "reports": [
+  {
+   "slug": "hien-tang-duoi-18-tuoi",
+   "title": "Cha mẹ có đồng ý cho con dưới 18 tuổi đăng ký hiến tạng?",
+   "lead": "Mô phỏng 50 persona người Việt trưởng thành trả lời một câu hỏi về điểm mới cho phép người dưới 18 tuổi đăng ký hiến sau khi qua đời. Câu hỏi được đặt cho mọi persona, kể cả người chưa có con.",
+   "published": "2026-10-26",
+   "listed": true,
+   "support": 0.38,
+   "oppose": 0.62,
+   "item": "OUT",
+   "cat_support": "Đồng ý",
+   "cat_oppose": "Không đồng ý",
+   "responses": 50,
+   "model": "qwen2.5:7b-instruct"
+  }
+ ],
+ "updated": "2026-10-26"
+}

@@ -1,0 +1,95 @@
+{
+ "title": "Cha mẹ có đồng ý cho con dưới 18 tuổi đăng ký hiến tạng?",
+ "study": "Dự án Luật hiến, lấy, ghép mô, bộ phận cơ thể người (<18 tuổi)",
+ "description": "Trình Kỳ họp thứ 2, Quốc hội khóa XVI (10/2026).",
+ "context": {
+  "label": "Trung lập",
+  "text": "**THÔNG TIN VỀ DỰ ÁN LUẬT HIẾN, LẤY, GHÉP MÔ, BỘ PHẬN CƠ THỂ NGƯỜI VÀ HIẾN, LẤY XÁC (SỬA ĐỔI)**\n\nLuật hiện hành ban hành năm 2006. Bộ Y tế trình Quốc hội dự án Luật sửa đổi (7 chương, 39 điều) tại Kỳ họp thứ 2, Quốc hội khóa XVI (tháng 10/2026). Từ ca ghép đầu tiên năm 1992 đến tháng 3/2026, cả nước thực hiện 11.187 ca ghép; phần lớn tạng ghép đến từ người hiến còn sống, nguồn hiến từ người chết não còn rất ít, nhiều người bệnh phải chờ lâu.\n\nCác điểm mới chính:\n1. Người dưới 18 tuổi được đăng ký hiến sau khi chết não hoặc chết tuần hoàn, nếu có văn bản đồng ý của chính người đó và cha mẹ/người giám hộ. Có thể thay đổi, hủy đăng ký bất cứ lúc nào.\n2. Người dưới 18 tuổi khi còn sống chỉ được hiến mô tái sinh (ví dụ tế bào gốc tạo máu) cho người thân khi không có người hiến trưởng thành phù hợp: từ 15 đến dưới 18 tuổi hiến cho thành viên gia đình; dưới 15 tuổi chỉ hiến cho cha, mẹ, anh, chị, em ruột. Tiếp tục cấm lấy thận, gan, tim, phổi hoặc bộ phận lành khác của người dưới 18 tuổi đang sống.\n3. Người hiến khi còn sống cho người KHÔNG phải thành viên gia đình phải từ đủ 25 tuổi (hiện nay là 18). Bắt buộc xác minh nhân thân, mối quan hệ, tư vấn và đánh giá tâm lý - xã hội độc lập.\n4. Bổ sung lấy mô, bộ phận cơ thể sau khi chết tuần hoàn (ngoài chết não). Hội đồng xác định chết não, chết tuần hoàn phải độc lập, tránh xung đột lợi ích.\n5. Người đã mất chưa đăng ký hiến: chỉ lấy khi có căn cứ về nguyện vọng hiến và có sự đồng ý của gia đình hoặc người đại diện.\n6. Bổ sung đăng ký, thay đổi, hủy đăng ký hiến trực tuyến trên hệ thống thuộc Cơ sở dữ liệu quốc gia về y tế.\n7. Ghép tạng được điều phối thống nhất toàn quốc qua mã quốc gia và danh sách chờ.\n8. Cấm lợi dụng quan hệ giám hộ, nuôi con nuôi để lấy mô của trẻ; cấm thay đổi thông tin để được ưu tiên ghép, ép người khác hiến, đưa người ra nước ngoài hiến trái phép. Mua bán, môi giới có thể bị xử lý hình sự.\n9. Cho phép hoạt động vì mục đích thương mại đối với tế bào (tế bào gốc, miễn dịch trị liệu) và huyết tương; cho phép bảo quản tinh trùng, noãn, phôi, mô sinh sản.\n10. Quyền lợi người hiến: giấy chứng nhận, hỗ trợ một số chi phí, chăm sóc sức khỏe; người đã hiến mô có thể được ưu tiên ghép mô; người hiến sau khi chết được tổ chức tang lễ, mai táng.\n\nMột số ý kiến băn khoăn khi thẩm tra: tác động tâm lý, đạo đức với người dưới 18 tuổi và nguy cơ bị ép buộc; kiểm soát giá và thương mại hóa huyết tương; cần minh bạch tiêu chí ưu tiên và thuật toán điều phối."
+ },
+ "scale": {
+  "name": "Đồng ý / Không đồng ý",
+  "cat_labels": {
+   "Support": "Đồng ý",
+   "Neutral": "Phân vân",
+   "Oppose": "Không đồng ý"
+  },
+  "options": [
+   {
+    "value": 1,
+    "label": "Không đồng ý",
+    "category": "Oppose"
+   },
+   {
+    "value": 2,
+    "label": "Đồng ý",
+    "category": "Support"
+   }
+  ]
+ },
+ "items": [
+  {
+   "code": "OUT",
+   "group": "Kết quả",
+   "text": "Tôi đồng ý cho con cái của tôi (dưới 18 tuổi) đăng ký hiến mô, bộ phận cơ thể cho người khác sau khi qua đời.",
+   "reverse": false,
+   "outcome": true,
+   "n": 50,
+   "support": 0.38,
+   "neutral": 0.0,
+   "oppose": 0.62,
+   "support_ci": [
+    0.26,
+    0.52
+   ],
+   "oppose_ci": [
+    0.48,
+    0.74
+   ],
+   "dist": [
+    31,
+    19
+   ]
+  }
+ ],
+ "outcomes": [
+  "OUT"
+ ],
+ "groups": {},
+ "diagnostics": [
+  {
+   "label": "Độ phân tán trung bình (SD)",
+   "value": 0.4903,
+   "warn": false,
+   "hint": "Quá thấp so với độ rộng thang nghĩa là các persona trả lời gần như giống nhau."
+  },
+  {
+   "label": "Câu trả lời ở nhóm trung lập",
+   "value": 0.0,
+   "unit": "%",
+   "warn": false,
+   "hint": "Trên 45% là dấu hiệu mô hình né trả lời."
+  }
+ ],
+ "stability": [],
+ "method": {
+  "model": "qwen2.5:7b-instruct",
+  "temperature": 0.5,
+  "seeds": [
+   42
+  ],
+  "personas": 50,
+  "responses": 50,
+  "complete": true,
+  "filters": {},
+  "narrative": true,
+  "trust_prior": false,
+  "use_rules": false,
+  "population": "Nemotron-Personas-Vietnam (NVIDIA, CC BY 4.0), người từ 18 tuổi",
+  "run_date": "2026-10-25"
+ },
+ "disclaimer": "Đây là kết quả MÔ PHỎNG bằng mô hình ngôn ngữ trên một dân số tổng hợp (Nemotron-Personas-Vietnam), không phải khảo sát dư luận với người thật. Con số phản ánh cách mô hình AI đóng vai người dân, dùng để thăm dò giả thuyết, không dùng để kết luận về ý kiến thực tế của người dân.",
+ "lead": "Mô phỏng 50 persona người Việt trưởng thành trả lời một câu hỏi về điểm mới cho phép người dưới 18 tuổi đăng ký hiến sau khi qua đời. Câu hỏi được đặt cho mọi persona, kể cả người chưa có con.",
+ "slug": "hien-tang-duoi-18-tuoi",
+ "published": "2026-10-26",
+ "run_id": "20261025-211806-du-an-luat-hien-lay-ghep"
+}
