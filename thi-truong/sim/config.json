@@ -124,7 +124,7 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 31/10/2026: một quan chức Iran gọi dự thảo 7 ngày của Qatar là 'không chấp nhận được' (Siasat 28/10), Iran chưa trả lời chính thức tới 31/10 (CBS 30/10). Ngày 29–30/10 lần đầu có tàu dầu trúng mìn gắn thân ở Hormuz (UKMTO), Houthi tuyên bố tấn công Ras Tanura, Abqaiq; Mỹ rút nhân viên không thiết yếu khỏi Ả Rập Xê Út; WSJ, AP: Mỹ báo vùng Vịnh chuẩn bị chiến dịch 'ngắn nhưng dữ dội' sau bầu cử 3/11 (Korea Times, Nation Thailand 31/10). Brent tháng 1 chốt 113,43 USD (+2,4%), tháng 10 +13,6% (Reuters 30/10). Fed: Logan, Musalem, Barkin cùng nói cần tăng lãi thêm (30/10); CME FedWatch ~76% tăng tháng 12. Hạ thoả thuận Hormuz 15%→12%, nâng leo thang + Fed tăng lãi 30%→33%; giữ cơ sở 55%. Độ lớn cú sốc giữ nguyên (EIA STEO 6/10: Brent quý 4 105 USD; UBS 110, Goldman 90 USD cuối 2026, OilPrice 30/10). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 01/11/2026: Araghchi gọi động thái của Mỹ là 'bước tích cực', Iran và Qatar đạt đề xuất mở lại Hormuz trong 2 ngày thay vì 7 nhưng kèm điều kiện (gỡ trừng phạt, phong toả cảng, giảm quân Mỹ, giải phóng tài sản) (HNGN 31/10, Al Jazeera 1/11); đàm phán có thể bắt đầu tuần tới ở Qatar hoặc Thổ Nhĩ Kỳ. Mặt trái: tháng 10 có hơn 30 vụ tấn công tàu, nhiều nhất từ đầu chiến sự (UKMTO qua HNGN 31/10); WSJ: Mỹ chuẩn bị chiến dịch 'ngắn nhưng dữ dội' sau bầu cử 3/11 (New Arab 28/10); Khamenei lệnh đáp trả ngay mọi cuộc tấn công (Arab News 31/10). OPEC+ đồng ý về nguyên tắc giữ sản lượng tháng 12 (Reuters qua SRN 31/10). CME: khả năng Fed tăng lãi 9/12 ~72–80% (30/10). Nâng thoả thuận Hormuz 12%→15%, hạ leo thang + Fed tăng lãi 33%→30%; giữ cơ sở 55%. Độ lớn cú sốc giữ nguyên (EIA STEO 6/10: Brent quý 4 105 USD; UBS 110 USD cuối 2026 (28/10); Morgan Stanley quý 4 105 USD (13/10); Goldman 90 USD tháng 12). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
@@ -135,7 +135,7 @@
    {
     "id": "deal",
     "name": "Thoả thuận Hormuz",
-    "p": 0.12,
+    "p": 0.15,
     "shock": {
      "brent": -0.25,
      "gold": -0.04,
@@ -158,7 +158,7 @@
    {
     "id": "shock",
     "name": "Leo thang + Fed tăng lãi",
-    "p": 0.33,
+    "p": 0.3,
     "shock": {
      "brent": 0.25,
      "gold": 0.06,
