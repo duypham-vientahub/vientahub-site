@@ -102,7 +102,7 @@ nav .btn{min-height:44px;padding:10px 18px}
 /* coach */
 .coach{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .ccard{display:grid;grid-template-columns:auto minmax(0,1fr);gap:28px;align-items:center;background:var(--navy);color:var(--white);border-radius:24px;padding:36px}
-.avatar{display:grid;place-items:center;width:112px;height:112px;border-radius:50%;background:linear-gradient(135deg,var(--mint),var(--teal));color:var(--navy);font:800 30px var(--f-head)}
+.avatar{display:block;width:180px;height:180px;border-radius:50%;object-fit:cover;object-position:50% 30%;border:3px solid var(--mint);box-shadow:0 0 0 8px rgba(143,227,211,.12);background:var(--navy3)}
 .ccard h3{font-size:clamp(24px,3vw,30px);margin-bottom:4px}
 .ccard .role{color:var(--mint);margin-bottom:16px;font-size:15px}
 .ccard ul{list-style:none;display:grid;gap:10px}
@@ -110,7 +110,7 @@ nav .btn{min-height:44px;padding:10px 18px}
 .ccard li .ic{color:var(--mint);margin-top:2px}
 .exp{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
 .exp span{font-size:13px;color:var(--mint);border:1px solid var(--glass-l);border-radius:999px;padding:6px 12px}
-@media(max-width:640px){.ccard{grid-template-columns:minmax(0,1fr);padding:28px 22px}.avatar{width:84px;height:84px;font-size:24px}}
+@media(max-width:640px){.ccard{grid-template-columns:minmax(0,1fr);padding:28px 22px}.avatar{width:128px;height:128px}}
 
 /* weeks */
 .weeks{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:8px;margin-bottom:22px}
@@ -214,7 +214,7 @@ footer a:hover{color:var(--mint)}
     <h2 class="h2">Coach của chương trình</h2>
     <p class="lead">Đồng hành cùng bạn suốt 8 tuần là một người vừa là Partner tại Deloitte Việt Nam, vừa từng ngồi cùng giảng đường MPP.</p>
     <div class="ccard dk">
-      <div class="avatar" aria-hidden="true">BVT</div>
+      <img class="avatar" src="/MPP26-LM/coach.jpg" alt="Coach Bùi Văn Trịnh" width="480" height="480" loading="lazy" decoding="async">
       <div>
         <h3>Bùi Văn Trịnh</h3>
         <p class="role">Coach chương trình Homecoming MPP26</p>
