@@ -102,13 +102,15 @@ nav .btn{min-height:44px;padding:10px 18px}
 /* coach */
 .coach{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .ccard{display:grid;grid-template-columns:auto minmax(0,1fr);gap:28px;align-items:center;background:var(--navy);color:var(--white);border-radius:24px;padding:36px}
-.avatar{display:grid;place-items:center;width:112px;height:112px;border-radius:50%;background:linear-gradient(135deg,var(--mint),var(--teal));color:var(--navy);font:800 36px var(--f-head)}
+.avatar{display:grid;place-items:center;width:112px;height:112px;border-radius:50%;background:linear-gradient(135deg,var(--mint),var(--teal));color:var(--navy);font:800 30px var(--f-head)}
 .ccard h3{font-size:clamp(24px,3vw,30px);margin-bottom:4px}
 .ccard .role{color:var(--mint);margin-bottom:16px;font-size:15px}
 .ccard ul{list-style:none;display:grid;gap:10px}
 .ccard li{display:flex;gap:12px;color:var(--dim)}
 .ccard li .ic{color:var(--mint);margin-top:2px}
-@media(max-width:640px){.ccard{grid-template-columns:minmax(0,1fr);padding:28px 22px}.avatar{width:84px;height:84px;font-size:28px}}
+.exp{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.exp span{font-size:13px;color:var(--mint);border:1px solid var(--glass-l);border-radius:999px;padding:6px 12px}
+@media(max-width:640px){.ccard{grid-template-columns:minmax(0,1fr);padding:28px 22px}.avatar{width:84px;height:84px;font-size:24px}}
 
 /* weeks */
 .weeks{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:8px;margin-bottom:22px}
@@ -210,17 +212,19 @@ footer a:hover{color:var(--mint)}
 <section class="coach" id="coach">
   <div class="wrap">
     <h2 class="h2">Coach của chương trình</h2>
-    <p class="lead">Đồng hành cùng bạn suốt 8 tuần là một người vừa dẫn dắt đội ngũ vừa từng ngồi cùng giảng đường MPP.</p>
+    <p class="lead">Đồng hành cùng bạn suốt 8 tuần là một người vừa là Partner tại Deloitte Việt Nam, vừa từng ngồi cùng giảng đường MPP.</p>
     <div class="ccard dk">
-      <div class="avatar" aria-hidden="true">VT</div>
+      <div class="avatar" aria-hidden="true">BVT</div>
       <div>
         <h3>Bùi Văn Trịnh</h3>
         <p class="role">Coach chương trình Homecoming MPP26</p>
         <ul>
-          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Partner, Audit &amp; Assurance, Deloitte Việt Nam</li>
+          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Partner, Audit &amp; Assurance, Deloitte Việt Nam; phụ trách chương trình Deloitte Private và Best Managed Companies tại Việt Nam</li>
           <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Cựu học viên MPP26, Fulbright University Vietnam</li>
           <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Hơn 20 năm kinh nghiệm lãnh đạo, tư vấn và đồng hành với nhiều doanh nghiệp lớn tại Việt Nam</li>
+          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Kiểm toán viên (CPA), hội viên VACPA và ACCA; Cử nhân Kiểm toán, Đại học Kinh tế TP.HCM</li>
         </ul>
+        <div class="exp" aria-label="Lĩnh vực chuyên môn"><span>Chuyển đổi IFRS</span><span>Tích hợp sau sáp nhập</span><span>Tư vấn kế toán</span><span>Chuyển đổi vận hành xuất sắc</span><span>Đổi mới sáng tạo</span></div>
       </div>
     </div>
   </div>
