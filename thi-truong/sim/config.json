@@ -124,18 +124,18 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 05/11/2026: Dân chủ thắng cả Hạ viện và Thượng viện trong bầu cử giữa kỳ 3/11; Phó Tổng thống Vance đổ lỗi thất bại cho cuộc chiến Iran, ông Trump nói với FT không có kế hoạch leo thang; ICIS: thoả thuận 'nhiều khả năng hơn không'. Brent đóng cửa 4/11 ~94,6 USD (−8,7%), WTI ~88,1 USD (−8,3%), thấp nhất từ 31/8 (Rigzone, Oilprice, AP 4/11). Mặt trái: chưa có thoả thuận, Iran nói còn 'xa thoả thuận', đòi 7 điều kiện; lượt tàu qua Hormuz 0–5/ngày so với >130 trước chiến tranh; IRGC nói 4 tàu trúng mìn (Gulf News, CBS 4/11). Fed: ~79% khả năng tăng 9/12 (CME FedWatch qua Daily Economics, Kitco 4/11). Nâng thoả thuận Hormuz 18%→23%, hạ leo thang + Fed tăng lãi 27%→22%; giữ cơ sở 55%. Độ lớn cú sốc giữ nguyên (Goldman Brent tháng 12 105 USD, UBS 110 USD cuối 2026, ANZ ~105 USD; JPMorgan: thị trường dư cung ~1,4 triệu thùng/ngày tháng 10). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 06/11/2026: Brent đóng cửa 5/11 98,29 USD (+3,9%) sau phiên −8,7% ngày 4/11, vì ít nhất 5 vụ tàu bị tấn công quanh vùng Vịnh từ 1/11 (UKMTO), IRGC nói 2 tàu dầu cháy ở Hormuz (Reuters qua Lufkin Daily News 5/11). Eurasia Group (5/11): khả năng thoả thuận 10% (trước 20%), Mỹ không kích lại 60% (trước 65%), giằng co 30%; Brent 110–125 USD nếu leo thang. Iran chưa đàm phán trực tiếp, đòi gỡ phong toả, trả tài sản, nới trừng phạt (CBS). Mặt trái: Reuters 5/11 nói dầu qua Hormuz đã gần mức trước chiến tranh; CME giảm khả năng Fed tăng 9/12 từ ~83% xuống ~67–70% sau cú bán tháo cổ phiếu công nghệ 5/11 (Daily Economics, Stocktitan). Hạ thoả thuận Hormuz 23%→20%, cơ sở 55%→58%, giữ leo thang + Fed tăng lãi 22% (rủi ro chiến sự tăng nhưng Fed bớt nghiêng tăng). Độ lớn cú sốc giữ nguyên (Goldman Brent tháng 12 105 USD; UBS giá hợp lý sau chiến tranh ~80–85 USD; JPMorgan dư cung ~1,4 triệu thùng/ngày tháng 10). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
     "name": "Cơ sở: thắt chặt kéo dài",
-    "p": 0.55,
+    "p": 0.58,
     "shock": {}
    },
    {
     "id": "deal",
     "name": "Thoả thuận Hormuz",
-    "p": 0.23,
+    "p": 0.2,
     "shock": {
      "brent": -0.25,
      "gold": -0.04,
