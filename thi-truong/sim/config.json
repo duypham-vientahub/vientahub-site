@@ -124,18 +124,18 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 10/11/2026: Brent đóng cửa 9/11 92,57 USD (−5,85%), cả tuần ~−16%, thấp nhất từ cuối tháng 8 (Business Recorder, Nation Thailand 9/11), sau khi ông Trump nói chiến tranh với Iran “về quân sự coi như đã xong” sau gặp Thủ tướng Qatar (Al Jazeera 9/11); lượng tàu dầu qua Hormuz vẫn cao, OPEC tăng sản lượng 1,38 triệu thùng/ngày trong tháng 10 (Reuters survey). Mặt trái: Iran gọi lời ông Trump là “tin giả”, đặt 7 điều kiện (gỡ trừng phạt, trả tài sản phong toả, tuyến Hormuz thoả thuận với Oman); Mỹ giữ phong toả cảng Iran và nói sẵn sàng tấn công lại; Rubio ít kỳ vọng đột phá (CNBC 9/11). Fed: việc làm T10 +165 nghìn, khả năng tăng 9/12 lên ~77–81% (CME, LSEG, Reuters 6–9/11); CPI T10 công bố tối 10/11. Nâng thoả thuận Hormuz 20%→23%, hạ cơ sở 58%→56%, leo thang + Fed tăng lãi 22%→21% (rủi ro chiến sự giảm một phần nhưng Fed nghiêng tăng mạnh hơn nên nhánh xấu chỉ hạ nhẹ). Độ lớn cú sốc giữ nguyên (EIA STEO 6/10: Brent quý 4 105 USD, 2027 83,74 USD; Goldman 2/11 Brent tháng 12 105 USD; JPMorgan dư cung ~1,4 triệu thùng/ngày tháng 10). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 12/11/2026: Iran bác tin đàm phán với Mỹ ở Qatar (ông Rezaei gọi là “dối trá”), Ngoại trưởng Rubio bác yêu cầu bồi thường chiến tranh, Mỹ giữ phong toả hải quân; tháng 10 có 37 tàu bị tấn công quanh Hormuz, cao nhất từ khi chiến tranh nổ ra; Brent chốt 11/11 92,76 USD (+1,4%), có lúc 93,90 (OilPrice, Business Recorder 11–12/11). OPEC (báo cáo tháng 11/11): sản lượng OPEC+ tháng 10 41,23 triệu thùng/ngày, +2,04 triệu so với tháng 9 (Al Jazeera 11/11). Fed: CPI T10 +0,4%, lõi +0,3%; CME 11/11 ~90,7% tăng 25bp, ~9,3% tăng 50bp ngày 9/12 (JKN 12/11). Hạ thoả thuận Hormuz 23%→21% (Iran phủ nhận đàm phán), nâng cơ sở 56%→57%, leo thang + Fed tăng lãi 21%→22% (tấn công tàu và phong toả còn, nhưng khả năng Fed tăng 50bp giảm nhẹ nên nhánh xấu chỉ tăng 1 điểm). Độ lớn cú sốc giữ nguyên (EIA STEO 10/11: Brent bình quân 2026 97 USD, 2027 86 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
     "name": "Cơ sở: thắt chặt kéo dài",
-    "p": 0.56,
+    "p": 0.57,
     "shock": {}
    },
    {
     "id": "deal",
     "name": "Thoả thuận Hormuz",
-    "p": 0.23,
+    "p": 0.21,
     "shock": {
      "brent": -0.25,
      "gold": -0.04,
@@ -158,7 +158,7 @@
    {
     "id": "shock",
     "name": "Leo thang + Fed tăng lãi",
-    "p": 0.21,
+    "p": 0.22,
     "shock": {
      "brent": 0.25,
      "gold": 0.06,
