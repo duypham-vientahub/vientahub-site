@@ -1,110 +1,110 @@
 {
- "updated": "12/11/2026, 08:45 (GMT+7)",
- "updatedISO": "2026-11-12T08:45:00+07:00",
- "asOf": "Giá đóng cửa thứ Tư 11/11/2026 cho Mỹ, Việt Nam, vàng, dầu, đô la; lợi suất Mỹ giữ mức 10/11 (thị trường trái phiếu Mỹ nghỉ lễ Cựu chiến binh 11/11); Nikkei, KOSPI, KOSDAQ, Bitcoin, Ether, tỷ giá yên, euro theo giá sáng 12/11 (đang giao dịch). STOXX 600, DAX, CAC, Hang Seng, Thượng Hải trên bảng Yahoo vẫn ở phiên 10/11 (diễn biến 11/11 ghi trong phần nhận định). Tin cập nhật tới 08:45 ngày 12/11.",
+ "updated": "13/11/2026, 08:30 (GMT+7)",
+ "updatedISO": "2026-11-13T08:30:00+07:00",
+ "asOf": "Giá đóng cửa thứ Năm 12/11/2026 cho Mỹ, Việt Nam, vàng, dầu, đô la, lợi suất; Nikkei, KOSPI, KOSDAQ, Bitcoin, Ether, yên, euro theo giá sáng 13/11 (đang giao dịch). STOXX 600, DAX, CAC, Hang Seng, Thượng Hải trên bảng Yahoo vẫn ở phiên 11/11 (diễn biến 12/11 ghi trong phần nhận định). Tin cập nhật tới 08:30 ngày 13/11.",
  "week": "Tuần 46/2026",
- "headline": "Phố Wall hồi mạnh nhờ CoreWeave (S&P 500 +1,31%), nhưng Nvidia mất ~8% sau giờ vì tin về CEO; đô la lên đỉnh 52 tuần, vàng thủng 4.000 USD. VN-Index +0,22% lên 1.746,90, giữ Wait Mode; tự doanh bán ròng ~557 tỷ.",
- "lede": "Phiên 11/11, cổ phiếu Mỹ hồi sau CPI nóng: **S&P 500 7.619,38 (+1,31%)**, Nasdaq +1,60%, Dow +0,49%, VIX giảm 10% về 17,49. Lực kéo là **CoreWeave +24,7%** (doanh thu quý 3 +168% lên 3,7 tỷ USD, nâng dự báo cả năm); Micron, SK Hynix tăng hơn 10%. Sau giờ, **Nvidia mất ~8%** khi NYT, WSJ đưa tin mới về đời tư CEO Jensen Huang và khả năng HĐQT cân nhắc thay ông (chưa được công ty xác nhận); Baird hạ Nvidia xuống Trung lập. Fed: khả năng tăng 25bp ngày 9/12 **~90,7%**, 50bp ~9,3% (CME 11/11). **DXY 102,88 (+0,63%)**, đỉnh 52 tuần; USD/JPY ~159,6, Nhật cảnh báo yên giảm “quá nhanh”. **Vàng ~3.995 USD**, lần đầu dưới 4.000 kể từ khi giảm; dầu hồi: Brent ~92,3–92,8 USD khi Iran bác tin đàm phán. Việt Nam: **VN-Index 1.746,90 (+3,83 điểm, +0,22%)**, thanh khoản HOSE ~13.844 tỷ (−18%); khối ngoại mua ròng ~51 tỷ, **tự doanh bán ròng ~557 tỷ** (TCB, CTG). Sáng 12/11: MSCI thêm NLG, PNJ vào rổ Frontier; KOSPI mở cửa giảm nhẹ, Naver −3,4% theo Nvidia.",
- "regimeLabel": "Thắt chặt: Fed gần như chắc tăng, đô la lên đỉnh",
+ "headline": "Lợi suất 10 năm Mỹ vọt lên 5,10%, vàng mất ~3% còn ~3.870 USD, Bitcoin thủng MA200; ông Jensen Huang rời ghế CEO Nvidia. VN-Index −0,70% về 1.734,75 và chuyển sang **Sell Mode**, khối ngoại bán ròng ~880 tỷ.",
+ "lede": "Phiên 12/11, lực ép đến từ trái phiếu: **lợi suất 10 năm Mỹ +12bp lên 5,10%**, 2 năm +15bp lên 4,88%, sau ba phiên đấu giá yếu trong tuần (đợt 30 năm: lợi suất 5,441%, tỷ lệ nhà đầu tư nước ngoài 68,1%, thấp nhất từ tháng 8). **S&P 500 −0,35% còn 7.592,40** (có lúc −1%), Russell 2000 −1,66%. **Ông Jensen Huang từ chức CEO Nvidia**, CFO Colette Kress tạm quyền; cổ phiếu có lúc −14%, đóng cửa −4,3% (166,19 USD); AMD, Broadcom tăng hơn 5%. Fed: Williams nói lạm phát “dai dẳng”, Fed “còn việc phải làm”; khả năng tăng 25bp ngày 9/12 ~87–89%, 50bp ~11–13%. **DXY 103,19**, cao nhất ~19 tháng; **vàng −3%** về ~3.866–3.885 USD; Brent +3,3% lên 95,82 USD khi ông Trump nói không cần thoả thuận với Iran và tàu chở dầu trúng nổ ở Hormuz; **Bitcoin −4%** về ~71.000 USD. Việt Nam: **VN-Index −12,15 điểm (−0,70%) về 1.734,75**, thấp hơn mốc ~1.735 nên chuyển **Sell Mode**; **khối ngoại bán ròng ~880 tỷ** trên HOSE, mạnh nhất hơn một tháng (FPT ~450 tỷ); thanh khoản HOSE ~15.100 tỷ (+9%). Giá xăng giảm 1.300–1.900 đ/lít từ 15h ngày 12/11.",
+ "regimeLabel": "Thắt chặt: lợi suất Mỹ trên 5%, đô la đỉnh 19 tháng",
  "regime": [
   [
    "Lạm phát Mỹ",
-   "CPI T10 +0,4% tháng (dự báo 0,3%), lõi +0,3% (dự báo 0,2%); PPI T10 công bố 13/11 (dự báo +0,4%); CPI T9 3,7%, PCE lõi T9 3,1%"
+   "CPI T10 +0,4% tháng (dự báo 0,3%), lõi +0,3%; PPI T10 công bố 20:30 tối 13/11 (dự báo +0,4%); CPI T9 3,7%, PCE lõi T9 3,1%; Goolsbee: lạm phát dịch vụ đi sai hướng"
   ],
   [
    "Tăng trưởng Mỹ",
-   "Việc làm T10 +165 nghìn, thất nghiệp 4,1% (BLS 6/11); ISM sản xuất T10 55,5, dịch vụ 54,5; đơn trợ cấp thất nghiệp công bố tối 12/11"
+   "Đơn trợ cấp thất nghiệp lần đầu 200 nghìn (+9 nghìn, dự báo 195 nghìn), trung bình 4 tuần 195.250, thấp nhất từ 1969 (12/11); việc làm T10 +165 nghìn, thất nghiệp 4,1%; ISM sản xuất T10 55,5"
   ],
   [
    "Fed",
-   "Giữ 3,75–4,00%; khả năng tăng 9/12 ~90,7% cho 25bp, ~9,3% cho 50bp (CME 11/11); Waller cân nhắc 50bp, Logan muốn thêm ít nhất hai lần; Williams, Barr phát biểu 12/11"
+   "Giữ 3,75–4,00%; khả năng tăng 9/12 ~87–89% cho 25bp, ~11–13% cho 50bp (CME, Kalshi 12/11); Williams: “còn việc phải làm”; Hammack muốn tăng nhỏ, nhiều lần; Deutsche Bank chờ tăng ba lần liền"
   ],
   [
    "Lợi suất Mỹ 2 / 10 năm",
-   "~4,74% / ~5,00% (chốt 10/11, thị trường trái phiếu nghỉ 11/11); 10 năm từ đầu năm +84bp, sát MA50 (~5,04%) (tự tính)"
+   "4,88% / 5,10% (12/11, +15bp / +12bp); 10 năm trên MA50 (~5,05%), từ đầu năm +94bp; 30 năm 5,43% (tự tính, cappnotes)"
   ],
   [
    "Đô la, yên",
-   "DXY 102,88 (+0,63%, 11/11), đỉnh 52 tuần; USD/JPY ~159,6 (RSI 75, quá mua), Nhật cảnh báo can thiệp; EUR/USD ~1,110, thấp nhất từ 5/2025"
+   "DXY 103,19 (+0,27%), cao nhất ~19 tháng, đỉnh 52 tuần; USD/JPY ~159,9 (RSI 74, quá mua), sát vùng 160 Nhật từng can thiệp; EUR/USD ~1,106"
   ],
   [
    "AI",
-   "CoreWeave +24,7% kéo nhóm hạ tầng AI; Nvidia +2,9% trong phiên nhưng ~−8% sau giờ vì tin CEO; báo cáo quý Nvidia 17/11 (giờ Mỹ)"
+   "Jensen Huang từ chức CEO Nvidia (8-K 12/11), Nvidia −4,3% (có lúc −14%); Bernstein hạ mục tiêu 400→200 USD; Cisco doanh thu +24%, Applied Materials +53%; Nvidia báo cáo 17/11"
   ],
   [
    "Trạng thái thị trường",
-   "S&P 500 (dưới MA50 ~7.673), vàng, Bitcoin, Brent giữ **Sell Mode**; VN-Index giữ **Wait Mode**; STOXX 600, DAX, Dow Buy Mode"
+   "**VN-Index chuyển Sell Mode** (1.734,75 dưới ~1.735); S&P 500, Russell 2000, vàng, Bitcoin, Brent **Sell Mode**; STOXX 600, DAX, Dow Buy Mode"
   ]
  ],
  "chain": [
   {
-   "t": "Fed gần như chắc tăng 9/12",
-   "v": "CME 11/11: ~90,7% tăng 25bp, ~9,3% tăng 50bp, 0% giữ nguyên (một tuần trước giữ nguyên còn 17,3%) (JKN 12/11)."
+   "t": "Fed nghiêng tăng, khả năng 50bp nhích lên",
+   "v": "CME 12/11: hike 9/12 gần như chắc, ~11–13% cho 50bp; Williams nói lạm phát “dai dẳng” (investingLive 13/11, cappnotes 12/11)."
   },
   {
-   "t": "Đô la lên đỉnh 52 tuần",
-   "v": "DXY 102,88 (+0,63%); USD/JPY ~159,6, Nhật cảnh báo can thiệp; EUR/USD ~1,110 (Reuters qua GBAF 12/11)."
+   "t": "Trái phiếu Mỹ bị bán, lợi suất vượt 5%",
+   "v": "10 năm 5,10% (+12bp), 2 năm 4,88% (+15bp); ba phiên đấu giá trong tuần đều yếu (TheStreet Pro, cappnotes 12/11)."
   },
   {
-   "t": "Vàng mất mốc 4.000 USD",
-   "v": "Vàng tương lai ~3.995 USD (−0,9%), giao ngay ~3.987; TD Securities thấy khả năng thử lại 3.900 (Kitco 11/11)."
+   "t": "Đô la mạnh nhất 19 tháng, vàng mất 3%",
+   "v": "DXY 103,19; vàng giao ngay ~3.866 USD (−3,05%), thấp nhất từ 10/2025 (Reuters qua Business Recorder, USAGOLD 12/11)."
   },
   {
-   "t": "Cổ phiếu Mỹ hồi nhờ AI hạ tầng",
-   "v": "S&P 500 +1,31%, Nasdaq +1,60%; CoreWeave +24,7% sau báo cáo tốt; VIX về 17,49 (Yahoo Finance, TheStreet 11/11)."
+   "t": "Tài sản rủi ro chịu sức ép",
+   "v": "Russell 2000 −1,66%, Bitcoin −4% về ~71.000 USD, ETF Bitcoin bị rút 5 ngày liền ~1,44 tỷ USD; Nvidia mất CEO (CoinDesk, Fool 12/11)."
   },
   {
-   "t": "Nhưng Nvidia là điểm nóng mới",
-   "v": "Nvidia ~−8% sau giờ vì tin về CEO; Naver −3,4% sáng 12/11 tại Hàn; báo cáo quý 17/11 là phép thử tiếp theo (FourWeekMBA, Korea Herald)."
+   "t": "Dầu tăng lại vì Hormuz",
+   "v": "Brent +3,3% lên 95,82 USD: ông Trump nói không cần thoả thuận, tàu chở dầu trúng nổ, Houthi tấn công đường ống Saudi (Reuters qua Investing.com 12/11)."
   },
   {
-   "t": "Việt Nam: giằng co, tiền thận trọng",
-   "v": "VN-Index +0,22% lên 1.746,90, thanh khoản HOSE −18%; tự doanh bán ~557 tỷ; CTCK chờ kháng cự 1.750–1.780 (Vietstock, TNCK 11–12/11)."
+   "t": "Việt Nam: khối ngoại rút, chỉ số về Sell Mode",
+   "v": "VN-Index −0,70% về 1.734,75; khối ngoại bán ròng ~880 tỷ, mạnh nhất hơn 1 tháng; tỷ giá trung tâm 25.623 (+12 đồng) (VnExpress, VTV 12/11)."
   }
  ],
- "flowsNote": "Chỉ ghi luồng có số đo. Ngày 11/11: tiền vào lại cổ phiếu Mỹ, châu Âu và đô la, rút khỏi vàng và ETF Bitcoin; ở Việt Nam khối ngoại mua ròng nhẹ, tự doanh bán mạnh ngân hàng. Trái phiếu Mỹ nghỉ lễ. Dòng vốn vào thị trường mới nổi (IIF): không tìm thấy số mới.",
+ "flowsNote": "Chỉ ghi luồng có số đo. Ngày 12/11: tiền vào đô la, cổ phiếu châu Âu (kỷ lục) và nhóm chip ngoài Nvidia; rút khỏi trái phiếu Mỹ, vàng, ETF Bitcoin và cổ phiếu Việt Nam (khối ngoại). Dòng vốn vào thị trường mới nổi (IIF/EPFR): không tìm thấy số mới.",
  "flowsIn": [
   {
    "k": "Đồng đô la",
-   "q": "DXY +0,63% (11/11)",
-   "e": "Lên 102,88, đỉnh 52 tuần; yên ~159,6, euro ~1,110 khi Fed gần như chắc tăng (Reuters qua GBAF 12/11)."
+   "q": "DXY +0,27% (12/11)",
+   "e": "Lên 103,19, cao nhất ~19 tháng; USD/JPY ~159,9, EUR/USD ~1,106 (cappnotes, Reuters qua Business Recorder 12/11)."
   },
   {
-   "k": "Cổ phiếu hạ tầng AI, chip nhớ",
-   "q": "CoreWeave +24,7% (11/11)",
-   "e": "Micron, Sandisk, SK Hynix +hơn 10%, Coherent +18%; Nasdaq +1,60% (Yahoo Finance 11/11)."
+   "k": "Chip ngoài Nvidia",
+   "q": "AMD +5,86% (12/11)",
+   "e": "AMD lên 585,30 USD, Broadcom +5,54% khi tiền xoay trong nhóm AI sau tin Nvidia mất CEO (Motley Fool 12/11)."
   },
   {
    "k": "Cổ phiếu châu Âu",
-   "q": "STOXX 600 +0,72% (11/11)",
-   "e": "Đóng cửa kỷ lục 663,05; Siemens Energy +10,8%; DAX +1,2% (Reuters qua AOL 11/11)."
+   "q": "STOXX 600 +0,14% (12/11)",
+   "e": "Đóng cửa kỷ lục 664,01; DAX +0,41% lên 26.771,88 (Rock & Turner 12/11)."
   },
   {
-   "k": "Khối ngoại Việt Nam",
-   "q": "~+51 tỷ đ (11/11)",
-   "e": "HOSE +74 tỷ; mua VIC ~139 tỷ, POW 78, VHM 47, HDB 42, TPB 41; bán FPT ~48, NVL 39, ACB 35 (TNCK 11/11)."
+   "k": "Tự doanh CTCK",
+   "q": "~+325 tỷ đ (12/11)",
+   "e": "Mua ròng trở lại, tập trung GMD ~80 tỷ (Investing.com/Vietstock 12/11)."
   }
  ],
  "flowsOut": [
   {
+   "k": "Trái phiếu Mỹ",
+   "q": "10 năm +12bp (12/11)",
+   "e": "Lợi suất lên 5,10%; đấu giá 30 năm yếu, nhà đầu tư nước ngoài chỉ mua 68,1% (TheStreet Pro, cappnotes 12/11)."
+  },
+  {
    "k": "Vàng",
-   "q": "~−0,9% (11/11)",
-   "e": "Vàng tương lai ~3.995 USD, giao ngay ~3.987, lần đầu dưới 4.000 trong đợt giảm; SJC sáng 12/11 −0,9 triệu (Kitco 11/11, index.vn 12/11)."
+   "q": "~−3% (12/11)",
+   "e": "Giao ngay ~3.866 USD, ngày giảm thứ ba; SJC sáng 13/11 136–139 triệu đ/lượng (−1 triệu) (USAGOLD, Thời báo Tài chính 13/11)."
   },
   {
    "k": "ETF Bitcoin",
-   "q": "−95 triệu USD (10/11)",
-   "e": "Ngày rút thứ tư liên tiếp, IBIT −78 triệu (phiên thứ 8); ETF Ether −1,3 triệu (SoSoValue qua KuCoin, CoinDesk 11/11)."
+   "q": "−299,9 triệu USD (11/11)",
+   "e": "Ngày rút thứ năm liên tiếp, IBIT −269,7 triệu; ~−1,44 tỷ từ 5/11; ETF Ether −145 triệu (CoinDesk 12/11)."
   },
   {
-   "k": "Tự doanh CTCK (HOSE)",
-   "q": "~−557 tỷ đ (11/11)",
-   "e": "Bán TCB ~261 tỷ, CTG ~226, POW 46; mua OPC, SHB, MSN (CafeF 11/11)."
-  },
-  {
-   "k": "Nvidia sau giờ",
-   "q": "~−8% (11/11)",
-   "e": "Từ 173,73 USD xuống ~160 sau tin về CEO; Baird hạ xuống Trung lập, Morgan Stanley bỏ khỏi danh sách ưu tiên (FourWeekMBA, Yahoo 11/11)."
+   "k": "Khối ngoại Việt Nam",
+   "q": "~−880 tỷ đ (12/11)",
+   "e": "HOSE bán ròng ~875–880 tỷ, HNX ~23 tỷ, mạnh nhất hơn 1 tháng; bán FPT ~450 tỷ, KDH 108, STB 99; mua HDB ~60, MSN ~40 (VnExpress, Vietstock 12/11)."
   }
  ],
  "groups": [
@@ -118,126 +118,143 @@
  ],
  "feature": {
   "eyebrow": "Kiểm chứng",
-  "since": "2026-11-12",
-  "title": "“Khủng hoảng ở Nvidia sẽ kéo sập cả nhóm cổ phiếu AI”",
-  "tag": "Chưa có bằng chứng",
+  "since": "2026-11-13",
+  "title": "“Lợi suất Mỹ vượt 5% sẽ kéo mọi tài sản rủi ro đi xuống”",
+  "tag": "Đúng một phần",
   "lv": "warn",
-  "text": "**Chủ đề mới hôm nay:** Nvidia thay CPI làm tâm điểm, vì tin về CEO làm cổ phiếu lớn nhất thế giới mất ~8% sau giờ, ngay trước báo cáo quý 17/11. Phần đúng: Nvidia đang gặp rủi ro quản trị thật và giới phân tích bắt đầu hạ khuyến nghị. Phần chưa đúng: cùng ngày, phần còn lại của nhóm AI tăng mạnh nhờ CoreWeave báo doanh thu +168%. Kết luận: đây là rủi ro của riêng một công ty, chưa phải dấu hiệu nhu cầu AI gãy; phép thử thật là báo cáo 17/11 và phản ứng của chip châu Á.",
+  "text": "**Chủ đề mới hôm nay:** trái phiếu Mỹ thay Nvidia làm tâm điểm, vì lợi suất 10 năm tăng 12bp lên 5,10% trong một phiên và kéo theo vàng, Bitcoin, cổ phiếu nhỏ. Phần đúng: lợi suất cao làm đô la mạnh lên, tiền rút khỏi vàng, crypto và thị trường mới nổi như Việt Nam. Phần chưa đúng: cổ phiếu lớn của Mỹ chỉ giảm nhẹ, châu Âu còn lập kỷ lục, nên “mọi tài sản” là nói quá. Phép thử tiếp theo là PPI tối 13/11 và báo cáo Nvidia 17/11.",
   "claims": [
    {
-    "t": "Nvidia đang gặp khủng hoảng quản trị",
+    "t": "Lợi suất tăng vì Fed sắp tăng lãi",
     "lv": "up",
     "tag": "Đúng",
     "yes": [
-     "HĐQT Nvidia mở điều tra liên quan CEO từ 8–9/11 (thông cáo HĐQT 8/11; Morningstar/Dow Jones 9/11).",
-     "Sau giờ 11/11, NYT, WSJ đưa tin mới, cổ phiếu từ 173,73 USD xuống ~160 (~−8%); Baird hạ xuống Trung lập, Morgan Stanley bỏ khỏi danh sách ưu tiên (Yahoo, FourWeekMBA 11/11)."
+     "Lợi suất 2 năm, nhạy nhất với Fed, tăng 15bp lên 4,88% (12/11); thị trường gần như chắc Fed tăng 9/12, khả năng 50bp ~11–13% (CME, Kalshi qua cappnotes 12/11).",
+     "Williams (12/11): lạm phát “dai dẳng”, Fed “còn việc phải làm”; Goolsbee: lạm phát dịch vụ đi sai hướng (investingLive, TheStreet Pro)."
     ],
     "no": [
-     "Tin HĐQT cân nhắc thay CEO chưa được công ty xác nhận; Morgan Stanley vẫn giữ Khả quan, mục tiêu 300 USD.",
-     "Trong phiên chính 11/11 Nvidia vẫn +2,92%: phần giảm chỉ diễn ra sau giờ, giá mở cửa 12/11 mới là con số thật."
+     "Một phần đến từ cầu trái phiếu yếu chứ không chỉ Fed: đấu giá 30 năm lợi suất 5,441%, nhà đầu tư nước ngoài chỉ 68,1%, thấp nhất từ tháng 8 (TheStreet Pro 12/11).",
+     "Đơn trợ cấp thất nghiệp 200 nghìn, cao hơn dự báo 195 nghìn: dữ liệu việc làm không nóng thêm."
     ]
    },
    {
-    "t": "Nhu cầu AI đang yếu đi",
-    "lv": "down",
-    "tag": "Sai",
-    "yes": [
-     "Nasdaq 25.466,19 vẫn cách đỉnh −7,7%, dưới MA50 (~26.396), 1 tháng −6,4% (tự tính từ Yahoo)."
-    ],
-    "no": [
-     "CoreWeave (11/11): doanh thu quý 3 +168% lên 3,7 tỷ USD, nâng dự báo cả năm; cổ phiếu +24,7% (Yahoo Finance 11/11).",
-     "Micron, Sandisk, SK Hynix +hơn 10%, Coherent +18% cùng ngày: tiền vẫn chảy vào hạ tầng AI."
-    ]
-   },
-   {
-    "t": "Bán tháo Nvidia sẽ lan sang châu Á",
+    "t": "Cổ phiếu Mỹ sẽ giảm mạnh",
     "lv": "warn",
     "tag": "Đúng một phần",
     "yes": [
-     "Sáng 12/11 Naver −3,4% (Nvidia là cổ đông lớn thứ ba); KOSPI mở cửa −0,2%, có lúc −0,6% (Korea Herald, Aju 12/11)."
+     "Russell 2000 −1,66% (12/11) và thủng MA50 (~2.828); S&P 500 7.592,40 vẫn dưới MA50 (~7.671): Sell Mode (tự tính từ Yahoo).",
+     "BofA (Subramanian) gọi S&P 500 là giao dịch đông người nhất, “hơi rủi ro”."
     ],
     "no": [
-     "Nikkei mở cửa +0,65% (FourWeekMBA 12/11); KOSPI 11/11 đã tăng 2,6% lên 5.375,36 nhờ chip nhớ (SEDaily)."
+     "S&P 500 chỉ −0,35% dù có lúc −1%; Dow vẫn trên MA50: Buy Mode (tự tính).",
+     "Nhà đầu tư cá nhân bi quan 51,4% (AAII, phân vị 96%), thường là tín hiệu ngược; UBS giữ mục tiêu 8.900 điểm cuối 2027 (investingLive 10/11)."
     ]
    },
    {
-    "t": "Phiên tăng 11/11 cho thấy cổ phiếu Mỹ đã qua giai đoạn xấu",
+    "t": "Vàng không còn là nơi trú ẩn",
     "lv": "warn",
-    "tag": "Chưa có bằng chứng",
+    "tag": "Đúng một phần",
     "yes": [
-     "S&P 500 +1,31% lên 7.619,38, VIX −10% về 17,49; Apple lập kỷ lục (TheStreet 11/11)."
+     "Vàng giao ngay −3,05% về ~3.866 USD (12/11), ngày giảm thứ ba, thấp nhất từ 10/2025; cách đỉnh 52 tuần −27% (USAGOLD, tự tính).",
+     "Đô la cao nhất ~19 tháng (DXY 103,19) và lợi suất trên 5% làm vàng (không trả lãi) kém hấp dẫn (Reuters qua Business Recorder)."
     ],
     "no": [
-     "S&P 500 vẫn dưới MA50 (~7.673) và có 6 phiên phân phối (tối đa 5): còn Sell Mode (tự tính, screener.json).",
-     "Fed gần như chắc tăng 9/12 (~90,7%), PPI công bố 13/11 và Nvidia báo cáo 17/11 còn phía trước."
+     "Vàng vẫn tăng khi có cú sốc địa chính trị: mô phỏng nhánh leo thang cho vàng trung vị +8,0% sau 3 tháng (sim 13/11).",
+     "Giảm lần này do lợi suất thực, không do mất vai trò; Saxo xem 3.970 USD là hỗ trợ đã bị phá, chưa có tổ chức nào bỏ dự báo dài hạn."
+    ]
+   },
+   {
+    "t": "Tiền rút khỏi thị trường mới nổi, kể cả Việt Nam",
+    "lv": "up",
+    "tag": "Đúng",
+    "yes": [
+     "Khối ngoại bán ròng ~880 tỷ đ trên HOSE (12/11), mạnh nhất hơn 1 tháng, riêng FPT gần 450 tỷ (VnExpress).",
+     "Tỷ giá trung tâm 25.623 (+12 đồng), Vietcombank bán 25.870 (+30) sáng 13/11; Hang Seng −1,26%, Đài Loan −2,63% (Báo Văn hoá, cappnotes)."
+    ],
+    "no": [
+     "KOSPI sáng 13/11 +1,6%, Nikkei +0,8%: châu Á chưa bán tháo đồng loạt (Yahoo).",
+     "Số dòng vốn toàn khối mới nổi tuần này (IIF/EPFR): không tìm thấy."
+    ]
+   },
+   {
+    "t": "Crypto bị kéo theo",
+    "lv": "up",
+    "tag": "Đúng",
+    "yes": [
+     "Bitcoin −4% về ~71.000 USD, thấp nhất 3 tháng, thủng MA200 (~73.080); ETF Bitcoin bị rút 5 ngày liền ~1,44 tỷ USD (CoinDesk 12/11, tự tính).",
+     "MSCI loại Strategy (MSTR) khỏi chỉ số toàn cầu sau 30/11; chỉ số sợ hãi 26 (CoinDesk)."
+    ],
+    "no": [
+     "RSI Bitcoin ~31, Ether ~32: sát vùng quá bán, dễ có nhịp hồi kỹ thuật (tự tính).",
+     "Phần lớn đợt giảm 1 tháng (−13%) diễn ra trước khi lợi suất vượt 5%."
     ]
    }
   ]
  },
- "vnTitle": "VN-Index +0,22% lên 1.746,90, giữ Wait Mode; thanh khoản giảm, tự doanh bán mạnh ngân hàng",
+ "vnTitle": "VN-Index −0,70% về 1.734,75, chuyển Sell Mode; khối ngoại bán ròng mạnh nhất hơn một tháng",
  "vn": [
   {
-   "k": "VN-Index (11/11)",
-   "v": "1.746,90",
-   "d": "+3,83 điểm (+0,22%), phiên tăng thứ hai; có lúc vượt 1.750 rồi đảo chiều · VIC (+1,32%, góp ~5,2 điểm), VHM, VCB, SHB, TPB, GAS dẫn dắt; MCH, STB, VPB, VNM kéo lùi; độ rộng nghiêng về bên bán (Vietstock, TBTC 11/11) · trên mốc ~1.737 (MA50 ~1.763 trừ vùng đệm 1,5%) và EMA20 (~1.738) nhưng còn 7 phiên phân phối: **Wait Mode** (tự tính)"
+   "k": "VN-Index (12/11)",
+   "v": "1.734,75",
+   "d": "−12,15 điểm (−0,70%), đứt chuỗi 2 phiên tăng, có lúc thủng 1.730 trong ATC · VIC (−0,9%, lấy ~3,6 điểm), VPB, GAS, BID kéo giảm; FPT −2,7%, công nghệ −2,44% · đỡ: dầu khí (BSR, PVD, PLX), DPG +6,5%, PNJ +2,75% (vào MSCI Frontier) · ~199–216 mã giảm, 94–107 mã tăng (VTV, VnExpress 12/11) · dưới mốc ~1.735 (MA50 ~1.762 trừ vùng đệm 1,5%) và EMA20 (~1.737), 6 phiên phân phối: **Sell Mode** (tự tính)"
   },
   {
    "k": "VN30 / HNX",
-   "v": "1.855,27 / 255,73",
-   "d": "−0,30% / −0,21% (11/11); VN30 11 mã tăng, 13 giảm · VN30 dưới EMA20 (~1.862) và MA50 (~1.900), từ đầu năm −8,6% · VN-Index từ đầu năm −2,1%, cách đỉnh −9,4% (tự tính)"
+   "v": "1.839,43 / 256,62",
+   "d": "−0,85% / +0,35% (12/11) · VN30 dưới EMA20 (~1.860) và MA50 (~1.898), từ đầu năm −9,4% · VN-Index từ đầu năm −2,8%, cách đỉnh −10,0%, RSI 40 (tự tính)"
   },
   {
    "k": "Thanh khoản",
-   "v": "~13.844 tỷ đ (HOSE)",
-   "d": "Giảm ~18% so với phiên trước, thấp hơn trung bình 20 phiên ~22%; khớp lệnh HOSE ~509 triệu cổ phiếu (Vietstock 11/11): tiền thận trọng khi chỉ số chạm kháng cự"
+   "v": "~15.100 tỷ đ (HOSE)",
+   "d": "Tăng ~9% so với phiên trước (VnExpress); khối lượng khớp lệnh ~482 triệu cổ phiếu, −5,3%, dưới trung bình 20 phiên (Vietstock 12/11): giảm điểm kèm thanh khoản tăng là dấu hiệu phân phối"
   },
   {
    "k": "Khối ngoại, tự doanh",
-   "v": "~+51 tỷ / ~−557 tỷ",
-   "d": "Khối ngoại mua ròng toàn thị trường ~51 tỷ (HOSE +74 tỷ), giảm ~89% so với phiên trước · mua VIC ~139 tỷ, POW, VHM, HDB, TPB; bán FPT, NVL, ACB, MBB, STB (TNCK 11/11) · tự doanh HOSE bán ròng ~557 tỷ, tập trung TCB ~261 tỷ, CTG ~226 tỷ (CafeF 11/11)"
+   "v": "~−880 tỷ / ~+325 tỷ",
+   "d": "Khối ngoại bán ròng HOSE ~875–880 tỷ, HNX ~23 tỷ, mạnh nhất hơn 1 tháng · bán FPT gần 450 tỷ, KDH 108, STB 99; mua HDB ~60, MSN ~40 (VnExpress, Vietstock 12/11) · tự doanh mua ròng ~325 tỷ, chủ yếu GMD (Investing.com 12/11)"
   },
   {
    "k": "Nhận định CTCK",
-   "v": "1.720–1.780",
-   "d": "Aseansc: hỗ trợ 1.740–1.750, kháng cự 1.760–1.770, giữ tỷ trọng trung bình · SHS: kháng cự mạnh 1.760–1.780, chỉ tăng tỷ trọng khi vượt xu hướng giảm từ tháng 9 · OCBS: kháng cự 1.750–1.760, kiểm soát margin · ACBS: dao động 1.720–1.780, mua thăm dò · Yuanta: hỗ trợ 1.700, tỷ trọng 50% cổ phiếu · CSI: tận dụng rung lắc để tăng tỷ trọng (TNCK, Công Luận 11–12/11)"
+   "v": "1.700–1.780",
+   "d": "Yuanta: hỗ trợ 1.710–1.720, kháng cự 1.750–1.780 · Shinhan: đi ngang 1.700–1.780 · BSC: nền giá 1.725 · VCBS: hỗ trợ 1.735 · Aseansc: 1.730–1.740 / 1.750–1.760 · TPS: hỗ trợ đáy tháng 10 1.677–1.690 · Kirin (CSI): mua thăm dò quanh 1.720 · đồng thuận: tránh mua đuổi, hạn chế margin (Investing.com, TNCK 12–13/11)"
   },
   {
-   "k": "Rổ chỉ số, nâng hạng",
-   "v": "MSCI Frontier",
-   "d": "MSCI (12/11) thêm NLG, PNJ, loại DIG, FPS, PC1 khỏi rổ Frontier, hiệu lực 1/12; Việt Nam chiếm 31,25% rổ (Investing.com) · FTSE: Mirae (5/11) dự kiến kỳ tháng 12 giữ nguyên 27 mã · R&I nâng tín nhiệm lên BBB- (8/10)"
+   "k": "Chính sách, rổ chỉ số",
+   "v": "Mục tiêu 100% GDP",
+   "d": "Bộ trưởng Tài chính (chất vấn 12/11): vốn hoá cổ phiếu 100% GDP vào 2030 (hiện trên 80%), sandbox sản phẩm chứng khoán mới sau khi Luật Chứng khoán sửa đổi thông qua, cân nhắc phát hành trái phiếu Samurai (TNCK 12/11) · MSCI Frontier thêm NLG, PNJ từ 1/12 · R&I nâng tín nhiệm lên BBB- (10/2026)"
   },
   {
    "k": "Ký quỹ (margin)",
    "v": "~457.500 tỷ",
-   "d": "Dư nợ cuối quý 3 kỷ lục, ~5,3% vốn hoá, ~14,2% free-float; khối ngoại bán ròng hơn 120.000 tỷ từ đầu năm (SGI qua CafeF 11/11) · Thông tư 145/2026 hiệu lực 16/11 yêu cầu tài sản đảm bảo tối thiểu 110% khoản vay"
+   "d": "Dư nợ cuối quý 3 kỷ lục, ~5,3% vốn hoá (SGI qua CafeF 11/11); số mới: không tìm thấy · Thông tư 145/2026 hiệu lực 16/11: tài sản đảm bảo tối thiểu 110% khoản vay"
   },
   {
    "k": "Vĩ mô tháng 10",
    "v": "CPI +5,09%",
-   "d": "CPI +0,20% tháng, +5,09% năm, bình quân 10 tháng +4,57%, lạm phát cơ bản bình quân +4,24% (Cục Thống kê 3/11) · PMI 52,3 (T9 51,9), đơn hàng mới tăng chậm nhất 6 tháng · tín dụng +11,94% từ đầu năm (TNCK)"
+   "d": "CPI +0,20% tháng, +5,09% năm, bình quân 10 tháng +4,57% (Cục Thống kê 3/11) · PMI 52,3 · tín dụng tới 30/9 +11,59%, dư nợ 20,75 triệu tỷ (Báo Tin tức) · nợ chính phủ ~32–33% GDP (Bộ Tài chính 12/11)"
   },
   {
    "k": "Tỷ giá, lãi, vàng, xăng",
-   "v": "25.611",
-   "d": "Tỷ giá trung tâm 25.611 (12/11, +11 đồng), Vietcombank bán 25.840 · NHNN mua USD giao ngay giá 25.500 thứ Hai, thứ Tư (khối lượng ngày 11/11: không tìm thấy) · liên ngân hàng qua đêm 4,4% (10/11), OMO 11/11 hút ròng ~2.892 tỷ (Người Quan sát) · SJC 137–140 triệu đ/lượng (sáng 12/11, −0,9 triệu), cao hơn thế giới quy đổi ~13,8 triệu (index.vn) · xăng E5 RON92 20.898 đ/lít, kỳ điều chỉnh 15h ngày 12/11"
+   "v": "25.623",
+   "d": "Tỷ giá trung tâm 25.623 (12/11, +12 đồng); Vietcombank bán 25.870 sáng 13/11 (+30), tự do ~25.870 (Báo Văn hoá) · OMO 12/11 lãi 4,5%, hút ròng 447 tỷ; liên ngân hàng qua đêm 4,3% (11/11); TPCP 10 năm 4,46% (Người Quan sát) · SJC 136–139 triệu đ/lượng (−1 triệu), cao hơn thế giới quy đổi ~17,7 triệu · xăng từ 15h 12/11: E10 RON95 19.845 đ/lít (−1.311), E5 RON92 19.399 (−1.499), dầu diesel 26.822 (−1.874) (Thanh Niên)"
   }
  ],
- "vnNote": "VN-Index giữ **Wait Mode**: 1.746,90 trên mốc ~1.737 và EMA20 (~1.738), nhưng còn 7 phiên phân phối (tối đa 5) và dưới MA50 (~1.763). Tin tốt: tăng phiên thứ hai, khối ngoại vẫn mua ròng nhẹ, VIC đỡ chỉ số, NLG và PNJ vào rổ MSCI Frontier. Tin xấu: thanh khoản giảm ~18%, VN30 giảm, tự doanh bán ~557 tỷ nhóm ngân hàng; đô la lên đỉnh 52 tuần đẩy tỷ giá trung tâm tăng lại; quy định tài sản đảm bảo 110% từ 16/11. Vượt 1.763 kèm thanh khoản là bước tới Buy Mode; đóng cửa dưới ~1.737 là về Sell Mode.",
+ "vnNote": "VN-Index chuyển **Sell Mode**: 1.734,75 thấp hơn mốc ~1.735 (MA50 trừ vùng đệm) chưa tới 1 điểm, dưới EMA20 (~1.737), 6 phiên phân phối. Tin xấu: khối ngoại bán ròng ~880 tỷ, mạnh nhất hơn một tháng, tập trung FPT; giảm điểm kèm thanh khoản tăng; đô la đỉnh 19 tháng đẩy tỷ giá lên lại. Tin tốt: tự doanh mua ròng ~325 tỷ, HNX tăng, giá xăng giảm mạnh giúp hạ CPI tháng 11, nhóm dầu khí và xây dựng giữ giá. Do cách mốc rất sát, một phiên tăng vượt ~1.737 có thể đưa chỉ số về lại Wait Mode; thủng 1.700–1.720 (hỗ trợ của nhiều CTCK) là rủi ro tiếp theo.",
  "scenTitle": "Kịch bản 3 tháng theo từng thị trường",
  "scen": [
   {
    "t": "Cơ sở: thắt chặt kéo dài",
    "lv": "warn",
-   "p": "57% · Fed gần như chắc tăng 9/12 (~90,7% cho 25bp); Iran bác tin đàm phán, Mỹ giữ phong toả; dầu ~85–105 USD.",
+   "p": "56% · Fed gần như chắc tăng 9/12 (~87–89% cho 25bp); lợi suất 10 năm Mỹ đã lên 5,10%; Mỹ giữ phong toả, dầu ~85–105 USD.",
    "b": [
-    "Lợi suất 10 năm Mỹ 4,7–5,2%; đô la, tiền gửi, trái phiếu ngắn hạn vẫn hấp dẫn.",
-    "Cổ phiếu phân hoá: châu Âu, y tế, thiết yếu, tài chính đỡ; AI, chip biến động mạnh; Việt Nam dao động 1.700–1.800."
+    "Lợi suất 10 năm Mỹ 4,8–5,3%; đô la, tiền gửi, trái phiếu ngắn hạn vẫn hấp dẫn.",
+    "Cổ phiếu phân hoá: châu Âu, y tế, thiết yếu, tài chính đỡ; AI, chip biến động mạnh; Việt Nam dao động 1.680–1.780."
    ]
   },
   {
    "t": "Thoả thuận Hormuz",
    "lv": "up",
-   "p": "21% · Hạ từ 23%: Iran gọi tin gặp ở Qatar là “dối trá”, Rubio bác yêu cầu bồi thường; ông Trump vẫn nói chiến tranh sẽ sớm kết thúc. Nếu ký được, dầu về ~70–85 USD.",
+   "p": "19% · Hạ từ 21%: ông Trump viết “không cần thoả thuận với Iran”, làm lung lay kế hoạch mở lại eo biển do Qatar làm trung gian. Nếu ký được, dầu về ~70–85 USD.",
    "b": [
     "Lạm phát hạ, lợi suất giảm, đô la yếu đi.",
     "Dòng tiền quay lại cổ phiếu mới nổi và crypto; vàng bớt nhu cầu trú ẩn."
@@ -246,7 +263,7 @@
   {
    "t": "Leo thang + Fed tăng lãi",
    "lv": "down",
-   "p": "22% · Nâng từ 21%: tháng 10 có 37 tàu bị tấn công quanh Hormuz, phong toả còn; khả năng Fed tăng 50bp giảm nhẹ về ~9%. Nếu đàm phán đổ vỡ, dầu quay lại 110–125 USD và Fed tăng tiếp.",
+   "p": "25% · Nâng từ 22%: tàu chở dầu trúng nổ ở Hormuz, Houthi tấn công đường ống Saudi, Brent +3,3%; lợi suất vọt, khả năng Fed tăng 50bp nhích lên ~11–13%. Nếu đàm phán đổ vỡ, dầu quay lại 110–125 USD.",
    "b": [
     "Bán tháo diện rộng, chip và châu Á chịu nặng nhất.",
     "Đô la, yên và trái phiếu ngắn hạn là nơi trú ẩn; vàng chỉ đỡ khi lợi suất thực giảm."
@@ -256,23 +273,23 @@
  "cal": [
   [
    "17/10–21/11",
-   "Quốc hội kỳ họp thứ 2 (ngân sách 2027, Luật Chứng khoán sửa đổi, Luật Đất đai sửa đổi; Luật Đất đai, Nhà ở biểu quyết 21/11)"
-  ],
-  [
-   "12/11",
-   "Quốc hội chất vấn · VNM chốt quyền tạm ứng cổ tức 25% · điều chỉnh giá xăng 15h · Mỹ: đơn trợ cấp thất nghiệp, tồn kho EIA (dời lịch), Williams và Barr phát biểu; Cisco, Applied Materials báo cáo (sáng 13/11 giờ VN)"
+   "Quốc hội kỳ họp thứ 2 (ngân sách 2027, Luật Chứng khoán sửa đổi; Luật Đất đai, Nhà ở biểu quyết 21/11)"
   ],
   [
    "13/11",
-   "PPI Mỹ tháng 10 (dự báo +0,4%, 20:30 giờ VN) · Jefferson (Fed) phát biểu"
+   "PPI Mỹ tháng 10 (dự báo +0,4%, 20:30 giờ VN) · GDP quý 3 eurozone ước lần hai · Collins, Logan, Bowman, Daly (Fed) phát biểu tối 13/11 và rạng sáng 14/11"
   ],
   [
    "16/11",
-   "Thông tư 145/2026/TT-BTC có hiệu lực (tài sản đảm bảo tối thiểu 110% khoản vay; đăng ký, lưu ký, thanh toán chứng khoán)"
+   "Trung Quốc: sản xuất công nghiệp, bán lẻ tháng 10 (9:00 giờ VN) · Thông tư 145/2026/TT-BTC có hiệu lực (tài sản đảm bảo tối thiểu 110%)"
   ],
   [
    "17/11",
-   "Hạn chót Quốc hội Pháp đọc lần một ngân sách 2027 · Nvidia báo cáo quý 3 lúc 17:00 giờ New York (5:00 sáng 18/11 giờ VN)"
+   "Hạn chót Quốc hội Pháp đọc lần một ngân sách 2027 · bán lẻ Mỹ tháng 10 (20:30 giờ VN) · Nvidia báo cáo quý 3 sau giờ Mỹ (~5:00 sáng 18/11 giờ VN)"
+  ],
+  [
+   "18/11",
+   "CPI Anh · Target, Lowe's, TJX báo cáo"
   ],
   [
    "18–19/11",
@@ -280,11 +297,19 @@
   ],
   [
    "19/11",
-   "Đáo hạn phái sinh VN30 tháng 11"
+   "Biên bản họp Fed (2:00 giờ VN) · đáo hạn phái sinh VN30 tháng 11 · Walmart báo cáo"
+  ],
+  [
+   "23–24/11",
+   "PMI sơ bộ Mỹ, Anh, eurozone"
+  ],
+  [
+   "25/11",
+   "GDP quý 3 Mỹ ước lần hai và PCE tháng 10 (20:30 giờ VN)"
   ],
   [
    "26/11",
-   "BOK họp (đa số chuyên gia chờ tăng), công bố đường lãi suất dự kiến mới"
+   "BOK họp (đa số chuyên gia chờ tăng) · Mỹ nghỉ Lễ Tạ ơn"
   ],
   [
    "27/11",
@@ -295,12 +320,16 @@
    "OPEC+ họp toàn thể và JMMC · mốc kết luận điều tra thuế Mục 301 của Mỹ với Việt Nam (chưa xác nhận lại được nguồn)"
   ],
   [
+   "30/11",
+   "MSCI loại Strategy (MSTR) khỏi các chỉ số toàn cầu (sau ngày này)"
+  ],
+  [
    "1/12",
    "MSCI Frontier có hiệu lực: thêm NLG, PNJ; loại DIG, FPS, PC1"
   ],
   [
    "8–9/12",
-   "Fed họp (~89% khả năng tăng 25bp, ~11% tăng 50bp) · BOJ họp tháng 12 (thị trường coi tăng lên 1,5% gần như chắc)"
+   "Fed họp (~87–89% khả năng tăng 25bp, ~11–13% tăng 50bp) · BOJ họp tháng 12 (thị trường coi tăng lên 1,5% gần như chắc)"
   ],
   [
    "24/12",
@@ -328,6 +357,162 @@
   ]
  ],
  "sources": [
+  [
+   "cappnotes — Closing Look 12/11: chỉ số Mỹ, lợi suất, dầu, vàng, FedWatch (12/11/2026)",
+   "https://cappnotes.substack.com/p/closing-look-thursday-november-12"
+  ],
+  [
+   "Vistap Global — Chứng khoán Mỹ 12/11, lợi suất 5,10% (12/11/2026)",
+   "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/"
+  ],
+  [
+   "Motley Fool — Nvidia giảm khi Jensen Huang từ chức (12/11/2026)",
+   "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-shares-slide-on-reports-of-ceo-jensen-huang-s-resignation/"
+  ],
+  [
+   "SEC — Nvidia 8-K chuyển giao CEO (12/11/2026)",
+   "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+  ],
+  [
+   "ABC News — Nvidia sau khi CEO từ chức (12/11/2026)",
+   "https://abcnews.com/Business/nvidia-stock-sinks-after-ceo-jensen-huang-resigns/story?id=138076153"
+  ],
+  [
+   "TheStreet Pro — Diễn biến 12/11, đấu giá trái phiếu, AAII (12/11/2026)",
+   "https://pro.thestreet.com/stock-market-today/2026-11-12"
+  ],
+  [
+   "GlobeNewswire — Applied Materials quý 4 tài khoá 2026 (12/11/2026)",
+   "https://www.globenewswire.com/news-release/2026/11/12/3402149/0/en/applied-materials-announces-fourth-quarter-and-fiscal-year-2026-results.html"
+  ],
+  [
+   "24/7 Wall St — Cisco quý 1 tài khoá 2027 (12/11/2026)",
+   "https://247wallst.com/investing/2026/11/12/live-will-cisco-smash-q1-earnings-today-after-rallying-2-intraday/"
+  ],
+  [
+   "investingLive — Williams: lạm phát dai dẳng, Fed còn việc phải làm (13/11/2026)",
+   "https://investinglive.com/central-banks/fed-s-williams-says-inflation-stubbornly-high-and-fed-still-has-work-to-do-on-policy/"
+  ],
+  [
+   "investingLive — Lịch châu Á 13/11, Fed, Barclays về dầu (13/11/2026)",
+   "https://investinglive.com/central-banks/economic-and-event-calendar-in-asia-friday-november-13-2026-ny-fed-s-williams-on-the-agenda/"
+  ],
+  [
+   "investingLive — UBS giữ mục tiêu S&P 500 8.900 (10/11/2026)",
+   "https://investinglive.com/stock-market-update/ubs-keeps-8-900-s-p-500-target-for-end-2027-says-20-derating-sets-up-strong-gains/"
+  ],
+  [
+   "Yahoo Finance — Morgan Stanley (Wilson) về S&P 500 (2/11/2026)",
+   "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-wilson-sees-p-181716269.html"
+  ],
+  [
+   "LiteFinance — Lịch kinh tế 16–22/11/2026",
+   "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
+  ],
+  [
+   "Reuters qua Investing.com — Dầu 12/11, Hormuz, Houthi (12/11/2026)",
+   "https://www.investing.com/news/commodities-news/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets-5020171"
+  ],
+  [
+   "Trading & Investment News — Trump: không cần thoả thuận với Iran (12/11/2026)",
+   "https://www.tradingandinvestmentnews.co.uk/brent-crude-prices-trump-no-iran-deal/"
+  ],
+  [
+   "BOE Report — Tồn kho EIA tuần tới 6/11 (12/11/2026)",
+   "https://boereport.com/2026/11/12/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-3/"
+  ],
+  [
+   "USAGOLD — Vàng 12/11 (12/11/2026)",
+   "https://www.usagold.com/daily-precious-metals-market-report-november-12-2026/"
+  ],
+  [
+   "Reuters qua Business Recorder — Vàng giảm, FedWatch (12/11/2026)",
+   "https://www.brecorder.com/news/40448628/gold-extends-losses-to-one-week-low"
+  ],
+  [
+   "CoinDesk — MSCI loại Strategy, Bitcoin theo Nvidia (12/11/2026)",
+   "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
+  ],
+  [
+   "CoinDesk — ETF Bitcoin rút ngày thứ năm (12/11/2026)",
+   "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
+  ],
+  [
+   "Rock & Turner — Thị trường 12/11, STOXX 600, DAX (12/11/2026)",
+   "https://rockandturner.substack.com/p/thur-nov-12-2026-the-market-today"
+  ],
+  [
+   "Idéal Investisseur — Chênh lệch OAT–Bund (12/11/2026)",
+   "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+  ],
+  [
+   "Trading Economics — KOSPI (12/11/2026)",
+   "https://tradingeconomics.com/south-korea/stock-market"
+  ],
+  [
+   "Trading Economics — Yên, BOJ (10/11/2026)",
+   "https://tradingeconomics.com/japan/currency/news/599801"
+  ],
+  [
+   "AP qua Click2Houston — Châu Á 12/11 (12/11/2026)",
+   "https://www.click2houston.com/business/2026/11/12/asian-shares-mostly-slip-as-nvidias-troubles-weigh-on-ai-stocks-despite-a-rally-on-wall-st/"
+  ],
+  [
+   "CGTN — CPI, PPI Trung Quốc tháng 10 (9/11/2026)",
+   "https://news.cgtn.com/news/2026-11-09/China-s-October-CPI-up-0-7-PPI-rises-5-7--1RVFvJks2Fa/p.html"
+  ],
+  [
+   "VTV — VN-Index mất hơn 12 điểm (12/11/2026)",
+   "https://vtv.vn/vn-index-mat-hon-12-diem-100261112162929073.htm"
+  ],
+  [
+   "VnExpress — Khối ngoại bán ròng mạnh nhất một tháng (12/11/2026)",
+   "https://vnexpress.net/khoi-ngoai-ban-rong-manh-nhat-mot-thang-5143906.html"
+  ],
+  [
+   "Vietstock qua Investing.com — Vietstock Daily 13/11 (12/11/2026)",
+   "https://vn.investing.com/news/stock-market-news/vietstock-daily-13112026-chua-ro-xu-huong-2762592"
+  ],
+  [
+   "Investing.com — Dấu chân cá mập 12/11: khối ngoại, tự doanh (12/11/2026)",
+   "https://vn.investing.com/news/stock-market-news/theo-dau-dong-tien-ca-map-1211-khoi-ngoai-va-tu-doanh-mua-ban-trai-chieu-2762763"
+  ],
+  [
+   "Investing.com — Góc nhìn CTCK 13/11 (12/11/2026)",
+   "https://vn.investing.com/news/stock-market-news/goc-nhin-1311-tranh-mua-duoi-2762723"
+  ],
+  [
+   "Tin nhanh chứng khoán — Nhận định phiên 13/11 (13/11/2026)",
+   "https://www.tinnhanhchungkhoan.vn/nhan-dinh-thi-truong-phien-giao-dich-ngay-1311-vi-the-mua-can-than-trong-post401307.html"
+  ],
+  [
+   "Tin nhanh chứng khoán — Bộ trưởng Tài chính trả lời chất vấn (12/11/2026)",
+   "https://www.tinnhanhchungkhoan.vn/bo-truong-bo-tai-chinh-khuyen-khich-san-pham-dich-vu-chung-khoan-moi-dang-ky-thu-nghiem-post401303.html"
+  ],
+  [
+   "Thanh Niên — Giá xăng dầu từ 15h 12/11 (12/11/2026)",
+   "https://thanhnien.vn/gia-xang-dau-moi-nhat-ap-dung-tu-15-gio-hom-nay-1211-185261112145042422.htm"
+  ],
+  [
+   "Người Quan sát — OMO, liên ngân hàng 12/11 (12/11/2026)",
+   "https://nguoiquansat.vn/phien-12-11-ngan-hang-nha-nuoc-hut-rong-447-ty-dong-lai-suat-neo-muc-4-3-327840.html"
+  ],
+  [
+   "Báo Văn hoá — Tỷ giá USD 13/11 (13/11/2026)",
+   "https://baovanhoa.vn/ti-gia-usd-hom-nay-13-11-vietcombank-ban-25-870-dong-bidv-tiep-tuc-tang.html"
+  ],
+  [
+   "Báo Tin tức — Dư nợ tín dụng tới 30/9 (2026)",
+   "https://baotintuc.vn/du-no-tin-dung-dat-2075-trieu-ty-dong-tang-1669-post1392148.html"
+  ],
+  [
+   "Thời báo Tài chính — Giá vàng 13/11 (13/11/2026)",
+   "https://thoibaotaichinhvietnam.vn/gia-vang-hom-nay-ngay-13-11-vang-the-gioi-mat-hon-110-usd-vang-trong-nuoc-giam-toi-1-trieu-dong-luong-206879.html"
+  ],
+  [
+   "Kenh14 — Giá vàng miếng, nhẫn sáng 13/11 (13/11/2026)",
+   "https://kenh14.vn/gia-vang-mieng-vang-nhan-tron-sang-13-11-tai-sjc-doji-pnj-bao-tin-minh-chau-215261113053729041.chn"
+  ],
   [
    "Yahoo Finance — Chứng khoán Mỹ 11/11, Nvidia, CoreWeave (11/11/2026)",
    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
@@ -725,10 +910,6 @@
    "https://finance.yahoo.com/economy/policy/articles/china-extends-pause-24-us-043635075.html"
   ],
   [
-   "Euronews — ECB giữ lãi 2,5% (29/10/2026)",
-   "https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe"
-  ],
-  [
    "TokenPost — Fitch, ngân sách Pháp (11/2026)",
    "https://www.tokenpost.com/news/regulation/51326"
   ],
@@ -1079,10 +1260,6 @@
   [
    "IndexBox — Lagarde: dữ liệu quyết định tăng lãi tháng 12 (5/11)",
    "https://www.indexbox.io/blog/ecb-watching-data-for-possible-december-rate-move-lagarde-says/"
-  ],
-  [
-   "Ideal Investisseur — Chênh lệch OAT–Bund",
-   "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
   ],
   [
    "Investing.com — Biên bản BOJ tháng 9 (5/11)",
@@ -1905,10 +2082,6 @@
    "https://www.techflowpost.com/en-US/newsletter/142167"
   ],
   [
-   "KuCoin News — ETF Bitcoin, Ether 29/10/2026",
-   "https://www.kucoin.com/news/flash/bitcoin-etfs-see-17-06m-net-inflow-ethereum-etfs-record-105-5m-net-outflow"
-  ],
-  [
    "Trading Economics — DXY 30/10/2026",
    "https://tradingeconomics.com/dxy:cur"
   ],
@@ -1941,72 +2114,16 @@
    "https://www.aseansc.com.vn/ban-tin-thi-truong-chung-khoan-ngay-30-10-2026-ap-luc-ban-tiep-tuc-duy-tri/"
   ],
   [
-   "LuatVietnam — Giá xăng 29/10/2026, đề xuất giảm thuế",
-   "https://luatvietnam.vn/tin-van-ban-moi/gia-xang-ngay-29-10-2026-186-114755-article.html"
-  ],
-  [
-   "Vista Global — Chứng khoán Mỹ 29/10/2026, Nasdaq giảm vì lo chi tiêu AI",
-   "https://vistapglobal.com/stock-market-today-thursday-october-29-2026-nasdaq-slides-as-ai-spending-concerns-offset-strong-economic-growth-and-lower-yields-amzn-cmg-eprx-googl-hsy-lly-modd-now-rivn-ser/"
-  ],
-  [
    "Seoul Economic Daily — Alphabet −13% vì cú sốc chi đầu tư 30/10/2026",
    "https://en.sedaily.com/international/2026/10/30/alphabet-plunges-13-percent-on-capex-shock-dragging-nasdaq"
-  ],
-  [
-   "CNBC — Alphabet, Microsoft sau báo cáo 29/10/2026",
-   "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
-  ],
-  [
-   "TradingKey — ServiceNow −27% 29/10/2026",
-   "https://www.tradingkey.com/news/market-movers/262253643-market-movers-now-20261029"
-  ],
-  [
-   "TheStreet — Diễn biến chứng khoán Mỹ 29/10/2026",
-   "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-29-2026"
-  ],
-  [
-   "SSBCrack — PCE tháng 9, GDP quý 3 Mỹ 29/10/2026",
-   "https://news.ssbcrack.com/pce-inflation-rises-further-from-feds-target-as-gdp-growth-exceeds-expectations/"
-  ],
-  [
-   "Reuters qua 93.3 — Đơn thất nghiệp Mỹ gần đáy 57 năm 29/10/2026",
-   "https://www.933thedrive.com/2026/10/29/us-weekly-jobless-claims-hover-near-57-year-lows/"
-  ],
-  [
-   "InvestorPlace — Alphabet và bài kiểm tra AI 29/10/2026",
-   "https://investorplace.com/2026/10/the-ai-test-alphabet-just-failed"
-  ],
-  [
-   "247 Wall St. — Amazon, Meta, Microsoft phiên 29/10/2026",
-   "https://247wallst.com/investing/2026/10/29/amazon-slides-3-as-alphabets-12-plunge-raises-stakes-for-aws-report-meta-rises-3-microsoft-pulls-back/"
   ],
   [
    "Business Wire — Amazon kết quả quý 3/2026 (29/10)",
    "https://www.businesswire.com/news/home/20261028373648/en/Amazon.com-Announces-Third-Quarter-Results"
   ],
   [
-   "Newscord — Amazon hụt lãi, cổ phiếu −7% sau giờ 29/10/2026",
-   "https://newscord.org/article/amazon-misses-earnings-aws-revenue-jumps-39-as-shares-drop-more-than-7--Story_20261029_Amazonreportedboomin5195d6ef"
-  ],
-  [
-   "Mugglehead — FedWatch tháng 12 ngày 29/10/2026",
-   "https://mugglehead.com/federal-reserve-october-rate-hike-december-futures/"
-  ],
-  [
-   "Trading Economics — Lợi suất Mỹ 2 năm 29/10/2026",
-   "https://tradingeconomics.com/united-states/2-year-note-yield"
-  ],
-  [
    "MacRumors — Apple báo cáo 2/11/2026",
    "https://macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2"
-  ],
-  [
-   "Euronext (Reuters) — Giá dầu chốt giảm 29/10/2026",
-   "https://live.euronext.com/en/financial-news/oil-prices-settles-lower-diplomacy-hopes-offset-some-mideast-supply-concerns"
-  ],
-  [
-   "The National — Dầu giảm sau nỗ lực ngoại giao 29/10/2026",
-   "https://thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war"
   ],
   [
    "CafeF — Giá vàng SJC, nhẫn 30/10/2026",
@@ -2019,14 +2136,6 @@
   [
    "Báo Quốc tế — Giá vàng 30/10/2026, dự báo Sucden",
    "https://baoquocte.vn/gia-vang-hom-nay-30-10-2026-chim-sau-nha-dau-tu-ca-map-manh-tay-bat-day-chuyen-gia-pho-wall-du-bao-kho-bat-len-trong-nam-nay-462169.html"
-  ],
-  [
-   "CoinDesk — Binance có thể bị hack nhiều tỷ USD 29/10/2026",
-   "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
-  ],
-  [
-   "Investing.com — Bitcoin về 78.000 USD sau vụ hack Binance 29/10/2026",
-   "https://in.investing.com/news/cryptocurrency-news/bitcoin-sinks-to-78k-after-binance-hit-with-reported-53-bln-hack-5666320"
   ],
   [
    "ChainCatcher — Thanh lý crypto 24 giờ tới 30/10/2026",
@@ -2045,136 +2154,32 @@
    "https://finance.yahoo.com/economy/policy/articles/ecb-keeps-rates-unchanged-points-132927008.html"
   ],
   [
-   "Cappnotes — Tổng kết thị trường 29/10/2026",
-   "https://cappnotes.substack.com/p/closing-look-thursday-october-29"
-  ],
-  [
-   "Devdiscourse — Chứng khoán châu Âu cao nhất 7 tuần 29/10/2026",
-   "https://www.devdiscourse.com/article/international/3999165-european-shares-close-at-seven-week-high-after-ecb-pause-lagarde-resigns"
-  ],
-  [
-   "Reuters qua Investing.com — BOJ dự kiến giữ lãi 29/10/2026",
-   "https://www.investing.com/news/economy-news/bank-of-japan-to-hold-rates-signal-further-hikes-4985276"
-  ],
-  [
    "TradingKey — Cổ phiếu Nhật, Hàn sáng 30/10/2026",
    "https://www.tradingkey.com/analysis/stocks/more/262258171-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-fomc-hbm-google-tradingkey"
-  ],
-  [
-   "Aju Press — KOSPI 29/10/2026, Samsung, SK hynix",
-   "https://www.ajupress.com/view/20261029153336069"
   ],
   [
    "Korea JoongAng Daily — KOSPI mở cửa giảm 30/10/2026",
    "https://www.koreajoongangdaily.com/business/kospi-opens-lower-on-wall-street-losses-ai-concerns/12946901"
   ],
   [
-   "Xinhua — Hang Seng 29/10/2026",
-   "https://english.news.cn/20261029/7a71d11f4ac545598375f5a524b31e27/c.html"
-  ],
-  [
-   "Thời báo Tài chính — Chứng khoán 29/10/2026",
-   "https://thoibaotaichinhvietnam.vn/chung-khoan-ngay-29-10-ap-luc-ban-lan-rong-vn-index-quay-dau-giam-diem-206118.html"
-  ],
-  [
    "Vietstock Daily 30/10/2026",
    "https://vietstock.vn/2026/10/vietstock-daily-30102026-ap-luc-gia-tang-1636-1508627.htm"
-  ],
-  [
-   "Hà Nội Mới — Cổ phiếu dầu khí lao dốc 29/10/2026",
-   "https://hanoimoi.vn/chung-khoan-ngay-29-10-co-phieu-dau-khi-lao-doc-vn-index-mat-hon-11-diem-1763387.html"
-  ],
-  [
-   "Nhân Dân — Khối ngoại bán ròng 29/10/2026",
-   "https://nhandan.vn/infographic-chung-khoan-ngay-2910-vn-index-giam-hon-11-diem-khoi-ngoai-van-ban-rong-post998952.html"
-  ],
-  [
-   "Nhịp sống kinh doanh — Tự doanh CTCK 29/10/2026",
-   "https://nhipsongkinhdoanh.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-tram-ty-dong-phien-29-10-34567.htm"
   ],
   [
    "Tin nhanh chứng khoán — Góc nhìn kỹ thuật 30/10/2026",
    "https://www.tinnhanhchungkhoan.vn/goc-nhin-ky-thuat-phien-giao-dich-chung-khoan-ngay-3010-tiep-tuc-rung-lac-post400441.html"
   ],
   [
-   "VOH — Giá xăng dầu từ 15h 29/10/2026",
-   "https://voh.com.vn/kinh-te/tu-15-gio-ngay-2910-gia-xang-dau-dong-loat-tang-xang-e10-co-gia-moi-25734-donglit-676466.html"
-  ],
-  [
    "Vietbao — Tỷ giá trung tâm 30/10/2026",
    "https://vietbao.vn/ty-gia-usd-hom-nay-3010-ty-gia-trung-tam-on-dinh-o-muc-25644-dongusd-613659.html"
-  ],
-  [
-   "Người Quan sát — OMO 29/10/2026",
-   "https://nguoiquansat.vn/phien-29-10-ngan-hang-nha-nuoc-bom-rong-gan-3-000-ty-dong-lai-suat-qua-dem-neo-muc-4-1-324952.html"
   ],
   [
    "LSVN — Lịch công bố số liệu thống kê (CPI 3/11/2026)",
    "https://lsvn.vn/thay-doi-thoi-gian-cong-bo-so-lieu-thong-ke-quan-trong-a168390.html"
   ],
   [
-   "CafeBiz — BCTC quý 3 chiều 29/10/2026 (HPG, VRE)",
-   "https://cafebiz.vn/cap-nhat-bctc-quy-3-2026-chieu-ngay-29-10-hoa-phat-vincom-retail-gelex-electric-nam-kim-cong-bo-176261029141556989.chn"
-  ],
-  [
-   "CafeF — Lợi nhuận 18 ngân hàng tới sáng 29/10/2026",
-   "https://cafef.vn/cap-nhat-loi-nhuan-18-ngan-hang-den-sang-29-10-them-vib-va-tpbank-cong-bo-xuat-hien-nha-bang-lai-gap-45-lan-cung-ky-188261029085133902.chn"
-  ],
-  [
-   "FN News — xác suất tăng lãi tháng 12 sau FOMC 29/10/2026",
-   "https://en.fnnews.com/news/202610290616151326"
-  ],
-  [
-   "Al Jazeera — Iran đẩy kế hoạch 7 ngày mở Hormuz 29/10/2026",
-   "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks"
-  ],
-  [
-   "VietNamNet — giá xăng dầu 29/10/2026",
-   "https://vietnamnet.vn/gia-xang-dau-hom-nay-29-10-the-gioi-tang-trong-nuoc-chieu-nay-dieu-chinh-2569442.html"
-  ],
-  [
-   "Guardian Gold — tổng kết kim loại quý 29/10/2026",
-   "https://guardian-gold.com.au/market-updates/overnight-summary-precious-metals-prices-29-10-2026/"
-  ],
-  [
-   "Viettimes — giá vàng 29/10/2026",
-   "https://viettimes.vn/gia-vang-hom-nay-2910-vang-the-gioi-quay-dau-giam-post207637.html"
-  ],
-  [
-   "Báo Lào Cai — giá vàng SJC, nhẫn 29/10/2026",
-   "https://baolaocai.vn/gia-vang-hom-nay-2910-sjc-tang-manh-du-vang-the-gioi-lui-nhe-post913012.html"
-  ],
-  [
-   "Interactivecrypto — ETF Ether, Bitcoin 29/10/2026",
-   "https://www.interactivecrypto.com/bitcoin-s-286m-etf-inflow-short-covering-fuels-fragile-rally"
-  ],
-  [
    "KuCoin — quyền chọn Bitcoin đáo hạn 30/10/2026",
    "https://www.kucoin.com/news/flash/109-2-billion-usd-bitcoin-options-set-to-expire-on-october-30-maximum-pain-point-at-78-000-usd"
-  ],
-  [
-   "Trading Economics — Nikkei 28–29/10/2026",
-   "https://tradingeconomics.com/japan/stock-market"
-  ],
-  [
-   "Người Quan sát — nhận định thị trường 29/10/2026",
-   "https://nguoiquansat.vn/nhan-dinh-thi-truong-29-10-ap-luc-chot-loi-ha-nhiet-vn-index-dung-truoc-co-hoi-noi-dai-quan-tinh-tang-diem-324794.html"
-  ],
-  [
-   "Tin nhanh chứng khoán — nhận định phiên 29/10/2026",
-   "https://www.tinnhanhchungkhoan.vn/nhan-dinh-thi-truong-phien-giao-dich-ngay-2910-cho-doi-vung-gia-chiet-khau-hon-post400378.html"
-  ],
-  [
-   "Điện tử ứng dụng — BSC nhận định 29/10/2026",
-   "https://dientuungdung.vn/nhan-dinh-chung-khoan-2910-vn-index-thu-thach-vung-1768-1778-diem-19208.html"
-  ],
-  [
-   "Index.vn — tỷ giá 29/10/2026",
-   "https://index.vn/tin-tuc/ty-gia-ngay-hom-nay-29-10-2026-ty-gia-trung-tam-giam-2-dong-usd-dxy-phuc-hoi"
-  ],
-  [
-   "Newsquawk — xem trước ECB 29/10/2026",
-   "https://www.newsquawk.com/headlines/preview-ecb-policy-announcement-due-thursday-29th-october-2026-at-1315gmt0815edt"
   ],
   [
    "Farside — dòng tiền ETF Bitcoin",
@@ -2208,175 +2213,175 @@
  "disclaimer": "Tài liệu chỉ nhằm mục đích thông tin và phân tích, không phải khuyến nghị đầu tư. Số liệu tổng hợp từ các nguồn công khai tại thời điểm ghi; một số chỉ số châu Âu và châu Á theo giá CFD của Trading Economics. Số có dấu ~ là ước tính. Kịch bản là ý kiến phân tích.",
  "strategy": {
   "title": "Khung phân bổ theo chế độ hiện tại",
-  "note": "Khung tham khảo theo chế độ “thắt chặt: Fed gần như chắc tăng, đô la lên đỉnh”. Định hướng giữ nguyên vì trạng thái các thị trường không đổi: VN-Index Wait Mode; S&P 500, vàng, Bitcoin Sell Mode. Giả định mô phỏng chỉnh nhẹ (57/21/22) do Iran bác tin đàm phán. Đây là ý kiến phân tích, không phải khuyến nghị đầu tư; tỷ trọng cụ thể tuỳ khẩu vị rủi ro của từng người.",
+  "note": "Khung tham khảo theo chế độ “thắt chặt: lợi suất Mỹ trên 5%, đô la đỉnh 19 tháng”. Đổi một định hướng: cổ phiếu Việt Nam từ “mua thăm dò” sang “tạm dừng mua mới” vì VN-Index chuyển Sell Mode. Giả định mô phỏng chỉnh sang 56/19/25 (nhánh leo thang tăng) do ông Trump nói không cần thoả thuận với Iran và lợi suất vọt. Đây là ý kiến phân tích, không phải khuyến nghị đầu tư; tỷ trọng cụ thể tuỳ khẩu vị rủi ro của từng người.",
   "items": [
    {
     "a": "Tiền mặt, tiền gửi",
-    "s": "Giữ cao hơn bình thường, giảm nhẹ",
+    "s": "Giữ cao hơn bình thường, tăng nhẹ",
     "lv": "up",
-    "why": "S&P 500, vàng, Bitcoin vẫn Sell Mode; Fed gần như chắc tăng 9/12 (~90,7%); mô phỏng VN-Index 3 tháng: trung vị −0,1%, ~18,2% khả năng mất hơn 10%. Mặt trái: VN-Index đang Wait Mode, giữ tiền quá nhiều dễ lỡ nhịp nếu chỉ số lên Buy Mode.",
-    "flip": "Giảm tiếp khi VN-Index lên Buy Mode (trên MA50 ~1.763, phiên phân phối về tối đa 5, có FTD), hoặc lãi tiết kiệm 12 tháng xuống dưới ~5%."
+    "why": "VN-Index, S&P 500, vàng, Bitcoin đều Sell Mode; lợi suất Mỹ 10 năm 5,10%; mô phỏng VN-Index 3 tháng: trung vị −0,3%, ~19,4% khả năng mất hơn 10%. Mặt trái: VN-Index chỉ dưới mốc chưa tới 1 điểm, giữ tiền quá nhiều dễ lỡ nhịp nếu chỉ số hồi.",
+    "flip": "Giảm khi VN-Index về lại Wait Mode (trên ~1.737), mạnh hơn khi lên Buy Mode (trên MA50 ~1.762, phiên phân phối tối đa 5, có FTD); hoặc lãi tiết kiệm 12 tháng xuống dưới ~5%."
    },
    {
     "a": "Cổ phiếu Việt Nam",
-    "s": "Mua thăm dò, nhỏ, giữ phần đã có",
-    "lv": "warn",
-    "why": "VN-Index 1.746,90 (11/11, +0,22%) trên mốc ~1.737 và EMA20 (~1.738): Wait Mode; khối ngoại mua ròng ~51 tỷ. Mặt trái: còn 7 phiên phân phối, dưới MA50 (~1.763); thanh khoản −18%, tự doanh bán ~557 tỷ. Mô phỏng: nhánh cơ sở +0,9%, thoả thuận +7,0%, leo thang −9,3%.",
-    "flip": "Về Trung tính khi lên Buy Mode và có FTD; quay lại “tạm dừng mua mới” nếu đóng cửa dưới ~1.737."
+    "s": "Tạm dừng mua mới, giữ phần đã có",
+    "lv": "down",
+    "why": "VN-Index 1.734,75 (12/11, −0,70%) dưới mốc ~1.735 và EMA20 (~1.737), 6 phiên phân phối: Sell Mode; khối ngoại bán ròng ~880 tỷ, mạnh nhất hơn 1 tháng. Mặt trái: tự doanh mua ~325 tỷ, xăng giảm mạnh giúp CPI; nhiều CTCK thấy hỗ trợ 1.710–1.725. Mô phỏng: nhánh cơ sở +1,1%, thoả thuận +7,0%, leo thang −9,3%.",
+    "flip": "Mua thăm dò lại khi đóng cửa trên ~1.737 (Wait Mode); về Trung tính khi lên Buy Mode và có FTD; giảm thêm nếu thủng 1.700 với thanh khoản tăng."
    },
    {
     "a": "Vàng",
     "s": "Giữ",
     "lv": "info",
-    "why": "Vàng tương lai ~3.995 USD (11/11, −0,9%), giao ngay ~3.987, lần đầu dưới 4.000 trong đợt giảm; dưới MA50 (~4.205): Sell Mode. Đô la đỉnh 52 tuần và lợi suất ~5% là lực cản. Mặt trái: ngân hàng trung ương đã mua 675 tấn từ đầu năm (Kitco). Mô phỏng: trung vị +2,5%; nhánh leo thang +8,1%.",
+    "why": "Vàng giao ngay ~3.866 USD (12/11, −3%), ngày giảm thứ ba, thấp nhất từ 10/2025; dưới MA50 (~4.195): Sell Mode. Đô la đỉnh 19 tháng và lợi suất 5,10% là lực cản. Mặt trái: ngân hàng trung ương vẫn mua ròng trong năm; mô phỏng: trung vị +2,5%, nhánh leo thang +8,0%.",
     "flip": "Tăng khi lợi suất thực và đồng đô la quay đầu giảm rõ và vàng lấy lại MA50."
    },
    {
     "a": "Dầu, cổ phiếu năng lượng",
     "s": "Giảm dần phần đã có",
     "lv": "down",
-    "why": "Brent ~92,3 USD (11/11, +0,9%) hồi khi Iran bác tin đàm phán, nhưng dưới MA50 (~104,2): Sell Mode; RSI 27: quá bán. OPEC+ tháng 10 sản xuất 41,23 triệu thùng/ngày, +2,04 triệu (OPEC 11/11). Mặt trái: tàu bị tấn công nhiều nhất từ đầu chiến tranh, phong toả còn. Mô phỏng: trung vị −1,7%, dải 90% từ −41,0% đến +58,6%.",
+    "why": "Brent 95,82 USD (12/11, +3,3%) tăng lại khi ông Trump nói không cần thoả thuận với Iran và tàu chở dầu trúng nổ ở Hormuz; vẫn dưới MA50 (~104,2): Sell Mode, RSI 27: quá bán. Tồn kho dầu thô Mỹ +4,7 triệu thùng (EIA 12/11). Mặt trái: Houthi tấn công đường ống Saudi, phong toả còn. Mô phỏng: trung vị −0,3%, dải 90% từ −39,6% đến +61,5%.",
     "flip": "Giữ lại nếu Brent lấy lại MA50 (~104) do đàm phán đổ vỡ; giảm tiếp khi Mỹ–Iran ký thoả thuận."
    },
    {
     "a": "Cổ phiếu Mỹ, Nhật (qua quỹ)",
     "s": "Tạm dừng mua mới",
     "lv": "down",
-    "why": "S&P 500 7.619,38 (11/11, +1,31%) vẫn dưới MA50 (~7.673) −0,7%, 6 phiên phân phối; Nikkei dưới MA50 và MA200. Nvidia ~−8% sau giờ. Mặt trái: VIX về 17,49, CoreWeave cho thấy nhu cầu AI còn mạnh; châu Âu Buy Mode, đỉnh kỷ lục. Mô phỏng S&P 500 trung vị +1,4%, ~17,2% khả năng mất hơn 10%.",
-    "flip": "Mua dần lại khi S&P 500 đóng cửa trên MA50 (~7.673) và số phiên phân phối về tối đa 5; giảm thêm nếu thủng MA200 (~7.334)."
+    "why": "S&P 500 7.592,40 (12/11, −0,35%) dưới MA50 (~7.671) và EMA20 (~7.605), 5 phiên phân phối; Russell 2000 thủng MA50; Nikkei dưới MA50 và MA200. Nvidia mất CEO, Bernstein hạ mục tiêu 400→200 USD. Mặt trái: AAII bi quan 51,4% (tín hiệu ngược), châu Âu, Dow Buy Mode. Mô phỏng S&P 500 trung vị +1,0%, ~17,4% khả năng mất hơn 10%.",
+    "flip": "Mua dần lại khi S&P 500 đóng cửa trên MA50 (~7.671) và EMA20; giảm thêm nếu thủng MA200 (~7.337)."
    },
    {
     "a": "Crypto",
     "s": "Giảm, không mua mới",
     "lv": "down",
-    "why": "Bitcoin ~74.000 USD (12/11) dưới ~78.680 (MA50 trừ vùng đệm) và EMA20 (~77.320): Sell Mode, sát MA200 (~73.120); ETF bị rút bốn ngày liền, USDT co 6,6 tỷ USD trong 60 ngày (CryptoQuant). Bộ lọc không có đồng nào qua. Mô phỏng: dải 90% từ −35,9% đến +48,0%.",
-    "flip": "Về lại Buy Mode khi đóng cửa trên ~78.680 và EMA20; đóng cửa dưới MA200 (~73.120 USD) là vùng rủi ro tiếp theo."
+    "why": "Bitcoin ~70.800 USD (13/11) dưới ~78.420 (MA50 trừ vùng đệm) và EMA20 (~76.700): Sell Mode, đã thủng MA200 (~73.080); ETF bị rút 5 ngày liền ~1,44 tỷ USD; MSCI loại Strategy sau 30/11. Bộ lọc không có đồng nào qua. Mô phỏng: dải 90% từ −36,7% đến +48,1%.",
+    "flip": "Về lại Buy Mode khi đóng cửa trên ~78.420 và EMA20; lấy lại MA200 (~73.080) là bước đầu tiên."
    },
    {
     "a": "Trái phiếu dài hạn",
     "s": "Chờ, mua dần",
     "lv": "warn",
-    "why": "Lợi suất 10 năm ~5,00%, 2 năm ~4,74% (chốt 10/11); Fed gần như chắc tăng, PPI 13/11 có thể đẩy lợi suất thêm. Mặt trái: lợi suất cao hơn làm phần lãi khi mua dần hấp dẫn hơn; dầu thấp hơn đầu tháng ~20% có thể hạ lạm phát các tháng tới.",
+    "why": "Lợi suất 10 năm 5,10%, 2 năm 4,88% (12/11); đấu giá 30 năm yếu (5,441%). PPI tối 13/11 có thể đẩy lợi suất thêm. Mặt trái: lợi suất cao làm phần lãi khi mua dần hấp dẫn hơn; nếu có thoả thuận Hormuz, lạm phát có thể hạ nhanh.",
     "flip": "Mua mạnh hơn khi lạm phát lõi quay đầu và Fed bỏ ý định tăng."
    }
   ]
  },
- "simNote": "Kết quả sáng 12/11 (20.000 đường, giả định mới: cơ sở 57%, thoả thuận Hormuz 21%, leo thang 22%; giá đóng cửa 11/11 cho Mỹ, Việt Nam, vàng, dầu; châu Âu, Hồng Kông, Thượng Hải 10/11; Nhật, Hàn, crypto 12/11): VN-Index có ~49,7% khả năng cao hơn hiện tại sau 3 tháng, trung vị −0,1%, ~18,2% khả năng mất hơn 10%, dải 90% từ −19,3% đến +15,0%. Theo nhánh: cơ sở +0,9%, thoả thuận +7,0%, leo thang −9,3%. S&P 500 trung vị +1,4%, ~17,2% khả năng mất hơn 10%; vàng trung vị +2,5%; Brent trung vị −1,7% (nhánh thoả thuận −26,4%); Bitcoin dải 90% từ −35,9% đến +48,0%. Đây là phân phối khả năng, không phải dự báo.",
+ "simNote": "Kết quả sáng 13/11 (20.000 đường, giả định mới: cơ sở 56%, thoả thuận Hormuz 19%, leo thang 25%; giá đóng cửa 12/11 cho Mỹ, Việt Nam, vàng, dầu; châu Âu, Hồng Kông, Thượng Hải 11/11; Nhật, Hàn, crypto 13/11): VN-Index có ~48,5% khả năng cao hơn hiện tại sau 3 tháng, trung vị −0,3%, ~19,4% khả năng mất hơn 10%, dải 90% từ −19,5% đến +14,7%. Theo nhánh: cơ sở +1,1%, thoả thuận +7,0%, leo thang −9,3%. S&P 500 trung vị +1,0%, ~17,4% khả năng mất hơn 10%; vàng trung vị +2,5%; Brent trung vị −0,3% (nhánh thoả thuận −25,8%); Bitcoin dải 90% từ −36,7% đến +48,1%. Đây là phân phối khả năng, không phải dự báo.",
  "marketNotes": {
   "spx": {
-   "sig": "7.619,38 (11/11, +1,31%) nhờ CoreWeave; vẫn dưới MA50 (~7.673), trên EMA20 (~7.606), 6 phiên phân phối: Sell Mode; RSI 48.",
+   "sig": "7.592,40 (12/11, −0,35%, có lúc −1%); dưới MA50 (~7.671) và EMA20 (~7.605), 5 phiên phân phối: Sell Mode; RSI 49.",
    "lv": "down"
   },
   "ndx": {
-   "sig": "25.466,19 (11/11, +1,60%); cách đỉnh −7,7%, trên MA200 (~25.123) nhưng dưới MA50 (~26.396); Nvidia ~−8% sau giờ.",
+   "sig": "25.366,09 (12/11, −0,39%); cách đỉnh −8,1%, sát MA200 (~25.130); Nvidia mất CEO nhưng AMD, Broadcom +5%.",
    "lv": "warn"
   },
   "rut": {
-   "sig": "2.846,26 (11/11, +0,88%), lấy lại MA50 (~2.831) và EMA20: Buy Mode nhưng sát mốc; nhạy với lãi suất.",
-   "lv": "warn"
+   "sig": "2.799,06 (12/11, −1,66%), thủng MA50 (~2.828) và MA200 (~2.811): về Sell Mode; nhạy nhất với lợi suất 5,10%.",
+   "lv": "down"
   },
   "stoxx": {
-   "sig": "658,32 trên bảng (10/11); 11/11 +0,72% lên 663,05, đóng cửa kỷ lục; trên MA50 (~641): Buy Mode.",
+   "sig": "663,05 trên bảng (11/11); 12/11 +0,14% lên 664,01, kỷ lục mới; RSI 71: quá mua; Buy Mode.",
    "lv": "up"
   },
   "cac": {
-   "sig": "8.278,59 trên bảng (10/11), RSI 72: quá mua; OAT Pháp 10 năm ~4,80% (11/11), chênh Bund ~149bp.",
+   "sig": "8.332,87 trên bảng (11/11), RSI 84: quá mua mạnh; chênh lệch OAT–Bund 147bp (12/11), Pháp hạn ngân sách 17/11.",
    "lv": "warn"
   },
   "dax": {
-   "sig": "26.347 trên bảng (10/11); 11/11 +1,2%, sát đỉnh, Siemens Energy +10,8%; trên MA50 (~25.563): Buy Mode.",
+   "sig": "26.662,77 trên bảng (11/11); 12/11 +0,41% lên 26.771,88, sát đỉnh; trên MA50 (~25.580): Buy Mode.",
    "lv": "up"
   },
   "n225": {
-   "sig": "~61.500 sáng 12/11 sau 61.248,59 (+1,31%) ngày 11/11; vẫn dưới MA200 (~62.060) và MA50 (~64.940): Sell Mode; JGB 10 năm 2,79%.",
+   "sig": "~61.735 sáng 13/11 (+0,8%) sau 60.819 (−0,70%) ngày 12/11; dưới MA200 (~62.096) và MA50 (~64.850): Sell Mode; yên ~159,9.",
    "lv": "down"
   },
   "kospi": {
-   "sig": "~5.410 sáng 12/11 sau 5.375,36 (+2,6%) ngày 11/11; Naver −3,4% theo Nvidia; cách đỉnh −41%, dưới MA50 (~6.296): Sell Mode.",
+   "sig": "~5.462 sáng 13/11 (+1,6%) sau 5.342,73 (−0,61%) ngày 12/11; cách đỉnh −40%, dưới MA50 (~6.269): Sell Mode.",
    "lv": "down"
   },
   "hsi": {
-   "sig": "24.557 trên bảng (10/11), trên MA50 (~24.368); 11/11 −0,98% về 24.315,92, HS Tech −1,41%: sát mốc MA50.",
-   "lv": "warn"
+   "sig": "24.315,92 trên bảng (11/11); 12/11 −1,26% về 24.008,55, dưới MA50 (~24.343): Sell Mode; chờ APEC Thâm Quyến.",
+   "lv": "down"
   },
   "sse": {
-   "sig": "3.663,72 trên bảng (10/11); 11/11 +0,46% lên 3.680,64; dưới MA50 (~3.812): Sell Mode; chờ APEC Thâm Quyến 18–19/11.",
+   "sig": "3.680,64 trên bảng (11/11); 12/11 giữa phiên −0,6% (~3.657); dưới MA50 (~3.808): Sell Mode; số liệu tháng 10 ra 16/11.",
    "lv": "down"
   },
   "vni": {
-   "sig": "1.746,90 (11/11, +0,22%), trên mốc ~1.737 và EMA20 (~1.738) nhưng còn 7 phiên phân phối: Wait Mode; thanh khoản −18%.",
-   "lv": "warn"
+   "sig": "1.734,75 (12/11, −0,70%), dưới mốc ~1.735 chưa tới 1 điểm và dưới EMA20 (~1.737): chuyển Sell Mode; khối ngoại bán ~880 tỷ.",
+   "lv": "down"
   },
   "gold": {
-   "sig": "3.994,60 USD tương lai (11/11, −0,9%), lần đầu dưới 4.000 trong đợt giảm; dưới MA50 (~4.205): Sell Mode; cách đỉnh −25%.",
+   "sig": "~3.889 USD tương lai trên bảng (12/11, −2,8%), giao ngay ~3.866, thấp nhất từ 10/2025; dưới MA50 (~4.195): Sell Mode; cách đỉnh −27%.",
    "lv": "down"
   },
   "brent": {
-   "sig": "92,31 USD (11/11, +0,9%), hồi khi Iran bác tin đàm phán; RSI 27: quá bán; dưới MA50 (~104,2): Sell Mode.",
+   "sig": "95,62 USD (12/11, +3,1%) khi ông Trump nói không cần thoả thuận và tàu trúng nổ ở Hormuz; RSI 27: quá bán; dưới MA50 (~104,2): Sell Mode.",
    "lv": "down"
   },
   "btc": {
-   "sig": "~74.000 USD (12/11), dưới ~78.680 (MA50 trừ vùng đệm) và EMA20 (~77.320): Sell Mode; sát MA200 (~73.120), RSI 30,5.",
+   "sig": "~70.800 USD (13/11, −4,3%), thủng MA200 (~73.080), dưới ~78.420 và EMA20: Sell Mode; RSI 31, ETF bị rút 5 ngày liền.",
    "lv": "down"
   },
   "eth": {
-   "sig": "~2.059 USD (12/11), dưới MA200 (~2.151); 1 tháng −16,7%, từ đầu năm −30,6%; RSI 30: sát quá bán.",
+   "sig": "~2.005 USD (13/11, −2,5%), dưới MA200 (~2.149); 1 tháng −16%, từ đầu năm −32%; RSI 32: sát quá bán.",
    "lv": "down"
   },
   "dxy": {
-   "sig": "102,88 (11/11, +0,63%), đỉnh 52 tuần; trên MA50 (~101,25) và EMA20: đô la mạnh nhất từ khoảng 4/2025.",
+   "sig": "103,22 (12/11, +0,3%), đỉnh 52 tuần, cao nhất ~19 tháng; trên MA50 (~101,3) và EMA20.",
    "lv": "up"
   },
   "dji": {
-   "sig": "52.486,49 (11/11, +0,49%), trên MA50 (~52.016) và EMA20: Buy Mode.",
+   "sig": "52.297,09 (12/11, −0,36%), vẫn trên MA50 (~52.001) và EMA20: Buy Mode nhưng sát mốc.",
    "lv": "up"
   },
   "vix": {
-   "sig": "17,49 (11/11, −10,1%): tâm lý dịu lại, sát MA50 (~17,1); rủi ro sự kiện: PPI 13/11, Nvidia 17/11.",
+   "sig": "18,70 (12/11, +6,9%): nhích lên nhưng chưa hoảng loạn; rủi ro sự kiện: PPI tối 13/11, Nvidia 17/11.",
    "lv": "info"
   },
   "us10y": {
-   "sig": "~5,00% (chốt 10/11, trái phiếu nghỉ 11/11); sát MA50 (~5,04%), từ đầu năm +84bp; đỉnh 52 tuần 5,31%.",
+   "sig": "5,10% (12/11, +10–12bp), trên MA50 (~5,05%), từ đầu năm +94bp; ba phiên đấu giá trong tuần đều yếu.",
    "lv": "down"
   },
   "us30y": {
-   "sig": "5,36% (chốt 10/11); dưới MA50 (~5,41%), trên MA200 (~5,08%).",
+   "sig": "5,43% (12/11, +8bp); đấu giá 30 năm lợi suất 5,441%, nhà đầu tư nước ngoài chỉ 68,1%.",
    "lv": "down"
   },
   "kosdaq": {
-   "sig": "~700 sáng 12/11; 1 tháng −16%, dưới MA50 (~797): Sell Mode.",
+   "sig": "~725 sáng 13/11 (+2,8%); 1 tháng −12%, dưới MA50 (~795): Sell Mode.",
    "lv": "down"
   },
   "vn30": {
-   "sig": "1.855,27 (11/11, −0,30%), 11 tăng 13 giảm; dưới EMA20 (~1.862) và MA50 (~1.900).",
-   "lv": "warn"
+   "sig": "1.839,43 (12/11, −0,85%); dưới EMA20 (~1.860) và MA50 (~1.898), RSI 36; FPT, VPB, BID kéo giảm.",
+   "lv": "down"
   },
   "hnx": {
-   "sig": "255,73 (11/11, −0,21%); dưới MA50 (~266), cách đỉnh −24%.",
+   "sig": "256,62 (12/11, +0,35%), đi ngược VN-Index; vẫn dưới MA50 (~266), cách đỉnh −24%.",
    "lv": "warn"
   },
   "wti": {
-   "sig": "86,02 USD (11/11); dưới MA50 (~95,5) và MA200 (~87,5); tồn kho EIA dời sang 12/11.",
+   "sig": "88,47 USD (12/11, +2,2%); dưới MA50 (~95,4), sát MA200 (~87,7); tồn kho dầu thô Mỹ +4,7 triệu thùng (EIA).",
    "lv": "down"
   },
   "silver": {
-   "sig": "51,59 USD (11/11, +1,0%); dưới MA50 (~59,1), cách đỉnh −55%.",
+   "sig": "50,01 USD (12/11, −3,6%); dưới MA50 (~58,8), cách đỉnh −57%.",
    "lv": "down"
   },
   "copper": {
-   "sig": "6,25 USD/lb (11/11, +0,6%), dưới MA50 (~6,53), sát MA200 (~6,23).",
+   "sig": "6,21 USD/lb (12/11, −1,1%), dưới MA50 (~6,53) và sát dưới MA200 (~6,23).",
    "lv": "warn"
   },
   "usdjpy": {
-   "sig": "~159,6 (12/11), RSI 75: quá mua; Nhật cảnh báo yên giảm “quá nhanh”, rủi ro can thiệp quanh 160.",
+   "sig": "~159,9 (13/11), RSI 74: quá mua; sát vùng 160 Nhật từng can thiệp, BOJ nghiêng tăng tháng 12.",
    "lv": "warn"
   },
   "eurusd": {
-   "sig": "~1,110 (12/11, −0,6%), thấp nhất từ 5/2025; dưới MA50 (~1,132); ECB (Lane) không loại trừ tăng thêm.",
+   "sig": "~1,106 (13/11, −0,3%); dưới MA50 (~1,13); ECB nghiêng tăng tháng 12 nhưng đô la mạnh hơn.",
    "lv": "down"
   },
   "usdvnd": {
-   "sig": "25.594 trên bảng (11/11), RSI ~24; tỷ giá trung tâm 12/11 tăng lại lên 25.611 (+11 đồng) khi DXY lên đỉnh.",
+   "sig": "25.674 trên bảng (13/11); tỷ giá trung tâm 25.623 (12/11, +12 đồng), Vietcombank bán 25.870 (+30).",
    "lv": "warn"
   }
  },
@@ -2393,42 +2398,42 @@
   "markets": [
    {
     "id": "vni",
-    "summary": "VN-Index 1.746,90 (11/11, +0,22%), phiên tăng thứ hai nhưng có lúc vượt 1.750 rồi đảo chiều; giữ **Wait Mode** (trên ~1.737 và EMA20 ~1.738, còn 7 phiên phân phối); thanh khoản HOSE ~13.844 tỷ (−18%), khối ngoại mua ròng ~51 tỷ, tự doanh bán ~557 tỷ. CTCK: Aseansc hỗ trợ 1.740–1.750, kháng cự 1.760–1.770; SHS kháng cự mạnh 1.760–1.780; ACBS dao động 1.720–1.780; Yuanta hỗ trợ 1.700. KBSV mục tiêu cuối 2026 1.800 (8/10).",
+    "summary": "VN-Index 1.734,75 (12/11, −0,70%), có lúc thủng 1.730; chuyển **Sell Mode** (dưới ~1.735 và EMA20 ~1.737, 6 phiên phân phối); khối ngoại bán ròng ~880 tỷ, mạnh nhất hơn 1 tháng; thanh khoản HOSE ~15.100 tỷ (+9%). CTCK: Yuanta hỗ trợ 1.710–1.720, kháng cự 1.750–1.780; BSC nền 1.725; TPS hỗ trợ 1.677–1.690; Shinhan đi ngang 1.700–1.780. KBSV mục tiêu cuối 2026 1.800 (8/10).",
     "scen": {
      "base": {
-      "what": "Chỉ số dao động 1.700–1.800: vướng 1.760–1.780 (MA50 ~1.765), lùi về 1.720–1.740 thì có lực đỡ; tiền xoay giữa ngân hàng, bất động sản, chứng khoán, vận tải.",
-      "signs": "Giữ được ~1.737; khối ngoại mua ròng thêm nhiều phiên; thanh khoản quay lại trên 18.000 tỷ; lãi liên ngân hàng hạ dưới 4,5%; Mục 301 có thoả thuận hoặc gia hạn."
+      "what": "Chỉ số dao động 1.680–1.780: hỗ trợ 1.700–1.725, kháng cự 1.750–1.780 (MA50 ~1.762); tiền xoay giữa ngân hàng, bất động sản, dầu khí, xây dựng.",
+      "signs": "Đóng cửa lại trên ~1.737; khối ngoại ngừng bán ròng mạnh; thanh khoản trên 18.000 tỷ ở phiên tăng; tỷ giá trung tâm đứng yên; Mục 301 có thoả thuận hoặc gia hạn."
      },
      "deal": {
       "what": "Dầu hạ, lạm phát và tỷ giá dịu, khối ngoại quay lại: VN-Index lấy lại 1.780–1.800 và hướng tới 1.850.",
       "signs": "Mỹ–Iran ký thoả thuận; VN-Index vượt 1.780 với thanh khoản trên 20.000 tỷ; khối ngoại mua ròng nhiều phiên liền."
      },
      "shock": {
-      "what": "Mỹ không kích lại, dầu trên 110–120 USD, bán tháo AI kéo dài: khối ngoại bán mạnh; thủng 1.700 rồi 1.650 có thể kích hoạt bán giải chấp (margin kỷ lục ~457.460 tỷ), chỉ số về dưới 1.600.",
-      "signs": "Đóng cửa dưới 1.700 với thanh khoản tăng; Fed tăng 50bp làm tỷ giá tự do vượt 26.500; Mỹ áp thuế diện rộng theo Mục 301; Mỹ–Iran đàm phán đổ vỡ."
+      "what": "Dầu trên 110–120 USD, Fed tăng và lợi suất Mỹ lên 5,3%: khối ngoại bán mạnh; thủng 1.677 (đáy tháng 10) có thể kích hoạt bán giải chấp (margin kỷ lục ~457.500 tỷ), chỉ số về dưới 1.600.",
+      "signs": "Đóng cửa dưới 1.700 với thanh khoản tăng; tỷ giá tự do vượt 26.200; Fed tăng 50bp; Mỹ áp thuế diện rộng theo Mục 301; Mỹ–Iran đàm phán đổ vỡ."
      }
     },
     "beginner": [
-     "Chỉ số đang Wait Mode: nếu muốn mua, chỉ mua dần phần nhỏ qua quỹ chỉ số (ETF), chưa dồn tiền; chờ vượt MA50 (~1.763) mới tăng thêm.",
-     "Không dùng margin: dư nợ ký quỹ ở mức kỷ lục và từ 16/11 tài sản đảm bảo tối thiểu phải 110% khoản vay.",
+     "Chỉ số đang Sell Mode: tạm dừng mua mới; nếu đang mua quỹ chỉ số (ETF) theo tháng, giữ số tiền nhỏ, đều đặn, không tăng thêm.",
+     "Không dùng margin: dư nợ ký quỹ kỷ lục và từ 16/11 tài sản đảm bảo tối thiểu phải 110% khoản vay.",
      "Giữ quỹ dự phòng 3–6 tháng chi tiêu ở tiền gửi trước khi đầu tư."
     ]
    },
    {
     "id": "spx",
-    "summary": "S&P 500 7.619,38 (11/11, +1,31%) hồi nhờ CoreWeave (+24,7%, doanh thu quý 3 +168%); vẫn dưới MA50 (~7.673), trên MA200 (~7.334), 6 phiên phân phối: Sell Mode. Khả năng Fed tăng 9/12 ~90,7% cho 25bp (CME). Nvidia ~−8% sau giờ vì tin CEO; Baird hạ xuống Trung lập, Morgan Stanley bỏ khỏi danh sách ưu tiên nhưng giữ Khả quan. Morgan Stanley giữ mục tiêu S&P 500 8.000 điểm.",
+    "summary": "S&P 500 7.592,40 (12/11, −0,35%, có lúc −1%) khi lợi suất 10 năm lên 5,10%; dưới MA50 (~7.671), trên MA200 (~7.337): Sell Mode. Jensen Huang rời ghế CEO Nvidia, Bernstein hạ mục tiêu Nvidia 400→200 USD; Cisco doanh thu +24%. UBS giữ mục tiêu 8.900 cuối 2027; Morgan Stanley (Wilson) thấy 8.500 giữa 2027; BofA cảnh báo S&P 500 là giao dịch đông người nhất.",
     "scen": {
      "base": {
-      "what": "Dao động 7.000–7.700; AI, chip biến động mạnh, tiền xoay sang y tế, thiết yếu, tài chính (đúng như bộ lọc đang cho thấy).",
-      "signs": "VIX dưới 22; S&P 500 giữ được MA200 (~7.334); PPI 13/11 không vượt xa dự báo 0,4%; Nvidia mở cửa 12/11 và báo cáo 17/11 không gây sốc; lợi suất 10 năm không đóng cửa trên 5,1%."
+      "what": "Dao động 7.100–7.700; AI, chip biến động mạnh, tiền xoay sang y tế, thiết yếu, tài chính (đúng như bộ lọc đang cho thấy).",
+      "signs": "VIX dưới 22; S&P 500 giữ MA200 (~7.337); PPI tối 13/11 không vượt xa 0,4%; Nvidia báo cáo 17/11 không gây sốc; lợi suất 10 năm không vượt 5,2%."
      },
      "deal": {
-      "what": "Dầu hạ, lạm phát giảm, Fed bỏ ý định tăng: S&P 500 vượt MA50 (~7.673), hướng tới 7.800–8.000.",
-      "signs": "Lợi suất 10 năm dưới 4,7%; Brent dưới 90 USD; chip ổn định trở lại."
+      "what": "Dầu hạ, lạm phát giảm, Fed bỏ ý định tăng: S&P 500 vượt MA50 (~7.671), hướng tới 7.800–8.000.",
+      "signs": "Lợi suất 10 năm dưới 4,8%; Brent dưới 90 USD; nhóm chip ổn định trở lại."
      },
      "shock": {
-      "what": "Dầu trên 110 USD, Fed tăng và phát tín hiệu tăng tiếp, nghi ngờ chi đầu tư AI lan rộng: giảm thêm 6–12% (về ~6.500–6.900).",
-      "signs": "S&P 500 thủng 7.100 với VIX trên 30; lợi suất 10 năm vượt 5,2%; Fed tăng 50bp; Nvidia báo cáo thất vọng."
+      "what": "Dầu trên 110 USD, Fed tăng và phát tín hiệu tăng tiếp, lợi suất trên 5,3%: giảm thêm 6–12% (về ~6.700–7.100).",
+      "signs": "S&P 500 thủng 7.100 với VIX trên 30; lợi suất 10 năm vượt 5,3%; Fed tăng 50bp; Nvidia báo cáo thất vọng."
      }
     },
     "beginner": [
@@ -2438,19 +2443,19 @@
    },
    {
     "id": "stoxx",
-    "summary": "STOXX 600 11/11 +0,72% lên 663,05, đóng cửa kỷ lục (trên bảng vẫn 658,32 ngày 10/11); DAX +1,2%, sát đỉnh: Buy Mode. OAT Pháp 10 năm ~4,80%, Bund 3,31% (11/11); ECB giữ 2,50%, ông Lane không loại trừ tăng thêm. SocGen thấy đà tăng “hơi căng”; Citi nâng châu Âu trừ Anh lên tăng tỷ trọng (9/11).",
+    "summary": "STOXX 600 lập kỷ lục 664,01 (12/11, +0,14%), DAX +0,41% lên 26.771,88; trên bảng 663,05 (11/11), RSI 71: quá mua; Buy Mode. Lạm phát eurozone sơ bộ T10 4,0%, Lagarde nghiêng tăng lãi tháng 12; chênh lệch OAT–Bund 147bp, Pháp hạn ngân sách 17/11, S&P xét hạng Pháp 27/11.",
     "scen": {
      "base": {
-      "what": "Dao động 630–670; ngân hàng, tiêu dùng đỡ chỉ số; công nghệ, quốc phòng yếu.",
-      "signs": "OAT–Bund dưới 170bp; ngân sách Pháp 2027 qua đúng hạn (17/11); ECB không phát tín hiệu tăng sớm; euro không rơi sâu dưới 1,11."
+      "what": "Đi ngang 640–670 sau khi chạm kỷ lục; ngân hàng, quốc phòng, năng lượng đỡ chỉ số.",
+      "signs": "Giữ trên MA50 (~641); chênh lệch OAT–Bund dưới 160bp; ECB tăng 25bp như dự kiến."
      },
      "deal": {
-      "what": "Dầu rẻ giảm áp lực lạm phát, ECB không cần tăng: STOXX giữ trên đỉnh 663, hướng tới 680–690.",
-      "signs": "Brent dưới 90 USD; lợi suất Bund giảm; euro trên 1,15."
+      "what": "Dầu hạ giúp lạm phát giảm, ECB tăng ít hơn: chỉ số lên 690–700.",
+      "signs": "Brent dưới 85 USD; lợi suất Bund giảm; PMI eurozone trên 52."
      },
      "shock": {
-      "what": "Năng lượng đắt trở lại, ECB tăng tháng 12, ngân sách Pháp khủng hoảng: giảm 8–10%, về ~590–610.",
-      "signs": "OAT–Bund trên 200bp; S&P hạ hạng Pháp (27/11); Brent trên 115 USD."
+      "what": "Dầu tăng vọt, ECB buộc tăng nhanh, Pháp bị hạ hạng: giảm về 600–620.",
+      "signs": "Chênh lệch OAT–Bund trên 175bp; STOXX 600 thủng MA50; S&P hạ hạng Pháp 27/11."
      }
     },
     "beginner": [
@@ -2460,19 +2465,19 @@
    },
    {
     "id": "n225",
-    "summary": "Nikkei 225 đóng cửa 11/11 61.248,59 (+1,31%), sáng 12/11 ~61.500 (mở cửa +0,65%); vẫn dưới MA200 (~62.060) và MA50 (~64.940): Sell Mode. USD/JPY ~159,6, Nhật cảnh báo yên giảm “quá nhanh”; JGB 10 năm 2,79%; PPI T10 +7,1%. BOJ giữ 1,25%, nhiều nhà phân tích chờ tăng tháng 12.",
+    "summary": "Nikkei ~61.735 sáng 13/11 (+0,8%) sau 60.819 (−0,70%) ngày 12/11; dưới MA50 (~64.850) và MA200 (~62.096): Sell Mode; cách đỉnh −15%. USD/JPY ~159,9, sát vùng 160 Nhật từng can thiệp; BOJ nghiêng tăng lên 1,5% tháng 12 (Kameda, tóm tắt ý kiến BOJ 10/11).",
     "scen": {
      "base": {
-      "what": "Dao động 55.000–63.000; chip, AI rung lắc theo Mỹ; yên mạnh lên nhờ trú ẩn.",
-      "signs": "Nikkei giữ trên 55.000; Nvidia ổn định sau tin CEO và báo cáo 17/11; BOJ tăng đúng như dự kiến; Nhật không phải can thiệp mạnh quanh 160 yên/USD."
+      "what": "Dao động 58.000–64.000; xuất khẩu được hỗ trợ bởi yên yếu, chip biến động theo Nvidia.",
+      "signs": "Nikkei lấy lại MA200 (~62.100); USD/JPY dưới 160; BOJ tăng như dự kiến, không gây sốc."
      },
      "deal": {
-      "what": "Dầu rẻ giúp Nhật (nước nhập khẩu năng lượng), tiền quay lại: Nikkei hồi về 62.000–65.000 (MA50 ~64.940).",
-      "signs": "Brent dưới 90 USD; SOX hồi; khối ngoại mua lại."
+      "what": "Dầu hạ, lợi suất Mỹ giảm, nhóm chip hồi: Nikkei vượt MA50, hướng tới 66.000.",
+      "signs": "Lợi suất Mỹ dưới 4,8%; USD/JPY giảm êm; chip châu Á tăng sau báo cáo Nvidia."
      },
      "shock": {
-      "what": "Bán tháo chip kéo dài, yên tăng vọt, BOJ tăng lãi: Nikkei có thể về 52.000–54.000.",
-      "signs": "USD/JPY dưới 150; Nikkei thủng 55.000; Nvidia báo cáo thất vọng."
+      "what": "Nhật can thiệp tỷ giá, yên tăng vọt cùng lúc chip bị bán: Nikkei mất 8–12%, về 54.000–57.000.",
+      "signs": "USD/JPY vượt 160 rồi đảo chiều mạnh; BOJ tăng 50bp; Nvidia báo cáo thất vọng."
      }
     },
     "beginner": [
@@ -2482,19 +2487,19 @@
    },
    {
     "id": "kospi",
-    "summary": "KOSPI 11/11 5.375,36 (+2,6%) nhờ chip nhớ; sáng 12/11 ~5.410 trên bảng, mở cửa có lúc −0,6% khi Naver −3,4% theo Nvidia (Korea Herald, Aju). Won ~1.333/USD. Cách đỉnh −41%, dưới MA50 và MA200: Sell Mode. BOK họp 26/11, đa số chuyên gia chờ tăng.",
+    "summary": "KOSPI ~5.462 sáng 13/11 (+1,6%) sau 5.342,73 (−0,61%) ngày 12/11; Samsung +2,4%, SK Hynix +0,4% (12/11); cách đỉnh −40%, dưới MA50 (~6.269): Sell Mode; biến động 20 phiên ~55%/năm. BOK họp 26/11, đa số chờ tăng.",
     "scen": {
      "base": {
-      "what": "Dao động rất mạnh 4.600–5.600; chip nhớ đi theo tin chi đầu tư AI và báo cáo Nvidia.",
-      "signs": "Khối ngoại ngừng bán; Samsung, SK hynix giữ được đáy 6/11 (KOSPI ~4.911); BOK (26/11) không gây sốc."
+      "what": "Dao động 5.000–5.900; chip nhớ được đỡ bởi nhu cầu AI nhưng biến động rất mạnh.",
+      "signs": "Giữ trên 5.000; Samsung, SK Hynix giữ đà; won ổn định; BOK tăng 25bp như dự kiến."
      },
      "deal": {
-      "what": "Dầu rẻ, đô la yếu, chip hồi: KOSPI hồi về 5.600–6.000.",
-      "signs": "Khối ngoại mua ròng nhiều phiên; won tăng; Nvidia báo cáo tốt."
+      "what": "Lợi suất Mỹ giảm, tiền ngoại quay lại chip: KOSPI hồi về 6.000–6.300 (MA50).",
+      "signs": "Khối ngoại mua ròng nhiều phiên; Nvidia báo cáo tốt; Brent dưới 85 USD."
      },
      "shock": {
-      "what": "Bán tháo AI lan rộng cùng dầu tăng lại: KOSPI có thể về 4.300–4.600.",
-      "signs": "Ngắt mạch thêm lần nữa; won mất giá mạnh; KOSDAQ dưới 650."
+      "what": "Bán tháo chip toàn cầu, đô la mạnh: KOSPI thủng 5.000, về 4.700–4.900.",
+      "signs": "Nvidia báo cáo thất vọng; won mất giá nhanh; BOK tăng 50bp."
      }
     },
     "beginner": [
@@ -2504,19 +2509,19 @@
    },
    {
     "id": "hsi",
-    "summary": "Hang Seng 11/11 −0,98% về 24.315,92, HS Tech −1,41%; Thượng Hải +0,46% lên 3.680,64. Trên bảng 24.557 (10/11) nằm trên MA50 (~24.368), dưới MA200 (~25.259): Buy Mode nhưng sát mốc. CPI T10 +0,7%, PPI +5,7%; xuất khẩu T10 +35,2%. Chờ khả năng gia hạn đình chiến thuế Mỹ–Trung tại APEC 18–19/11.",
+    "summary": "Hang Seng 24.008,55 (12/11, −1,26%), trên bảng 24.315,92 (11/11); dưới MA50 (~24.343) và MA200 (~25.248): Sell Mode. CPI Trung Quốc T10 +0,7%, PPI +5,7%; sản xuất, bán lẻ T10 công bố 16/11; APEC Thâm Quyến 18–19/11 với khả năng gặp Trump–Tập; Bắc Kinh bác cáo buộc liên quan Nvidia là “bôi nhọ”.",
     "scen": {
      "base": {
-      "what": "Dao động 23.000–25.500 theo nhịp hỗ trợ chính sách; công nghệ Hồng Kông biến động theo AI Mỹ.",
-      "signs": "Hang Seng giữ trên MA50 (~24.370); tín dụng T10 không xấu; APEC không có tin xấu về thương mại."
+      "what": "Dao động 23.000–25.500 chờ APEC và số liệu tháng 10.",
+      "signs": "Giữ trên 23.500; bán lẻ T10 không giảm tốc; APEC ra tuyên bố gia hạn đình chiến thương mại."
      },
      "deal": {
-      "what": "Đô la yếu, dầu rẻ, tiền quay lại mới nổi: Hang Seng lên 25.500–26.500 (MA200 ~25.260).",
-      "signs": "Dòng tiền Southbound vào mạnh; nhân dân tệ tăng; Mỹ–Trung có tiến triển ở APEC."
+      "what": "Mỹ–Trung gia hạn đình chiến tại APEC, dầu hạ: Hang Seng lên 25.500–26.500.",
+      "signs": "Thoả thuận thương mại cụ thể; PBOC hạ lãi hoặc bơm thêm thanh khoản."
      },
      "shock": {
-      "what": "Kinh tế Trung Quốc yếu thêm cộng bán tháo toàn cầu: Hang Seng về 21.500–22.500.",
-      "signs": "PMI dưới 49; bất động sản thêm tin xấu; hỗ trợ của nhà nước dừng lại."
+      "what": "APEC không có kết quả, đô la mạnh, công nghệ bị bán: Hang Seng về 21.500–22.500.",
+      "signs": "Hang Seng thủng 23.000; nhân dân tệ mất giá; căng thẳng chip Mỹ–Trung leo thang."
      }
     },
     "beginner": [
@@ -2526,68 +2531,68 @@
    },
    {
     "id": "gold",
-    "summary": "Vàng tương lai 3.994,60 USD (11/11, −0,9%), giao ngay ~3.987, lần đầu dưới 4.000 trong đợt giảm khi đô la lên đỉnh 52 tuần; dưới MA50 (~4.205): Sell Mode. TD Securities: có thể thử lại 3.900, biên độ 3.900–4.200 (Kitco). Ngân hàng trung ương đã mua 675 tấn từ đầu năm. SJC 137–140 triệu đ/lượng (sáng 12/11), cao hơn thế giới quy đổi ~13,8 triệu.",
+    "summary": "Vàng giao ngay ~3.866 USD (12/11, −3,05%), ngày giảm thứ ba, thấp nhất từ 10/2025; tương lai 3.885,30; dưới MA50 (~4.195): Sell Mode, cách đỉnh −27%. Lực ép: đô la đỉnh ~19 tháng, lợi suất 10 năm 5,10%. Saxo xem 3.970 USD là hỗ trợ quan trọng, nay đã bị phá. SJC 136–139 triệu đ/lượng (13/11), cao hơn thế giới quy đổi ~17,7 triệu (~14,6%).",
     "scen": {
      "base": {
-      "what": "Vàng dao động 3.850–4.300 USD; ngân hàng trung ương, ETF mua đều đỡ giá; lợi suất thực cao và Fed tăng lãi kìm đà tăng.",
-      "signs": "Lợi suất thực Mỹ đi ngang; đô la 100–103; vàng giữ được đáy 52 tuần (~3.900 USD)."
+      "what": "Dao động 3.700–4.100 USD; lợi suất cao giữ vàng yếu, ngân hàng trung ương mua khi giá giảm.",
+      "signs": "Vàng giữ trên 3.700; DXY không vượt 104; Fed tăng 25bp, không 50bp."
      },
      "deal": {
-      "what": "Thoả thuận Hormuz làm giảm nhu cầu trú ẩn: vàng có thể lùi ~2–5%.",
-      "signs": "Dầu dưới 85 USD; VIX dưới 18; tiền quay lại cổ phiếu."
+      "what": "Thoả thuận làm giảm nhu cầu trú ẩn nhưng đô la yếu đi: vàng đi ngang hoặc giảm nhẹ, 3.700–3.900.",
+      "signs": "Brent dưới 85 USD; lợi suất thực giảm; DXY dưới 101."
      },
      "shock": {
-      "what": "Chiến tranh leo thang cùng bán tháo cổ phiếu: vàng có thể lấy lại 4.300–4.500 USD.",
-      "signs": "Brent trên 115 USD; lợi suất thực giảm; đô la yếu đi."
+      "what": "Leo thang quân sự, nhu cầu trú ẩn tăng: vàng hồi về 4.100–4.300, nhưng chỉ bền nếu lợi suất thực không tăng thêm.",
+      "signs": "Tấn công mới ở Hormuz; cổ phiếu bán tháo; vàng lấy lại MA50 (~4.195)."
      }
     },
     "beginner": [
      "Vàng là phần giữ giá, không phải chỗ đánh cược ngắn hạn; khoảng 5–10% tài sản đầu tư là đủ.",
-     "Vàng có thể mất 2–3% trong một đêm khi Fed nghiêng tăng; SJC còn đắt hơn thế giới: mua dần, ưu tiên vàng nhẫn hoặc chứng chỉ quỹ vàng."
+     "Vàng vừa mất 3% trong một phiên; SJC còn đắt hơn thế giới ~17,7 triệu đ/lượng: mua dần, ưu tiên vàng nhẫn hoặc chứng chỉ quỹ vàng."
     ]
    },
    {
     "id": "brent",
-    "summary": "Brent ~92,3 USD trên bảng (11/11, +0,9%; Business Recorder ghi chốt 92,76), có lúc 93,90 khi Iran gọi tin đàm phán ở Qatar là “dối trá”; Mỹ giữ phong toả; tháng 10 có 37 tàu bị tấn công, nhiều nhất từ đầu chiến tranh. RSI 27: quá bán. OPEC (11/11): sản lượng OPEC+ tháng 10 41,23 triệu thùng/ngày (+2,04 triệu). EIA dự báo bình quân 2026 97 USD, 2027 86 USD; tồn kho EIA tuần công bố 12/11.",
+    "summary": "Brent 95,82 USD (12/11, +3,3%), WTI 88,74: ông Trump viết “không cần thoả thuận với Iran… đã có eo biển của họ”; Iran nói 4 tàu chở dầu trúng nổ ở Hormuz (Reuters chưa kiểm chứng), Houthi tấn công đường ống Đông–Tây của Saudi. Tồn kho dầu thô Mỹ +4,7 triệu thùng (EIA 12/11). Dưới MA50 (~104,2): Sell Mode. EIA dự báo bình quân 2026 97 USD, 2027 86 USD; Barclays thấy rủi ro nghiêng tăng; OPEC+ họp 29/11.",
     "scen": {
      "base": {
-      "what": "Dầu dao động 85–105 USD theo tin đàm phán; mỗi tin lớn có thể làm giá đổi 4–9% trong một phiên.",
-      "signs": "Iran và Mỹ quay lại đàm phán qua Qatar, Oman; số vụ tấn công tàu giảm; tồn kho Mỹ tăng tiếp; OPEC+ (29/11) giữ sản lượng."
+      "what": "Dao động 85–105 USD; phong toả còn, thỉnh thoảng có tin đàm phán.",
+      "signs": "Không có tấn công mới vào tàu; OPEC+ giữ sản lượng; tồn kho Mỹ tiếp tục tăng."
      },
      "deal": {
-      "what": "Thoả thuận, Mỹ dỡ phong toả: Brent về ~70–85 USD.",
-      "signs": "Mỹ dỡ phong toả cảng Iran, trả một phần tài sản; Iran mở hẳn Hormuz."
+      "what": "Mỹ–Iran ký thoả thuận mở lại Hormuz: Brent về 70–85 USD.",
+      "signs": "Tuyên bố chung Mỹ–Iran; tàu qua eo biển bình thường; mô phỏng nhánh này cho Brent trung vị −25,8%."
      },
      "shock": {
-      "what": "Mỹ không kích lại, tàu bị tấn công nhiều hơn: Brent quay lại 110–125 USD.",
-      "signs": "Mỹ tấn công lại hoặc Iran chặn tuyến Oman; thêm tàu dầu cháy; Brent lấy lại MA50 (~104 USD)."
+      "what": "Đàm phán đổ vỡ, tấn công tàu và cơ sở Saudi tăng: Brent quay lại 110–125 USD.",
+      "signs": "Mỹ không kích mới; Houthi tấn công thêm cơ sở Aramco; bảo hiểm tàu tăng vọt."
      }
     },
     "beginner": [
-     "Giá dầu có thể đổi 4–9% mỗi phiên và −16% trong một tuần: người mới không nên giao dịch dầu hay quỹ dầu có đòn bẩy.",
-     "Xăng trong nước vừa giảm hơn 2.300 đ/lít và thuế xăng về 0% tới 31/3/2027: có lợi cho chi tiêu gia đình."
+     "Giá dầu có thể đổi 3–9% mỗi phiên: người mới không nên giao dịch dầu hay quỹ dầu có đòn bẩy.",
+     "Xăng trong nước vừa giảm 1.300–1.900 đ/lít từ 12/11: có lợi cho chi tiêu gia đình, nhưng giá có thể tăng lại nếu dầu thế giới tăng."
     ]
    },
    {
     "id": "btc",
-    "summary": "Bitcoin ~74.000 USD (12/11), dưới ~78.680 (MA50 trừ vùng đệm) và EMA20 (~77.320): Sell Mode, sát MA200 (~73.120), RSI 30,5. ETF Bitcoin 10/11 −95 triệu USD, ngày rút thứ tư; ~725 triệu USD vị thế bị thanh lý trong 24 giờ; USDT co 6,6 tỷ USD trong 60 ngày (CryptoQuant qua CoinDesk). Quyền chọn bán tập trung ở 69.000–74.000 USD.",
+    "summary": "Bitcoin ~70.800 USD (13/11), −4% phiên 12/11, thấp nhất 3 tháng; thủng MA200 (~73.080), dưới ~78.420 (MA50 trừ vùng đệm) và EMA20: Sell Mode; RSI ~31. ETF Bitcoin bị rút 5 ngày liền, ~1,44 tỷ USD từ 5/11; MSCI loại Strategy khỏi chỉ số sau 30/11; chỉ số sợ hãi 26 (CoinDesk 12/11).",
     "scen": {
      "base": {
-      "what": "Dao động 68.000–86.000 USD; đi theo cổ phiếu công nghệ Mỹ và dòng tiền ETF.",
-      "signs": "Đóng cửa giữ trên 73.000 USD (MA200); ETF ngừng bị rút; Nasdaq ổn định."
+      "what": "Dao động 62.000–80.000 USD; ETF rút rồi vào xen kẽ, biến động theo lợi suất Mỹ.",
+      "signs": "Lấy lại MA200 (~73.080); ETF có dòng vào trở lại; lợi suất Mỹ không tăng thêm."
      },
      "deal": {
-      "what": "Đô la yếu, lợi suất giảm, khẩu vị rủi ro quay lại: Bitcoin lên 84.000–90.000 USD.",
-      "signs": "Lấy lại 80.000 USD và MA50 (~81.100); ETF vào ròng nhiều ngày liền."
+      "what": "Đô la yếu, lợi suất giảm, khẩu vị rủi ro quay lại: Bitcoin về 78.000–85.000 USD.",
+      "signs": "Đóng cửa trên ~78.420 và EMA20; ETF vào ròng nhiều ngày liền."
      },
      "shock": {
-      "what": "Bán tháo rủi ro cùng Fed tăng lãi: Bitcoin có thể về 60.000–66.000 USD.",
-      "signs": "Thủng 68.000 USD; ETF bị rút lớn; Nasdaq giảm tiếp."
+      "what": "Bán tháo tài sản rủi ro, thanh lý đòn bẩy: Bitcoin về 55.000–60.000 USD.",
+      "signs": "Thủng 65.000 với khối lượng lớn; ETF rút trên 500 triệu USD/ngày; Strategy bị bán sau khi rời MSCI."
      }
     },
     "beginner": [
-     "Chỉ dùng tiền có thể mất hết; crypto có thể giảm hơn 30% trong 3 tháng.",
-     "Không dùng đòn bẩy: ~725 triệu USD vị thế bị thanh lý chỉ trong 24 giờ (11/11)."
+     "Chỉ dùng tiền có thể mất hết; crypto có thể giảm hơn 35% trong 3 tháng (dải p5 của mô phỏng).",
+     "Không dùng đòn bẩy; không bắt đáy khi giá vừa thủng MA200."
     ]
    }
   ]
@@ -2597,15 +2602,15 @@
   "intro": "Hệ thống tự lọc mỗi sáng trên giá thật (VNDirect cho Việt Nam, Yahoo Finance cho Mỹ và crypto) theo khung swing của phòng đầu tư: cổng thị trường trước, rồi ba tầng thanh khoản, sức mạnh tương đối, dòng tiền. Qua lọc nghĩa là đáng theo dõi, không phải tín hiệu mua.",
   "notes": {
    "vn": {
-    "asOf": "Tự động 12/11/2026 (đóng cửa 11/11) · thẻ “Phòng đầu tư chọn”: phân tích gốc 14/10/2026",
-    "verdict": "VN-Index giữ **Wait Mode**: 1.746,90 (11/11, +0,22%) trên mốc MA50 trừ vùng đệm (~1.737) và EMA20 (~1.738), nhưng còn 7 phiên phân phối (tối đa 5). Ngân hàng vẫn dẫn dắt dù tự doanh bán mạnh TCB, CTG; nhóm thép (HSG) và chứng khoán (BSI, VND) vào danh sách.",
+    "asOf": "Tự động 13/11/2026 (đóng cửa 12/11) · thẻ “Phòng đầu tư chọn”: phân tích gốc 14/10/2026",
+    "verdict": "VN-Index chuyển **Sell Mode**: 1.734,75 (12/11, −0,70%) thấp hơn mốc MA50 trừ vùng đệm (~1.735) và EMA20 (~1.737), 6 phiên phân phối (tối đa 5); khối ngoại bán ròng ~880 tỷ, tập trung FPT. Bộ lọc vẫn có 29 mã, nghiêng bất động sản, ngân hàng và xây dựng.",
     "points": [
-     "Rổ 94 mã: 91 đủ thanh khoản, 41 đạt điểm RS (hôm trước 38), **27 mã** qua đủ ba tầng (hôm trước 26); 7 mã đạt 6/6: MSB, VJC, NAB, TCB, GMD, REE, BSI.",
-     "Mới vào 4: BSI, VND (chứng khoán), HSG (thép), NT2 (điện); rơi ra 3: MSN, TLG, VIX.",
-     "Theo ngành: ngân hàng 6 (MSB, NAB, TCB, HDB, TPB, VIB); bất động sản 4 (TCH, DXG, DIG, CEO); cảng, vận tải 3 (VJC, GMD, HVN); chứng khoán 3 (BSI, CTS, VND).",
-     "Mặt trái: 9 mã đã cách EMA20 trên 5% (TCH +9,5%, DXG +7,2%, CTD +6,4%, VND +6,3%, DPG +6,2%...): mua lúc này là mua đuổi; thanh khoản thị trường giảm ~18%."
+     "Rổ 94 mã: 91 đủ thanh khoản, 48 đạt điểm RS (hôm trước 41), **29 mã** qua đủ ba tầng (hôm trước 27); 12 mã đạt 6/6: PET, MSB, NKG, NAB, VJC, REE, GMD, IDC, CTS, HSG, FRT, BSI.",
+     "Mới vào 4: CII (xây dựng, đầu tư công), HDG, NLG (bất động sản; NLG vừa vào MSCI Frontier), MSN (tiêu dùng, khối ngoại mua ~40 tỷ); rơi ra 2: TCB (dưới EMA20, U/D chưa đạt), HVN (điểm RS còn 2).",
+     "Theo ngành: bất động sản 6 (TCH, DIG, CEO, DXG, HDG, NLG); ngân hàng 5 (MSB, NAB, HDB, TPB, VIB); chứng khoán 3 (CTS, BSI, VND); xây dựng, đầu tư công 3 (CTD, DPG, CII).",
+     "Mặt trái: cổng thị trường đã Sell Mode nên mọi mã chỉ để theo dõi; 8 mã cách EMA20 trên 5% (DPG +11,6%, CTD +9,1%, TCH +7,8%, NLG +7,0%, NKG +6,7%...)."
     ],
-    "action": "Wait Mode: theo khung chỉ mua điểm rũ bỏ (về sát EMA20), nửa cỡ lệnh; không mua vượt nền. Lên **Buy Mode** khi số phiên phân phối về tối đa 5 và có **FTD** (tăng ≥ 1,55%, khối lượng cao hơn phiên trước); đóng cửa dưới ~1.737 là về Sell Mode.",
+    "action": "Sell Mode: theo khung **không mở lệnh mới**, chỉ theo dõi danh sách. Về lại **Wait Mode** khi đóng cửa trên ~1.737 (EMA20 và mốc MA50 trừ vùng đệm); lên **Buy Mode** khi số phiên phân phối về tối đa 5 và có **FTD** (tăng ≥ 1,55%, khối lượng cao hơn phiên trước).",
     "picks": [
      {
       "code": "HDB",
@@ -2654,7 +2659,7 @@
       "code": "MSB",
       "name": "Ngân hàng TMCP Hàng Hải Việt Nam",
       "sector": "Ngân hàng",
-      "price": 16.35,
+      "price": 16.15,
       "verdict": "Theo dõi",
       "lv": "warn",
       "summary": "RS 6 tháng mạnh nhất cụm ngân hàng (+38). Giá đi ngang 6 phiên ngay dưới đỉnh 14,95 và vẫn chưa vượt được.",
@@ -2696,25 +2701,25 @@
     ]
    },
    "us": {
-    "asOf": "Tự động 12/11/2026 (đóng cửa 11/11)",
-    "verdict": "S&P 500 giữ **Sell Mode**: 7.619,38 (11/11, +1,31%) dưới MA50 (~7.673) −0,7%, đã lên trên EMA20 (~7.606); 6 phiên phân phối (tối đa 5). CoreWeave kéo nhóm hạ tầng AI, nhưng Nvidia ~−8% sau giờ vì tin CEO.",
+    "asOf": "Tự động 13/11/2026 (đóng cửa 12/11)",
+    "verdict": "S&P 500 giữ **Sell Mode**: 7.592,40 (12/11, −0,35%) dưới MA50 (~7.671) và EMA20 (~7.605); 5 phiên phân phối (tối đa 5). Lợi suất 10 năm 5,10% và việc Jensen Huang rời ghế CEO Nvidia làm cổ phiếu nhỏ giảm mạnh hơn (Russell 2000 −1,66%).",
     "points": [
-     "Rổ 96 mã: 56 đạt điểm RS (như hôm trước), **33 mã** qua lọc (hôm trước 26); 20 mã đạt 6/6.",
-     "Mới vào 7, không mã nào rơi ra: IBM, TXN (công nghệ), GE, UPS (công nghiệp), MO, PEP (tiêu dùng thiết yếu), EOG (năng lượng). Nvidia chỉ 1/6 điểm, dưới MA50.",
-     "Theo ngành: y tế 7 (TMO, ABBV, LLY, PFE, AMGN, ISRG, VRTX), tiêu dùng thiết yếu 6 (MO, PG, COST, KO, WMT, PEP), tài chính 6 (V, MA, BLK, PYPL, WFC, JPM), công nghiệp 6 (UPS, LMT, HON, DE, GE, RTX).",
-     "Mặt trái: danh sách vẫn nghiêng phòng thủ; 6 mã đã cách EMA20 trên 5% (CMG +10,3%, LLY +7,4%, GE +7,1%, BLK +5,5%, DIS +5,1%, UPS +5,0%)."
+     "Rổ 96 mã: 54 đạt điểm RS (hôm trước 56), **32 mã** qua lọc (hôm trước 33); 21 mã đạt 6/6.",
+     "Mới vào 2: AMD (công nghệ, +5,86% khi tiền xoay khỏi Nvidia), PM (tiêu dùng thiết yếu); rơi ra 3: DE (U/D chưa đạt), HON (điểm RS 3), NEE (điểm RS 4 nhưng rơi tầng 3). Nvidia chỉ 1/6 điểm.",
+     "Theo ngành: tiêu dùng thiết yếu 7 (MO, PG, COST, KO, PM, WMT, PEP), y tế 7 (TMO, LLY, ABBV, AMGN, ISRG, PFE, VRTX), tài chính 6 (V, MA, BLK, PYPL, WFC, JPM), công nghiệp 4 (UPS, LMT, GE, RTX).",
+     "Mặt trái: danh sách nghiêng phòng thủ; 8 mã đã cách EMA20 trên 5% (CMG +11,2%, GE +7,7%, LLY +7,0%, AMD +6,3%, COST +6,3%...)."
     ],
-    "action": "Đóng cửa trên MA50 (~7.673) là thoát Sell Mode; **Buy Mode** khi trên cả MA50, EMA20 (~7.606) và số phiên phân phối về tối đa 5. Mốc rủi ro: MA200 (~7.334)."
+    "action": "Đóng cửa trên MA50 (~7.671) là thoát Sell Mode; **Buy Mode** khi trên cả MA50, EMA20 (~7.605) và số phiên phân phối tối đa 5. Mốc rủi ro: MA200 (~7.337)."
    },
    "crypto": {
-    "asOf": "Tự động 12/11/2026",
-    "verdict": "Bitcoin giữ **Sell Mode**: ~73.950 USD (12/11), dưới ~78.680 USD (MA50 trừ vùng đệm 3%) và EMA20 (~77.320); 1 tháng −9,6%, sát MA200 (~73.120). ETF bị rút bốn ngày liền, USDT co lại và ~725 triệu USD vị thế bị thanh lý.",
+    "asOf": "Tự động 13/11/2026",
+    "verdict": "Bitcoin giữ **Sell Mode**: ~70.840 USD (13/11), dưới ~78.420 USD (MA50 trừ vùng đệm 3%), EMA20 (~76.710) và đã thủng MA200 (~73.080). Lợi suất Mỹ vọt, ETF bị rút 5 ngày liền ~1,44 tỷ USD, MSCI loại Strategy.",
     "points": [
-     "Rổ 24 đồng (23 lấy được dữ liệu, TON thiếu phiên): 19 đủ thanh khoản, 3 đạt điểm RS (hôm trước 4); **0 đồng** qua lọc vì UNI, AAVE, BNB đạt RS nhưng đều dưới MA50; LINK rơi khỏi nhóm đạt RS.",
-     "Ether ~2.050 USD, dưới MA200 (~2.151); Bitcoin có lúc ~72.700 USD (10/11) rồi hồi về ~74.000.",
-     "Mặt trái: RSI Bitcoin ~30,5, Ether ~30: sát vùng quá bán; nếu đô la và lợi suất hạ nhiệt, trạng thái có thể đổi nhanh."
+     "Rổ 24 đồng (23 lấy được dữ liệu, TON thiếu phiên): 19 đủ thanh khoản, 3 qua tầng RS; **0 đồng** qua lọc: UNI, AAVE, ICP, BNB đạt điểm RS nhưng đều dưới MA50.",
+     "Ether ~2.005 USD, dưới MA200 (~2.149), 1 tháng −16%; Bitcoin 1 tháng −13%.",
+     "Mặt trái: RSI Bitcoin ~31, Ether ~32: sát quá bán, chỉ số sợ hãi 26: nếu PPI dịu và lợi suất hạ, có thể hồi kỹ thuật nhanh."
     ],
-    "action": "Đóng cửa trên ~78.680 USD và EMA20 (~77.320) là về lại Buy Mode; đóng cửa dưới ~73.100 USD (MA200) là vùng rủi ro tiếp theo."
+    "action": "Lấy lại MA200 (~73.080 USD) là bước đầu; đóng cửa trên ~78.420 và EMA20 (~76.710) là về lại Buy Mode."
    }
   },
   "method": [
@@ -2743,7 +2748,7 @@
    "Suy thoái": "Y tế, điện nước, năng lượng, tiền mặt",
    "Đáy": "Vàng, trái phiếu"
   },
-  "asOf": "12/11/2026",
+  "asOf": "13/11/2026",
   "markets": [
    {
     "id": "global",
@@ -2751,12 +2756,12 @@
     "phase": "Đỉnh",
     "lean": "nghiêng sang đình lạm",
     "lv": "warn",
-    "growth": "IMF (13/10) dự báo 2026 3,1%, 2027 3,4%; PMI sản xuất T10: Mỹ ISM 55,5, Trung Quốc NBS 49,3 / RatingDog 52,0, Việt Nam 52,3; PMI tổng hợp sơ bộ eurozone T10 51,9; xuất khẩu Trung Quốc T10 +35,2%; việc làm Mỹ T10 +165 nghìn.",
-    "inflation": "CPI Mỹ T10 +0,4% tháng, lõi +0,3% (cao hơn dự báo); PPI Nhật T10 +7,1% năm; PPI Trung Quốc T10 +5,7%; Brent ~92 USD (11/11), cao hơn đầu năm ~50%; eurozone T9 3,8%; CPI Việt Nam T10 5,09%.",
-    "policy": "Fed giữ 3,75–4,00%, khả năng tăng 9/12 ~90,7% cho 25bp, ~9,3% cho 50bp (CME 11/11); ECB giữ 2,50% (Lane không loại trừ tăng thêm); BOJ 1,25%, tăng tháng 12 gần như chắc; BOK 3,00%, họp 26/11; DXY lên đỉnh 52 tuần 102,88.",
+    "growth": "IMF (13/10) dự báo 2026 3,1%, 2027 3,4%; PMI sản xuất T10: Mỹ ISM 55,5, Trung Quốc NBS 49,3 / RatingDog 52,0, Việt Nam 52,3; PMI tổng hợp sơ bộ eurozone T10 51,9; xuất khẩu Trung Quốc T10 +35,2%; đơn trợ cấp thất nghiệp Mỹ 200 nghìn (12/11).",
+    "inflation": "CPI Mỹ T10 +0,4% tháng, lõi +0,3%; eurozone sơ bộ T10 4,0%, lõi 2,5%; PPI Trung Quốc T10 +5,7%, CPI +0,7%; PPI Nhật T10 +7,1%; Brent 95,82 USD (12/11, +3,3%), cao hơn đầu năm ~57%; CPI Việt Nam T10 5,09%.",
+    "policy": "Fed giữ 3,75–4,00%, khả năng tăng 9/12 ~87–89% cho 25bp, ~11–13% cho 50bp (CME 12/11); lợi suất 10 năm Mỹ 5,10%; ECB giữ 2,50%, Lagarde nghiêng tăng tháng 12; BOJ 1,25%, tăng tháng 12 gần như chắc; BOK họp 26/11; DXY 103,19, cao nhất ~19 tháng.",
     "against": [
-     "Dầu thấp hơn đầu tháng ~20% và EIA dự báo 2027 chỉ 86 USD: nếu giữ được, lạm phát hạ và chu kỳ có thể kéo dài ở Đỉnh thay vì sang Suy thoái.",
-     "Tăng trưởng chưa gãy: việc làm Mỹ mạnh, ISM 55,5, xuất khẩu Trung Quốc +35%, CoreWeave doanh thu +168%; nhưng PMI NBS Trung Quốc dưới 50, đô la mạnh gây sức ép lên thị trường mới nổi."
+     "Tăng trưởng chưa gãy: đơn trợ cấp thất nghiệp trung bình 4 tuần thấp nhất từ 1969, ISM 55,5, xuất khẩu Trung Quốc +35%; châu Âu lập kỷ lục: chu kỳ có thể ở Đỉnh lâu hơn thay vì sang Suy thoái.",
+     "Nếu Mỹ–Iran đạt thoả thuận, dầu có thể về 70–85 USD (EIA dự báo 2027 86 USD), lạm phát hạ nhanh; ngược lại lợi suất trên 5% và đô la mạnh đang siết điều kiện tài chính với thị trường mới nổi."
     ],
     "flip": "Chuyển sang Suy thoái khi PMI toàn cầu xuống dưới 50 và thất nghiệp Mỹ tăng nhanh; quay lại Mở rộng nếu dầu dưới 85 USD và các ngân hàng trung ương ngừng tăng."
    },
@@ -2766,12 +2771,12 @@
     "phase": "Đỉnh",
     "lean": "tăng trưởng bắt đầu chậm lại",
     "lv": "warn",
-    "growth": "Việc làm T10 +165 nghìn (dự báo ~65 nghìn), thất nghiệp 4,1%, T8–T9 điều chỉnh tăng ~84 nghìn (BLS 6/11); GDP quý 3 +3,4%; ISM sản xuất T10 55,5, dịch vụ 54,5 (T9 54,9).",
-    "inflation": "CPI T10 +0,4% tháng (dự báo 0,3%), lõi +0,3% (dự báo 0,2%); PPI T10 công bố 13/11 (dự báo +0,4%); CPI T9 3,7%, PCE lõi T9 3,1%; giá đầu vào ISM sản xuất 75,2.",
-    "policy": "Fed giữ 3,75–4,00%; khả năng tăng 9/12 ~90,7% cho 25bp, ~9,3% cho 50bp (CME 11/11); Waller cân nhắc 50bp, Logan muốn thêm ít nhất hai lần; lợi suất 2 năm ~4,74%, 10 năm ~5,00% (chốt 10/11).",
+    "growth": "Việc làm T10 +165 nghìn, thất nghiệp 4,1% (BLS 6/11); đơn trợ cấp thất nghiệp lần đầu 200 nghìn (12/11), trung bình 4 tuần 195.250, thấp nhất từ 1969; GDP quý 3 +3,4%; ISM sản xuất T10 55,5, dịch vụ 54,5.",
+    "inflation": "CPI T10 +0,4% tháng (dự báo 0,3%), lõi +0,3%; PPI T10 công bố tối 13/11 giờ VN (dự báo +0,4%); CPI T9 3,7%, PCE lõi T9 3,1%; giá đầu vào ISM sản xuất 75,2; Goolsbee: lạm phát dịch vụ đi sai hướng.",
+    "policy": "Fed giữ 3,75–4,00%; khả năng tăng 9/12 ~87–89% cho 25bp, ~11–13% cho 50bp; Williams: “còn việc phải làm”; lợi suất 2 năm 4,88%, 10 năm 5,10%, 30 năm 5,43% (12/11); ba phiên đấu giá trái phiếu trong tuần đều yếu.",
     "against": [
-     "Kinh tế chưa yếu: việc làm mạnh, ISM trên 54; S&P 500 hồi +1,31% (11/11) và vẫn trên MA200: Mỹ có thể ở lại Đỉnh lâu hơn.",
-     "Lạm phát tháng chậm lại từ 0,6% xuống 0,4% và dầu rẻ hơn có thể làm Fed chỉ tăng một hai lần rồi dừng; ngược lại, lợi suất ~5%, đô la đỉnh 52 tuần và rủi ro quản trị ở Nvidia là sức ép lên tài sản."
+     "Kinh tế chưa yếu: thất nghiệp thấp, ISM trên 54, S&P 500 chỉ −0,35% dù lợi suất vọt và vẫn trên MA200 (~7.337): Mỹ có thể ở lại Đỉnh lâu hơn.",
+     "Lợi suất 10 năm trên 5%, đô la đỉnh 19 tháng và việc Nvidia mất CEO là sức ép lên định giá; nhưng lạm phát tháng đã chậm lại từ 0,6% xuống 0,4%, Fed có thể chỉ tăng một hai lần."
     ],
     "flip": "Sang Suy thoái nếu việc làm âm 2 tháng liền hoặc ISM dưới 50; về Mở rộng nếu lạm phát lõi giảm và Fed dừng tăng."
    },
@@ -2782,11 +2787,11 @@
     "lean": "muộn, có dấu hiệu quá nóng",
     "lv": "warn",
     "growth": "GDP quý 3 +9,95%, 9 tháng 9,01%; tháng 10: PMI 52,3 (tháng thứ 16 trên 50), xuất nhập khẩu 10 tháng 1.010,55 tỷ USD (+32,3%), tháng 10 xuất siêu 7,31 tỷ; FDI đăng ký 10 tháng 54,85 tỷ USD (+74%), giải ngân 24,08 tỷ (+13,1%); sản xuất công nghiệp 10 tháng +12,4%.",
-    "inflation": "CPI T10 +0,20% tháng, +5,09% năm, bình quân 10 tháng +4,57% (Cục Thống kê 3/11), xăng là động lực chính; xăng E5 RON92 20.898 đ/lít, kỳ điều chỉnh 12/11; thuế tiêu thụ đặc biệt xăng 0% từ 1/11; Brent ~92 USD (11/11).",
-    "policy": "OMO lãi 4,5%, ngày 11/11 hút ròng ~2.892 tỷ; liên ngân hàng qua đêm 4,4% (10/11); NHNN mua USD giao ngay giá 25.500 từ 11/11; tín dụng +11,94% từ đầu năm; tỷ giá trung tâm 25.611 (12/11, +11 đồng).",
+    "inflation": "CPI T10 +0,20% tháng, +5,09% năm, bình quân 10 tháng +4,57% (Cục Thống kê 3/11); xăng giảm từ 15h 12/11: E5 RON92 19.399 đ/lít (−1.499), E10 RON95 19.845 (−1.311), diesel 26.822 (−1.874); thuế tiêu thụ đặc biệt xăng 0% từ 1/11.",
+    "policy": "OMO lãi 4,5%, ngày 12/11 hút ròng 447 tỷ, dư nợ repo ~112.131 tỷ; liên ngân hàng qua đêm 4,3% (11/11); TPCP 10 năm 4,46%; tín dụng tới 30/9 +11,59%; tỷ giá trung tâm 25.623 (12/11, +12 đồng).",
     "against": [
-     "Chứng khoán chưa xác nhận: VN-Index giữ Wait Mode (1.746,90, 11/11), còn 7 phiên phân phối, thanh khoản giảm ~18%; đơn hàng mới trong PMI tăng chậm nhất 6 tháng.",
-     "CPI trên 5% hai tháng liền, margin kỷ lục ~457.500 tỷ: rủi ro quá nóng; nhưng xăng rẻ hơn, tỷ giá vẫn thấp hơn 1 tháng trước ~1,3% cho thêm dư địa."
+     "Chứng khoán đang báo xấu: VN-Index chuyển Sell Mode (1.734,75, 12/11), khối ngoại bán ròng ~880 tỷ, 6 phiên phân phối; đơn hàng mới trong PMI tăng chậm nhất 6 tháng.",
+     "CPI trên 5% hai tháng liền, margin kỷ lục ~457.500 tỷ: rủi ro quá nóng; nhưng xăng vừa giảm 1.300–1.900 đ/lít sẽ kéo CPI tháng 11 xuống, tỷ giá vẫn thấp hơn 1 tháng trước ~0,9%."
     ],
     "flip": "Sang Đỉnh nếu CPI vượt 6% hoặc tỷ giá tăng >1–2% trong 2–3 tuần; giữ Mở rộng nếu lãi vay giảm thật mà CPI dưới 5,5%."
    },
@@ -2800,8 +2805,8 @@
     "inflation": "CPI T10 +0,7% năm (dự báo 0,8%), 0,0% tháng, lõi 0,8%; PPI T10 +5,7% (dự báo 5,3%), cao nhất từ 6/2022, chủ yếu do dầu (NBS 9/11, Global Times).",
     "policy": "LPR 1 năm 3,0%, 5 năm 3,5%; PBOC lấy repo qua đêm 1,25% làm lãi neo; Trung Quốc gia hạn tạm hoãn thuế bổ sung 24% với hàng Mỹ tới 10/1/2027; thị trường chờ khả năng gia hạn đình chiến thương mại tại APEC Thâm Quyến 18–19/11.",
     "against": [
-     "PMI NBS dưới 50, CPI chỉ 0,7%: cầu trong nước yếu; nhưng xuất khẩu +35% và sản xuất tư nhân 52,0 nên chưa đủ hai nhóm số liệu đổi chiều.",
-     "PPI +5,7% là do dầu chứ không do cầu; dầu giảm sẽ kéo PPI xuống nhanh. Hang Seng 11/11 −0,98%, Thượng Hải +0,46%: thị trường chờ APEC."
+     "PMI NBS dưới 50, CPI chỉ 0,7%: cầu trong nước yếu; nhưng xuất khẩu +35% và sản xuất tư nhân 52,0 nên chưa đủ hai nhóm số liệu đổi chiều; sản xuất công nghiệp, bán lẻ T10 công bố 9:00 ngày 16/11.",
+     "PPI +5,7% là do dầu chứ không do cầu. Hang Seng 12/11 −1,26% về 24.008,55, dưới MA50: thị trường chờ APEC Thâm Quyến và khả năng gặp Trump–Tập."
     ],
     "flip": "Về Đáy nếu PMI dưới 50 thêm 1–2 tháng và PPI hạ; sang Mở rộng khi tiêu dùng và tín dụng trong nước tăng rõ."
    }
@@ -2811,8 +2816,8 @@
  "allocation": {
   "title": "Khuyến nghị phân bổ dòng tiền",
   "intro": "Gợi ý chia tiền theo ba khẩu vị rủi ro. Cột “Trung tính” là tỷ trọng gốc khi thị trường bình thường; cột “Hiện tại” đã điều chỉnh theo pha chu kỳ và trạng thái Buy/Wait/Sell Mode. Chỉ dùng cho tiền đầu tư, sau khi đã có quỹ dự phòng 6 tháng chi tiêu.",
-  "asOf": "12/11/2026",
-  "basis": "Căn cứ: toàn cầu và Mỹ ở pha Đỉnh, Việt Nam Mở rộng muộn, Trung Quốc Phục hồi nhưng yếu đi (giữ nguyên pha). Trạng thái không đổi so với hôm qua nên giữ nguyên tỷ trọng: VN-Index **Wait Mode** (1.746,90, trên ~1.737 và EMA20, 11/11); S&P 500 (7.619,38, dưới MA50 ~7.673), vàng (3.994,60, dưới MA50 ~4.205), Bitcoin (~74.000, dưới ~78.680) giữ Sell Mode.",
+  "asOf": "13/11/2026",
+  "basis": "Căn cứ: toàn cầu và Mỹ ở pha Đỉnh, Việt Nam Mở rộng muộn, Trung Quốc Phục hồi nhưng yếu đi (giữ nguyên pha). Đổi hôm nay: **VN-Index chuyển từ Wait sang Sell Mode** (1.734,75 dưới mốc ~1.735, 12/11) nên giảm 2–4 điểm % cổ phiếu Việt Nam về tiền gửi. S&P 500 (7.592,40, dưới MA50 ~7.671), vàng (~3.889, dưới MA50 ~4.195), Bitcoin (~70.800, dưới ~78.420 và MA200) giữ Sell Mode.",
   "profiles": [
    {
     "id": "tt",
@@ -2839,11 +2844,11 @@
      "tg": 5
     },
     "now": {
-     "tt": 41,
-     "cb": 29,
-     "tg": 20
+     "tt": 43,
+     "cb": 32,
+     "tg": 24
     },
-    "why": "Giữ nguyên, cao hơn Trung tính: S&P 500, vàng, Bitcoin Sell Mode; Fed gần như chắc tăng 9/12 (~90,7%); mô phỏng VN-Index 3 tháng: trung vị −0,1%, ~18,2% khả năng mất hơn 10%."
+    "why": "Tăng 2–4 điểm (nhận phần giảm từ cổ phiếu Việt Nam): VN-Index, S&P 500, vàng, Bitcoin đều Sell Mode; lợi suất Mỹ 5,10%; mô phỏng VN-Index 3 tháng: trung vị −0,3%, ~19,4% khả năng mất hơn 10%."
    },
    {
     "a": "Trái phiếu, quỹ trái phiếu",
@@ -2857,7 +2862,7 @@
      "cb": 15,
      "tg": 10
     },
-    "why": "Giữ nguyên. Lợi suất Mỹ 2 năm ~4,74%, 10 năm ~5,00% (chốt 10/11); Fed gần như chắc tăng, PPI 13/11. Ở Việt Nam lợi suất TPCP 10 năm (~4,47%) thấp hơn CPI 5,09%. Ưu tiên quỹ trái phiếu, tránh trái phiếu doanh nghiệp đơn lẻ."
+    "why": "Giữ nguyên. Lợi suất Mỹ 2 năm 4,88%, 10 năm 5,10% (12/11), ba phiên đấu giá yếu; PPI tối 13/11. Ở Việt Nam lợi suất TPCP 10 năm (~4,46%) thấp hơn CPI 5,09%. Ưu tiên quỹ trái phiếu, tránh trái phiếu doanh nghiệp đơn lẻ."
    },
    {
     "a": "Cổ phiếu Việt Nam",
@@ -2867,11 +2872,11 @@
      "tg": 55
     },
     "now": {
-     "tt": 20,
-     "cb": 36,
-     "tg": 49
+     "tt": 18,
+     "cb": 33,
+     "tg": 45
     },
-    "why": "Giữ nguyên (thấp hơn Trung tính 0–6 điểm): VN-Index 1.746,90 (11/11, +0,22%) giữ Wait Mode, khối ngoại mua ròng ~51 tỷ. Chỉ mua dần, nhỏ, không margin. Mặt trái: còn 7 phiên phân phối, dưới MA50 (~1.763); thanh khoản −18%, tự doanh bán ~557 tỷ."
+    "why": "Giảm 2–4 điểm (thấp hơn Trung tính 2–10 điểm): VN-Index 1.734,75 (12/11, −0,70%) chuyển Sell Mode, khối ngoại bán ròng ~880 tỷ. Tạm dừng mua mới, giữ phần đã có, không margin. Mặt trái: chỉ dưới mốc chưa tới 1 điểm, tự doanh mua ~325 tỷ; vượt lại ~1.737 là về Wait Mode."
    },
    {
     "a": "Cổ phiếu quốc tế (qua quỹ)",
@@ -2885,7 +2890,7 @@
      "cb": 8,
      "tg": 10
     },
-    "why": "Giữ mức giảm 1–2 điểm %: S&P 500 7.619,38 (11/11, +1,31%) vẫn dưới MA50 (~7.673); Nikkei, KOSPI Sell Mode; Nvidia ~−8% sau giờ. Mặt trái: châu Âu (STOXX 600 kỷ lục 663,05, DAX) Buy Mode. Chỉ qua quỹ chỉ số."
+    "why": "Giữ mức giảm 1–2 điểm %: S&P 500 7.592,40 (12/11, −0,35%) dưới MA50 (~7.671); Russell 2000 thủng MA50; Nikkei, KOSPI Sell Mode; Nvidia mất CEO. Mặt trái: châu Âu (STOXX 600 kỷ lục 664,01) và Dow Buy Mode. Chỉ qua quỹ chỉ số."
    },
    {
     "a": "Vàng",
@@ -2899,7 +2904,7 @@
      "cb": 11,
      "tg": 9
     },
-    "why": "Giữ nguyên. Vàng ~3.995 USD tương lai (11/11, −0,9%), lần đầu dưới 4.000 trong đợt giảm; dưới MA50 (~4.205): Sell Mode. SJC 137–140 triệu đ/lượng (12/11) đắt hơn thế giới ~13,8 triệu: chỉ mua dần, ưu tiên vàng nhẫn hoặc chứng chỉ quỹ vàng."
+    "why": "Giữ nguyên. Vàng ~3.866–3.885 USD (12/11, −3%), thấp nhất từ 10/2025; dưới MA50 (~4.195): Sell Mode. SJC 136–139 triệu đ/lượng (13/11) đắt hơn thế giới ~17,7 triệu: chỉ mua dần, ưu tiên vàng nhẫn hoặc chứng chỉ quỹ vàng."
    },
    {
     "a": "Crypto",
@@ -2913,13 +2918,13 @@
      "cb": 1,
      "tg": 2
     },
-    "why": "Giữ nguyên ở mức thấp: Bitcoin ~74.000 USD (12/11) Sell Mode, sát MA200; ETF Bitcoin bị rút bốn ngày liền; ~725 triệu USD vị thế bị thanh lý trong 24 giờ (CoinGlass qua CoinDesk). Thận trọng giữ 0%; chỉ dùng tiền có thể mất hết."
+    "why": "Giữ nguyên ở mức thấp: Bitcoin ~70.800 USD (13/11) Sell Mode, thủng MA200 (~73.080); ETF Bitcoin bị rút 5 ngày liền ~1,44 tỷ USD (CoinDesk). Thận trọng giữ 0%; chỉ dùng tiền có thể mất hết."
    }
   ],
   "steps": [
    "Trước tiên: quỹ dự phòng 6 tháng chi tiêu bằng tiền gửi, không tính vào bảng trên.",
    "Tiền mới mỗi tháng: chia theo cột “Hiện tại” của khẩu vị mình; phần cổ phiếu chia làm 3–6 đợt, mỗi đợt cách nhau 2–4 tuần.",
-   "Khi VN-Index về Wait Mode: chuyển dần 5–10 điểm % từ tiền gửi sang cổ phiếu. Khi về Buy Mode và có phiên FTD: đưa cổ phiếu về tỷ trọng Trung tính.",
+   "Khi VN-Index về lại Wait Mode: chuyển dần 2–4 điểm % từ tiền gửi sang cổ phiếu. Khi về Buy Mode và có phiên FTD: đưa cổ phiếu về tỷ trọng Trung tính.",
    "Cân bằng lại mỗi quý, hoặc khi một lớp tài sản lệch quá 5 điểm % so với mục tiêu.",
    "Không vay margin để đạt tỷ trọng cổ phiếu; không dồn quá 10% tài sản vào một mã."
   ],
