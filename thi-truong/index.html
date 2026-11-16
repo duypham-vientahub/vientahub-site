@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-m/GDDw41CqJuUHoAVRAWBO1k774MmPp9owznoZMO5uc='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-m/GDDw41CqJuUHoAVRAWBO1k774MmPp9owznoZMO5uc=' 'sha256-D7Dpbs3/C9mBkPB0OmFMGq5lSI7OMMc8zO0o3iXvIaQ='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
 <title>Market Pulse | Vienta Hub</title>
@@ -347,6 +347,42 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 @media (max-width:860px){.sx-gate{grid-template-columns:1fr;padding:20px}.sx-funnel{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:420px){.sx-picks{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+/* công cụ khối lượng lệnh */
+.kl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;align-items:start}
+.kl-form,.kl-out{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 24px;min-width:0}
+.kl-gate{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:14px;color:#3F5360;margin:0 0 16px}
+.kl-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.kl-fld{display:flex;flex-direction:column;gap:6px;margin-bottom:14px;min-width:0}
+.kl-fld label{font:600 13px var(--f-head);color:var(--navy)}
+.kl-fld label small{font-weight:500;color:var(--muted)}
+.kl-fld input[type=text]{width:100%;font:500 16px var(--f-mono);padding:11px 13px;border:1px solid #CFE1DE;border-radius:12px;background:#fff;color:var(--text)}
+.kl-fld input[type=text]:focus{outline:2px solid var(--gold);outline-offset:1px;border-color:var(--gold)}
+.kl-form .hint{display:block;font-size:12.5px;color:var(--muted);line-height:1.45}
+.kl-form>.hint{margin:-4px 0 12px}
+.kl-chips{display:flex;flex-wrap:wrap;gap:6px}
+.kl-chips .f{padding:7px 12px;font-size:12.5px}
+.kl-chk{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:#3F5360;margin:4px 0 12px;cursor:pointer}
+.kl-chk input{margin-top:4px;width:16px;height:16px;accent-color:var(--deep);flex:none}
+.kl-btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.kl-big{font:800 clamp(30px,5vw,44px)/1.1 var(--f-head);color:var(--navy);letter-spacing:-.02em;margin:6px 0 4px;word-break:break-word}
+.kl-big small{font:600 15px var(--f-head);color:var(--muted);letter-spacing:0;margin-left:6px}
+.kl-sub{font-size:14px;color:#3F5360;margin-bottom:14px}
+.kl-dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px;border-top:1px solid var(--line);padding-top:14px}
+.kl-dl dt{color:var(--muted)}
+.kl-dl dd{text-align:right;font-family:var(--f-mono);color:var(--text);min-width:0;overflow-wrap:anywhere}
+.kl-dl dd small{display:block;font:400 12px var(--f-body);color:var(--muted)}
+.kl-h4{font:700 14px var(--f-head);color:var(--navy);margin:18px 0 8px}
+.kl-msg{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:14px}
+.kl-msg li{font-size:13.5px;line-height:1.5;padding:10px 12px;border-radius:12px;background:var(--info-bg);color:#1F4A45}
+.kl-msg li.warn{background:var(--warn-bg);color:#6B4700}
+.kl-msg li.down{background:var(--down-bg);color:#8E2A18}
+.kl-msg li.up{background:var(--up-bg);color:#0F5E47}
+.kl-foot{font-size:12.5px;color:var(--muted);margin-top:14px;line-height:1.5}
+.kl-how{margin-top:14px;font-size:13.5px;color:#3F5360}
+.kl-how summary{cursor:pointer;font:600 13.5px var(--f-head);color:var(--deep)}
+.kl-how ol{margin:10px 0 0 18px;display:flex;flex-direction:column;gap:6px}
+@media (max-width:860px){.kl{grid-template-columns:1fr}}
+@media (max-width:420px){.kl-row{grid-template-columns:1fr;gap:0}.kl-form,.kl-out{padding:18px}}
 </style>
 </head>
 <body class="vi">
@@ -376,7 +412,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <p class="lead" id="lede"></p>
       <p class="en-note en">This analysis is published in Vietnamese.</p>
       <p class="stamp" id="stamp"></p>
-      <div class="jump"><a href="#phan-bo">Phân bổ dòng tiền ↓</a><a href="#bo-loc">Bộ lọc mã tiềm năng ↓</a><a href="#mo-phong">Mô phỏng 3 tháng ↓</a><a href="#kich-ban">Kịch bản ↓</a></div>
+      <div class="jump"><a href="#phan-bo">Phân bổ dòng tiền ↓</a><a href="#bo-loc">Bộ lọc mã tiềm năng ↓</a><a href="#khoi-luong">Tính khối lượng lệnh ↓</a><a href="#mo-phong">Mô phỏng 3 tháng ↓</a><a href="#kich-ban">Kịch bản ↓</a></div>
     </div>
     <aside class="regime" aria-label="Chế độ vĩ mô">
       <div class="top"><span class="eyebrow">Chế độ vĩ mô</span><span class="pill warn" id="regimeLabel"></span></div>
@@ -450,6 +486,75 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     </div>
     <details class="sx-method"><summary>Cách lọc</summary><ul id="sxMethod"></ul></details>
     <p class="sx-disc" id="sxDisc"></p>
+  </section>
+
+  <section id="khoi-luong">
+    <div class="head"><span class="eyebrow dk">Công cụ</span><h2>Tính khối lượng lệnh theo khung MTG</h2>
+      <p>Đồ thị quyết định điểm cắt lỗ, điểm cắt lỗ quyết định khối lượng. Mặc định rủi ro <b>0,2% vốn mỗi lệnh</b>, mức trung vị trong 31 lệnh thật của MTG. Trạng thái thị trường lấy tự động từ bộ lọc sáng nay.</p></div>
+    <div class="filters" id="klPick" role="tablist" aria-label="Chọn thị trường">
+      <button class="f on" type="button" role="tab" aria-selected="true" data-m="vn">Việt Nam</button>
+      <button class="f" type="button" role="tab" aria-selected="false" data-m="us">Mỹ</button>
+      <button class="f" type="button" role="tab" aria-selected="false" data-m="crypto">Crypto</button>
+    </div>
+    <div class="kl">
+      <form class="kl-form" id="klForm" autocomplete="off" novalidate>
+        <p class="kl-gate" id="klGate">Đang tải trạng thái thị trường…</p>
+        <div class="kl-fld">
+          <label for="klNav">Vốn tài khoản <small id="klCur1">(đ)</small></label>
+          <input type="text" id="klNav" inputmode="decimal" placeholder="500.000.000">
+        </div>
+        <div class="kl-fld">
+          <label for="klRisk">Rủi ro mỗi lệnh <small>(% vốn)</small></label>
+          <input type="text" id="klRisk" inputmode="decimal" value="0,2">
+          <div class="kl-chips" id="klChips" role="group" aria-label="Chọn nhanh mức rủi ro">
+            <button class="f" type="button" data-r="0.1">0,1%</button><button class="f on" type="button" data-r="0.2">0,2%</button><button class="f" type="button" data-r="0.35">0,35%</button><button class="f" type="button" data-r="0.5">0,5%</button><button class="f" type="button" data-r="1">1%</button>
+          </div>
+          <span class="hint">0,2–0,35% là vùng MTG thật sự giao dịch. 1% là gấp 3–5 lần mức đó.</span>
+        </div>
+        <div class="kl-row">
+          <div class="kl-fld">
+            <label for="klEntry">Giá mua <small id="klCur2">(đ)</small></label>
+            <input type="text" id="klEntry" inputmode="decimal" placeholder="25.000">
+          </div>
+          <div class="kl-fld">
+            <label for="klStop">Giá cắt lỗ <small id="klCur3">(đ)</small></label>
+            <input type="text" id="klStop" inputmode="decimal" placeholder="23.700">
+          </div>
+        </div>
+        <div class="kl-row">
+          <div class="kl-fld">
+            <label for="klTarget">Giá mục tiêu <small>(không bắt buộc)</small></label>
+            <input type="text" id="klTarget" inputmode="decimal" placeholder="29.000">
+          </div>
+          <div class="kl-fld">
+            <label for="klHeat">Rủi ro đang mở <small>(% vốn, không bắt buộc)</small></label>
+            <input type="text" id="klHeat" inputmode="decimal" placeholder="0">
+          </div>
+        </div>
+        <span class="hint" id="klPriceHint">Giá Việt Nam nhập đủ đồng (25.000) hoặc theo bảng giá (25 hay 25,0) đều được.</span>
+        <label class="kl-chk"><input type="checkbox" id="klHalf"><span><b>Nửa cỡ lệnh</b>: dùng khi thị trường Wait Mode hoặc lệnh trượt đúng một tiêu chí (trần rủi ro 0,1% vốn).</span></label>
+        <div class="kl-btns"><button class="f" type="button" id="klCopy">Sao chép kế hoạch</button><button class="f" type="button" id="klReset">Xoá giá</button></div>
+      </form>
+      <div class="kl-out" aria-live="polite">
+        <span class="eyebrow dk" id="klTag">Khối lượng được phép</span>
+        <div class="kl-big" id="klBig">—</div>
+        <p class="kl-sub" id="klSub">Nhập vốn, giá mua và giá cắt lỗ để xem khối lượng.</p>
+        <dl class="kl-dl" id="klDl"></dl>
+        <h4 class="kl-h4">Đối chiếu với cỡ lệnh chuẩn</h4>
+        <dl class="kl-dl" id="klStd"></dl>
+        <ul class="kl-msg" id="klMsg"></ul>
+        <details class="kl-how"><summary>Phép tính đằng sau con số</summary>
+          <ol>
+            <li><b>Số tiền chấp nhận mất</b> = Vốn × % rủi ro (nửa cỡ thì lấy tối đa 0,1%).</li>
+            <li><b>Rủi ro mỗi cổ phiếu</b> = Giá mua − Giá cắt lỗ.</li>
+            <li><b>Khối lượng</b> = (1) ÷ (2), làm tròn xuống (Việt Nam: lô 100 cổ phiếu).</li>
+            <li><b>Đối chiếu</b>: cỡ lệnh chuẩn = 0,2% ÷ khoảng cắt lỗ điển hình của thị trường (Việt Nam 3,94% vốn, Mỹ 4,88%, crypto 1,88%). Hai cách lệch nhiều nghĩa là điểm cắt lỗ không hợp chuẩn.</li>
+            <li><b>Tổng nhiệt</b> = (rủi ro đang mở + lệnh này) × hệ số khe hở (cổ phiếu Việt Nam riêng lẻ 2,0; Mỹ 1,05; crypto 1,04), nên giữ dưới 2% vốn.</li>
+          </ol>
+        </details>
+        <p class="kl-foot">Công cụ tính ngay trên máy bạn, không gửi số liệu đi đâu. Chưa tính phí, thuế, trượt giá và khoảng nhảy giá. Chỉ phục vụ học tập và tự quản trị rủi ro, không phải khuyến nghị mua bán.</p>
+      </div>
+    </div>
   </section>
 
   <section id="chu-de">
@@ -931,6 +1036,129 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     if(S){renderSim(S,D.simNote);renderGuide(D,S,M);}
     try{renderScreener(D,res[3].status==='fulfilled'?res[3].value:null);}catch(e){console.error(e);}
   });
+})();
+</script>
+<script>
+(function(){
+  'use strict';
+  var $=function(id){return document.getElementById(id);};
+  if(!$('klForm'))return;
+  var P={
+    vn:{name:'Việt Nam',bench:'VN-Index',cur:'đ',lot:100,step:1,pdp:0,mdp:0,stopTyp:5.08,std:3.94,gap:2.0,unit:'cp',unitL:'cổ phiếu',ph:['500.000.000','25.000','23.700','29.000'],
+        hint:'Giá Việt Nam nhập đủ đồng (25.000) hoặc theo bảng giá (25 hay 25,0) đều được. Khối lượng làm tròn xuống lô 100 cổ phiếu.'},
+    us:{name:'Mỹ',bench:'S&P 500',cur:'USD',lot:1,step:1,pdp:2,mdp:0,stopTyp:4.10,std:4.88,gap:1.05,unit:'cp',unitL:'cổ phiếu',ph:['20.000','150,00','144,00','170,00'],
+        hint:'Giá Mỹ nhập theo USD. Khối lượng làm tròn xuống số cổ phiếu nguyên.'},
+    crypto:{name:'Crypto',bench:'Bitcoin',cur:'USD',lot:0,step:0.0001,pdp:2,mdp:0,stopTyp:10.63,std:1.88,gap:1.04,unit:'đv',unitL:'đơn vị',ph:['20.000','65.000','58.000','78.000'],
+        hint:'Giá crypto nhập theo USD. Khối lượng làm tròn xuống 0,0001 đơn vị; kiểm lại bước khối lượng của sàn bạn dùng.'}
+  };
+  var m='vn',GATE={},manualHalf={},store={};
+  try{store=JSON.parse(localStorage.getItem('vh-kl')||'{}')||{};}catch(e){store={};}
+  function save(){try{localStorage.setItem('vh-kl',JSON.stringify(store));}catch(e){}}
+
+  function parseNum(s){
+    if(s==null)return NaN;s=String(s).replace(/\s|đ|\$|%|usd/gi,'');if(!s)return NaN;
+    var hasD=s.indexOf('.')>=0,hasC=s.indexOf(',')>=0;
+    if(hasD&&hasC){if(s.lastIndexOf(',')>s.lastIndexOf('.'))s=s.replace(/\./g,'').replace(',','.');else s=s.replace(/,/g,'');}
+    else if(hasC){if(/^\d{1,3}(,\d{3}){2,}$/.test(s))s=s.replace(/,/g,'');else s=s.replace(/,/g,'.');}
+    else if(hasD){if(/^\d{1,3}(\.\d{3})+$/.test(s))s=s.replace(/\./g,'');}
+    var v=Number(s);return isFinite(v)?v:NaN;
+  }
+  function fmt(v,dp){return new Intl.NumberFormat('vi-VN',{minimumFractionDigits:dp,maximumFractionDigits:dp}).format(v);}
+  function money(v){var p=P[m];return p.cur==='đ'?fmt(Math.round(v),0)+' đ':fmt(v,2)+' USD';}
+  function price(v){var p=P[m];return p.cur==='đ'?fmt(Math.round(v),0):fmt(v,v<1?4:2);}
+  function pct(v,dp){return fmt(v,dp==null?2:dp)+'%';}
+  function qty(v){return m==='crypto'?fmt(v,4):fmt(v,0);}
+  function vnPrice(v){return (m==='vn'&&v>0&&v<1000)?v*1000:v;}
+  function roundQty(q){var p=P[m];if(!(q>0))return 0;if(p.lot>1)return Math.floor(q/p.lot)*p.lot;if(p.lot===1)return Math.floor(q);return Math.floor(q/p.step+1e-9)*p.step;}
+
+  function gateText(){
+    var g=GATE[m],p=P[m];
+    if(!g){$('klGate').innerHTML='<span class="pill info">Chưa có trạng thái</span><span>Không tải được trạng thái '+p.bench+'. Tự kiểm tra trước khi mua.</span>';return;}
+    $('klGate').innerHTML='<b>'+p.bench+':</b> <span class="pill '+(g.level||'info')+'">'+g.mode+'</span><span>'+(g.exposure||'')+(g.date?' · dữ liệu '+g.date.split('-').reverse().join('/'):'')+'</span>';
+  }
+  function setMarket(k){
+    m=k;var p=P[k];
+    document.querySelectorAll('#klPick .f').forEach(function(b){var on=b.getAttribute('data-m')===k;b.classList.toggle('on',on);b.setAttribute('aria-selected',on);});
+    ['klCur1','klCur2','klCur3'].forEach(function(id){$(id).textContent='('+p.cur+')';});
+    $('klNav').placeholder=p.ph[0];$('klEntry').placeholder=p.ph[1];$('klStop').placeholder=p.ph[2];$('klTarget').placeholder=p.ph[3];
+    $('klPriceHint').textContent=p.hint;
+    var s=store[k]||{};$('klNav').value=s.nav||'';$('klRisk').value=s.risk||'0,2';
+    $('klEntry').value='';$('klStop').value='';$('klTarget').value='';
+    if(manualHalf[k]==null){var g=GATE[k];$('klHalf').checked=!!(g&&g.mode==='Wait Mode');}else $('klHalf').checked=manualHalf[k];
+    store.m=k;save();gateText();syncChips();calc();
+  }
+  function syncChips(){var r=parseNum($('klRisk').value);document.querySelectorAll('#klChips .f').forEach(function(b){b.classList.toggle('on',Math.abs(Number(b.getAttribute('data-r'))-r)<1e-9);});}
+
+  var PLAN='';
+  function calc(){
+    var p=P[m],msg=[],dl=[],sd=[];
+    var nav=parseNum($('klNav').value),risk=parseNum($('klRisk').value),e=vnPrice(parseNum($('klEntry').value)),s=vnPrice(parseNum($('klStop').value)),t=vnPrice(parseNum($('klTarget').value)),heat=parseNum($('klHeat').value),half=$('klHalf').checked;
+    var g=GATE[m];
+    if(g&&g.mode==='Sell Mode')msg.push(['down','<b>'+p.bench+' đang Sell Mode:</b> mô hình bảo đứng ngoài với lệnh mua mới. Con số bên dưới chỉ để tham khảo.']);
+    else if(g&&g.mode==='Wait Mode')msg.push(['warn','<b>'+p.bench+' đang Wait Mode:</b> không cấm mua, nhưng đổi kiểu vào lệnh: chỉ mua ở điểm rũ bỏ (về EMA20 rồi bật lên), tránh mua đuổi, nửa cỡ lệnh.']);
+    PLAN='';
+    var out=function(big,sub){$('klBig').innerHTML=big;$('klSub').textContent=sub;};
+    if(!(nav>0)){out('—','Nhập vốn tài khoản lớn hơn 0.');return draw(dl,sd,msg);}
+    if(!(risk>0)){out('—','Nhập mức rủi ro mỗi lệnh lớn hơn 0.');return draw(dl,sd,msg);}
+    if(!(e>0)||!(s>0)){out('—','Nhập giá mua và giá cắt lỗ để xem khối lượng.');return draw(dl,sd,msg);}
+    if(s>=e){out('—','Giá cắt lỗ phải thấp hơn giá mua (công cụ chỉ tính lệnh mua).');return draw(dl,sd,msg);}
+    var rEff=half?Math.min(risk,0.1):risk;
+    var perSh=e-s,stopPct=perSh/e*100,budget=nav*rEff/100;
+    var raw=budget/perSh,q=roundQty(raw),val=q*e,rk=q*perSh;
+    var unitTxt=p.unitL;
+    if(q<=0){
+      out('0 <small>'+unitTxt+'</small>',m==='vn'&&raw>=1?'Chưa đủ một lô 100 cổ phiếu (mới được '+fmt(Math.floor(raw),0)+' cp).':'Khoảng cắt lỗ quá xa so với số tiền rủi ro.');
+      msg.push(['warn','Hãy nâng mức rủi ro, tìm điểm mua có cắt lỗ gần hơn, hoặc bỏ qua cơ hội này.']);
+    }else{
+      out(qty(q)+' <small>'+unitTxt+'</small>','Mua '+qty(q)+' '+p.unit+' tại '+price(e)+', cắt lỗ '+price(s)+(half?' · nửa cỡ':'')+'.');
+    }
+    dl.push(['Rủi ro mỗi '+(m==='crypto'?'đơn vị':'cổ phiếu'),price(perSh)+(p.cur==='đ'?' đ':''),'cách giá mua '+pct(stopPct)]);
+    dl.push(['Số tiền chấp nhận mất',money(budget),pct(rEff)+' vốn'+(half&&risk>0.1?' (nửa cỡ: trần 0,1%)':'')]);
+    dl.push(['Tiền rủi ro thực (sau làm tròn)',money(rk),pct(rk/nav*100,3)+' vốn']);
+    dl.push(['Giá trị lệnh',money(val),pct(val/nav*100,1)+' vốn']);
+    if(t>0){if(t<=e)msg.push(['warn','Giá mục tiêu phải cao hơn giá mua.']);else{var R=(t-e)/perSh;dl.push(['Lợi nhuận / Rủi ro',fmt(R,2)+' R','lãi '+money(q*(t-e))+' nếu chạm mục tiêu']);if(R<2)msg.push(['warn','Tỷ lệ lợi nhuận/rủi ro dưới 2R: phần thưởng mỏng so với rủi ro.']);}}
+    // cỡ chuẩn
+    var stdPct=half?p.std/2:p.std,sq=roundQty(nav*stdPct/100/e),sr=sq*perSh/nav*100;
+    sd.push(['Cỡ lệnh chuẩn '+p.name+(half?' (nửa cỡ)':''),pct(stdPct)+' vốn',money(nav*stdPct/100)]);
+    sd.push(['Khối lượng theo cỡ chuẩn',qty(sq)+' '+p.unit,'rủi ro thực '+pct(sr,3)+' vốn']);
+    var lo=half?0.1:0.2,hi=half?0.175:0.35;
+    if(sq>0){if(sr>hi+1e-9)msg.push(['warn','Với cỡ lệnh chuẩn, lệnh này rủi ro '+pct(sr,2)+' vốn, vượt vùng '+pct(lo,1)+'–'+pct(hi,2)+': khoảng cắt lỗ '+pct(stopPct,1)+' rộng hơn điển hình '+pct(p.stopTyp,1)+'. Dùng khối lượng phía trên (nhỏ hơn), hoặc tìm điểm vào gần hơn.']);
+      else if(sr<lo*0.5)msg.push(['info','Cắt lỗ rất gần ('+pct(stopPct,1)+'): khối lượng theo rủi ro lớn hơn nhiều so với cỡ chuẩn. Cẩn thận bị quét cắt lỗ.']);}
+    if(stopPct>2*p.stopTyp)msg.push(['down','Khoảng cắt lỗ '+pct(stopPct,1)+' gấp hơn 2 lần mức điển hình '+pct(p.stopTyp,1)+' của '+p.name+': setup này không hợp phương pháp, trừ khi hạ cỡ lệnh mạnh.']);
+    if(rEff>0.35)msg.push(['warn','Rủi ro '+pct(rEff,2)+' mỗi lệnh là gấp '+fmt(rEff/0.2,1)+' lần mức trung vị của MTG (0,2%).']);
+    if(val>nav)msg.push(['down','Giá trị lệnh vượt vốn tài khoản: muốn vào đủ khối lượng này phải dùng margin.']);
+    else if(val/nav*100>10)msg.push(['warn','Giá trị lệnh chiếm '+pct(val/nav*100,1)+' vốn, lớn hơn mức MTG thường dùng (5–8%).']);
+    if(q!==raw&&q>0&&m!=='crypto')msg.push(['info','Đã làm tròn xuống: '+fmt(raw,m==='vn'?0:1)+' → '+qty(q)+' '+p.unit+', để không bao giờ gánh nhiều rủi ro hơn mức đã định.']);
+    var heatNow=(heat>0?heat:0)+rk/nav*100,heatAdj=heatNow*p.gap;
+    dl.push(['Tổng nhiệt danh mục','~'+pct(heatAdj,2)+' vốn','(đang mở + lệnh này) × hệ số khe hở '+fmt(p.gap,2)]);
+    if(heatAdj>2)msg.push(['down','Tổng nhiệt hiệu chỉnh ~'+pct(heatAdj,2)+' vượt trần 2% vốn: đóng bớt hoặc dời cắt lỗ lên hoà vốn trước khi mở lệnh mới.']);
+    if(m==='vn')msg.push(['info','Cổ phiếu Việt Nam: T+2 và biên ±7% khiến lỗ thật có thể gấp đôi mức cắt lỗ (hai phiên sàn). Lỗ nếu trượt gấp đôi: ~'+money(rk*2)+'.']);
+    PLAN='MUA '+qty(q)+' '+p.unit+' @ '+price(e)+' | Cắt lỗ '+price(s)+(t>e?' | Mục tiêu '+price(t):'')+' | Rủi ro '+money(rk)+' ('+pct(rk/nav*100,2)+' vốn)'+(half?' | nửa cỡ':'')+(g?' | '+p.bench+' '+g.mode:'');
+    draw(dl,sd,msg);
+  }
+  function row(x){return '<dt>'+x[0]+'</dt><dd>'+x[1]+(x[2]?'<small>'+x[2]+'</small>':'')+'</dd>';}
+  function draw(dl,sd,msg){
+    $('klDl').innerHTML=dl.map(row).join('');$('klStd').innerHTML=sd.length?sd.map(row).join(''):'<dt>Cỡ lệnh chuẩn '+P[m].name+'</dt><dd>'+pct(P[m].std)+' vốn<small>0,2% ÷ cắt lỗ điển hình '+pct(P[m].stopTyp)+'</small></dd>';
+    $('klMsg').innerHTML=msg.map(function(x){return '<li class="'+x[0]+'">'+x[1]+'</li>';}).join('');
+  }
+
+  document.querySelectorAll('#klPick .f').forEach(function(b){b.addEventListener('click',function(){setMarket(b.getAttribute('data-m'));});});
+  document.querySelectorAll('#klChips .f').forEach(function(b){b.addEventListener('click',function(){$('klRisk').value=b.textContent.replace('%','');persist();syncChips();calc();});});
+  function persist(){store[m]=store[m]||{};store[m].nav=$('klNav').value;store[m].risk=$('klRisk').value;save();}
+  ['klNav','klRisk','klEntry','klStop','klTarget','klHeat'].forEach(function(id){$(id).addEventListener('input',function(){if(id==='klNav'||id==='klRisk')persist();if(id==='klRisk')syncChips();calc();});});
+  $('klNav').addEventListener('blur',function(){var v=parseNum(this.value);if(v>0){this.value=P[m].cur==='đ'?fmt(Math.round(v),0):fmt(v,v%1?2:0);persist();}});
+  $('klHalf').addEventListener('change',function(){manualHalf[m]=this.checked;calc();});
+  $('klForm').addEventListener('submit',function(e){e.preventDefault();});
+  $('klReset').addEventListener('click',function(){$('klEntry').value='';$('klStop').value='';$('klTarget').value='';calc();$('klEntry').focus();});
+  $('klCopy').addEventListener('click',function(){var b=this;if(!PLAN){b.textContent='Chưa có kế hoạch';setTimeout(function(){b.textContent='Sao chép kế hoạch';},1400);return;}
+    var done=function(){b.textContent='Đã sao chép';setTimeout(function(){b.textContent='Sao chép kế hoạch';},1400);};
+    if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(PLAN).then(done,function(){prompt('Sao chép kế hoạch:',PLAN);});else prompt('Sao chép kế hoạch:',PLAN);});
+
+  setMarket(P[store.m]?store.m:'vn');
+  fetch('sim/screener.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(function(S){
+    (S.markets||[]).forEach(function(x){if(x&&x.bench&&P[x.id])GATE[x.id]=x.bench;});
+    if(manualHalf[m]==null){var g=GATE[m];$('klHalf').checked=!!(g&&g.mode==='Wait Mode');}gateText();calc();
+  }).catch(function(){gateText();});
 })();
 </script>
 </body>
