@@ -59,3 +59,10 @@ Trang `/thi-truong/` chỉ đọc `data.json`. Mỗi lần cập nhật chỉ s�
 
 - `data.json > cycle`: `title`, `intro`, `phases[]` (Phục hồi, Mở rộng, Đỉnh, Suy thoái, Đáy), `leaders{pha: ngành}`, `asOf`, `note`, `markets[{id, name, phase, lean, lv, growth, inflation, policy, against[], flip}]`. Pha theo skill `dt-13-chu-ky-vi-mo` của plugin phòng đầu tư: chỉ đổi khi ít nhất hai nhóm số liệu (tăng trưởng, lạm phát, chính sách) cùng đổi chiều.
 - `data.json > allocation`: `title`, `intro`, `asOf`, `basis`, `profiles[{id, name, who}]`, `classes[{a, base{id:%}, now{id:%}, why}]`, `steps[]`, `disclaimer`. Mỗi khẩu vị cộng đúng 100% ở cả `base` và `now`. `now` lệch khỏi `base` theo pha chu kỳ và trạng thái Buy/Wait/Sell Mode; chỉ đổi khi một trong hai đổi. Không nêu mã cụ thể; luôn ghi là khung tham khảo, không phải tư vấn cá nhân.
+
+## Công cụ tính khối lượng lệnh (`#khoi-luong`)
+
+- Nằm cố định trong `index.html` (script riêng thứ hai, hash đã thêm vào CSP `script-src`). Không đọc `data.json`, nên phân tích hằng ngày không cần sửa gì.
+- Trạng thái Buy/Wait/Sell Mode lấy tự động từ `sim/screener.json > markets[].bench`. Wait Mode tự bật "nửa cỡ lệnh" (trần rủi ro 0,1% vốn).
+- Khung MTG: rủi ro mặc định 0,2% vốn/lệnh; cỡ lệnh chuẩn = 0,2% ÷ cắt lỗ điển hình (Việt Nam 3,94% / 5,08%, Mỹ 4,88% / 4,10%, crypto 1,88% / 10,63%); Việt Nam làm tròn xuống lô 100; tổng nhiệt × hệ số khe hở (VN 2,0, Mỹ 1,05, crypto 1,04) ≤ 2% vốn.
+- Nếu sửa script của công cụ, phải tính lại sha256 và thay trong thẻ CSP, nếu không trình duyệt sẽ chặn script.
