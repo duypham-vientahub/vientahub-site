@@ -124,12 +124,12 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 23/11/2026: cuối tuần Hormuz xấu thêm — ông Trump (22/11) nói sẽ nghiêng về nối lại hành động quân sự sau Năm mới nếu không có thoả thuận và đánh chìm tàu Iran nào phá phong toả; Ngoại trưởng Araghchi nói bản ghi nhớ Islamabad “không còn trên bàn”; IRGC nói đánh 2 radar Patriot ở Bahrain, UKMTO báo 2 tàu dầu trúng vật thể gần Oman, Houthi nói tấn công nhà máy lọc dầu Rabigh của Saudi Arabia (Newsquawk, House of Saud, Gulf News 22/11); lưu lượng qua Hormuz tuần tới 18/11 còn 263 lượt, ~−65% so với trước chiến tranh (Gulf News). Fed: CME ~99% tăng 25bp ngày 9/12 (FinanceFeeds 22/11); JPMorgan, Deutsche Bank, BofA chờ tăng cả 12/2026, 1 và 3/2027 (TheStreet 21/11). Mặt trái: Brent tương lai tối Chủ nhật về ~89,3 USD (−3,5%, market.json), IEA (13/11) thấy dư cung quý 4 và ~3,8 triệu thùng/ngày năm 2027. Hạ thoả thuận Hormuz 16%→14%, nâng leo thang + Fed tăng lãi 28%→30%, cơ sở giữ 56%. Độ lớn cú sốc giữ nguyên (EIA STEO 11/11: Brent ~100 USD tháng 11–12, bình quân 2026 97 USD, 2027 86 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 24/11/2026: ông Trump (23/11) để thêm thời gian cho ngoại giao với Iran, dù vẫn nói có thể nối lại chiến sự năm sau nếu đàm phán thất bại; WTI chốt 80,17 USD (−4,5%, thấp nhất từ tháng 8), Brent 89,37 USD (−3,5%) (Rigzone 23/11). Rủi ro vẫn còn: cuối tuần tàu dầu bị tấn công gần Hormuz, Iran đánh Bahrain, Houthi nhận tấn công nhà máy lọc dầu Saudi (FinanceFeeds 23/11). Fed: thị trường định giá ~96% tăng 25bp ngày 9/12 (Trading Economics 23/11); Williams (23/11): “lạm phát đơn giản là quá cao”. IEA thấy dư cung ~2 triệu thùng/ngày quý này. Hạ leo thang + Fed tăng lãi 30%→28%, nâng cơ sở 56%→58%, thoả thuận Hormuz giữ 14%. Độ lớn cú sốc giữ nguyên (EIA STEO 11/11: Brent bình quân 2026 97 USD, 2027 86 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
     "name": "Cơ sở: thắt chặt kéo dài",
-    "p": 0.56,
+    "p": 0.58,
     "shock": {}
    },
    {
@@ -158,7 +158,7 @@
    {
     "id": "shock",
     "name": "Leo thang + Fed tăng lãi",
-    "p": 0.3,
+    "p": 0.28,
     "shock": {
      "brent": 0.25,
      "gold": 0.06,
