@@ -124,18 +124,18 @@
   }
  ],
  "scenarios": {
-  "_nguon": "Giả định ngày 24/11/2026: ông Trump (23/11) để thêm thời gian cho ngoại giao với Iran, dù vẫn nói có thể nối lại chiến sự năm sau nếu đàm phán thất bại; WTI chốt 80,17 USD (−4,5%, thấp nhất từ tháng 8), Brent 89,37 USD (−3,5%) (Rigzone 23/11). Rủi ro vẫn còn: cuối tuần tàu dầu bị tấn công gần Hormuz, Iran đánh Bahrain, Houthi nhận tấn công nhà máy lọc dầu Saudi (FinanceFeeds 23/11). Fed: thị trường định giá ~96% tăng 25bp ngày 9/12 (Trading Economics 23/11); Williams (23/11): “lạm phát đơn giản là quá cao”. IEA thấy dư cung ~2 triệu thùng/ngày quý này. Hạ leo thang + Fed tăng lãi 30%→28%, nâng cơ sở 56%→58%, thoả thuận Hormuz giữ 14%. Độ lớn cú sốc giữ nguyên (EIA STEO 11/11: Brent bình quân 2026 97 USD, 2027 86 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
+  "_nguon": "Giả định ngày 26/11/2026: Brent hợp đồng tháng 1 chốt 94,61 USD (+3,5%) ngày 25/11 sau khi Houthi nhận tấn công nhà máy lọc dầu Ras Tanura (Saudi) và Riyadh (RTÉ, thecircuitry 25/11); DBS: Hormuz vẫn đóng, đàm phán Mỹ–Iran không tiến triển; UKMTO xác nhận 3 tàu bị trúng vật thể ngày 23/11 (indexbox). Fed: PCE lõi T10 3,3% năm (dự báo 3,2%), GDP quý 3 điều chỉnh lên 4,3%; CME FedWatch ~97% tăng 25bp ngày 9/12, ~62% thêm một lần tháng 1 (Yahoo Finance, Fox Business 25/11). Mỹ đề xuất thuế mới với 14 đối tác, có Việt Nam (Euronews 25/11). Nâng Leo thang + Fed tăng lãi 28%→30%, cơ sở 58%→57%, thoả thuận Hormuz 14%→13%. Độ lớn cú sốc giữ nguyên (EIA STEO 11/11: Brent bình quân 2026 97 USD, 2027 86 USD). Xác suất là đánh giá chủ quan, không phải thị trường định giá.",
   "list": [
    {
     "id": "base",
     "name": "Cơ sở: thắt chặt kéo dài",
-    "p": 0.58,
+    "p": 0.57,
     "shock": {}
    },
    {
     "id": "deal",
     "name": "Thoả thuận Hormuz",
-    "p": 0.14,
+    "p": 0.13,
     "shock": {
      "brent": -0.25,
      "gold": -0.04,
@@ -158,7 +158,7 @@
    {
     "id": "shock",
     "name": "Leo thang + Fed tăng lãi",
-    "p": 0.28,
+    "p": 0.3,
     "shock": {
      "brent": 0.25,
      "gold": 0.06,
